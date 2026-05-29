@@ -1,0 +1,33 @@
+World Cup xG Lab Data Validation Report
+=========================================
+Number of rows: 108,281
+Number of unique matches: 4,235
+Number of unique teams: 358
+Number of unique players: 6,947
+Goal rate: 11.16%
+Unique competitions: 24
+Competitions: 1. Bundesliga, African Cup of Nations, Champions League, Copa America, Copa del Rey, FA Women's Super League, FIFA U20 World Cup, FIFA World Cup, Frauen Bundesliga, Indian Super league, La Liga, Liga F, Liga Profesional, Ligue 1, Major League Soccer, NWSL, North American League, Premier League, Serie A, Serie A Women, UEFA Euro, UEFA Europa League, UEFA Women's Euro, Women's World Cup
+Unique seasons: 48
+Seasons: 1958, 1962, 1970, 1970/1971, 1971/1972, 1972/1973, 1973/1974, 1974, 1977, 1977/1978, 1979, 1981, 1982/1983, 1983/1984, 1986, 1986/1987, 1988/1989, 1990, 1997/1998, 1999/2000, 2003/2004, 2004/2005, 2005/2006, 2006/2007, 2007/2008, 2008/2009, 2009/2010, 2010/2011, 2011/2012, 2012/2013, 2013/2014, 2014/2015, 2015/2016, 2016/2017, 2017/2018, 2018, 2018/2019, 2019, 2019/2020, 2020, 2020/2021, 2021/2022, 2022, 2022/2023, 2023, 2023/2024, 2024, 2025
+Earliest match_date: 1958-06-24
+Latest match_date: 2025-07-27
+
+Missing Value Counts
+--------------------
+match_id               0
+team                   0
+player                 0
+minute                 0
+shot_x                 0
+shot_y                 0
+shot_outcome           0
+is_goal                0
+competition_name    7054
+season_name         7054
+match_date          7054
+home_team           7054
+away_team           7054
+
+Warnings
+--------
+WARNING: Match metadata has missing values: competition_name=7,054, season_name=7,054, match_date=7,054, home_team=7,054, away_team=7,054
