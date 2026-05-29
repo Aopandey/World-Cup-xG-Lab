@@ -1,0 +1,7 @@
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+  features_data: data/features
+  predictions_data: data/predictions
+  models_dir: models
+  figures_dir: reports/figures
