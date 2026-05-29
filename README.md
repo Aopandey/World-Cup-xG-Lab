@@ -30,3 +30,19 @@ pip install -r requirements.txt
 ```bash
 python -c "from src.utils.paths import get_project_root; print(get_project_root())"
 ```
+
+## MLflow Tracking
+
+Model training scripts log metrics, parameters, models, predictions, and figures to a local MLflow experiment named `world-cup-xg-lab`.
+
+Start the MLflow UI from the project root:
+
+```bash
+mlflow ui
+```
+
+Then visit the local MLflow dashboard shown in the terminal, usually:
+
+```text
+http://127.0.0.1:5000
+```

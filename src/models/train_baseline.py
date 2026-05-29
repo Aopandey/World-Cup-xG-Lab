@@ -2,6 +2,7 @@ from pathlib import Path
 import sys
 
 import joblib
+import mlflow
 import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.linear_model import LogisticRegression
@@ -44,6 +45,7 @@ CATEGORICAL_COLUMNS = [
 
 TARGET_COLUMN = "is_goal"
 MODEL_NAME = "baseline_logistic_regression"
+MLFLOW_EXPERIMENT_NAME = "world-cup-xg-lab"
 RANDOM_STATE = 42
 
 
@@ -105,6 +107,7 @@ def main() -> None:
     """Train, evaluate, and save the baseline Logistic Regression xG model."""
     features = load_features()
     x_train, x_test, y_train, y_test = split_features(features)
+    feature_columns = NUMERIC_COLUMNS + CATEGORICAL_COLUMNS
 
     pipeline = build_pipeline()
     pipeline.fit(x_train, y_train)
@@ -115,6 +118,21 @@ def main() -> None:
     MODEL_FILE.parent.mkdir(parents=True, exist_ok=True)
     joblib.dump(pipeline, MODEL_FILE)
     save_predictions(y_test, predicted_xg, PREDICTIONS_FILE, MODEL_NAME)
+
+    mlflow.set_experiment(MLFLOW_EXPERIMENT_NAME)
+    with mlflow.start_run(run_name=MODEL_NAME):
+        mlflow.log_param("model_name", MODEL_NAME)
+        mlflow.log_param("train_rows", len(x_train))
+        mlflow.log_param("test_rows", len(x_test))
+        mlflow.log_param("feature_columns", ", ".join(feature_columns))
+        mlflow.log_param("numeric_columns", ", ".join(NUMERIC_COLUMNS))
+        mlflow.log_param("categorical_columns", ", ".join(CATEGORICAL_COLUMNS))
+        mlflow.log_param("model_type", "LogisticRegression")
+        mlflow.log_param("max_iter", 1000)
+        mlflow.log_param("random_state", RANDOM_STATE)
+        mlflow.log_metrics(metrics)
+        mlflow.log_artifact(str(MODEL_FILE))
+        mlflow.log_artifact(str(PREDICTIONS_FILE))
 
     print("Baseline Logistic Regression Metrics")
     print("=" * 36)

@@ -13,5 +13,6 @@ data/predictions/*
 models/*
 !models/.gitkeep
 mlruns/
+mlflow.db
 *.pkl
 *.joblib

@@ -1,0 +1,3 @@
+model_name,prediction_file,log_loss,brier_score,roc_auc,accuracy_at_0_5
+xgboost_xg_model,xgboost_predictions.csv,0.2831983762059985,0.0813620233627769,0.7948730815249226,0.8990164842776007
+baseline_logistic_regression,baseline_predictions.csv,0.2859903497398498,0.0816563764349484,0.7894050996192079,0.8993858798540888

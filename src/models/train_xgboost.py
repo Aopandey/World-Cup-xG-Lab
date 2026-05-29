@@ -2,6 +2,7 @@ from pathlib import Path
 import sys
 
 import joblib
+import mlflow
 import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
@@ -34,6 +35,16 @@ PREDICTIONS_FILE = PROJECT_ROOT / "data" / "predictions" / "xgboost_predictions.
 BASELINE_PREDICTIONS_FILE = PROJECT_ROOT / "data" / "predictions" / "baseline_predictions.csv"
 FEATURE_IMPORTANCE_FILE = PROJECT_ROOT / "reports" / "figures" / "xgboost_feature_importance.png"
 MODEL_NAME = "xgboost_xg_model"
+MLFLOW_EXPERIMENT_NAME = "world-cup-xg-lab"
+XGBOOST_PARAMS = {
+    "n_estimators": 300,
+    "learning_rate": 0.05,
+    "max_depth": 4,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "eval_metric": "logloss",
+    "random_state": RANDOM_STATE,
+}
 
 
 def build_pipeline() -> Pipeline:
@@ -49,15 +60,7 @@ def build_pipeline() -> Pipeline:
         ]
     )
 
-    model = XGBClassifier(
-        n_estimators=300,
-        learning_rate=0.05,
-        max_depth=4,
-        subsample=0.8,
-        colsample_bytree=0.8,
-        eval_metric="logloss",
-        random_state=RANDOM_STATE,
-    )
+    model = XGBClassifier(**XGBOOST_PARAMS)
 
     return Pipeline(
         steps=[
@@ -106,6 +109,7 @@ def main() -> None:
     """Train, evaluate, and save the XGBoost xG model."""
     features = load_features()
     x_train, x_test, y_train, y_test = split_features(features)
+    feature_columns = NUMERIC_COLUMNS + CATEGORICAL_COLUMNS
 
     pipeline = build_pipeline()
     pipeline.fit(x_train, y_train)
@@ -121,6 +125,23 @@ def main() -> None:
         top_n=20,
         save_path=FEATURE_IMPORTANCE_FILE,
     )
+
+    mlflow.set_experiment(MLFLOW_EXPERIMENT_NAME)
+    with mlflow.start_run(run_name=MODEL_NAME):
+        mlflow.log_param("model_name", MODEL_NAME)
+        mlflow.log_param("train_rows", len(x_train))
+        mlflow.log_param("test_rows", len(x_test))
+        mlflow.log_param("feature_columns", ", ".join(feature_columns))
+        mlflow.log_param("numeric_columns", ", ".join(NUMERIC_COLUMNS))
+        mlflow.log_param("categorical_columns", ", ".join(CATEGORICAL_COLUMNS))
+        mlflow.log_param("model_type", "XGBClassifier")
+        mlflow.log_params(XGBOOST_PARAMS)
+        mlflow.log_metrics(metrics)
+        mlflow.log_artifact(str(MODEL_FILE))
+        mlflow.log_artifact(str(PREDICTIONS_FILE))
+
+        if FEATURE_IMPORTANCE_FILE.exists():
+            mlflow.log_artifact(str(FEATURE_IMPORTANCE_FILE))
 
     print("XGBoost xG Model Metrics")
     print("=" * 24)
