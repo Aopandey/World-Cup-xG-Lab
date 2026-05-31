@@ -12,13 +12,14 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.append(str(PROJECT_ROOT))
 
 from src.data.make_dataset import load_xg_predictions
+from src.data.world_cup_filter import filter_world_cup_teams
 from src.visualization.pitch import draw_pitch
 
 
 @st.cache_data
 def load_dashboard_data():
     """Load shot-level xG predictions."""
-    return load_xg_predictions()
+    return filter_world_cup_teams(load_xg_predictions())
 
 
 def option_list(values):
@@ -31,7 +32,7 @@ def apply_filters(df, team, player, body_part, play_pattern):
     filtered = df.copy()
 
     if team != "All":
-        filtered = filtered[filtered["team"] == team]
+        filtered = filtered[filtered["world_cup_team"] == team]
 
     if player != "All":
         filtered = filtered[filtered["player"] == player]
@@ -108,6 +109,10 @@ def main() -> None:
         "Scoring zones show where the model believes shots had the highest "
         "probability of becoming goals."
     )
+    st.info(
+        "Showing only 2026 World Cup teams found in the available historical data. "
+        "Final 26-player squad filtering will be added after official squads are announced."
+    )
 
     try:
         predictions = load_dashboard_data()
@@ -116,7 +121,7 @@ def main() -> None:
         st.stop()
 
     filter_columns = st.columns(4)
-    selected_team = filter_columns[0].selectbox("Team", option_list(predictions["team"]))
+    selected_team = filter_columns[0].selectbox("Team", option_list(predictions["world_cup_team"]))
     selected_player = filter_columns[1].selectbox("Player", option_list(predictions["player"]))
     selected_body_part = filter_columns[2].selectbox(
         "Body Part",
@@ -153,8 +158,10 @@ def main() -> None:
         "body_part",
         "play_pattern",
     ]
+    table_data = filtered_shots.copy()
+    table_data["team"] = table_data["world_cup_team"]
     top_shots = (
-        filtered_shots[table_columns]
+        table_data[table_columns]
         .sort_values("predicted_xg", ascending=False)
         .head(10)
         .round({"predicted_xg": 3})

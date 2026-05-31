@@ -24,7 +24,9 @@ MODEL_FEATURE_COLUMNS = [
 ]
 
 OUTPUT_COLUMNS = [
+    "match_id",
     "team",
+    "world_cup_team",
     "player",
     "position",
     "minute",
@@ -34,6 +36,9 @@ OUTPUT_COLUMNS = [
     "shot_type",
     "play_pattern",
     "shot_outcome",
+    "competition_name",
+    "season_name",
+    "match_date",
     "actual_goal",
     "predicted_xg",
     "xg_bucket",

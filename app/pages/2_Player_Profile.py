@@ -10,16 +10,18 @@ sys.path.append(str(PROJECT_ROOT))
 
 from src.data.make_dataset import (
     filter_by_player,
+    get_overall_date_range,
     load_xg_predictions,
     summarize_player_xg,
 )
+from src.data.world_cup_filter import filter_world_cup_teams
 from src.visualization.shot_maps import plot_shot_map
 
 
 @st.cache_data
 def load_dashboard_data():
     """Load shot-level xG predictions."""
-    return load_xg_predictions()
+    return filter_world_cup_teams(load_xg_predictions())
 
 
 def summarize_category_xg(player_shots, category_column):
@@ -38,6 +40,10 @@ def main() -> None:
 
     st.title("Player Profile")
     st.write("Explore a player's shot quality, finishing performance, and xG sources.")
+    st.info(
+        "Showing players from 2026 World Cup teams found in the available historical data. "
+        "Final 26-player squad filtering will be added after official squads are announced."
+    )
 
     try:
         predictions = load_dashboard_data()
@@ -49,8 +55,15 @@ def main() -> None:
     selected_player = st.selectbox("Select a player", players)
 
     player_shots = filter_by_player(predictions, selected_player)
-    player_summary = summarize_player_xg(player_shots).iloc[0]
-    teams = ", ".join(sorted(player_shots["team"].dropna().unique()))
+    player_summary = summarize_player_xg(player_shots, team_col="world_cup_team").iloc[0]
+    teams = ", ".join(sorted(player_shots["world_cup_team"].dropna().unique()))
+    earliest_date, latest_date = get_overall_date_range(player_shots)
+
+    st.subheader("Sample Coverage")
+    coverage_columns = st.columns(3)
+    coverage_columns[0].metric("Shots in Sample", f"{len(player_shots):,}")
+    coverage_columns[1].metric("Team", teams)
+    coverage_columns[2].metric("Date Range", f"{earliest_date} to {latest_date}")
 
     metric_columns = st.columns(6)
     metric_columns[0].metric("Team", teams)
@@ -120,8 +133,10 @@ def main() -> None:
         "body_part",
         "play_pattern",
     ]
+    shot_table = player_shots.copy()
+    shot_table["team"] = shot_table["world_cup_team"]
     st.dataframe(
-        player_shots[shot_columns].sort_values("predicted_xg", ascending=False).round(
+        shot_table[shot_columns].sort_values("predicted_xg", ascending=False).round(
             {"predicted_xg": 3}
         ),
         use_container_width=True,

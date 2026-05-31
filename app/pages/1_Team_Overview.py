@@ -11,16 +11,18 @@ sys.path.append(str(PROJECT_ROOT))
 from src.data.make_dataset import (
     filter_by_team,
     load_xg_predictions,
+    summarize_world_cup_team_coverage,
     summarize_player_xg,
     summarize_team_xg,
 )
+from src.data.world_cup_filter import filter_world_cup_teams
 from src.visualization.shot_maps import plot_shot_map
 
 
 @st.cache_data
 def load_dashboard_data():
     """Load shot-level xG predictions."""
-    return load_xg_predictions()
+    return filter_world_cup_teams(load_xg_predictions())
 
 
 def format_player_table(player_summary):
@@ -49,6 +51,10 @@ def main() -> None:
 
     st.title("Team Overview")
     st.write("Explore a team's shot volume, expected goals, finishing performance, and shot locations.")
+    st.info(
+        "Showing only 2026 World Cup teams found in the available historical data. "
+        "Final 26-player squad filtering will be added after official squads are announced."
+    )
 
     try:
         predictions = load_dashboard_data()
@@ -56,11 +62,27 @@ def main() -> None:
         st.error(str(error))
         st.stop()
 
-    teams = sorted(predictions["team"].dropna().unique())
+    teams = sorted(predictions["world_cup_team"].dropna().unique())
     selected_team = st.selectbox("Select a team", teams)
 
-    team_shots = filter_by_team(predictions, selected_team)
-    team_summary = summarize_team_xg(team_shots).iloc[0]
+    team_shots = filter_by_team(predictions, selected_team, team_col="world_cup_team")
+    team_summary = summarize_team_xg(team_shots, team_col="world_cup_team").iloc[0]
+    team_coverage = summarize_world_cup_team_coverage(team_shots).iloc[0]
+
+    st.subheader("Sample Coverage")
+    coverage_columns = st.columns(4)
+    coverage_columns[0].metric("Matches in Sample", f"{int(team_coverage['matches']):,}")
+    coverage_columns[1].metric("Shots in Sample", f"{int(team_coverage['shots']):,}")
+    coverage_columns[2].metric(
+        "Date Range",
+        f"{team_coverage['earliest_match_date']} to {team_coverage['latest_match_date']}",
+    )
+    coverage_columns[3].metric("Goals in Sample", f"{int(team_coverage['goals']):,}")
+
+    st.caption(f"Competitions included: {team_coverage['competitions_included']}")
+
+    if int(team_coverage["shots"]) < 50:
+        st.warning("Small sample size: interpret this team's xG profile carefully.")
 
     metric_columns = st.columns(5)
     metric_columns[0].metric("Shots", f"{int(team_summary['shots']):,}")
@@ -72,7 +94,7 @@ def main() -> None:
     st.divider()
 
     st.subheader(f"Top Players: {selected_team}")
-    player_summary = summarize_player_xg(team_shots)
+    player_summary = summarize_player_xg(team_shots, team_col="world_cup_team")
     player_table = format_player_table(player_summary)
     st.dataframe(player_table.head(25), use_container_width=True, hide_index=True)
 

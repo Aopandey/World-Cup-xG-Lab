@@ -1,0 +1,52 @@
+2026 World Cup Team Coverage
+============================
+Total 2026 World Cup teams in config: 48
+Number of World Cup teams found in dataset: 39
+
+Found teams:
+Algeria, Argentina, Australia, Austria, Belgium, Brazil, Canada, Colombia, Croatia, Czechia, DR Congo, Ecuador, Egypt, England, France, Germany, Ghana, Iran, Ivory Coast, Japan, Mexico, Morocco, Netherlands, Panama, Paraguay, Portugal, Qatar, Saudi Arabia, Scotland, Senegal, South Africa, South Korea, Spain, Sweden, Switzerland, Tunisia, Türkiye, United States, Uruguay
+
+Missing teams:
+Bosnia and Herzegovina, Cabo Verde, Curaçao, Haiti, Iraq, Jordan, New Zealand, Norway, Uzbekistan
+
+Shot count by found team:
+world_cup_team
+Algeria           47
+Argentina        308
+Australia         60
+Austria          103
+Belgium          265
+Brazil           540
+Canada           109
+Colombia         125
+Croatia          295
+Czechia          100
+DR Congo         108
+Ecuador           84
+Egypt            111
+England          348
+France           367
+Germany          336
+Ghana             50
+Iran              56
+Ivory Coast      102
+Japan             92
+Mexico           170
+Morocco          163
+Netherlands      273
+Panama            74
+Paraguay          43
+Portugal         270
+Qatar             20
+Saudi Arabia      65
+Scotland          58
+Senegal          128
+South Africa      91
+South Korea       82
+Spain            377
+Sweden           113
+Switzerland      231
+Tunisia           95
+Türkiye          113
+United States     80
+Uruguay          208
