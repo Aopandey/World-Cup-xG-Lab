@@ -10,9 +10,15 @@ data/features/*
 !data/features/.gitkeep
 data/predictions/*
 !data/predictions/.gitkeep
+data/fbref/raw/*
+!data/fbref/raw/.gitkeep
+data/fbref/processed/*
+!data/fbref/processed/.gitkeep
+data/fbref/soccerdata_cache/
 models/*
 !models/.gitkeep
 mlruns/
 mlflow.db
+downloaded_files/
 *.pkl
 *.joblib

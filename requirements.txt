@@ -11,3 +11,4 @@ joblib
 boto3
 python-dotenv
 pytest
+soccerdata
