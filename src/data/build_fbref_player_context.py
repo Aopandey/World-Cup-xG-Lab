@@ -1,13 +1,21 @@
 from pathlib import Path
 import re
+import sys
 
 import pandas as pd
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
+sys.path.append(str(PROJECT_ROOT))
+
+from src.data.player_matching import normalize_name
+from src.data.squad_filter import get_missing_squad_players_in_fbref, load_world_cup_squads
+
+
 RAW_DIR = PROJECT_ROOT / "data" / "fbref" / "raw"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "fbref" / "processed"
 OUTPUT_PATH = PROCESSED_DIR / "fbref_player_context.csv"
+REPORT_PATH = PROJECT_ROOT / "reports" / "fbref_squad_player_coverage.txt"
 
 RAW_FILES = {
     "standard": "player_season_standard.csv",
@@ -19,6 +27,7 @@ RAW_FILES = {
 KEY_COLUMNS = ["player", "team", "league", "season"]
 DISPLAY_COLUMNS = [
     "player",
+    "player_normalized",
     "team",
     "league",
     "season",
@@ -226,6 +235,7 @@ def coalesce_columns(df: pd.DataFrame, columns: list[str]) -> pd.Series:
 def build_clean_context(merged: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
     """Create the dashboard-friendly FBref player context table."""
     output = merged[KEY_COLUMNS].copy()
+    output["player_normalized"] = output["player"].apply(normalize_name)
     missing_useful_columns = []
 
     for output_column, candidates in USEFUL_COLUMN_CANDIDATES.items():
@@ -245,6 +255,66 @@ def build_clean_context(merged: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
 
     output["data_source"] = "FBref"
     return output[DISPLAY_COLUMNS], missing_useful_columns
+
+
+def build_fbref_squad_coverage_report(cleaned: pd.DataFrame) -> str:
+    """Build a report showing which squad players are present in FBref context."""
+    squad_df = load_world_cup_squads()
+
+    if squad_df.empty:
+        return (
+            "FBref Squad Player Coverage\n"
+            "===========================\n"
+            "Squad file not found. Run python src/data/ingest_world_cup_squads.py first.\n"
+        )
+
+    confirmed_squad = squad_df[squad_df["squad_status"] == "confirmed"].copy()
+    fbref_names = set(cleaned["player_normalized"].dropna())
+    confirmed_squad["matched_in_fbref"] = confirmed_squad["player_normalized"].isin(fbref_names)
+    missing = get_missing_squad_players_in_fbref(cleaned, confirmed_squad)
+    matched = confirmed_squad[confirmed_squad["matched_in_fbref"]].copy()
+
+    examples = []
+    for _, row in matched.head(20).iterrows():
+        examples.append(f"{row['world_cup_team']}: {row['player']}")
+
+    missing_names_by_team = []
+    if not missing.empty:
+        for team, players in missing.groupby("world_cup_team")["player"]:
+            player_names = ", ".join(sorted(players.dropna().astype(str)))
+            missing_names_by_team.append(f"{team}: {player_names}")
+
+    lines = [
+        "FBref Squad Player Coverage",
+        "===========================",
+        f"Number of squad players: {len(confirmed_squad)}",
+        f"Number matched in FBref: {len(matched)}",
+        f"Number missing from FBref: {len(missing)}",
+        "",
+        "Missing players by team:",
+        missing["world_cup_team"].value_counts().sort_index().to_string()
+        if not missing.empty
+        else "None",
+        "",
+        "Missing player names by team:",
+        "\n".join(missing_names_by_team) if missing_names_by_team else "None",
+        "",
+        "Missing players by league:",
+        missing["league"].fillna("Unknown").value_counts().head(30).to_string()
+        if not missing.empty
+        else "None",
+        "",
+        "Matched players by league:",
+        matched["league"].fillna("Unknown").value_counts().head(30).to_string()
+        if not matched.empty
+        else "None",
+        "",
+        "Examples of matched names:",
+        "\n".join(examples) if examples else "None",
+        "",
+    ]
+
+    return "\n".join(lines)
 
 
 def print_summary(df: pd.DataFrame, missing_useful_columns: list[str]) -> None:
@@ -267,7 +337,10 @@ def main() -> None:
 
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     cleaned.to_csv(OUTPUT_PATH, index=False)
+    REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    REPORT_PATH.write_text(build_fbref_squad_coverage_report(cleaned), encoding="utf-8")
     print_summary(cleaned, missing_useful_columns)
+    print(f"Saved FBref squad coverage report to: {REPORT_PATH}")
 
 
 if __name__ == "__main__":

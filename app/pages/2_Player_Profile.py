@@ -1,8 +1,8 @@
 from pathlib import Path
 import sys
 
-import plotly.express as px
 import pandas as pd
+import plotly.express as px
 import streamlit as st
 
 
@@ -10,12 +10,14 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 FBREF_CONTEXT_PATH = PROJECT_ROOT / "data" / "fbref" / "processed" / "fbref_player_context.csv"
 sys.path.append(str(PROJECT_ROOT))
 
-from src.data.make_dataset import (
-    filter_by_player,
-    get_overall_date_range,
-    load_xg_predictions,
-    summarize_player_xg,
+from src.data.make_dataset import get_overall_date_range, load_xg_predictions
+from src.data.player_matching import (
+    MATCH_NONE,
+    get_aliases_for_player,
+    match_player_to_fbref,
+    normalize_name,
 )
+from src.data.squad_filter import load_world_cup_squads, teams_with_confirmed_squads
 from src.data.world_cup_filter import filter_world_cup_teams
 from src.visualization.shot_maps import plot_shot_map
 
@@ -35,51 +37,120 @@ def load_fbref_player_context():
     return pd.read_csv(FBREF_CONTEXT_PATH)
 
 
-def normalize_player_name(player_name):
-    """Normalize player names for simple case-insensitive matching."""
-    if pd.isna(player_name):
-        return ""
-
-    return " ".join(str(player_name).casefold().split())
+@st.cache_data
+def load_squad_data():
+    """Load official squad data when available."""
+    return load_world_cup_squads()
 
 
-def find_fbref_player_rows(fbref_context, selected_player):
-    """Find FBref rows by exact player name first, then simple contains matching."""
-    if fbref_context.empty or "player" not in fbref_context.columns:
-        return pd.DataFrame()
+def position_options():
+    """Return dashboard position group options."""
+    return ["All", "Goalkeeper", "Defender", "Midfielder", "Forward", "Attacking players only"]
 
-    selected_normalized = normalize_player_name(selected_player)
-    fbref_data = fbref_context.copy()
-    fbref_data["_player_normalized"] = fbref_data["player"].apply(normalize_player_name)
 
-    exact_matches = fbref_data[fbref_data["_player_normalized"] == selected_normalized]
-    if not exact_matches.empty:
-        return exact_matches.drop(columns=["_player_normalized"])
+def filter_squad_by_position_group(squad_df, selected_position_group):
+    """Filter squad metadata by dashboard position group."""
+    if squad_df.empty or selected_position_group == "All":
+        return squad_df
 
-    fuzzy_matches = fbref_data[
-        fbref_data["_player_normalized"].apply(
-            lambda name: bool(name)
-            and (selected_normalized in name or name in selected_normalized)
-        )
+    if selected_position_group == "Attacking players only":
+        return squad_df[squad_df["position_group"].isin(["Midfielder", "Forward"])].copy()
+
+    return squad_df[squad_df["position_group"] == selected_position_group].copy()
+
+
+def player_options_for_team(predictions, squads, selected_team, selected_position_group):
+    """Use official squad players when confirmed squad data exists for a team."""
+    confirmed_teams = teams_with_confirmed_squads(squads)
+
+    if selected_team in confirmed_teams:
+        team_squad = squads[
+            (squads["world_cup_team"] == selected_team)
+            & (squads["squad_status"] == "confirmed")
+        ].copy()
+        team_squad = filter_squad_by_position_group(team_squad, selected_position_group)
+        return sorted(team_squad["player"].dropna().unique()), True
+
+    team_shots = predictions[predictions["world_cup_team"] == selected_team]
+    return sorted(team_shots["player"].dropna().unique()), False
+
+
+def get_squad_row(squads, selected_team, selected_player):
+    """Return exact normalized squad row for selected player/team."""
+    if squads.empty:
+        return None
+
+    selected_normalized = normalize_name(selected_player)
+    matches = squads[
+        (squads["world_cup_team"] == selected_team)
+        & (squads["player_normalized"] == selected_normalized)
     ]
 
-    return fuzzy_matches.drop(columns=["_player_normalized"])
+    if matches.empty:
+        return None
+
+    return matches.iloc[0]
 
 
-def sort_fbref_context(fbref_rows):
-    """Show the most recent FBref seasons first."""
-    sorted_rows = fbref_rows.copy()
-    sorted_rows["_season_sort"] = pd.to_numeric(sorted_rows["season"], errors="coerce")
-    sorted_rows = sorted_rows.sort_values(
-        ["_season_sort", "league", "team"],
-        ascending=[False, True, True],
-        na_position="last",
+def find_statsbomb_shots(predictions, selected_team, selected_player, squad_row=None):
+    """Find historical StatsBomb rows using exact/alias normalized names only."""
+    team_shots = predictions[predictions["world_cup_team"] == selected_team].copy()
+    player_names = set(get_aliases_for_player(selected_player))
+    player_names.add(selected_player)
+
+    if squad_row is not None:
+        player_names.add(squad_row["player"])
+
+    normalized_names = {normalize_name(name) for name in player_names if name}
+    team_shots["_player_normalized"] = team_shots["player"].apply(normalize_name)
+    matched = team_shots[team_shots["_player_normalized"].isin(normalized_names)].copy()
+    return matched.drop(columns=["_player_normalized"])
+
+
+def summarize_player_shots(player_shots):
+    """Summarize a selected player's historical StatsBomb xG profile."""
+    shots = len(player_shots)
+    goals = int(player_shots["actual_goal"].sum()) if shots else 0
+    total_xg = float(player_shots["predicted_xg"].sum()) if shots else 0.0
+    avg_xg = float(player_shots["predicted_xg"].mean()) if shots else 0.0
+
+    return {
+        "shots": shots,
+        "goals": goals,
+        "total_xg": total_xg,
+        "goals_minus_xg": goals - total_xg,
+        "avg_xg_per_shot": avg_xg,
+    }
+
+
+def summarize_category_xg(player_shots, category_column):
+    """Summarize total xG by a categorical shot field."""
+    return (
+        player_shots.groupby(category_column, dropna=False)
+        .agg(shots=("predicted_xg", "size"), total_xg=("predicted_xg", "sum"))
+        .reset_index()
+        .sort_values("total_xg", ascending=False)
     )
 
-    return sorted_rows.drop(columns=["_season_sort"])
+
+def render_squad_metadata(squad_row, selected_team):
+    """Render squad metadata for the selected player."""
+    st.subheader("Squad Metadata")
+
+    if squad_row is None:
+        st.warning("Official squad data is not available for this team yet.")
+        st.write(f"Team: {selected_team}")
+        return
+
+    metadata_columns = st.columns(5)
+    metadata_columns[0].metric("World Cup Team", squad_row["world_cup_team"])
+    metadata_columns[1].metric("Position", squad_row["position"])
+    metadata_columns[2].metric("Position Group", squad_row["position_group"])
+    metadata_columns[3].metric("Club", squad_row["club"])
+    metadata_columns[4].metric("League", squad_row["league"])
 
 
-def render_fbref_context(fbref_context, selected_player):
+def render_fbref_context(fbref_context, selected_player, selected_position, squad_row=None):
     """Render recent/current FBref shooting context for the selected player."""
     st.subheader("Recent Club/League Shooting Context from FBref")
     st.write(
@@ -88,11 +159,26 @@ def render_fbref_context(fbref_context, selected_player):
         "the historical shot sample is small."
     )
 
-    fbref_rows = find_fbref_player_rows(fbref_context, selected_player)
+    match = match_player_to_fbref(
+        selected_player,
+        fbref_context,
+        selected_position=selected_position,
+    )
+    fbref_rows = match["rows"]
 
-    if fbref_rows.empty:
-        st.info("No FBref current/recent shooting context found for this player yet.")
+    if match["confidence"] == MATCH_NONE or fbref_rows.empty:
+        st.info("No reliable FBref match found for this player yet.")
+        if squad_row is not None:
+            st.write(
+                f"Squad club/league: {squad_row['club']} / {squad_row['league']}"
+            )
+        st.caption(
+            "FBref context is unavailable for this player with the currently "
+            "supported/pulled leagues."
+        )
         return
+
+    st.caption(f"FBref match confidence: {match['confidence']}")
 
     display_columns = [
         "season",
@@ -122,9 +208,7 @@ def render_fbref_context(fbref_context, selected_player):
         "npxg": "npxG",
         "xg_per_90": "xG per 90",
     }
-    fbref_display = sort_fbref_context(fbref_rows)[available_columns].rename(
-        columns=column_labels
-    )
+    fbref_display = fbref_rows[available_columns].rename(columns=column_labels)
 
     st.dataframe(
         fbref_display.round(
@@ -145,69 +229,11 @@ def render_fbref_context(fbref_context, selected_player):
     )
 
 
-def summarize_category_xg(player_shots, category_column):
-    """Summarize total xG by a categorical shot field."""
-    return (
-        player_shots.groupby(category_column, dropna=False)
-        .agg(shots=("predicted_xg", "size"), total_xg=("predicted_xg", "sum"))
-        .reset_index()
-        .sort_values("total_xg", ascending=False)
-    )
-
-
-def main() -> None:
-    """Render the Player Profile dashboard page."""
-    st.set_page_config(page_title="Player Profile", layout="wide")
-
-    st.title("Player Profile")
-    st.write("Explore a player's shot quality, finishing performance, and xG sources.")
-    st.info(
-        "Showing players from 2026 World Cup teams found in the available historical data. "
-        "Final 26-player squad filtering will be added after official squads are announced."
-    )
-
-    try:
-        predictions = load_dashboard_data()
-    except FileNotFoundError as error:
-        st.error(str(error))
-        st.stop()
-
-    fbref_context = load_fbref_player_context()
-
-    players = sorted(predictions["player"].dropna().unique())
-    selected_player = st.selectbox("Select a player", players)
-
-    player_shots = filter_by_player(predictions, selected_player)
-    player_summary = summarize_player_xg(player_shots, team_col="world_cup_team").iloc[0]
-    teams = ", ".join(sorted(player_shots["world_cup_team"].dropna().unique()))
-    earliest_date, latest_date = get_overall_date_range(player_shots)
-
-    st.subheader("Sample Coverage")
-    coverage_columns = st.columns(3)
-    coverage_columns[0].metric("Shots in Sample", f"{len(player_shots):,}")
-    coverage_columns[1].metric("Team", teams)
-    coverage_columns[2].metric("Date Range", f"{earliest_date} to {latest_date}")
-
-    metric_columns = st.columns(6)
-    metric_columns[0].metric("Team", teams)
-    metric_columns[1].metric("Shots", f"{int(player_summary['shots']):,}")
-    metric_columns[2].metric("Goals", f"{int(player_summary['goals']):,}")
-    metric_columns[3].metric("Total xG", f"{player_summary['total_xg']:,.2f}")
-    metric_columns[4].metric("Goals minus xG", f"{player_summary['goals_minus_xg']:,.2f}")
-    metric_columns[5].metric("Avg xG per Shot", f"{player_summary['avg_xg_per_shot']:.3f}")
-
-    st.info(
-        "Positive goals minus xG means the player finished above expected based on shot quality. "
-        "Negative means they scored fewer than expected."
-    )
-
-    if len(player_shots) < 20:
-        st.warning(
-            "Small StatsBomb shot sample: use the FBref context below to better understand "
-            "recent player form."
-        )
-
-    render_fbref_context(fbref_context, selected_player)
+def render_statsbomb_sections(selected_player, player_shots):
+    """Render historical StatsBomb charts/tables when shots are available."""
+    if player_shots.empty:
+        st.info("No historical StatsBomb shot sample found for this player in the current data.")
+        return
 
     st.divider()
 
@@ -273,6 +299,86 @@ def main() -> None:
         use_container_width=True,
         hide_index=True,
     )
+
+
+def main() -> None:
+    """Render the Player Profile dashboard page."""
+    st.set_page_config(page_title="Player Profile", layout="wide")
+
+    st.title("Player Profile")
+    st.write("Explore a player's shot quality, finishing performance, and recent shooting context.")
+    st.info(
+        "This dashboard combines historical StatsBomb shot-location data with recent "
+        "FBref player context. It shows where players have generated high-quality chances "
+        "in available data, not guaranteed future scoring locations."
+    )
+
+    try:
+        predictions = load_dashboard_data()
+    except FileNotFoundError as error:
+        st.error(str(error))
+        st.stop()
+
+    squads = load_squad_data()
+    fbref_context = load_fbref_player_context()
+    teams = sorted(predictions["world_cup_team"].dropna().unique())
+
+    filter_columns = st.columns(3)
+    selected_team = filter_columns[0].selectbox("Select a team", teams)
+    selected_position_group = filter_columns[1].selectbox(
+        "Position group",
+        position_options(),
+        index=5,
+    )
+    players, using_squad_players = player_options_for_team(
+        predictions,
+        squads,
+        selected_team,
+        selected_position_group,
+    )
+
+    if not players:
+        st.warning("No players found for the selected team and position filter.")
+        st.stop()
+
+    selected_player = filter_columns[2].selectbox("Select a player", players)
+    squad_row = get_squad_row(squads, selected_team, selected_player) if using_squad_players else None
+
+    if not using_squad_players:
+        st.warning("Official squad data is not available for this team yet.")
+
+    render_squad_metadata(squad_row, selected_team)
+
+    player_shots = find_statsbomb_shots(predictions, selected_team, selected_player, squad_row)
+    player_summary = summarize_player_shots(player_shots)
+    earliest_date, latest_date = get_overall_date_range(player_shots)
+
+    st.subheader("Historical StatsBomb xG Sample")
+    coverage_columns = st.columns(3)
+    coverage_columns[0].metric("Shots in Sample", f"{player_summary['shots']:,}")
+    coverage_columns[1].metric("Team", selected_team)
+    coverage_columns[2].metric("Date Range", f"{earliest_date} to {latest_date}")
+
+    metric_columns = st.columns(5)
+    metric_columns[0].metric("Goals", f"{player_summary['goals']:,}")
+    metric_columns[1].metric("Total xG", f"{player_summary['total_xg']:,.2f}")
+    metric_columns[2].metric("Goals minus xG", f"{player_summary['goals_minus_xg']:,.2f}")
+    metric_columns[3].metric("Avg xG per Shot", f"{player_summary['avg_xg_per_shot']:.3f}")
+    metric_columns[4].metric("Shots", f"{player_summary['shots']:,}")
+
+    st.info(
+        "Positive goals minus xG means the player finished above expected based on shot quality. "
+        "Negative means they scored fewer than expected."
+    )
+
+    if player_summary["shots"] < 20:
+        st.warning(
+            "Small historical shot sample. Use FBref recent context to supplement this profile."
+        )
+
+    selected_position = squad_row["position_group"] if squad_row is not None else None
+    render_fbref_context(fbref_context, selected_player, selected_position, squad_row)
+    render_statsbomb_sections(selected_player, player_shots)
 
 
 if __name__ == "__main__":

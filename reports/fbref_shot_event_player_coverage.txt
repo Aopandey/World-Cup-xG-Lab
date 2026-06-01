@@ -1,0 +1,55 @@
+FBref Shot Event Player Coverage
+================================
+Weak-sample confirmed squad players (<20 StatsBomb shots): 1,075
+Weak-sample midfielders/forwards: 580
+
+Players attempted:
+- Lamine Yamal
+- Ferran Torres
+- Kylian Mbappé
+- Cristiano Ronaldo
+- Riyad Mahrez
+- Lionel Messi
+- Neymar
+
+Players found:
+None
+
+Number of FBref shot events per player:
+None
+
+Seasons/leagues found:
+None
+
+Players missing:
+- Cristiano Ronaldo
+- Ferran Torres
+- Kylian Mbappé
+- Lamine Yamal
+- Lionel Messi
+- Neymar
+- Riyad Mahrez
+
+Sample player squad/league mapping:
+    target_player world_cup_team        club                           league  statsbomb_shots         fbref_league  mapping_status
+     Lamine Yamal          Spain   Barcelona                           LaLiga                0          ESP-La Liga          active
+    Ferran Torres          Spain   Barcelona                           LaLiga                0          ESP-La Liga          active
+    Kylian Mbappé         France Real Madrid                           LaLiga               79          ESP-La Liga          active
+Cristiano Ronaldo       Portugal    Al Nassr                 Saudi Pro League               73 KSA-Saudi Pro League maybe_supported
+     Riyad Mahrez        Algeria     Al Ahli                 Saudi Pro League                1 KSA-Saudi Pro League maybe_supported
+     Lionel Messi      Argentina Inter Miami              Major League Soccer               66              USA-MLS maybe_supported
+           Neymar         Brazil      Santos Brazilian football league system               39          BRA-Serie A maybe_supported
+
+Errors encountered:
+- Installed soccerdata FBref has no read_shot_events method; shot-event pulls skipped.
+
+Recommendation
+--------------
+Can FBref shot events be used to retrain the existing StatsBomb xG model?
+No. The installed soccerdata FBref API does not expose read_shot_events, so no comparable shot-event training table is available.
+
+Can FBref shot events support a separate simpler model?
+No for this local setup. A separate model would require a reliable shot-event source with outcomes and shot-level features.
+
+Should FBref shot events be used only as a dashboard context layer?
+Yes, but currently through aggregate FBref player-season context rather than FBref shot events.

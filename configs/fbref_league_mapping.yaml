@@ -1,0 +1,48 @@
+default_leagues:
+  - Big 5 European Leagues Combined
+
+league_mappings:
+  Premier League: ENG-Premier League
+  England/Premier League: ENG-Premier League
+  English Premier League: ENG-Premier League
+  LaLiga: ESP-La Liga
+  Spain/La Liga: ESP-La Liga
+  Ligue 1: FRA-Ligue 1
+  Ligue 1 / French football league system: FRA-Ligue 1
+  France/Ligue 1: FRA-Ligue 1
+  Serie A: ITA-Serie A
+  Italy/Serie A: ITA-Serie A
+  Bundesliga: GER-Bundesliga
+  Germany/Bundesliga: GER-Bundesliga
+
+maybe_supported_leagues:
+  Eredivisie: NED-Eredivisie
+  Eredivisie / Dutch football league system: NED-Eredivisie
+  Netherlands/Eredivisie: NED-Eredivisie
+  Primeira Liga: POR-Primeira Liga
+  Portugal/Primeira Liga: POR-Primeira Liga
+  Belgian Pro League: BEL-Pro League
+  Belgium/Belgian Pro League: BEL-Pro League
+  Major League Soccer: USA-MLS
+  USA/MLS: USA-MLS
+  MLS: USA-MLS
+  Saudi Pro League: KSA-Saudi Pro League
+  Saudi Arabia/Saudi Pro League: KSA-Saudi Pro League
+  Turkish Süper Lig: TUR-Super Lig
+  Turkey/Süper Lig: TUR-Super Lig
+  Argentina Primera División: ARG-Primera Division
+  Argentine Primera División: ARG-Primera Division
+  Argentina/Primera División: ARG-Primera Division
+  Brazilian football league system: BRA-Serie A
+  Campeonato Brasileiro Série A: BRA-Serie A
+  Brazil/Série A: BRA-Serie A
+  Liga MX: MEX-Liga MX
+  Mexico/Liga MX: MEX-Liga MX
+  Czech First League: CZE-First League
+  Scotland/Scottish Premiership: SCO-Premiership
+  Scottish Premiership: SCO-Premiership
+  South African Premier Division: RSA-Premier Division
+  Egyptian Premier League: EGY-Premier League
+  Danish Superliga: DEN-Superliga
+  Russian Premier League: RUS-Premier League
+  UAE Pro League: UAE-Pro League

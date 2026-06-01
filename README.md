@@ -57,4 +57,32 @@ The underlying data is historical StatsBomb open event data, not guaranteed 2025
 
 This is a historical xG analysis dashboard, not a complete 2026 prediction model.
 
-Player squad filtering will be added once official final 26-player squads are announced.
+## Official Squad + FBref Context Layer
+
+StatsBomb powers the xG model, historical shot maps, and scoring-zone views. FBref adds recent club/league shooting context for players where available, including minutes, goals, assists, shots, shots on target, and per-90 shooting rates.
+
+Official squad filtering limits player views to 2026 World Cup squad players where confirmed final squad data is available. Some teams are still marked as missing final squad data because the workbook contains preliminary, provisional, or non-26-player lists for those teams.
+
+Some players may not have FBref context if their league is unsupported by soccerdata/FBref, has not been mapped in `configs/fbref_league_mapping.yaml`, or has not been pulled yet. Weak player-name matches are intentionally rejected to avoid showing false player stats.
+
+Refresh the squad and FBref context layer with:
+
+```bash
+python scripts/refresh_squad_and_fbref_context.py
+```
+
+You can also run the steps individually:
+
+```bash
+python src/data/ingest_world_cup_squads.py
+python src/data/ingest_fbref.py
+python src/data/build_fbref_player_context.py
+```
+
+## Known Limitations
+
+This is not a guaranteed 2026 World Cup prediction model. It shows historical scoring zones and recent player context from available data.
+
+Player matching across StatsBomb, squad lists, and FBref is difficult because sources use different name formats. The dashboard uses exact matches, configured aliases, and conservative safe fuzzy matching only when confidence is high.
+
+FBref league availability may vary, and some squad leagues may remain unmapped or unsupported.

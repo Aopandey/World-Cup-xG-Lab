@@ -12,6 +12,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.append(str(PROJECT_ROOT))
 
 from src.data.make_dataset import load_xg_predictions
+from src.data.squad_filter import filter_to_squad_players, load_world_cup_squads
 from src.data.world_cup_filter import filter_world_cup_teams
 from src.visualization.pitch import draw_pitch
 
@@ -19,7 +20,14 @@ from src.visualization.pitch import draw_pitch
 @st.cache_data
 def load_dashboard_data():
     """Load shot-level xG predictions."""
-    return filter_world_cup_teams(load_xg_predictions())
+    predictions = filter_world_cup_teams(load_xg_predictions())
+    return filter_to_squad_players(predictions)
+
+
+@st.cache_data
+def load_squad_data():
+    """Load official squad data when available."""
+    return load_world_cup_squads()
 
 
 def option_list(values):
@@ -27,7 +35,23 @@ def option_list(values):
     return ["All"] + sorted(values.dropna().astype(str).unique())
 
 
-def apply_filters(df, team, player, body_part, play_pattern):
+def position_options():
+    """Return dashboard position group options."""
+    return ["All", "Goalkeeper", "Defender", "Midfielder", "Forward", "Attacking players only"]
+
+
+def apply_position_group_filter(df, selected_position_group):
+    """Filter squad-enriched shot data by position group."""
+    if selected_position_group == "All" or "squad_position_group" not in df.columns:
+        return df
+
+    if selected_position_group == "Attacking players only":
+        return df[df["squad_position_group"].isin(["Midfielder", "Forward"])].copy()
+
+    return df[df["squad_position_group"] == selected_position_group].copy()
+
+
+def apply_filters(df, team, player, position_group, body_part, play_pattern):
     """Apply selected dashboard filters."""
     filtered = df.copy()
 
@@ -36,6 +60,8 @@ def apply_filters(df, team, player, body_part, play_pattern):
 
     if player != "All":
         filtered = filtered[filtered["player"] == player]
+
+    filtered = apply_position_group_filter(filtered, position_group)
 
     if body_part != "All":
         filtered = filtered[filtered["body_part"] == body_part]
@@ -110,8 +136,9 @@ def main() -> None:
         "probability of becoming goals."
     )
     st.info(
-        "Showing only 2026 World Cup teams found in the available historical data. "
-        "Final 26-player squad filtering will be added after official squads are announced."
+        "This dashboard combines historical StatsBomb shot-location data with recent "
+        "FBref player context. It shows where players have generated high-quality chances "
+        "in available data, not guaranteed future scoring locations."
     )
 
     try:
@@ -120,14 +147,31 @@ def main() -> None:
         st.error(str(error))
         st.stop()
 
-    filter_columns = st.columns(4)
+    squads = load_squad_data()
+
+    filter_columns = st.columns(5)
     selected_team = filter_columns[0].selectbox("Team", option_list(predictions["world_cup_team"]))
-    selected_player = filter_columns[1].selectbox("Player", option_list(predictions["player"]))
-    selected_body_part = filter_columns[2].selectbox(
+    selected_position_group = filter_columns[1].selectbox(
+        "Position Group",
+        position_options(),
+        index=5,
+    )
+
+    player_pool = predictions.copy()
+    if selected_team != "All":
+        player_pool = player_pool[player_pool["world_cup_team"] == selected_team]
+        if not squads.empty and selected_team in set(
+            squads.loc[squads["squad_status"] == "not_announced", "world_cup_team"]
+        ):
+            st.warning("Official squad data is not available for this team yet.")
+
+    player_pool = apply_position_group_filter(player_pool, selected_position_group)
+    selected_player = filter_columns[2].selectbox("Player", option_list(player_pool["player"]))
+    selected_body_part = filter_columns[3].selectbox(
         "Body Part",
         option_list(predictions["body_part"]),
     )
-    selected_play_pattern = filter_columns[3].selectbox(
+    selected_play_pattern = filter_columns[4].selectbox(
         "Play Pattern",
         option_list(predictions["play_pattern"]),
     )
@@ -136,11 +180,14 @@ def main() -> None:
         predictions,
         selected_team,
         selected_player,
+        selected_position_group,
         selected_body_part,
         selected_play_pattern,
     )
 
     st.caption(f"Showing {len(filtered_shots):,} shots for the selected filters.")
+    if len(filtered_shots) < 20:
+        st.warning("Small sample size: interpret this scoring-zone view carefully.")
 
     chart_columns = st.columns(2)
     chart_columns[0].pyplot(plot_xg_heatmap(filtered_shots), clear_figure=True)

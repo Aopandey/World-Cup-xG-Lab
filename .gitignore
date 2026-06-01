@@ -15,6 +15,11 @@ data/fbref/raw/*
 data/fbref/processed/*
 !data/fbref/processed/.gitkeep
 data/fbref/soccerdata_cache/
+data/fbref/shot_events/raw/*
+!data/fbref/shot_events/raw/.gitkeep
+data/squads/*.xlsx
+data/squads/processed/*
+!data/squads/processed/.gitkeep
 models/*
 !models/.gitkeep
 mlruns/

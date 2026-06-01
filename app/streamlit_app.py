@@ -9,6 +9,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(PROJECT_ROOT))
 
 from src.data.make_dataset import get_overall_date_range, summarize_world_cup_team_coverage
+from src.data.squad_filter import load_world_cup_squads, teams_without_confirmed_squads
 from src.data.world_cup_filter import filter_world_cup_teams, load_world_cup_teams
 
 
@@ -30,7 +31,7 @@ def show_sidebar() -> None:
     st.sidebar.write("Dashboard: Streamlit")
     st.sidebar.write("Deployment target: Docker + AWS EC2")
     st.sidebar.caption(
-        "Final 26-player squad filtering will be added after official squads are announced."
+        "Official squad filtering is enabled where final 26-player squad data is available."
     )
 
 
@@ -71,10 +72,13 @@ def main() -> None:
     )
     st.info(
         "The dashboard is currently filtered to 2026 World Cup teams found in the "
-        "available historical StatsBomb data."
+        "available historical StatsBomb data and official squad players where final "
+        "squad data is available."
     )
     st.caption(
-        "This is historical open event data, not a complete 2025/26 current-season dataset."
+        "This dashboard combines historical StatsBomb shot-location data with recent "
+        "FBref player context. It shows where players have generated high-quality "
+        "chances in available data, not guaranteed future scoring locations."
     )
 
     if not PREDICTIONS_FILE.exists():
@@ -88,30 +92,44 @@ def main() -> None:
     show_headline_metrics(predictions)
 
     qualified_teams = load_world_cup_teams()
+    squads = load_world_cup_squads()
     coverage = summarize_world_cup_team_coverage(predictions)
     found_teams = sorted(coverage["world_cup_team"].unique())
     missing_teams = sorted(set(qualified_teams) - set(found_teams))
+    teams_missing_squads = teams_without_confirmed_squads(squads)
     earliest_date, latest_date = get_overall_date_range(predictions)
 
     st.divider()
     st.subheader("2026 World Cup Data Coverage")
-    coverage_columns = st.columns(4)
+    coverage_columns = st.columns(5)
     coverage_columns[0].metric("2026 Teams in Config", f"{len(qualified_teams):,}")
     coverage_columns[1].metric("Teams Found", f"{len(found_teams):,}")
     coverage_columns[2].metric("Teams Missing", f"{len(missing_teams):,}")
-    coverage_columns[3].metric("Date Range", f"{earliest_date} to {latest_date}")
+    coverage_columns[3].metric(
+        "Teams Missing Final Squads",
+        f"{len(teams_missing_squads):,}",
+    )
+    coverage_columns[4].metric("Date Range", f"{earliest_date} to {latest_date}")
 
     with st.expander("Missing teams from current dataset"):
         st.write(", ".join(missing_teams) if missing_teams else "No missing teams.")
+
+    with st.expander("Teams without confirmed final squad data"):
+        st.write(
+            ", ".join(teams_missing_squads)
+            if teams_missing_squads
+            else "All teams have confirmed final squad data."
+        )
 
     st.divider()
     st.subheader("How to Use This Dashboard")
     st.write(
         "Use the dashboard pages in the sidebar to explore team xG, player xG, "
-        "goals minus xG, shot maps, and scoring zones."
+        "goals minus xG, shot maps, scoring zones, and recent FBref shooting context."
     )
     st.caption(
-        "Final 26-player squad filtering will be added after official squads are announced."
+        "Some players may not have FBref context if their league is unsupported or has not "
+        "been pulled yet. Weak player-name matches are intentionally rejected."
     )
 
 

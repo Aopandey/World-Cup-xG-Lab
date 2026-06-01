@@ -1,0 +1,18 @@
+FBref Shot Event Column Audit
+============================
+Raw shot-event rows pulled: 0
+Raw shot-event columns: None
+
+Column availability:
+- Does FBref shot-event data include xG? No
+- Does it include PSxG? No
+- Does it include distance? No
+- Does it include body_part? No
+- Does it include shot outcome? No
+- Does it include exact x/y shot coordinates? No
+- Does it include assist type? No
+- Does it include defender pressure? No
+- Does it include game situation/play pattern? No
+
+Errors / API limitations:
+- Installed soccerdata FBref has no read_shot_events method; shot-event pulls skipped.

@@ -1,0 +1,121 @@
+2026 World Cup Squad Coverage
+==============================
+Number of teams in squad file: 48
+Number of confirmed players: 1092
+
+Players per team:
+world_cup_team
+Algeria                   26
+Argentina                 26
+Australia                 26
+Austria                   26
+Belgium                   26
+Bosnia and Herzegovina    26
+Brazil                    26
+Cabo Verde                26
+Canada                    26
+Colombia                  26
+Croatia                   26
+Curaçao                   26
+Czechia                   26
+DR Congo                  26
+Ecuador                   26
+Egypt                     26
+England                   26
+France                    26
+Germany                   26
+Ghana                     26
+Haiti                     26
+Iran                      26
+Iraq                      26
+Ivory Coast               26
+Japan                     26
+Jordan                    30
+Mexico                    26
+Morocco                   26
+Netherlands               26
+New Zealand               26
+Norway                    26
+Panama                    26
+Paraguay                  26
+Portugal                  27
+Qatar                     34
+Saudi Arabia              26
+Scotland                  26
+Senegal                   28
+South Africa              26
+South Korea               26
+Spain                     26
+Sweden                    26
+Switzerland               26
+Tunisia                   26
+Türkiye                   35
+United States             26
+Uruguay                   26
+Uzbekistan                30
+
+Teams with fewer than 26 players:
+None
+
+Teams with more than 26 players:
+world_cup_team
+Jordan        30
+Portugal      27
+Qatar         34
+Senegal       28
+Türkiye       35
+Uzbekistan    30
+
+Teams missing final squads:
+Jordan, Portugal, Qatar, Senegal, Türkiye, Uzbekistan
+
+Duplicate player names within the same team:
+world_cup_team                player position_group      club
+    Uzbekistan Jaloliddin Masharipov        Forward Esteghlal
+    Uzbekistan Jaloliddin Masharipov     Midfielder Esteghlal
+
+Top leagues represented:
+league
+Unknown / verify manually                    219
+Premier League                               139
+Bundesliga                                    92
+LaLiga                                        71
+Ligue 1 / French football league system       70
+Serie A                                       67
+Turkish Süper Lig                             45
+Saudi Pro League                              41
+Major League Soccer                           40
+English football league system                37
+Qatar Stars League                            35
+Eredivisie / Dutch football league system     33
+Iran Persian Gulf Pro League                  23
+Liga MX                                       22
+Belgian Pro League                            21
+Czech First League                            20
+Primeira Liga                                 20
+South African Premier Division                19
+Scottish Premiership                          19
+Brazilian football league system              18
+
+Top clubs represented:
+club
+Manchester City        19
+Bayern Munich          17
+Arsenal                16
+Barcelona              13
+Manchester United      11
+Atlético Madrid        11
+Liverpool              11
+Borussia Dortmund      11
+Crystal Palace         11
+Paris Saint-Germain    11
+Al Hilal               10
+Chelsea                10
+Aston Villa            10
+SK Slavia Praha        10
+Galatasaray            10
+AC Milan               10
+Real Madrid            10
+Flamengo                9
+Sunderland              9
+Al Ahly                 9
