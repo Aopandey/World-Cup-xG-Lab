@@ -1,0 +1,11 @@
+competition_group,competition_name,fbref_comp_url,season_type,scrape_priority,notes
+domestic_leagues,Primeira Liga,https://fbref.com/en/comps/32/Primeira-Liga-Stats,european,1,High-value World Cup squad coverage league
+domestic_leagues,Belgian Pro League,https://fbref.com/en/comps/37/Belgian-Pro-League-Stats,european,2,High-value World Cup squad coverage league
+domestic_leagues,Eredivisie,https://fbref.com/en/comps/23/Eredivisie-Stats,european,3,High-value World Cup squad coverage league
+domestic_leagues,Liga MX,https://fbref.com/en/comps/31/Liga-MX-Stats,calendar,4,High-value World Cup squad coverage league
+domestic_leagues,Major League Soccer,https://fbref.com/en/comps/22/Major-League-Soccer-Stats,calendar,5,High-value World Cup squad coverage league
+domestic_leagues,Brazil Serie A,https://fbref.com/en/comps/24/Serie-A-Stats,calendar,6,High-value World Cup squad coverage league
+domestic_leagues,Argentina Primera Division,https://fbref.com/en/comps/21/Primera-Division-Stats,calendar,7,High-value World Cup squad coverage league
+domestic_leagues,Turkish Super Lig,https://fbref.com/en/comps/26/Super-Lig-Stats,european,8,High-value World Cup squad coverage league
+domestic_leagues,Saudi Pro League,https://fbref.com/en/comps/70/Saudi-Pro-League-Stats,european,9,High-value World Cup squad coverage league
+domestic_leagues,Scottish Premiership,https://fbref.com/en/comps/40/Scottish-Premiership-Stats,european,10,High-value World Cup squad coverage league

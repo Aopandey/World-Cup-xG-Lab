@@ -51,19 +51,25 @@ http://127.0.0.1:5000
 
 The Streamlit dashboard currently filters views to 2026 World Cup teams found in the available dataset. Team names are normalized with aliases from `configs/world_cup_2026_teams.yaml`, and the original raw `team` column is preserved alongside a normalized `world_cup_team` column.
 
-Currently, 39 of the 48 configured 2026 World Cup teams are present in the available historical event data. The remaining 9 teams are missing from the current dataset.
+All 48 configured 2026 World Cup teams now have confirmed squad rows in the processed squad table. The current final-squad source produces 1,248 squad-player rows. Currently, 39 of the 48 teams are present in the available historical StatsBomb event data; the remaining 9 teams have squad and club-context rows where available but no historical StatsBomb shot sample in the current dataset.
 
 The underlying data is historical StatsBomb open event data, not guaranteed 2025/26 current-season data.
 
 This is a historical xG analysis dashboard, not a complete 2026 prediction model.
 
-## Official Squad + FBref Context Layer
+## Official Squad + Club Context Layers
 
-StatsBomb powers the xG model, historical shot maps, and scoring-zone views. FBref adds recent club/league shooting context for players where available, including minutes, goals, assists, shots, shots on target, and per-90 shooting rates.
+StatsBomb powers the xG model, historical shot maps, and scoring-zone views. FBref aggregate data adds recent club/league shooting context for players where available, including minutes, goals, assists, shots, shots on target, and per-90 shooting rates.
 
-Official squad filtering limits player views to 2026 World Cup squad players where confirmed final squad data is available. Some teams are still marked as missing final squad data because the workbook contains preliminary, provisional, or non-26-player lists for those teams.
+Understat aggregate and shot-derived data adds a separate Club xG Context layer for players in EPL, La Liga, Bundesliga, Serie A, Ligue 1, and RFPL where available. This layer includes club-season goals, shots, xG, npxG, xA, key passes, xGChain, xGBuildup, cards, and shot-derived average shot xG. Understat is dashboard context only for now; it has not been used to retrain the xG model.
+
+Official squad filtering limits player views to confirmed 2026 World Cup squad players. The latest full squad/club source is stored at `data/squads/manual/final_squads_2026_text.txt` and applied with `scripts/apply_final_squad_text.py`.
 
 Some players may not have FBref context if their league is unsupported by soccerdata/FBref, has not been mapped in `configs/fbref_league_mapping.yaml`, or has not been pulled yet. Weak player-name matches are intentionally rejected to avoid showing false player stats.
+
+Some players may not have Understat context if their club seasons are outside the current Understat archive leagues, or if the conservative player matcher cannot identify a reliable source match.
+
+Weak samples are displayed with warnings instead of misleading claims. The dashboard language should be read as historical context: players and teams generated high-quality chances in available data, not guaranteed future scoring locations.
 
 Refresh the squad and FBref context layer with:
 
@@ -75,14 +81,40 @@ You can also run the steps individually:
 
 ```bash
 python src/data/ingest_world_cup_squads.py
+python scripts/apply_manual_squad_overrides.py
+python scripts/apply_final_squad_text.py
+python scripts/export_fbref_scrape_handoff.py
 python src/data/ingest_fbref.py
 python src/data/build_fbref_player_context.py
+python src/data/build_understat_player_context.py
 ```
 
 ## Known Limitations
 
 This is not a guaranteed 2026 World Cup prediction model. It shows historical scoring zones and recent player context from available data.
 
-Player matching across StatsBomb, squad lists, and FBref is difficult because sources use different name formats. The dashboard uses exact matches, configured aliases, and conservative safe fuzzy matching only when confidence is high.
+Player matching across StatsBomb, squad lists, FBref, and Understat is difficult because sources use different name formats. The dashboard uses exact matches, configured aliases, and conservative safe fuzzy matching only when confidence is high.
 
-FBref league availability may vary, and some squad leagues may remain unmapped or unsupported.
+FBref league availability may vary, and some squad leagues may remain unmapped or unsupported. Understat coverage is limited to the leagues included in the provided archive.
+
+## Dashboard Artifacts
+
+Dashboard-ready JSON files can be generated for a future Next.js frontend:
+
+```bash
+python scripts/build_dashboard_artifacts.py
+python scripts/validate_dashboard_artifacts.py
+```
+
+The generated files are saved to `data/dashboard_artifacts/`:
+
+```text
+teams.json
+team_profiles.json
+player_profiles.json
+squad_players.json
+model_summary.json
+data_coverage.json
+```
+
+These artifacts keep StatsBomb model outputs, official squad metadata, FBref recent context, Understat club xG context, data-confidence labels, sample-size warnings, and model-comparison metrics in frontend-friendly JSON. Player image fields are placeholders only; images should be populated later only from approved or licensed sources.

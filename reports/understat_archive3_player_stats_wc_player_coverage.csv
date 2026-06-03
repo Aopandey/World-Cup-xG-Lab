@@ -1,0 +1,1249 @@
+world_cup_team,player,position_group,club,squad_league,understat_found,match_confidence,matched_understat_player,understat_rows,understat_leagues,understat_seasons
+Algeria,Achraf Abada,Defender,USM Alger,Unknown / verify manually,False,No reliable match,,0,,
+Algeria,Aissa Mandi,Defender,Lille,Ligue 1 / French football league system,True,Exact match,Aissa Mandi,11,"La_Liga, Ligue_1","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Algeria,Jaouen Hadjam,Defender,Young Boys Bern,Unknown / verify manually,True,Exact match,Jaouen Hadjam,2,Ligue_1,"2022, 2023"
+Algeria,Mohamed Amine Tougai,Defender,Esperance,Unknown / verify manually,False,No reliable match,,0,,
+Algeria,Rafik Belghali,Defender,Verona,Unknown / verify manually,False,No reliable match,,0,,
+Algeria,Ramy Bensebaini,Defender,Borussia Dortmund,Bundesliga,True,Exact match,Ramy Bensebaini,10,"Bundesliga, Ligue_1","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Algeria,Rayan Ait-Nouri,Defender,Manchester City,Premier League,True,Exact match,Rayan Ait Nouri,8,"EPL, Ligue_1","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Algeria,Samir Chergui,Defender,Paris FC,Ligue 1 / French football league system,False,No reliable match,,0,,
+Algeria,Zinedine Belaid,Defender,JS Kabylie,Unknown / verify manually,False,No reliable match,,0,,
+Algeria,Adil Boulbina,Forward,Al-Duhail,Qatar Stars League,False,No reliable match,,0,,
+Algeria,Amine Gouiri,Forward,Marseille,Ligue 1 / French football league system,True,Exact match,Amine Gouiri,7,Ligue_1,"2017, 2019, 2020, 2021, 2022, 2023, 2024"
+Algeria,Anis Hadj Moussa,Forward,Feyenoord,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Algeria,Fares Ghedjemis,Forward,Frosinone,Unknown / verify manually,True,Exact match,Farès Ghedjemis,1,Serie_A,2023
+Algeria,Mohamed Amine Amoura,Forward,Wolfsburg,Bundesliga,False,No reliable match,,0,,
+Algeria,Nadir Benbouali,Forward,Gyori ETO,Unknown / verify manually,False,No reliable match,,0,,
+Algeria,Riyad Mahrez,Forward,Al-Ahli,Saudi Pro League,True,Exact match,Riyad Mahrez,9,EPL,"2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022"
+Algeria,Luca Zidane,Goalkeeper,Granada,Spanish football league system,True,Exact match,Luca Zidane,3,La_Liga,"2017, 2018, 2021"
+Algeria,Melvin Masstil,Goalkeeper,Stade Nyonnaise,Unknown / verify manually,False,No reliable match,,0,,
+Algeria,Oussama Benbot,Goalkeeper,USM Alger,Unknown / verify manually,False,No reliable match,,0,,
+Algeria,Fares Chaibi,Midfielder,Eintracht Frankfurt,Bundesliga,True,Exact match,Farès Chaïbi,4,"Bundesliga, Ligue_1","2022, 2023, 2024"
+Algeria,Hicham Boudaoui,Midfielder,Nice,Ligue 1 / French football league system,False,No reliable match,,0,,
+Algeria,Houssem Aouar,Midfielder,Al-Ittihad,Saudi Pro League,True,Exact match,Houssem Aouar,8,"Ligue_1, Serie_A","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Algeria,Ibrahim Maza,Midfielder,Bayer Leverkusen,Bundesliga,True,Exact match,Ibrahim Maza,1,Bundesliga,2022
+Algeria,Nabil Bentaleb,Midfielder,Lille,Ligue 1 / French football league system,True,Exact match,Nabil Bentaleb,10,"Bundesliga, EPL, Ligue_1","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Algeria,Ramiz Zerrouki,Midfielder,Twente,Unknown / verify manually,False,No reliable match,,0,,
+Algeria,Yassine Titraoui,Midfielder,Charleroi,Belgian Pro League,False,No reliable match,,0,,
+Argentina,Cristian Romero,Defender,Tottenham,Premier League,True,Exact match,Cristian Romero,7,"EPL, Serie_A","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Argentina,Facundo Medina,Defender,Marseille,Ligue 1 / French football league system,True,Exact match,Facundo Medina,5,Ligue_1,"2020, 2021, 2022, 2023, 2024"
+Argentina,Gonzalo Montiel,Defender,River Plate,Argentina Primera División,True,Exact match,Gonzalo Montiel,4,"EPL, La_Liga","2021, 2022, 2023, 2024"
+Argentina,Leonardo Balerdi,Defender,Marseille,Ligue 1 / French football league system,True,Exact match,Leonardo Balerdi,6,"Bundesliga, Ligue_1","2019, 2020, 2021, 2022, 2023, 2024"
+Argentina,Lisandro Martinez,Defender,Manchester United,Premier League,True,Exact match,Lisandro Martínez,3,EPL,"2022, 2023, 2024"
+Argentina,Nahuel Molina,Defender,Atletico Madrid,LaLiga,True,Exact match,Nahuel Molina,5,"La_Liga, Serie_A","2020, 2021, 2022, 2023, 2024"
+Argentina,Nicolas Otamendi,Defender,Benfica,Primeira Liga,True,Exact match,Nicolás Otamendi,6,"EPL, La_Liga","2014, 2015, 2016, 2017, 2018, 2019"
+Argentina,Nicolas Tagliafico,Defender,Lyon,Ligue 1 / French football league system,True,Exact match,Nicolás Tagliafico,3,Ligue_1,"2022, 2023, 2024"
+Argentina,Giuliano Simeone,Forward,Atletico Madrid,LaLiga,True,Exact match,Giuliano Simeone,3,La_Liga,"2021, 2023, 2024"
+Argentina,Jose Manuel Lopez,Forward,Palmeiras,Brazilian football league system,False,No reliable match,,0,,
+Argentina,Julian Alvarez,Forward,Atletico Madrid,LaLiga,True,Exact match,Julián Álvarez,3,"EPL, La_Liga","2022, 2023, 2024"
+Argentina,Lautaro Martinez,Forward,Inter Milan,Serie A,True,Exact match,Lautaro Martínez,7,Serie_A,"2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Argentina,Lionel Messi,Forward,Inter Miami,Major League Soccer,True,Exact match,Lionel Messi,9,"La_Liga, Ligue_1","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022"
+Argentina,Nico Paz,Forward,Como,Serie A,True,Exact match,Nico Paz,2,"La_Liga, Serie_A","2023, 2024"
+Argentina,Nicolas Gonzalez,Forward,Atletico Madrid,LaLiga,True,Exact match,Nicolás González,6,"Bundesliga, Serie_A","2018, 2020, 2021, 2022, 2023, 2024"
+Argentina,Thiago Almada,Forward,Atletico Madrid,LaLiga,False,No reliable match,,0,,
+Argentina,Emiliano Martinez,Goalkeeper,Aston Villa,Premier League,True,Exact match,Emiliano Martinez,9,"EPL, La_Liga","2014, 2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024"
+Argentina,Geronimo Rulli,Goalkeeper,Marseille,Ligue 1 / French football league system,True,Exact match,Gerónimo Rulli,10,"La_Liga, Ligue_1","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2024"
+Argentina,Juan Musso,Goalkeeper,Atletico Madrid,LaLiga,True,Exact match,Juan Musso,8,"La_Liga, Serie_A","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Argentina,Alexis Mac Allister,Midfielder,Liverpool,Premier League,True,Exact match,Alexis Mac Allister,6,EPL,"2019, 2020, 2021, 2022, 2023, 2024"
+Argentina,Enzo Fernandez,Midfielder,Chelsea,Unknown / verify manually,True,Exact match,Enzo Fernández,3,EPL,"2022, 2023, 2024"
+Argentina,Ezequiel Palacios,Midfielder,Bayer Leverkusen,Bundesliga,False,No reliable match,,0,,
+Argentina,Giovani lo Celso,Midfielder,Real Betis,LaLiga,True,Exact match,Giovani Lo Celso,11,"EPL, La_Liga, Ligue_1","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Argentina,Leandro Paredes,Midfielder,River Plate,Argentina Primera División,True,Exact match,Leandro Paredes,13,"Ligue_1, RFPL, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Argentina,Rodrigo de Paul,Midfielder,Inter Miami,Major League Soccer,True,Exact match,Rodrigo de Paul,11,"La_Liga, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Argentina,Valentin Barco,Midfielder,Strasbourg,Ligue 1 / French football league system,True,Exact match,Valentín Barco,2,"EPL, La_Liga","2023, 2024"
+Australia,Alessandro Circati,Defender,Parma,Serie A,True,Exact match,Alessandro Circati,1,Serie_A,2024
+Australia,Aziz Behich,Defender,Melbourne City,Australian A-League Men,False,No reliable match,,0,,
+Australia,Cameron Burgess,Defender,Swansea City,English football league system,False,No reliable match,,0,,
+Australia,Harry Souttar,Defender,Leicester City,English football league system,True,Exact match,Harry Souttar,1,EPL,2022
+Australia,Jacob Italiano,Defender,Grazer,Unknown / verify manually,False,No reliable match,,0,,
+Australia,Jason Geria,Defender,Albirex Niigata,J1 League / Japanese football league system,False,No reliable match,,0,,
+Australia,Jordan Bos,Defender,Feynoord,Unknown / verify manually,False,No reliable match,,0,,
+Australia,Kai Trewin,Defender,New York City,Unknown / verify manually,False,No reliable match,,0,,
+Australia,Lucas Herrington,Defender,Colorado Rapids,Major League Soccer,False,No reliable match,,0,,
+Australia,Milos Degenek,Defender,APOEL,Unknown / verify manually,False,No reliable match,,0,,
+Australia,Awer Mabil,Forward,Castellon,Spanish football league system,True,Exact match,Awer Mabil,1,La_Liga,2022
+Australia,Cristian Volpato,Forward,Sassuolo,Serie A,True,Exact match,Cristian Volpato,3,Serie_A,"2021, 2022, 2023"
+Australia,Mathew Leckie,Forward,Melbourne City,Australian A-League Men,True,Exact match,Mathew Leckie,6,Bundesliga,"2015, 2016, 2017, 2018, 2019, 2020"
+Australia,Mohamed Toure,Forward,Norwich City,English football league system,True,Exact match,Mohamed Touré,1,Ligue_1,2022
+Australia,Nestory Irankunda,Forward,Watford,English football league system,False,No reliable match,,0,,
+Australia,Tete Yengi,Forward,Livingston/Machida Zelvia,Unknown / verify manually,False,No reliable match,,0,,
+Australia,Velupilly,Forward,Melbourne City,Australian A-League Men,False,No reliable match,,0,,
+Australia,Mathew Ryan,Goalkeeper,Levante,LaLiga,False,No reliable match,,0,,
+Australia,Patrick Beach,Goalkeeper,Melbourne City,Australian A-League Men,False,No reliable match,,0,,
+Australia,Paul Izzo,Goalkeeper,Randers,Unknown / verify manually,False,No reliable match,,0,,
+Australia,Ajdin Hrustic,Midfielder,Heracles Almelo,Eredivisie / Dutch football league system,True,Exact match,Ajdin Hrustic,3,"Bundesliga, Serie_A","2020, 2021, 2022"
+Australia,Cameron Devlin,Midfielder,Heart of Midlothian,Scottish Premiership,False,No reliable match,,0,,
+Australia,Connor Metcalfe,Midfielder,St Pauli,Unknown / verify manually,True,Exact match,Connor Metcalfe,1,Bundesliga,2024
+Australia,Jackson Irvine,Midfielder,St Pauli,Unknown / verify manually,True,Exact match,Jackson Irvine,1,Bundesliga,2024
+Australia,O'Neill,Midfielder,New York City,Unknown / verify manually,False,No reliable match,,0,,
+Australia,Okon-Englster,Midfielder,Sydney,Unknown / verify manually,False,No reliable match,,0,,
+Austria,Alexander Prass,Defender,Hoffenheim,Bundesliga,True,Exact match,Alexander Prass,1,Bundesliga,2024
+Austria,David Affengruber,Defender,Elche,Unknown / verify manually,False,No reliable match,,0,,
+Austria,David Alaba,Defender,Real Madrid,LaLiga,True,Exact match,David Alaba,10,"Bundesliga, La_Liga","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Austria,Kevin Danso,Defender,Tottenham,Premier League,True,Exact match,Kevin Danso,8,"Bundesliga, EPL, Ligue_1","2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024"
+Austria,Marco Friedl,Defender,Werder Bremen,Bundesliga,True,Exact match,Marco Friedl,7,Bundesliga,"2017, 2018, 2019, 2020, 2022, 2023, 2024"
+Austria,Michael Svoboda,Defender,Venezia,Unknown / verify manually,True,Exact match,Michael Svoboda,2,Serie_A,"2021, 2024"
+Austria,Philipp Lienhart,Defender,Freiburg,Bundesliga,True,Exact match,Philipp Lienhart,8,Bundesliga,"2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Austria,Phillipp Mwene,Defender,Mainz,Bundesliga,False,No reliable match,,0,,
+Austria,Stefan Posch,Defender,Mainz,Bundesliga,True,Exact match,Stefan Posch,9,"Bundesliga, Serie_A","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Austria,Marko Arnautovic,Forward,Red Star Belgrade,Serbian SuperLiga,True,Exact match,Marko Arnautovic,9,"EPL, Serie_A","2014, 2015, 2016, 2017, 2018, 2021, 2022, 2023, 2024"
+Austria,Michael Gregoritsch,Forward,Augsburg,Bundesliga,True,Exact match,Michael Gregoritsch,10,Bundesliga,"2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Austria,Sasa Kalajdzic,Forward,LASK,Austrian Bundesliga,True,Exact match,Sasa Kalajdzic,6,"Bundesliga, EPL","2020, 2021, 2022, 2023"
+Austria,Alexander Schlager,Goalkeeper,RB Salzburg,Austrian Bundesliga,False,No reliable match,,0,,
+Austria,Florian Wiegele,Goalkeeper,Viktoria Pilsen,Unknown / verify manually,False,No reliable match,,0,,
+Austria,Patrick Pentz,Goalkeeper,Brondby,Danish Superliga,True,Exact match,Patrick Pentz,1,Ligue_1,2022
+Austria,Alessandro Schopf,Midfielder,RZ Pellets WAC,Unknown / verify manually,True,Exact match,Alessandro Schöpf,7,Bundesliga,"2015, 2016, 2017, 2018, 2019, 2020, 2021"
+Austria,Carney Chukwuemeka,Midfielder,Borussia Dortmund,Bundesliga,True,Exact match,Carney Chukwuemeka,4,EPL,"2020, 2021, 2022, 2023"
+Austria,Christoph Baumgartner,Midfielder,RB Leipzig,Bundesliga,True,Exact match,Christoph Baumgartner,7,Bundesliga,"2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Austria,Florian Grillitsch,Midfielder,Braga,Primeira Liga,True,Exact match,Florian Grillitsch,9,Bundesliga,"2015, 2016, 2017, 2018, 2019, 2020, 2021, 2023, 2024"
+Austria,Konrad Laimer,Midfielder,Bayern Munich,Bundesliga,True,Exact match,Konrad Laimer,8,Bundesliga,"2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Austria,Marcel Sabitzer,Midfielder,Borussia Dortmund,Bundesliga,True,Exact match,Marcel Sabitzer,10,"Bundesliga, EPL","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Austria,Nicolas Seiwald,Midfielder,RB Leipzig,Bundesliga,True,Exact match,Nicolas Seiwald,2,Bundesliga,"2023, 2024"
+Austria,Patrick Wimmer,Midfielder,Wolfsburg,Bundesliga,True,Exact match,Patrick Wimmer,4,Bundesliga,"2021, 2022, 2023, 2024"
+Austria,Paul Wanner,Midfielder,PSV Eindhoven,Eredivisie / Dutch football league system,True,Exact match,Paul Wanner,3,Bundesliga,"2021, 2022, 2024"
+Austria,Romano Schmid,Midfielder,Werder Bremen,Bundesliga,True,Exact match,Romano Schmid,4,Bundesliga,"2020, 2022, 2023, 2024"
+Austria,Xaver Schlager,Midfielder,RB Leipzig,Bundesliga,True,Exact match,Xaver Schlager,5,Bundesliga,"2019, 2020, 2021, 2022, 2023"
+Belgium,Arthur Theate,Defender,Eintracht Frankfurt,Bundesliga,True,Exact match,Arthur Theate,4,"Bundesliga, Ligue_1, Serie_A","2021, 2022, 2023, 2024"
+Belgium,Brandon Mechele,Defender,Club Brugge,Belgian Pro League,False,No reliable match,,0,,
+Belgium,Joaquin Seys,Defender,Club Brugge,Belgian Pro League,False,No reliable match,,0,,
+Belgium,Koni de Winter,Defender,AC Milan,Serie A,True,Exact match,Koni de Winter,3,Serie_A,"2022, 2023, 2024"
+Belgium,Maxim de Cuyper,Defender,Brighton,Premier League,False,No reliable match,,0,,
+Belgium,Nathan Ngoy,Defender,Lille,Ligue 1 / French football league system,False,No reliable match,,0,,
+Belgium,Thomas Meunier,Defender,Lille,Ligue 1 / French football league system,True,Exact match,Thomas Meunier,9,"Bundesliga, Ligue_1","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Belgium,Timothy Castagne,Defender,Fulham,Premier League,True,Exact match,Timothy Castagne,7,"EPL, Serie_A","2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Belgium,Zeno Debast,Defender,Sporting,Primeira Liga,False,No reliable match,,0,,
+Belgium,Alexis Saelemaekers,Forward,AC Milan,Serie A,True,Exact match,Alexis Saelemaekers,6,Serie_A,"2019, 2020, 2021, 2022, 2023, 2024"
+Belgium,Charles de Ketelaere,Forward,Atalanta,Serie A,True,Exact match,Charles De Ketelaere,3,Serie_A,"2022, 2023, 2024"
+Belgium,Diego Moreira,Forward,Strasbourg,Ligue 1 / French football league system,True,Exact match,Diego Moreira,2,Ligue_1,"2023, 2024"
+Belgium,Dodi Lukebakio,Forward,Benfica,Primeira Liga,True,Exact match,Dodi Lukebakio,9,"Bundesliga, EPL, La_Liga, Ligue_1","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Belgium,Jeremy Doku,Forward,Manchester City,Premier League,True,Exact match,Jéremy Doku,6,"EPL, Ligue_1","2020, 2021, 2022, 2023, 2024"
+Belgium,Leandro Trossard,Forward,Arsenal,Premier League,True,Exact match,Leandro Trossard,6,EPL,"2019, 2020, 2021, 2022, 2023, 2024"
+Belgium,Matias Fernandez-Pardo,Forward,Lille,Ligue 1 / French football league system,True,Exact match,Matias Fernandez-Pardo,1,Ligue_1,2024
+Belgium,Romelu Lukaku,Forward,Napoli,Serie A,True,Exact match,Romelu Lukaku,11,"EPL, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Belgium,Mike Penders,Goalkeeper,Racing Strasbourg,Unknown / verify manually,False,No reliable match,,0,,
+Belgium,Senne Lammens,Goalkeeper,Manchester United,Premier League,False,No reliable match,,0,,
+Belgium,Thibaut Courtois,Goalkeeper,Real Madrid,LaLiga,True,Exact match,Thibaut Courtois,11,"EPL, La_Liga","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Belgium,Amadou Onana,Midfielder,Aston Villa,Premier League,True,Exact match,Amadou Onana,4,"EPL, Ligue_1","2021, 2022, 2023, 2024"
+Belgium,Axel Witsel,Midfielder,Girona,LaLiga,True,Exact match,Axel Witsel,10,"Bundesliga, La_Liga, RFPL","2014, 2015, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Belgium,Hans Vanaken,Midfielder,Club Brugge,Belgian Pro League,False,No reliable match,,0,,
+Belgium,Kevin de Bruyne,Midfielder,Napoli,Serie A,True,Exact match,Kevin De Bruyne,12,"Bundesliga, EPL","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Belgium,Nicolas Raskin,Midfielder,Rangers,Scottish Premiership,False,No reliable match,,0,,
+Belgium,Youri Tielemans,Midfielder,Aston Villa,Premier League,True,Exact match,Youri Tielemans,9,"EPL, Ligue_1","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Bosnia and Herzegovina,Amar Dedic,Defender,Benfica,Primeira Liga,False,No reliable match,,0,,
+Bosnia and Herzegovina,Dennis Hadzikadunic,Defender,Sampdoria,Italian football league system,True,Exact match,Dennis Hadzikadunic,5,"La_Liga, RFPL","2018, 2019, 2020, 2021, 2022"
+Bosnia and Herzegovina,Nidal Celik,Defender,Lens,Unknown / verify manually,False,No reliable match,,0,,
+Bosnia and Herzegovina,Nihad Mujakic,Defender,Gaziantep,Turkish Süper Lig,False,No reliable match,,0,,
+Bosnia and Herzegovina,Nikola Katic,Defender,Schalke 04,Bundesliga,False,No reliable match,,0,,
+Bosnia and Herzegovina,Sead Kolasinac,Defender,Atalanta,Serie A,True,Exact match,Sead Kolasinac,13,"Bundesliga, EPL, Ligue_1, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Bosnia and Herzegovina,Stjepan Radeljic,Defender,Rijeka,Croatian Football League,False,No reliable match,,0,,
+Bosnia and Herzegovina,Tarik Muharemovic,Defender,Sassuolo,Serie A,False,No reliable match,,0,,
+Bosnia and Herzegovina,Edin Dzeko,Forward,Schalke 04,Bundesliga,True,Exact match,Edin Dzeko,9,"EPL, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022"
+Bosnia and Herzegovina,Ermedin Demirovic,Forward,VfB Stuttgart,Bundesliga,True,Exact match,Ermedin Demirovic,6,"Bundesliga, La_Liga","2017, 2020, 2021, 2022, 2023, 2024"
+Bosnia and Herzegovina,Haris Tabakovic,Forward,Borussia Moenchengladbach,Bundesliga,True,Exact match,Haris Tabakovic,1,Bundesliga,2024
+Bosnia and Herzegovina,Jovo Lukic,Forward,Universitatea Cluj,Romanian Liga I,False,No reliable match,,0,,
+Bosnia and Herzegovina,Samed Bazdar,Forward,Jagiellonia Bialystok,Polish Ekstraklasa,False,No reliable match,,0,,
+Bosnia and Herzegovina,Martin Zlomislic,Goalkeeper,Rijeka,Croatian Football League,False,No reliable match,,0,,
+Bosnia and Herzegovina,Nikola Vasilj,Goalkeeper,St Pauli,Bundesliga,True,Exact match,Nikola Vasilj,1,Bundesliga,2024
+Bosnia and Herzegovina,Osman Hadzikic,Goalkeeper,Slaven Belupo,Croatian Football League,False,No reliable match,,0,,
+Bosnia and Herzegovina,Amar Memic,Midfielder,Viktoria Plzen,Czech First League,False,No reliable match,,0,,
+Bosnia and Herzegovina,Amir Hadziahmetovic,Midfielder,Hull City,English football league system,False,No reliable match,,0,,
+Bosnia and Herzegovina,Armin Gigovic,Midfielder,Young Boys,Swiss Super League,True,Exact match,Armin Gigovic,3,"Bundesliga, RFPL","2020, 2021, 2024"
+Bosnia and Herzegovina,Benjamin Tahirovic,Midfielder,Brondby,Danish Superliga,True,Exact match,Benjamin Tahirovic,1,Serie_A,2022
+Bosnia and Herzegovina,Dzenis Burnic,Midfielder,Karlsruher SC,German football league system,True,Exact match,Dzenis Burnic,2,Bundesliga,"2016, 2017"
+Bosnia and Herzegovina,Ermin Mahmic,Midfielder,Slovan Liberec,Unknown / verify manually,False,No reliable match,,0,,
+Bosnia and Herzegovina,Esmir Bajraktarevic,Midfielder,PSV Eindhoven,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Bosnia and Herzegovina,Ivan Basic,Midfielder,Astana,Kazakhstan Premier League,True,Exact match,Ivan Basic,3,RFPL,"2022, 2023, 2024"
+Bosnia and Herzegovina,Ivan Sunjic,Midfielder,Pafos,Cypriot First Division,True,Exact match,Ivan Sunjic,1,Bundesliga,2022
+Bosnia and Herzegovina,Kerim Alajbegovic,Midfielder,RB Salzburg,Austrian Bundesliga,False,No reliable match,,0,,
+Brazil,Alex Sandro,Defender,Unknown / verify manually,Unknown / verify manually,True,Exact match,Alex Sandro,9,Serie_A,"2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Brazil,Bremer,Defender,Juventus,Serie A,True,Exact match,Bremer,7,Serie_A,"2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Brazil,Danilo,Defender,Unknown / verify manually,Unknown / verify manually,True,Exact match,Danilo,27,"EPL, La_Liga, Ligue_1, RFPL, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Brazil,Douglas Santos,Defender,Zenit St. Petersburg,Russian Premier League,True,Exact match,Douglas Santos,8,"Bundesliga, RFPL","2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024"
+Brazil,Gabriel,Defender,Arsenal,Premier League,True,Exact match,Gabriel,24,"EPL, La_Liga, Ligue_1, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Brazil,Leo Pereira,Defender,Flamengo,Brazilian football league system,False,No reliable match,,0,,
+Brazil,Marquinhos,Defender,Paris St-Germain,Ligue 1 / French football league system,True,Exact match,Marquinhos,14,"EPL, Ligue_1, RFPL","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Brazil,Roger Ibañez,Defender,Al-Ahli,Saudi Pro League,False,No reliable match,,0,,
+Brazil,Wesley,Defender,Roma,Serie A,True,Exact match,Wesley,3,EPL,"2019, 2020, 2021"
+Brazil,Endrick,Forward,Lyon,Ligue 1 / French football league system,True,Exact match,Endrick,1,La_Liga,2024
+Brazil,Gabriel Martinelli,Forward,Arsenal,Premier League,True,Exact match,Gabriel Martinelli,6,EPL,"2019, 2020, 2021, 2022, 2023, 2024"
+Brazil,Igor Thiago,Forward,Brentford,Premier League,False,No reliable match,,0,,
+Brazil,Luiz Henrique,Forward,Zenit St. Petersburg,Russian Premier League,True,Exact match,Luiz Henrique,2,La_Liga,"2022, 2023"
+Brazil,Matheus Cunha,Forward,Manchester United,Premier League,True,Exact match,Matheus Cunha,9,"Bundesliga, EPL, La_Liga","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Brazil,Neymar,Forward,Santos,Brazilian football league system,True,Exact match,Neymar,9,"La_Liga, Ligue_1","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022"
+Brazil,Raphinha,Forward,Barcelona,LaLiga,True,Exact match,Raphinha,7,"EPL, La_Liga, Ligue_1","2019, 2020, 2021, 2022, 2023, 2024"
+Brazil,Rayan,Forward,Bournemouth,Premier League,False,No reliable match,,0,,
+Brazil,Vinicius Junior,Forward,Real Madrid,LaLiga,True,Exact match,Vinícius Júnior,7,La_Liga,"2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Brazil,Alisson,Goalkeeper,Liverpool,Premier League,True,Exact match,Alisson,8,"EPL, Serie_A","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Brazil,Weverton,Goalkeeper,Gremio,Brazilian football league system,False,No reliable match,,0,,
+Brazil,Éderson,Goalkeeper,Fenerbahce,Turkish Süper Lig,True,Exact match,Ederson,13,"EPL, Serie_A","2014, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Brazil,Bruno Guimaraes,Midfielder,Newcastle,Premier League,True,Exact match,Bruno Guimarães,7,"EPL, Ligue_1","2019, 2020, 2021, 2022, 2023, 2024"
+Brazil,Casemiro,Midfielder,Manchester United,Premier League,True,Exact match,Casemiro,11,"EPL, La_Liga","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Brazil,Danilo Santos,Midfielder,Botafogo,Brazilian football league system,False,No reliable match,,0,,
+Brazil,Fabinho,Midfielder,Al-Ittihad,Saudi Pro League,True,Exact match,Fabinho,9,"EPL, Ligue_1","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022"
+Brazil,Lucas Paqueta,Midfielder,Flamengo,Brazilian football league system,True,Exact match,Lucas Paquetá,8,"EPL, Ligue_1, Serie_A","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Cabo Verde,Diney,Defender,Al Bataeh,Middle East / North Africa league - verify club,False,No reliable match,,0,,
+Cabo Verde,Joao Paulo,Defender,FCSB,Romanian Liga I,False,No reliable match,,0,,
+Cabo Verde,Kelvin Pires,Defender,SJK,Unknown / verify manually,False,No reliable match,,0,,
+Cabo Verde,Logan Costa,Defender,Villarreal,LaLiga,True,Exact match,Logan Costa,4,"La_Liga, Ligue_1","2022, 2023, 2024"
+Cabo Verde,Roberto Lopes,Defender,Shamrock Rovers,Unknown / verify manually,False,No reliable match,,0,,
+Cabo Verde,Sidny Lopes Cabral,Defender,Benfica,Primeira Liga,False,No reliable match,,0,,
+Cabo Verde,Steven Moreira,Defender,Columbus Crew,Major League Soccer,True,Exact match,Steven Moreira,5,Ligue_1,"2014, 2015, 2016, 2018, 2019"
+Cabo Verde,Stopira,Defender,Torreense,Unknown / verify manually,False,No reliable match,,0,,
+Cabo Verde,Wagner Pina,Defender,Trabzonspor,Turkish Süper Lig,False,No reliable match,,0,,
+Cabo Verde,Dailon Livramento,Forward,Casa Pia,Unknown / verify manually,True,Exact match,Dailon Livramento,1,Serie_A,2024
+Cabo Verde,Garry Rodrigues,Forward,Apollon Limassol,Unknown / verify manually,False,No reliable match,,0,,
+Cabo Verde,Gilson Tavares,Forward,Akron Tolyatti,Unknown / verify manually,False,No reliable match,,0,,
+Cabo Verde,Helio Varela,Forward,Maccabi Tel Aviv,Unknown / verify manually,False,No reliable match,,0,,
+Cabo Verde,Jovane Cabral,Forward,Estrela Amadora,Unknown / verify manually,True,Exact match,Jovane Cabral,2,Serie_A,"2021, 2023"
+Cabo Verde,Nuno da Costa,Forward,Istanbul Basaksehir,Turkish Süper Lig,True,Safe fuzzy match,Joia Nuno Da Costa,4,Ligue_1,"2017, 2018, 2019, 2022"
+Cabo Verde,Ryan Mendes,Forward,Igdir,Unknown / verify manually,True,Exact match,Ryan Mendes,3,Ligue_1,"2014, 2015, 2016"
+Cabo Verde,Willy Semedo,Forward,Omonia,Unknown / verify manually,False,No reliable match,,0,,
+Cabo Verde,CJ dos Santos,Goalkeeper,San Diego,Unknown / verify manually,False,No reliable match,,0,,
+Cabo Verde,Marcio Rosa,Goalkeeper,Montana,Unknown / verify manually,False,No reliable match,,0,,
+Cabo Verde,Vozinha,Goalkeeper,Chaves,Unknown / verify manually,False,No reliable match,,0,,
+Cabo Verde,Deroy Duarte,Midfielder,Ludogorets,Unknown / verify manually,False,No reliable match,,0,,
+Cabo Verde,Jamiro Monteiro,Midfielder,PEC Zwolle,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Cabo Verde,Kevin Pina,Midfielder,Krasnodar,Unknown / verify manually,True,Exact match,Kevin Pina,3,RFPL,"2022, 2023, 2024"
+Cabo Verde,Laros Duarte,Midfielder,Puskas Akademia,Unknown / verify manually,False,No reliable match,,0,,
+Cabo Verde,Telmo Arcanjo,Midfielder,Vitoria Guimaraes,Unknown / verify manually,False,No reliable match,,0,,
+Cabo Verde,Yannick Semedo,Midfielder,Farense,Unknown / verify manually,False,No reliable match,,0,,
+Canada,Alfie Jones,Defender,Middlesbrough,English football league system,False,No reliable match,,0,,
+Canada,Alistair Johnston,Defender,Celtic,Scottish Premiership,False,No reliable match,,0,,
+Canada,Alphonso Davies,Defender,Bayern Munich,Bundesliga,True,Exact match,Alphonso Davies,7,Bundesliga,"2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Canada,Derek Cornelius,Defender,Marseille,Ligue 1 / French football league system,True,Exact match,Derek Cornelius,1,Ligue_1,2024
+Canada,Joel Waterman,Defender,Chicago Fire,Major League Soccer,False,No reliable match,,0,,
+Canada,Luc de Fougerolles,Defender,Fulham,Premier League,False,No reliable match,,0,,
+Canada,Moise Bombito,Defender,Nice,Ligue 1 / French football league system,True,Exact match,Moïse Bombito,1,Ligue_1,2024
+Canada,Niko Sigur,Defender,Hajduk Split,Croatian Football League,False,No reliable match,,0,,
+Canada,Richie Laryea,Defender,Toronto,Unknown / verify manually,False,No reliable match,,0,,
+Canada,Cyle Larin,Forward,Southampton,English football league system,True,Exact match,Cyle Larin,3,La_Liga,"2022, 2023, 2024"
+Canada,Jonathan David,Forward,Juventus,Serie A,False,No reliable match,,0,,
+Canada,Promise David,Forward,Union SG,Unknown / verify manually,False,No reliable match,,0,,
+Canada,Tani Oluwaseyi,Forward,Villarreal,LaLiga,False,No reliable match,,0,,
+Canada,Dayne St Clair,Goalkeeper,Inter Miami,Major League Soccer,False,No reliable match,,0,,
+Canada,Maxime Crepeau,Goalkeeper,Orlando City,Major League Soccer,False,No reliable match,,0,,
+Canada,Owen Goodman,Goalkeeper,Crystal Palace,Premier League,False,No reliable match,,0,,
+Canada,Ali Ahmed,Midfielder,Norwich City,English football league system,False,No reliable match,,0,,
+Canada,Ismael Kone,Midfielder,Sassuolo,Serie A,True,Exact match,Ismaël Koné,1,Ligue_1,2024
+Canada,Jacob Shaffelburg,Midfielder,Toronto,Unknown / verify manually,False,No reliable match,,0,,
+Canada,Jonathan Osorio,Midfielder,Toronto,Unknown / verify manually,False,No reliable match,,0,,
+Canada,Liam Millar,Midfielder,Hull City,English football league system,False,No reliable match,,0,,
+Canada,Marcelo Flores,Midfielder,Tigres UANL,Liga MX,False,No reliable match,,0,,
+Canada,Mathieu Choiniere,Midfielder,Los Angeles FC,Unknown / verify manually,False,No reliable match,,0,,
+Canada,Nathan Saliba,Midfielder,Anderlecht,Belgian Pro League,False,No reliable match,,0,,
+Canada,Stephen Eustaquio,Midfielder,Porto,Primeira Liga,False,No reliable match,,0,,
+Canada,Tajon Buchanan,Midfielder,Villarreal,LaLiga,True,Exact match,Tajon Buchanan,1,Serie_A,2023
+Colombia,Daniel Munoz,Defender,Crystal Palace,Premier League,True,Exact match,Daniel Muñoz,2,EPL,"2023, 2024"
+Colombia,Davinson Sanchez,Defender,Galatasaray,Turkish Süper Lig,True,Exact match,Davinson Sánchez,7,EPL,"2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Colombia,Deiver Machado,Defender,Nantes,Ligue 1 / French football league system,True,Exact match,Deiver Machado,4,Ligue_1,"2021, 2022, 2023, 2024"
+Colombia,Jhon Lucumi,Defender,Bologna,Serie A,True,Exact match,Jhon Lucumí,3,Serie_A,"2022, 2023, 2024"
+Colombia,Johan Mojica,Defender,Mallorca,Unknown / verify manually,True,Exact match,Johan Mojica,8,"La_Liga, Serie_A","2017, 2018, 2020, 2021, 2022, 2023, 2024"
+Colombia,Santiago Arias,Defender,Independiente,Argentina Primera División,True,Exact match,Santiago Arias,4,"Bundesliga, La_Liga","2018, 2019, 2020, 2021"
+Colombia,Willer Ditta,Defender,Cruz Azul,Liga MX,False,No reliable match,,0,,
+Colombia,Yerry Mina,Defender,Cagliari,Unknown / verify manually,True,Exact match,Yerry Mina,8,"EPL, La_Liga, Serie_A","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Colombia,Carlos Andres Gomez,Forward,Vasco da Gama,Unknown / verify manually,True,Safe fuzzy match,Andrés Gómez,1,Ligue_1,2024
+Colombia,Jhon Cordoba,Forward,Krasnodar,Unknown / verify manually,True,Exact match,Jhon Córdoba,10,"Bundesliga, La_Liga, RFPL","2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024"
+Colombia,Juan Camilo Hernandez,Forward,Real Betis,LaLiga,True,Exact match,Juan Camilo Hernández,4,"EPL, La_Liga","2018, 2019, 2020, 2021"
+Colombia,Luis Diaz,Forward,Bayern Munich,Bundesliga,True,Exact match,Luis Díaz,4,EPL,"2021, 2022, 2023, 2024"
+Colombia,Luis Suarez,Forward,Sporting,Primeira Liga,True,Exact match,Luis Suárez,13,"La_Liga, Ligue_1","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Colombia,Alvaro Montero,Goalkeeper,Velez Sarsfield,Argentina Primera División,False,No reliable match,,0,,
+Colombia,Camilo Vargas,Goalkeeper,Atlas,Liga MX,False,No reliable match,,0,,
+Colombia,David Ospina,Goalkeeper,Atletico Nacional,Colombian Categoría Primera A,True,Exact match,David Ospina,8,"EPL, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021"
+Colombia,Gustavo Puerta,Midfielder,Racing de Santander,Unknown / verify manually,True,Exact match,Gustavo Puerta,1,Bundesliga,2023
+Colombia,James Rodriguez,Midfielder,Minnesota United,Major League Soccer,True,Exact match,James Rodríguez,8,"Bundesliga, EPL, La_Liga","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2024"
+Colombia,Jaminton Campaz,Midfielder,Rosario Central,Argentina Primera División,False,No reliable match,,0,,
+Colombia,Jefferson Lerma,Midfielder,Crystal Palace,Premier League,True,Exact match,Jefferson Lerma,7,"EPL, La_Liga","2015, 2017, 2018, 2019, 2022, 2023, 2024"
+Colombia,Jhon Arias,Midfielder,Palmeiras,Brazilian football league system,False,No reliable match,,0,,
+Colombia,Jorge Carrascal,Midfielder,Flamengo,Brazilian football league system,True,Exact match,Jorge Carrascal,4,RFPL,"2021, 2022, 2023, 2024"
+Colombia,Juan Camilo Portilla,Midfielder,Athletico Paranaense,Unknown / verify manually,False,No reliable match,,0,,
+Colombia,Juan Fernando Quintero,Midfielder,River Plate,Argentina Primera División,False,No reliable match,,0,,
+Colombia,Kevin Castano,Midfielder,River Plate,Argentina Primera División,True,Exact match,Kevin Castaño,2,RFPL,"2023, 2024"
+Colombia,Richard Rios,Midfielder,Benfica,Primeira Liga,False,No reliable match,,0,,
+Croatia,Duje Caleta-Car,Defender,Real Sociedad,LaLiga,True,Exact match,Duje Caleta-Car,8,"EPL, Ligue_1","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Croatia,Josip Stanisic,Defender,Bayern Munich,Bundesliga,True,Exact match,Josip Stanisic,4,Bundesliga,"2020, 2021, 2022, 2023"
+Croatia,Josip Sutalo,Defender,Ajax Amsterdam,Unknown / verify manually,False,No reliable match,,0,,
+Croatia,Josko Gvardiol,Defender,Manchester City,Premier League,True,Exact match,Josko Gvardiol,4,"Bundesliga, EPL","2021, 2022, 2023, 2024"
+Croatia,Luka Vuskovic,Defender,Hamburg,Bundesliga,False,No reliable match,,0,,
+Croatia,Marin Pongracic,Defender,Fiorentina,Serie A,True,Exact match,Marin Pongracic,6,"Bundesliga, Serie_A","2019, 2020, 2021, 2022, 2023, 2024"
+Croatia,Martin Erlic,Defender,Midtjylland,Danish Superliga,True,Exact match,Martin Erlic,5,Serie_A,"2020, 2021, 2022, 2023, 2024"
+Croatia,Andrej Kramaric,Forward,Hoffenheim,Bundesliga,True,Exact match,Andrej Kramaric,12,"Bundesliga, EPL","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Croatia,Ante Budimir,Forward,Osasuna,LaLiga,True,Exact match,Ante Budimir,8,"La_Liga, Serie_A","2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024"
+Croatia,Igor Matanovic,Forward,Freiburg,Bundesliga,True,Exact match,Igor Matanovic,1,Bundesliga,2024
+Croatia,Ivan Perisic,Forward,PSV Eindhoven,Eredivisie / Dutch football league system,True,Exact match,Ivan Perisic,11,"Bundesliga, EPL, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Croatia,Marco Pasalic,Forward,Orlando City,Major League Soccer,True,Exact match,Marco Pasalic,1,Bundesliga,2022
+Croatia,Petar Musa,Forward,Dallas,Unknown / verify manually,True,Exact match,Petar Musa,1,Bundesliga,2020
+Croatia,Dominik Kotarski,Goalkeeper,Copenhagen,Unknown / verify manually,False,No reliable match,,0,,
+Croatia,Dominik Livakovic,Goalkeeper,Dinamo Zagreb,Croatian Football League,False,No reliable match,,0,,
+Croatia,Ivor Pandur,Goalkeeper,Hull City,English football league system,True,Exact match,Ivor Pandur,2,Serie_A,"2020, 2021"
+Croatia,Kristijan Jakic,Midfielder,Augsburg,Bundesliga,True,Exact match,Kristijan Jakic,4,Bundesliga,"2021, 2022, 2023, 2024"
+Croatia,Luka Modric,Midfielder,AC Milan,Serie A,True,Exact match,Luka Modric,11,La_Liga,"2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Croatia,Luka Sucic,Midfielder,Real Sociedad,LaLiga,True,Exact match,Luka Sucic,1,La_Liga,2024
+Croatia,Mario Pasalic,Midfielder,Atalanta,Serie A,True,Exact match,Mario Pasalic,11,"La_Liga, Ligue_1, RFPL, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Croatia,Martin Baturina,Midfielder,Como,Serie A,False,No reliable match,,0,,
+Croatia,Mateo Kovacic,Midfielder,Manchester City,Premier League,True,Exact match,Mateo Kovacic,11,"EPL, La_Liga, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Croatia,Nikola Moro,Midfielder,Bologna,Serie A,True,Exact match,Nikola Moro,6,"RFPL, Serie_A","2020, 2021, 2022, 2023, 2024"
+Croatia,Nikola Vlasic,Midfielder,Torino,Serie A,True,Exact match,Nikola Vlasic,9,"EPL, RFPL, Serie_A","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Croatia,Petar Sucic,Midfielder,Inter Milan,Serie A,False,No reliable match,,0,,
+Croatia,Toni Fruk,Midfielder,Rijeka,Croatian Football League,False,No reliable match,,0,,
+Curaçao,Armando Obispo,Defender,PSV Eindhoven,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Curaçao,Deveron Fonville,Defender,NEC Nijmegen,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Curaçao,Joshua Brenet,Defender,Kayserispor,Turkish Süper Lig,True,Exact match,Joshua Brenet,2,Bundesliga,"2018, 2020"
+Curaçao,Jurien Gaari,Defender,Abha Club,Unknown / verify manually,False,No reliable match,,0,,
+Curaçao,Riechedly Bazoer,Defender,Konyaspor,Turkish Süper Lig,True,Exact match,Riechedly Bazoer,2,Bundesliga,"2016, 2017"
+Curaçao,Roshon Van Eijma,Defender,RKC Waalwijk,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Curaçao,Sherel Floranus,Defender,PEC Zwolle,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Curaçao,Shurandy Sambo,Defender,Sparta Rotterdam,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Curaçao,Brandley Kuwas,Forward,FC Volendam,Unknown / verify manually,False,No reliable match,,0,,
+Curaçao,Gervane Kastaneer,Forward,Terengganu FC,Unknown / verify manually,False,No reliable match,,0,,
+Curaçao,Jearl Margaritha,Forward,SK Beveren,Unknown / verify manually,False,No reliable match,,0,,
+Curaçao,Jeremy Antonisse,Forward,AE Kifisia,Unknown / verify manually,False,No reliable match,,0,,
+Curaçao,Jurgen Locadia,Forward,Miami FC,Unknown / verify manually,True,Exact match,Jürgen Locadia,6,"Bundesliga, EPL","2017, 2018, 2019, 2021"
+Curaçao,Kenji Gorré,Forward,Maccabi Haifa,Israeli Premier League,True,Exact match,Kenji Gorré,1,EPL,2014
+Curaçao,Sontje Hansen,Forward,Middlesbrough,English football league system,False,No reliable match,,0,,
+Curaçao,Tahith Chong,Forward,Sheffield United,Unknown / verify manually,True,Exact match,Tahith Chong,4,"Bundesliga, EPL","2018, 2019, 2020, 2023"
+Curaçao,Eloy Room,Goalkeeper,Miami FC,Unknown / verify manually,False,No reliable match,,0,,
+Curaçao,Trevor Doornbusch,Goalkeeper,VVV-Venlo,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Curaçao,Tyrick Bodak,Goalkeeper,SC Telstar,Unknown / verify manually,False,No reliable match,,0,,
+Curaçao,Ar'Jany Martha,Midfielder,Rotherham United,English football league system,False,No reliable match,,0,,
+Curaçao,Godfried Roemeratoe,Midfielder,RKC Waalwijk,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Curaçao,Juninho Bacuna,Midfielder,FC Volendam,Unknown / verify manually,True,Exact match,Juninho Bacuna,1,EPL,2018
+Curaçao,Kevin Felida,Midfielder,FC Den Bosch,Unknown / verify manually,False,No reliable match,,0,,
+Curaçao,Leandro Bacuna,Midfielder,Igdır,Unknown / verify manually,True,Exact match,Leandro Bacuna,3,EPL,"2014, 2015, 2018"
+Curaçao,Livano Comenencia,Midfielder,FC Zurich,Unknown / verify manually,False,No reliable match,,0,,
+Curaçao,Tyrese Noslin,Midfielder,SC Telstar,Unknown / verify manually,False,No reliable match,,0,,
+Czechia,David Doudera,Defender,Slavia Prague,Unknown / verify manually,False,No reliable match,,0,,
+Czechia,David Jurasek,Defender,Slavia Prague,Unknown / verify manually,True,Exact match,David Jurásek,1,Bundesliga,2023
+Czechia,David Zima,Defender,Slavia Prague,Unknown / verify manually,True,Exact match,David Zima,3,Serie_A,"2021, 2022, 2023"
+Czechia,Jaroslav Zeleny,Defender,Sparta Prague,Unknown / verify manually,False,No reliable match,,0,,
+Czechia,Ladislav Krejci,Defender,Wolverhampton,Premier League,True,Exact match,Ladislav Krejcí,5,"La_Liga, Serie_A","2016, 2017, 2018, 2019, 2024"
+Czechia,Robin Hranac,Defender,Hoffenheim,Bundesliga,True,Exact match,Robin Hranác,1,Bundesliga,2024
+Czechia,Stepan Chaloupek,Defender,Slavia Prague,Unknown / verify manually,False,No reliable match,,0,,
+Czechia,Tomas Holes,Defender,Slavia Prague,Unknown / verify manually,False,No reliable match,,0,,
+Czechia,Vladimir Coufal,Defender,Hoffenheim,Bundesliga,True,Exact match,Vladimir Coufal,5,EPL,"2020, 2021, 2022, 2023, 2024"
+Czechia,Adam Hlozek,Forward,Hoffenheim,Bundesliga,True,Exact match,Adam Hlozek,3,Bundesliga,"2022, 2023, 2024"
+Czechia,Jan Kuchta,Forward,Sparta Prague,Unknown / verify manually,True,Exact match,Jan Kuchta,1,RFPL,2021
+Czechia,Mojmir Chytil,Forward,Slavia Prague,Unknown / verify manually,False,No reliable match,,0,,
+Czechia,Patrik Schick,Forward,Bayer Leverkusen,Bundesliga,True,Exact match,Patrik Schick,9,"Bundesliga, Serie_A","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Czechia,Tomas Chory,Forward,Slavia Prague,Unknown / verify manually,False,No reliable match,,0,,
+Czechia,Jindrich Stanek,Goalkeeper,Slavia Prague,Unknown / verify manually,False,No reliable match,,0,,
+Czechia,Lukas Hornicek,Goalkeeper,Braga,Primeira Liga,False,No reliable match,,0,,
+Czechia,Matej Kovar,Goalkeeper,PSV Eindhoven,Eredivisie / Dutch football league system,True,Exact match,Matej Kovár,2,Bundesliga,"2023, 2024"
+Czechia,Alexandr Sojka,Midfielder,Viktoria Plzen,Czech First League,False,No reliable match,,0,,
+Czechia,Denis Visinsky,Midfielder,Viktoria Plzen,Czech First League,False,No reliable match,,0,,
+Czechia,Hugo Sochurek,Midfielder,Sparta Prague,Unknown / verify manually,False,No reliable match,,0,,
+Czechia,Lukas Cerv,Midfielder,Viktoria Plzen,Czech First League,False,No reliable match,,0,,
+Czechia,Lukas Provod,Midfielder,Slavia Prague,Unknown / verify manually,False,No reliable match,,0,,
+Czechia,Michal Sadilek,Midfielder,Slavia Prague,Unknown / verify manually,False,No reliable match,,0,,
+Czechia,Pavel Sulc,Midfielder,Olympique Lyonnais,Unknown / verify manually,False,No reliable match,,0,,
+Czechia,Tomas Soucek,Midfielder,West Ham,Premier League,True,Exact match,Tomas Soucek,6,EPL,"2019, 2020, 2021, 2022, 2023, 2024"
+Czechia,Vladimir Darida,Midfielder,Hradec Kralove,Unknown / verify manually,True,Exact match,Vladimir Darida,9,Bundesliga,"2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022"
+DR Congo,Aaron Wan-Bissaka,Defender,West Ham United,Unknown / verify manually,True,Exact match,Aaron Wan-Bissaka,8,EPL,"2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+DR Congo,Arthur Masuaku,Defender,Racing Lens,Unknown / verify manually,True,Exact match,Arthur Masuaku,6,EPL,"2016, 2017, 2018, 2019, 2020, 2021"
+DR Congo,Axel Tuanzebe,Defender,Burnley,English football league system,True,Exact match,Axel Tuanzebe,7,"EPL, Serie_A","2016, 2017, 2019, 2020, 2021, 2024"
+DR Congo,Chancel Mbemba,Defender,Lille,Ligue 1 / French football league system,True,Exact match,Chancel Mbemba,4,"EPL, Ligue_1","2015, 2017, 2022, 2023"
+DR Congo,Dylan Batubinsika,Defender,Larisa,Unknown / verify manually,True,Exact match,Dylan Batubinsika,1,Ligue_1,2024
+DR Congo,Gedoon Kalulu,Defender,Aris Limassol,Unknown / verify manually,False,No reliable match,,0,,
+DR Congo,Joris Kayembe,Defender,Racing Genk,Belgian Pro League,True,Exact match,Joris Kayembe,1,Ligue_1,2017
+DR Congo,Steve Kapuadi,Defender,Widzew Lodz,Unknown / verify manually,False,No reliable match,,0,,
+DR Congo,Cedric Bakambu,Forward,Real Betis,LaLiga,True,Exact match,Cédric Bakambu,7,"La_Liga, Ligue_1","2015, 2016, 2017, 2021, 2022, 2023, 2024"
+DR Congo,Fiston Mayele,Forward,Pyramids,Unknown / verify manually,False,No reliable match,,0,,
+DR Congo,Simon Banza,Forward,Al Jazira,Middle East / North Africa league - verify club,True,Exact match,Simon Banza,2,Ligue_1,"2020, 2021"
+DR Congo,Yoane Wissa,Forward,Newcastle United,Premier League,True,Exact match,Yoane Wissa,6,"EPL, Ligue_1","2016, 2020, 2021, 2022, 2023, 2024"
+DR Congo,Lionel Mpasi,Goalkeeper,Le Havre,Unknown / verify manually,False,No reliable match,,0,,
+DR Congo,Matthieu Epolo,Goalkeeper,Standard Liege,Unknown / verify manually,False,No reliable match,,0,,
+DR Congo,Timothy Fayulu,Goalkeeper,Noah,Unknown / verify manually,False,No reliable match,,0,,
+DR Congo,Aaron Tshibola,Midfielder,Kilmarnock,Scottish Premiership,False,No reliable match,,0,,
+DR Congo,Brian Cipenga,Midfielder,Castellon,Spanish football league system,False,No reliable match,,0,,
+DR Congo,Charles Pickel,Midfielder,Espanyol,Unknown / verify manually,True,Exact match,Charles Pickel,1,Serie_A,2022
+DR Congo,Edo Kayembe,Midfielder,Watford,English football league system,True,Exact match,Edo Kayembe,1,EPL,2021
+DR Congo,Gael Kakuta,Midfielder,Larisa,Unknown / verify manually,True,Exact match,Gaël Kakuta,9,"La_Liga, Ligue_1","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022"
+DR Congo,Meshack Elia,Midfielder,Alanyaspor,Unknown / verify manually,False,No reliable match,,0,,
+DR Congo,Nathanael Mbuku,Midfielder,Montpellier,Unknown / verify manually,True,Exact match,Nathanael Mbuku,6,"Bundesliga, Ligue_1","2019, 2020, 2021, 2022, 2023"
+DR Congo,Ngal'ayel Mukau,Midfielder,Lille,Ligue 1 / French football league system,False,No reliable match,,0,,
+DR Congo,Noah Sadiki,Midfielder,Sunderland,Premier League,False,No reliable match,,0,,
+DR Congo,Samuel Moutoussamy,Midfielder,Atromitos,Unknown / verify manually,True,Exact match,Samuel Moutoussamy,7,Ligue_1,"2017, 2018, 2019, 2020, 2021, 2022, 2023"
+DR Congo,Theo Bongonda,Midfielder,Spartak Moscow,Russian Premier League,True,Exact match,Theo Bongonda,6,"La_Liga, RFPL","2014, 2015, 2016, 2022, 2023, 2024"
+Ecuador,Angelo Preciado,Defender,Atletico Mineiro,Brazilian football league system,False,No reliable match,,0,,
+Ecuador,Felix Torres,Defender,Internacional,Brazilian football league system,False,No reliable match,,0,,
+Ecuador,Jackson Porozo,Defender,Tijuana,Liga MX,True,Exact match,Jackson Porozo,1,Ligue_1,2022
+Ecuador,Joel Ordonez,Defender,Club Brugge,Belgian Pro League,False,No reliable match,,0,,
+Ecuador,Pervis Estupinan,Defender,AC Milan,Serie A,False,No reliable match,,0,,
+Ecuador,Piero Hincapie,Defender,Arsenal,Premier League,True,Exact match,Piero Hincapié,4,Bundesliga,"2021, 2022, 2023, 2024"
+Ecuador,Willian Pacho,Defender,PSG,Ligue 1 / French football league system,False,No reliable match,,0,,
+Ecuador,Alan Minda,Forward,Atletico Mineiro,Brazilian football league system,False,No reliable match,,0,,
+Ecuador,Anthony Valencia,Forward,Royal Antwerp,Belgian Pro League,False,No reliable match,,0,,
+Ecuador,Enner Valencia,Forward,Pachuca,Liga MX,True,Exact match,Enner Valencia,3,EPL,"2014, 2015, 2016"
+Ecuador,Gonzalo Plata,Forward,Flamengo,Brazilian football league system,True,Exact match,Gonzalo Plata,1,La_Liga,2022
+Ecuador,Jeremy Arevalo,Forward,Stuttgart,Bundesliga,False,No reliable match,,0,,
+Ecuador,John Yeboah,Forward,Venezia,Serie A,True,Exact match,John Yeboah,2,"Bundesliga, Serie_A","2018, 2024"
+Ecuador,Jordy Caicedo,Forward,Atlas,Liga MX,False,No reliable match,,0,,
+Ecuador,Kevin Rodriguez,Forward,Union Saint-Gilloise,Belgian Pro League,False,No reliable match,,0,,
+Ecuador,Nilson Angulo,Forward,Sunderland,Premier League,False,No reliable match,,0,,
+Ecuador,Gonzalo Valle,Goalkeeper,L.D.U Quito,Ecuadorian Serie A,False,No reliable match,,0,,
+Ecuador,Hernan Galindez,Goalkeeper,Huracan,Argentina Primera Division,False,No reliable match,,0,,
+Ecuador,Moises Ramirez,Goalkeeper,A.E Kifisia,Greek Super League,False,No reliable match,,0,,
+Ecuador,Alan Franco,Midfielder,Atletico Mineiro,Brazilian football league system,False,No reliable match,,0,,
+Ecuador,Denil Castillo,Midfielder,FC Midtjylland,Danish Superliga,False,No reliable match,,0,,
+Ecuador,Jordy Alcivar,Midfielder,Independiente,Ecuadorian Serie A,False,No reliable match,,0,,
+Ecuador,Kendry Paez,Midfielder,River Plate,Argentina Primera Division,False,No reliable match,,0,,
+Ecuador,Moises Caicedo,Midfielder,Chelsea,Premier League,True,Exact match,Moisés Caicedo,4,EPL,"2021, 2022, 2023, 2024"
+Ecuador,Pedro Vite,Midfielder,UNAM,Liga MX,False,No reliable match,,0,,
+Ecuador,Yaimar Medina,Midfielder,Genk,Belgian Pro League,False,No reliable match,,0,,
+Egypt,Ahmed Abou El Fotouh,Defender,Zamalek,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Hossam Abdelmaguid,Defender,Zamalek,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Karim Hafez,Defender,Pyramids,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Mohamed Abdelmonem,Defender,Nice,Ligue 1 / French football league system,True,Exact match,Mohamed Abdelmonem,1,Ligue_1,2024
+Egypt,Mohamed Hany,Defender,Al Ahly,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Ramy Rabia,Defender,Al Ain,UAE Pro League,False,No reliable match,,0,,
+Egypt,Tarek Alaa,Defender,ZED,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Yasser Ibrahim,Defender,Al Ahly,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Haissem Hassan,Forward,Real Oviedo,Spanish football league system,True,Exact match,Haissem Hassan,1,La_Liga,2022
+Egypt,Hamza Abdelkarim,Forward,Barcelona,LaLiga,False,No reliable match,,0,,
+Egypt,Ibrahim Adel,Forward,Nordsjaelland,Danish Superliga,False,No reliable match,,0,,
+Egypt,Mohamed Salah,Forward,Liverpool,Premier League,True,Exact match,Mohamed Salah,12,"EPL, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Egypt,Omar Marmoush,Forward,Manchester City,Premier League,True,Exact match,Omar Marmoush,6,Bundesliga,"2019, 2020, 2021, 2022, 2023, 2024"
+Egypt,Trezeguet,Forward,Al Ahly,Egyptian Premier League,True,Exact match,Trézéguet,3,EPL,"2019, 2020, 2021"
+Egypt,Zizo,Forward,Al Ahly,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,El Mahdy Soliman,Goalkeeper,Zamalek,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Mohamed Alaa,Goalkeeper,El Gouna,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Mohamed El Shenawy,Goalkeeper,Al Ahly,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Mostafa Shobeir,Goalkeeper,Al Ahly,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Emam Ashour,Midfielder,Al Ahly,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Hamdy Fathy,Midfielder,Al-Wakrah,Qatar Stars League,False,No reliable match,,0,,
+Egypt,Mahmoud Saber,Midfielder,ZED,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Marwan Attia,Midfielder,Al Ahly,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Mohanad Lasheen,Midfielder,Pyramids,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Mostafa Ziko,Midfielder,Pyramids,Egyptian Premier League,False,No reliable match,,0,,
+Egypt,Nabil Emad,Midfielder,Al-Najma,Saudi Pro League,False,No reliable match,,0,,
+England,Dan Burn,Defender,Newcastle United,Premier League,True,Exact match,Dan Burn,6,EPL,"2019, 2020, 2021, 2022, 2023, 2024"
+England,Djed Spence,Defender,Tottenham,Premier League,True,Exact match,Djed Spence,4,"EPL, Ligue_1, Serie_A","2022, 2023, 2024"
+England,Ezri Konsa,Defender,Aston Villa,Premier League,True,Safe fuzzy match,Ezri Konsa Ngoyo,6,EPL,"2019, 2020, 2021, 2022, 2023, 2024"
+England,Jarell Quansah,Defender,Bayer Leverkusen,Bundesliga,True,Exact match,Jarell Quansah,2,EPL,"2023, 2024"
+England,John Stones,Defender,Manchester City,Premier League,True,Exact match,John Stones,11,EPL,"2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+England,Marc Guehi,Defender,Manchester City,Premier League,True,Exact match,Marc Guehi,4,EPL,"2021, 2022, 2023, 2024"
+England,Nico O'Reilly,Defender,Manchester City,Premier League,False,No reliable match,,0,,
+England,Reece James,Defender,Chelsea,Unknown / verify manually,True,Exact match,Reece James,5,EPL,"2019, 2020, 2021, 2022, 2023"
+England,Tino Livramento,Defender,Newcastle,Premier League,True,Safe fuzzy match,Valentino Livramento,4,EPL,"2021, 2022, 2023, 2024"
+England,Anthony Gordon,Forward,Newcastle United,Premier League,True,Exact match,Anthony Gordon,6,EPL,"2019, 2020, 2021, 2022, 2023, 2024"
+England,Bukayo Saka,Forward,Arsenal,Premier League,True,Exact match,Bukayo Saka,7,EPL,"2018, 2019, 2020, 2021, 2022, 2023, 2024"
+England,Harry Kane,Forward,Bayern Munich,Bundesliga,True,Exact match,Harry Kane,11,"Bundesliga, EPL","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+England,Ivan Toney,Forward,Al-Ahli,Saudi Pro League,True,Exact match,Ivan Toney,4,EPL,"2015, 2021, 2022, 2023"
+England,Marcus Rashford,Forward,Barcelona on loan from Manchester United,Unknown / verify manually,True,Exact match,Marcus Rashford,10,EPL,"2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+England,Noni Madueke,Forward,Arsenal,Premier League,True,Exact match,Noni Madueke,3,EPL,"2022, 2023, 2024"
+England,Ollie Watkins,Forward,Aston Villa,Premier League,True,Exact match,Ollie Watkins,5,EPL,"2020, 2021, 2022, 2023, 2024"
+England,Dean Henderson,Goalkeeper,Crystal Palace,Premier League,True,Exact match,Dean Henderson,5,EPL,"2019, 2020, 2022, 2023, 2024"
+England,James Trafford,Goalkeeper,Manchester City,Premier League,True,Exact match,James Trafford,1,EPL,2023
+England,Jordan Pickford,Goalkeeper,Everton,Premier League,True,Exact match,Jordan Pickford,10,EPL,"2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+England,Declan Rice,Midfielder,Arsenal,Premier League,True,Exact match,Declan Rice,9,EPL,"2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+England,Eberechi Eze,Midfielder,Arsenal,Premier League,True,Exact match,Eberechi Eze,5,EPL,"2020, 2021, 2022, 2023, 2024"
+England,Elliot Anderson,Midfielder,Nottingham Forest,Premier League,True,Exact match,Elliot Anderson,4,EPL,"2020, 2022, 2023, 2024"
+England,Jordan Henderson,Midfielder,Brentford,Premier League,True,Exact match,Jordan Henderson,9,EPL,"2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022"
+England,Jude Bellingham,Midfielder,Real Madrid,LaLiga,True,Exact match,Jude Bellingham,5,"Bundesliga, La_Liga","2020, 2021, 2022, 2023, 2024"
+England,Kobbie Mainoo,Midfielder,Manchester United,Premier League,True,Exact match,Kobbie Mainoo,3,EPL,"2022, 2023, 2024"
+England,Morgan Rogers,Midfielder,Aston Villa,Premier League,True,Exact match,Morgan Rogers,2,EPL,"2023, 2024"
+France,Dayot Upamenaco,Defender,Bayern Munich,Bundesliga,False,No reliable match,,0,,
+France,Ibrahima Konate,Defender,Liverpool,Premier League,True,Exact match,Ibrahima Konaté,8,"Bundesliga, EPL","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+France,Jules Kounde,Defender,Barcelona,LaLiga,True,Exact match,Jules Koundé,8,"La_Liga, Ligue_1","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+France,Lucas Digne,Defender,Aston Villa,Premier League,True,Exact match,Lucas Digne,11,"EPL, La_Liga, Ligue_1, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+France,Lucas Hernandez,Defender,Paris St-Germain,Ligue 1 / French football league system,True,Exact match,Lucas Hernández,10,"Bundesliga, La_Liga, Ligue_1","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+France,Malo Gusto,Defender,Chelsea,Unknown / verify manually,True,Exact match,Malo Gusto,5,"EPL, Ligue_1","2020, 2021, 2022, 2023, 2024"
+France,Maxence Lacroix,Defender,Crystal Palace,Premier League,True,Exact match,Maxence Lacroix,5,"Bundesliga, EPL","2020, 2021, 2022, 2023, 2024"
+France,Theo Hernandez,Defender,Al Hilal,Saudi Pro League,True,Exact match,Theo Hernández,9,"La_Liga, Serie_A","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+France,William Saliba,Defender,Arsenal,Premier League,True,Exact match,William Saliba,7,"EPL, Ligue_1","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+France,Bradley Barcola,Forward,Paris St-Germain,Ligue 1 / French football league system,True,Exact match,Bradley Barcola,4,Ligue_1,"2021, 2022, 2023, 2024"
+France,Desire Doue,Forward,Paris St-Germain,Ligue 1 / French football league system,True,Exact match,Désiré Doué,3,Ligue_1,"2022, 2023, 2024"
+France,Jean-Phillipe Mateta,Forward,Crystal Palace,Premier League,False,No reliable match,,0,,
+France,Kylian Mbappe,Forward,Real Madrid,LaLiga,True,Alias match,Kylian Mbappe-Lottin,10,"La_Liga, Ligue_1","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+France,Maghnes Akliouche,Forward,Monaco,Ligue 1 / French football league system,True,Exact match,Maghnes Akliouche,4,Ligue_1,"2021, 2022, 2023, 2024"
+France,Marcus Thuram,Forward,Inter Milan,Serie A,True,Exact match,Marcus Thuram,8,"Bundesliga, Ligue_1, Serie_A","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+France,Michael Olise,Forward,Bayern Munich,Bundesliga,True,Exact match,Michael Olise,4,"Bundesliga, EPL","2021, 2022, 2023, 2024"
+France,Ousmane Dembele,Forward,Paris St-Germain,Ligue 1 / French football league system,True,Exact match,Ousmane Dembélé,10,"Bundesliga, La_Liga, Ligue_1","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+France,Rayan Cherki,Forward,Man City,Unknown / verify manually,False,No reliable match,,0,,
+France,Brice Samba,Goalkeeper,Rennes,Ligue 1 / French football league system,True,Exact match,Brice Samba,5,Ligue_1,"2017, 2018, 2022, 2023, 2024"
+France,Mike Maignan,Goalkeeper,AC Milan,Serie A,True,Exact match,Mike Maignan,10,"Ligue_1, Serie_A","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+France,Robin Risser,Goalkeeper,Lens,Unknown / verify manually,False,No reliable match,,0,,
+France,Adrien Rabiot,Midfielder,AC Milan,Serie A,True,Exact match,Adrien Rabiot,11,"Ligue_1, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+France,Aurelien Tchouameni,Midfielder,Real Madrid,LaLiga,True,Exact match,Aurelien Tchouameni,7,"La_Liga, Ligue_1","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+France,Manu Kone,Midfielder,Roma,Serie A,False,No reliable match,,0,,
+France,N'Golo Kante,Midfielder,Fenerbache,Unknown / verify manually,False,No reliable match,,0,,
+France,Warren Zaire-Emery,Midfielder,Paris St-Germain,Ligue 1 / French football league system,True,Exact match,Warren Zaïre-Emery,3,Ligue_1,"2022, 2023, 2024"
+Germany,Antonio Rudiger,Defender,Real Madrid,LaLiga,True,Exact match,Antonio Rüdiger,11,"Bundesliga, EPL, La_Liga, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Germany,David Raum,Defender,RB Leipzig,Bundesliga,True,Exact match,David Raum,4,Bundesliga,"2021, 2022, 2023, 2024"
+Germany,Jonathan Tah,Defender,Bayern Munich,Bundesliga,True,Exact match,Jonathan Tah,10,Bundesliga,"2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Germany,Joshua Kimmich,Defender,Bayern Munich,Bundesliga,True,Exact match,Joshua Kimmich,10,Bundesliga,"2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Germany,Malick Thiaw,Defender,Newcastle United,Premier League,True,Exact match,Malick Thiaw,6,"Bundesliga, Serie_A","2019, 2020, 2022, 2023, 2024"
+Germany,Nathaniel Brown,Defender,Eintracht Frankfurt,Bundesliga,False,No reliable match,,0,,
+Germany,Nico Schlotterbeck,Defender,Borussia Dortmund,Bundesliga,True,Exact match,Nico Schlotterbeck,7,Bundesliga,"2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Germany,Waldemar Anton,Defender,Borussia Dortmund,Bundesliga,True,Exact match,Waldemar Anton,8,Bundesliga,"2015, 2017, 2018, 2020, 2021, 2022, 2023, 2024"
+Germany,Deniz Undav,Forward,Stuttgart,Bundesliga,True,Exact match,Deniz Undav,3,"Bundesliga, EPL","2022, 2023, 2024"
+Germany,Kai Havertz,Forward,Arsenal,Premier League,True,Exact match,Kai Havertz,9,"Bundesliga, EPL","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Germany,Lennart Karl,Forward,Bayern Munich,Bundesliga,False,No reliable match,,0,,
+Germany,Leroy Sane,Forward,Galatasaray,Turkish Süper Lig,True,Exact match,Leroy Sané,11,"Bundesliga, EPL","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Germany,Maximilian Beier,Forward,Borussia Dortmund,Bundesliga,True,Exact match,Maximilian Beier,4,Bundesliga,"2019, 2020, 2023, 2024"
+Germany,Nick Woltemade,Forward,Newcastle United,Premier League,True,Exact match,Nick Woltemade,4,Bundesliga,"2019, 2020, 2023, 2024"
+Germany,Alexander Nubel,Goalkeeper,Stuttgart,Bundesliga,True,Exact match,Alexander Nübel,9,"Bundesliga, Ligue_1","2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Germany,Manuel Neuer,Goalkeeper,Bayern Munich,Bundesliga,True,Exact match,Manuel Neuer,11,Bundesliga,"2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Germany,Oliver Baumann,Goalkeeper,Hoffenheim,Bundesliga,True,Exact match,Oliver Baumann,11,Bundesliga,"2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Germany,Aleksandar Pavlovic,Midfielder,Bayern Munich,Bundesliga,True,Exact match,Aleksandar Pavlovic,2,Bundesliga,"2023, 2024"
+Germany,Angelo Stiller,Midfielder,Stuttgart,Bundesliga,True,Exact match,Angelo Stiller,4,Bundesliga,"2021, 2022, 2023, 2024"
+Germany,Felix Nmecha,Midfielder,Borussia Dortmund,Bundesliga,True,Exact match,Felix Nmecha,4,Bundesliga,"2021, 2022, 2023, 2024"
+Germany,Florian Wirtz,Midfielder,Liverpool,Premier League,True,Exact match,Florian Wirtz,6,Bundesliga,"2019, 2020, 2021, 2022, 2023, 2024"
+Germany,Jamal Musiala,Midfielder,Bayern Munich,Bundesliga,True,Exact match,Jamal Musiala,6,Bundesliga,"2019, 2020, 2021, 2022, 2023, 2024"
+Germany,Jamie Leweling,Midfielder,Stuttgart,Bundesliga,True,Exact match,Jamie Leweling,4,Bundesliga,"2021, 2022, 2023, 2024"
+Germany,Leon Goretzka,Midfielder,Bayern Munich,Bundesliga,True,Exact match,Leon Goretzka,11,Bundesliga,"2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Germany,Nadiem Amiri,Midfielder,Mainz,Bundesliga,True,Exact match,Nadiem Amiri,12,"Bundesliga, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Germany,Pascal Gross,Midfielder,Brighton and Hove Albion,Premier League,True,Exact match,Pascal Groß,10,"Bundesliga, EPL","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Ghana,Abdul Mumin,Defender,Rayo Vallecano,LaLiga,True,Exact match,Abdul Mumin,3,La_Liga,"2022, 2023, 2024"
+Ghana,Alidu Seidu,Defender,Rennes,Ligue 1 / French football league system,True,Exact match,Alidu Seidu,4,Ligue_1,"2021, 2022, 2023, 2024"
+Ghana,Baba Abdul Rahman,Defender,PAOK,Greek Super League,False,No reliable match,,0,,
+Ghana,Derrick Luckassen,Defender,Pafos,Cypriot First Division,True,Exact match,Derrick Luckassen,1,Bundesliga,2018
+Ghana,Elisha Owusu,Defender,Auxerre,Ligue 1 / French football league system,True,Exact match,Elisha Owusu,1,Ligue_1,2024
+Ghana,Gideon Mensah,Defender,Auxerre,Ligue 1 / French football league system,True,Exact match,Gideon Mensah,3,Ligue_1,"2021, 2022, 2024"
+Ghana,Jerome Opoku,Defender,Istanbul Basaksehir,Turkish Süper Lig,False,No reliable match,,0,,
+Ghana,Jonas Adjetey,Defender,Wolfsburg,Bundesliga,False,No reliable match,,0,,
+Ghana,Kojo Oppong Peprah,Defender,Nice,Ligue 1 / French football league system,False,No reliable match,,0,,
+Ghana,Marvin Senaya,Defender,Auxerre,Ligue 1 / French football league system,True,Exact match,Marvin Senaya,3,Ligue_1,"2022, 2023, 2024"
+Ghana,Antoine Semenyo,Forward,Manchester City,Premier League,True,Exact match,Antoine Semenyo,3,EPL,"2022, 2023, 2024"
+Ghana,Brandon Thomas-Asante,Forward,Coventry City,English football league system,False,No reliable match,,0,,
+Ghana,Christopher Bonsu Baah,Forward,Al Qadsiah,Saudi Pro League,False,No reliable match,,0,,
+Ghana,Ernest Nuamah,Forward,Lyon,Ligue 1 / French football league system,True,Exact match,Ernest Nuamah,2,Ligue_1,"2023, 2024"
+Ghana,Inaki Williams,Forward,Athletic Bilbao,LaLiga,True,Exact match,Iñaki Williams,11,La_Liga,"2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Ghana,Jordan Ayew,Forward,Leicester City,English football league system,True,Exact match,Jordan Ayew,11,"EPL, Ligue_1","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Ghana,Kamaldeen Sulemana,Forward,Atalanta,Serie A,True,Exact match,Kamaldeen Sulemana,3,"EPL, Ligue_1","2021, 2022"
+Ghana,Prince Kwabena Adu,Forward,Viktoria Plzen,Czech First League,False,No reliable match,,0,,
+Ghana,Benjamin Asare,Goalkeeper,Accra Hearts of Oak SC,Ghana Premier League,False,No reliable match,,0,,
+Ghana,Joseph Anang,Goalkeeper,St Patrick's Athletic,Irish Premier Division,False,No reliable match,,0,,
+Ghana,Lawrence Ati-Zigi,Goalkeeper,St Gallen,Swiss Super League,False,No reliable match,,0,,
+Ghana,Abdul Fatawu Issahaku,Midfielder,Leicester City,English football league system,True,Safe fuzzy match,Abdul Fatawu,1,EPL,2024
+Ghana,Augustine Boakye,Midfielder,Saint-Etienne,Ligue 1 / French football league system,True,Exact match,Augustine Boakye,1,Ligue_1,2024
+Ghana,Caleb Yirenkyi,Midfielder,Nordsjaelland,Danish Superliga,False,No reliable match,,0,,
+Ghana,Kwasi Sibo,Midfielder,Real Oviedo,LaLiga,False,No reliable match,,0,,
+Ghana,Thomas Partey,Midfielder,Villarreal,LaLiga,True,Exact match,Thomas Partey,12,"EPL, La_Liga","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Haiti,Carlens Arcus,Defender,Angers,Ligue 1 / French football league system,True,Exact match,Carlens Arcus,1,Ligue_1,2024
+Haiti,Duke Lacroix,Defender,Colorado Springs,Unknown / verify manually,False,No reliable match,,0,,
+Haiti,Hannes Delcroix,Defender,Lugano,Swiss Super League,True,Exact match,Hannes Delcroix,1,EPL,2023
+Haiti,Jean-Kevin Duverne,Defender,KAA Gent,Unknown / verify manually,True,Exact match,Jean-Kevin Duverne,6,Ligue_1,"2019, 2020, 2021, 2022, 2023, 2024"
+Haiti,Keeto Thermoncy,Defender,Young Boys Berne,Unknown / verify manually,False,No reliable match,,0,,
+Haiti,Martin Expérience,Defender,Nancy,Ligue 1 / French football league system,False,No reliable match,,0,,
+Haiti,Ricardo Ade,Defender,LDU Quito,Ecuadorian Serie A,False,No reliable match,,0,,
+Haiti,Wilguens Pauguain,Defender,Zulte Waregem,Belgian Pro League,False,No reliable match,,0,,
+Haiti,Derrick Etienne,Forward,Toronto,Unknown / verify manually,False,No reliable match,,0,,
+Haiti,Duckens Nazon,Forward,Esteghlal,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Haiti,Frantzdy Pierrot,Forward,Caykur Rizespor,Unknown / verify manually,False,No reliable match,,0,,
+Haiti,Josue Casimir,Forward,Auxerre,Ligue 1 / French football league system,True,Exact match,Josué Casimir,2,Ligue_1,"2023, 2024"
+Haiti,Lenny Joseph,Forward,Ferencvaros,Hungarian NB I,True,Exact match,Lenny Joseph,1,Ligue_1,2021
+Haiti,Louicius Deedson,Forward,Dallas,Unknown / verify manually,False,No reliable match,,0,,
+Haiti,Ruben Providence,Forward,Almere City,Unknown / verify manually,False,No reliable match,,0,,
+Haiti,Wilson Isidor,Forward,Sunderland,Premier League,True,Exact match,Wilson Isidor,6,"Ligue_1, RFPL","2018, 2021, 2022, 2023, 2024"
+Haiti,Yassin Fortune,Forward,Vizela,Unknown / verify manually,True,Exact match,Yassin Fortuné,1,Ligue_1,2020
+Haiti,Alexandre Pierre,Goalkeeper,Sochaux,Ligue 1 / French football league system,False,No reliable match,,0,,
+Haiti,Johnny Placide,Goalkeeper,Bastia,Ligue 1 / French football league system,False,No reliable match,,0,,
+Haiti,Josue Duverger,Goalkeeper,FC Cosmos Koblenz,Unknown / verify manually,False,No reliable match,,0,,
+Haiti,Carl-Fred Sainthe,Midfielder,El Paso Locomotive,USL Championship,False,No reliable match,,0,,
+Haiti,Dominique Simon,Midfielder,Tatran Presov,Unknown / verify manually,False,No reliable match,,0,,
+Haiti,Jean-Jacques Danley,Midfielder,Philadelphia Union,Major League Soccer,False,No reliable match,,0,,
+Haiti,Jean-Ricner Bellegarde,Midfielder,Wolves,Premier League,True,Exact match,Jean-Ricner Bellegarde,7,"EPL, Ligue_1","2019, 2020, 2021, 2022, 2023, 2024"
+Haiti,Leverton Pierre,Midfielder,Vizela,Unknown / verify manually,False,No reliable match,,0,,
+Haiti,Pierre Woodenski,Midfielder,Violette,Unknown / verify manually,False,No reliable match,,0,,
+Iran,Ali Nemati,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Danial Eiri,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Ehsan Hajsafi,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Hossein Kanaanizadegan,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Milad Mohammadi,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,True,Exact match,Milad Mohammadi,4,RFPL,"2015, 2016, 2017, 2018"
+Iran,Ramin Rezaeian,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Saleh Hardani,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Shojae Khalilzadeh,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Ali Alipour,Forward,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Amirhossein Hosseinzadeh,Forward,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Dennis Eckert,Forward,"known in Iran as Dennis Dargahi, Standard Liege, Bel",Unknown / verify manually,True,Exact match,Dennis Eckert,1,La_Liga,2018
+Iran,Mehdi Taremi,Forward,"Olympiakos, Gre",Unknown / verify manually,True,Exact match,Mehdi Taremi,1,Serie_A,2024
+Iran,Shahriyar Moghanlou,Forward,"Kalba, UAE",Unknown / verify manually,False,No reliable match,,0,,
+Iran,Alireza Beiranvand,Goalkeeper,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Hossein Hosseini,Goalkeeper,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Payam Niazmand,Goalkeeper,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Alireza Jahanbakhsh,Midfielder,Iran-based club not specified,Iran Persian Gulf Pro League,True,Exact match,Alireza Jahanbakhsh,3,EPL,"2018, 2019, 2020"
+Iran,Amirmohammad Razzaghinia,Midfielder,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Aria Yousefi,Midfielder,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Mehdi Ghayedi,Midfielder,"Al-Nasr, UAE",Unknown / verify manually,False,No reliable match,,0,,
+Iran,Mehdi Torabi,Midfielder,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Mohammad Ghorbani,Midfielder,"Al-Wahda, UAE",Unknown / verify manually,True,Exact match,Mohammad Ghorbani,2,RFPL,"2023, 2024"
+Iran,Mohammad Mohebi,Midfielder,"Rostov, Rus",Unknown / verify manually,True,Exact match,Mohammad Mohebi,2,RFPL,"2023, 2024"
+Iran,Rouzbeh Cheshmi,Midfielder,Iran-based club not specified,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Iran,Saeid Ezatolahi,Midfielder,"Shahab al-Ahli, UAE",Unknown / verify manually,True,Exact match,Saeid Ezatolahi,3,RFPL,"2015, 2016, 2017"
+Iran,Saman Ghoddos,Midfielder,"Kalba, UAE",Unknown / verify manually,True,Exact match,Saman Ghoddos,5,"EPL, Ligue_1","2018, 2019, 2021, 2022, 2023"
+Iraq,Ahmed Yahya,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Akam Hashim,Defender,Al-Zawraa,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Frans Putros,Defender,Persib,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Hussein Ali,Defender,Pogon Szczecin,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Manaf Younis,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Merchas Doski,Defender,Viktoria Plzen,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Mustafa Saadoon,Defender,Al-Shorta,Iraqi Stars League,False,No reliable match,,0,,
+Iraq,Rebin Sulaka,Defender,Port,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Zaid Ismail,Defender,Al-Talaba,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Zaid Tahseen,Defender,Pakhtakor,Uzbekistan Super League,False,No reliable match,,0,,
+Iraq,Ali Al-Hamadi,Forward,Ipswich,Unknown / verify manually,True,Exact match,Ali Al-Hamadi,1,EPL,2024
+Iraq,Ali Jassim,Forward,Al-Najma,Middle East / North Africa league - verify club,False,No reliable match,,0,,
+Iraq,Ali Yousef,Forward,Al-Talaba,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Aymen Hussein,Forward,Al-Karma,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Mohanad Ali,Forward,Dibba,UAE Pro League,False,No reliable match,,0,,
+Iraq,Ahmed Basil,Goalkeeper,Al-Shorta,Iraqi Stars League,False,No reliable match,,0,,
+Iraq,Fahad Talib,Goalkeeper,Al-Talaba,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Jalal Hassan,Goalkeeper,Al-Zawraa,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Ahmed Qasem,Midfielder,Nashville SC,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Aimar Sher,Midfielder,Sarpsborg,Unknown / verify manually,True,Exact match,Aimar Sher,1,Serie_A,2021
+Iraq,Amir Al-Ammari,Midfielder,Cracovia,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Ibrahim Bayesh,Midfielder,Al-Dhafra,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Kevin Yakob,Midfielder,Aarhus GF,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Marko Farji,Midfielder,Venezia,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Youssef Amyn,Midfielder,AEK Larnaca,Unknown / verify manually,False,No reliable match,,0,,
+Iraq,Zidane Iqbal,Midfielder,Utrecht,Unknown / verify manually,False,No reliable match,,0,,
+Ivory Coast,Christopher Operi,Defender,Istanbul Basaksehir,Turkish Süper Lig,True,Exact match,Christopher Operi,2,Ligue_1,"2023, 2024"
+Ivory Coast,Emmanuel Agbadou,Defender,Wolverhampton Wanderers,Premier League,True,Exact match,Emmanuel Agbadou,3,Ligue_1,"2022, 2023, 2024"
+Ivory Coast,Evan Ndicka,Defender,AS Roma,Serie A,True,Exact match,Evan Ndicka,7,"Bundesliga, Serie_A","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Ivory Coast,Ghislain Konan,Defender,Gil Vicente,Unknown / verify manually,True,Exact match,Ghislain Konan,4,Ligue_1,"2018, 2019, 2020, 2021"
+Ivory Coast,Guela Doue,Defender,Racing Strasbourg,Unknown / verify manually,True,Exact match,Guela Doué,3,Ligue_1,"2022, 2023, 2024"
+Ivory Coast,Odilon Kossonou,Defender,Atalanta,Serie A,False,No reliable match,,0,,
+Ivory Coast,Ousmane Diomande,Defender,Sporting,Primeira Liga,False,No reliable match,,0,,
+Ivory Coast,Wilfried Singo,Defender,Galatasaray,Turkish Süper Lig,False,No reliable match,,0,,
+Ivory Coast,Amad Diallo,Forward,Manchester United,Premier League,True,Safe fuzzy match,Amad Diallo Traore,5,"EPL, Serie_A","2019, 2020, 2023, 2024"
+Ivory Coast,Ange-Yoan Bonny,Forward,Inter Milan,Serie A,True,Exact match,Ange-Yoan Bonny,1,Serie_A,2024
+Ivory Coast,Bazoumana Toure,Forward,Hoffenheim,Bundesliga,False,No reliable match,,0,,
+Ivory Coast,Elye Wahi,Forward,Nice,Ligue 1 / French football league system,True,Safe fuzzy match,Sepe Elye Wahi,5,Ligue_1,"2020, 2021, 2022, 2023, 2024"
+Ivory Coast,Evann Guessand,Forward,Aston Villa,Premier League,True,Exact match,Evann Guessand,5,Ligue_1,"2020, 2021, 2022, 2023, 2024"
+Ivory Coast,Nicolas Pepe,Forward,Villarreal,LaLiga,True,Exact match,Nicolas Pepe,8,"EPL, La_Liga, Ligue_1","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2024"
+Ivory Coast,Oumar Diakite,Forward,Cercle Brugge,Belgian Pro League,True,Exact match,Oumar Diakité,2,Ligue_1,"2023, 2024"
+Ivory Coast,Simon Adingra,Forward,AS Monaco,Ligue 1 / French football league system,True,Exact match,Simon Adingra,2,EPL,"2023, 2024"
+Ivory Coast,Yan Diomande,Forward,RB Leipzig,Bundesliga,False,No reliable match,,0,,
+Ivory Coast,Alban Lafont,Goalkeeper,Panathinaikos,Greek Super League,True,Exact match,Alban Lafont,10,"Ligue_1, Serie_A","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Ivory Coast,Mohamed Kone,Goalkeeper,Charleroi,Belgian Pro League,False,No reliable match,,0,,
+Ivory Coast,Yahia Fofana,Goalkeeper,Rizespor,Turkish Süper Lig,True,Exact match,Yahia Fofana,2,Ligue_1,"2022, 2024"
+Ivory Coast,Christ Oulai,Midfielder,Trabzonspor,Turkish Süper Lig,False,No reliable match,,0,,
+Ivory Coast,Franck Kessie,Midfielder,Al Ahli,Saudi Pro League,True,Exact match,Franck Kessié,7,"La_Liga, Serie_A","2016, 2017, 2018, 2019, 2020, 2021, 2022"
+Ivory Coast,Ibrahim Sangare,Midfielder,Nottingham Forest,Premier League,True,Exact match,Ibrahim Sangare,6,"EPL, Ligue_1","2016, 2017, 2018, 2019, 2023, 2024"
+Ivory Coast,Jean-Michael Seri,Midfielder,NK Maribor,Slovenian PrvaLiga,True,Exact match,Jean Michael Seri,5,"EPL, Ligue_1","2015, 2016, 2017, 2018, 2020"
+Ivory Coast,Parfait Guiagon,Midfielder,Charleroi,Belgian Pro League,False,No reliable match,,0,,
+Ivory Coast,Seko Fofana,Midfielder,Stade Rennais,Unknown / verify manually,True,Exact match,Seko Fofana,8,"Ligue_1, Serie_A","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022"
+Japan,Ayumu Seko,Defender,Le Havre AC,Unknown / verify manually,False,No reliable match,,0,,
+Japan,Hiroki Ito,Defender,Bayern Munich,Bundesliga,True,Exact match,Hiroki Ito,3,Bundesliga,"2021, 2022, 2023"
+Japan,Junosuke Suzuki,Defender,FC Copenhagen,Unknown / verify manually,False,No reliable match,,0,,
+Japan,Ko Itakura,Defender,Ajax,Eredivisie / Dutch football league system,True,Exact match,Ko Itakura,3,Bundesliga,"2022, 2023, 2024"
+Japan,Shogo Taniguchi,Defender,Sint-Truiden,Unknown / verify manually,False,No reliable match,,0,,
+Japan,Takehiro Tomiyasu,Defender,Ajax,Eredivisie / Dutch football league system,True,Exact match,Takehiro Tomiyasu,6,"EPL, Serie_A","2019, 2020, 2021, 2022, 2023"
+Japan,Tsuyoshi Watanabe,Defender,Feyenoord,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Japan,Yukinari Sugawara,Defender,Werder Bremen,Bundesliga,True,Exact match,Yukinari Sugawara,1,EPL,2024
+Japan,Yuto Nagatomo,Defender,FC Tokyo,J1 League / Japanese football league system,True,Exact match,Yuto Nagatomo,5,"Ligue_1, Serie_A","2014, 2015, 2016, 2017, 2020"
+Japan,Ayase Ueda,Forward,Feyenoord,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Japan,Ito Suzuki,Forward,SC Freiburg,Unknown / verify manually,True,Safe fuzzy match,Yuito Suzuki,1,Ligue_1,2022
+Japan,Keisuke Goto,Forward,Sint-Truiden,Unknown / verify manually,False,No reliable match,,0,,
+Japan,Keito Nakamura,Forward,Stade de Reims,Unknown / verify manually,True,Exact match,Keito Nakamura,2,Ligue_1,"2023, 2024"
+Japan,Kento Shiode,Forward,Wolfsburg,Bundesliga,False,No reliable match,,0,,
+Japan,Aya Suzuka,Goalkeeper,Parma Calcio,Unknown / verify manually,False,No reliable match,,0,,
+Japan,Keisuke Osako,Goalkeeper,Sanfrecce Hiroshima,J1 League / Japanese football league system,False,No reliable match,,0,,
+Japan,Tomoki Hayakawa,Goalkeeper,Kashima Antlers,J1 League / Japanese football league system,False,No reliable match,,0,,
+Japan,Ao Tanaka,Midfielder,Leeds United,Premier League,False,No reliable match,,0,,
+Japan,Daichi Kamada,Midfielder,Crystal Palace,Premier League,True,Exact match,Daichi Kamada,7,"Bundesliga, EPL, Serie_A","2017, 2019, 2020, 2021, 2022, 2023, 2024"
+Japan,Daizen Maeda,Midfielder,Celtic,Scottish Premiership,False,No reliable match,,0,,
+Japan,Junya Ito,Midfielder,Genk,Unknown / verify manually,True,Exact match,Junya Ito,3,Ligue_1,"2022, 2023, 2024"
+Japan,Kaishu Sano,Midfielder,Mainz 05,Unknown / verify manually,True,Exact match,Kaishu Sano,1,Bundesliga,2024
+Japan,Koki Ogawa,Midfielder,NEC Nijmegen,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Japan,Ritsu Doan,Midfielder,Eintracht Frankfurt,Bundesliga,True,Exact match,Ritsu Doan,4,Bundesliga,"2020, 2022, 2023, 2024"
+Japan,Takefusa Kubo,Midfielder,Real Sociedad,LaLiga,True,Exact match,Takefusa Kubo,6,La_Liga,"2019, 2020, 2021, 2022, 2023, 2024"
+Japan,Wataru Endo,Midfielder,Liverpool,Premier League,True,Exact match,Wataru Endo,5,"Bundesliga, EPL","2020, 2021, 2022, 2023, 2024"
+Jordan,Abdallah Nasib,Defender,Al-Zawraa,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Anas Banawi,Defender,Al-Faisaly,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Ehsan Haddad,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Husam Abu Dahab,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Mohammad Abu Hasheesh,Defender,Al-Karma,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Mohammad Abualnadi,Defender,Selangor,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Mohannad Abu Taha,Defender,Al-Quwa Al-Jawiya,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Saed Al-Rosan,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Saleem Obaid,Defender,Al-Hussein,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Yazan Al-Arab,Defender,FC Seoul,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Ali Azaizeh,Forward,Al-Shabab,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Ali Olwan,Forward,Al-Sailiya,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Ibrahim Sabra,Forward,Lokomotiva Zagreb,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Mohammad Abu Zrayq,Forward,Raja Casablanca,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Mousa Al-Tamari,Forward,Rennes,Ligue 1 / French football league system,True,Exact match,Mousa Al Tamari,2,Ligue_1,"2023, 2024"
+Jordan,Odeh Al-Fakhouri,Forward,Pyramids,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Abdullah Al-Fakhouri,Goalkeeper,Al-Wehdat,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Noor Bani Attiah,Goalkeeper,Al-Faisaly,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Yazeed Abulaila,Goalkeeper,Al-Hussein,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Amer Jamous,Midfielder,Al-Zawraa,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Ibrahim Saadeh,Midfielder,Al-Karma,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Mahmoud Al-Mardi,Midfielder,Al-Hussein,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Mohammad Al-Dawoud,Midfielder,Al-Wehdat,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Nizar Al-Rashdan,Midfielder,Qatar,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Noor Al-Rawabdeh,Midfielder,Selangor,Unknown / verify manually,False,No reliable match,,0,,
+Jordan,Rajaei Ayed,Midfielder,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Mexico,Cesar Montes,Defender,Lokomotiv Moscow,Russian Premier League,True,Exact match,César Montes,3,"La_Liga, RFPL","2022, 2023, 2024"
+Mexico,Israel Reyes,Defender,Club America,Liga MX,False,No reliable match,,0,,
+Mexico,Jesus Gallardo,Defender,Toluca,Liga MX,False,No reliable match,,0,,
+Mexico,Johan Vasquez,Defender,Genoa,Serie A,True,Exact match,Johan Vásquez,4,Serie_A,"2021, 2022, 2023, 2024"
+Mexico,Jorge Sanchez,Defender,PAOK,Greek Super League,False,No reliable match,,0,,
+Mexico,Mateo Chavez,Defender,AZ,Unknown / verify manually,False,No reliable match,,0,,
+Mexico,Alexis Vega,Forward,Toluca,Liga MX,False,No reliable match,,0,,
+Mexico,Armando Gonzalez,Forward,Guadalajara,Unknown / verify manually,False,No reliable match,,0,,
+Mexico,Cesar Huerta,Forward,Anderlecht,Belgian Pro League,False,No reliable match,,0,,
+Mexico,Guillermo Martinez,Forward,UNAM,Unknown / verify manually,False,No reliable match,,0,,
+Mexico,Julian Quinones,Forward,Al-Qadsiah,Saudi Pro League,False,No reliable match,,0,,
+Mexico,Raul Jimenez,Forward,Fulham,Premier League,True,Exact match,Raúl Jiménez,8,"EPL, La_Liga","2014, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Mexico,Santiago Gimenez,Forward,AC Milan,Serie A,False,No reliable match,,0,,
+Mexico,Carlos Acevedo,Goalkeeper,Santos Laguna,Unknown / verify manually,False,No reliable match,,0,,
+Mexico,Guillermo Ochoa,Goalkeeper,AEL Limassol,Unknown / verify manually,True,Exact match,Guillermo Ochoa,4,"La_Liga, Serie_A","2015, 2016, 2022, 2023"
+Mexico,Raul Rangel,Goalkeeper,Guadalajara,Unknown / verify manually,False,No reliable match,,0,,
+Mexico,Alvaro Fidalgo,Midfielder,Real Betis,LaLiga,False,No reliable match,,0,,
+Mexico,Brian Gutierrez,Midfielder,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Mexico,Edson Alvarez,Midfielder,West Ham,Premier League,True,Exact match,Edson Álvarez,2,EPL,"2023, 2024"
+Mexico,Erik Lira,Midfielder,Cruz Azul,Liga MX,False,No reliable match,,0,,
+Mexico,Gilberto Mora,Midfielder,Tijuana,Liga MX,False,No reliable match,,0,,
+Mexico,Luis Chavez,Midfielder,Dynamo Moscow,Unknown / verify manually,True,Exact match,Luis Chávez,2,RFPL,"2023, 2024"
+Mexico,Luis Romo,Midfielder,Guadalajara,Unknown / verify manually,False,No reliable match,,0,,
+Mexico,Obed Vargas,Midfielder,Atletico Madrid,LaLiga,False,No reliable match,,0,,
+Mexico,Orbelin Pineda,Midfielder,AEK Athens,Greek Super League,True,Exact match,Orbelín Pineda,1,La_Liga,2021
+Mexico,Roberto Alvarado,Midfielder,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Morocco,Achraf Hakimi,Defender,Paris St-Germain,Ligue 1 / French football league system,True,Exact match,Achraf Hakimi,8,"Bundesliga, La_Liga, Ligue_1, Serie_A","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Morocco,Anass Salah-Eddine,Defender,PSV Eindhoven,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Morocco,Chadi Riad,Defender,Crystal Palace,Premier League,True,Exact match,Chadi Riad,3,"EPL, La_Liga","2022, 2023, 2024"
+Morocco,Issa Diop,Defender,West Ham United,Premier League,True,Exact match,Issa Diop,10,"EPL, Ligue_1","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Morocco,Nayef Aguerd,Defender,Marseille,Ligue 1 / French football league system,False,No reliable match,,0,,
+Morocco,Noussair Mazraoui,Defender,Manchester United,Premier League,True,Exact match,Noussair Mazraoui,3,"Bundesliga, EPL","2022, 2023, 2024"
+Morocco,Redouane Halhal,Defender,KV Mechelen,Belgian Pro League,False,No reliable match,,0,,
+Morocco,Youssef Belammari,Defender,Al Ahly,Egyptian Premier League,False,No reliable match,,0,,
+Morocco,Zakaria El Ouahdi,Defender,Genk,Unknown / verify manually,False,No reliable match,,0,,
+Morocco,Abdessamad Ezzalzouli,Forward,Real Betis,LaLiga,True,Exact match,Abdessamad Ezzalzouli,4,La_Liga,"2021, 2022, 2023, 2024"
+Morocco,Ayoub Amaimouni-Echghouyabe,Forward,Eintracht Frankfurt,Bundesliga,False,No reliable match,,0,,
+Morocco,Ayoub El Kaabi,Forward,Olympiacos,Greek Super League,False,No reliable match,,0,,
+Morocco,Brahim Diaz,Forward,Real Madrid,LaLiga,True,Exact match,Brahim Diaz,8,"EPL, La_Liga, Serie_A","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Morocco,Chemsdine Talbi,Forward,Sunderland,Premier League,False,No reliable match,,0,,
+Morocco,Soufiane Rahimi,Forward,Al Ain,UAE Pro League,False,No reliable match,,0,,
+Morocco,Yassine Gessime,Forward,Strasbourg,Ligue 1 / French football league system,False,No reliable match,,0,,
+Morocco,Ahmed Tagnaouti,Goalkeeper,Royal Armed Forces,Unknown / verify manually,False,No reliable match,,0,,
+Morocco,Munir Mohamedi,Goalkeeper,RS Berkane,Moroccan Botola,False,No reliable match,,0,,
+Morocco,Yassine Bounou,Goalkeeper,Al Hilal,Saudi Pro League,False,No reliable match,,0,,
+Morocco,Ayyoub Bouaddi,Midfielder,Lille,Ligue 1 / French football league system,True,Exact match,Ayyoub Bouaddi,2,Ligue_1,"2023, 2024"
+Morocco,Azzedine Ounahi,Midfielder,Girona,LaLiga,False,No reliable match,,0,,
+Morocco,Bilal El Khannouss,Midfielder,Stuttgart,Bundesliga,True,Exact match,Bilal El Khannouss,1,EPL,2024
+Morocco,Ismael Saibari,Midfielder,PSV Eindhoven,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+Morocco,Neil El Aynaoui,Midfielder,Roma,Serie A,True,Exact match,Neil El Aynaoui,2,Ligue_1,"2023, 2024"
+Morocco,Samir El Mourabet,Midfielder,Strasbourg,Ligue 1 / French football league system,False,No reliable match,,0,,
+Morocco,Sofyan Amrabat,Midfielder,Real Betis,LaLiga,True,Exact match,Sofyan Amrabat,6,"EPL, Serie_A","2019, 2020, 2021, 2022, 2023, 2024"
+Netherlands,Denzel Dumfries,Defender,Inter Milan,Serie A,True,Exact match,Denzel Dumfries,4,Serie_A,"2021, 2022, 2023, 2024"
+Netherlands,Jan Paul van Hecke,Defender,Brighton & Hove Albion,Premier League,True,Exact match,Jan Paul van Hecke,3,EPL,"2022, 2023, 2024"
+Netherlands,Jorrel Hato,Defender,Chelsea,Unknown / verify manually,False,No reliable match,,0,,
+Netherlands,Jurrien Timber,Defender,Arsenal,Premier League,True,Exact match,Jurriën Timber,2,EPL,"2023, 2024"
+Netherlands,Micky van de Ven,Defender,Tottenham Hotspur,Premier League,True,Exact match,Micky van de Ven,4,"Bundesliga, EPL","2021, 2022, 2023, 2024"
+Netherlands,Nathan Ake,Defender,Manchester City,Premier League,True,Exact match,Nathan Aké,11,EPL,"2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Netherlands,Virgil van Dijk,Defender,Liverpool,Premier League,True,Exact match,Virgil van Dijk,10,EPL,"2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Netherlands,Brian Brobbey,Forward,Sunderland,Premier League,True,Exact match,Brian Brobbey,1,Bundesliga,2021
+Netherlands,Cody Gakpo,Forward,Liverpool,Premier League,True,Exact match,Cody Gakpo,3,EPL,"2022, 2023, 2024"
+Netherlands,Crysencio Summerville,Forward,West Ham United,Premier League,True,Exact match,Crysencio Summerville,3,EPL,"2021, 2022, 2024"
+Netherlands,Donyell Malen,Forward,AS Roma,Serie A,True,Exact match,Donyell Malen,4,Bundesliga,"2021, 2022, 2023, 2024"
+Netherlands,Justin Kluivert,Forward,Bournemouth,Premier League,True,Exact match,Justin Kluivert,8,"Bundesliga, EPL, La_Liga, Ligue_1, Serie_A","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Netherlands,Memphis Depay,Forward,Corinthians,Unknown / verify manually,True,Exact match,Memphis Depay,10,"EPL, La_Liga, Ligue_1","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Netherlands,Wout Weghorst,Forward,Ajax,Eredivisie / Dutch football league system,True,Exact match,Wout Weghorst,7,"Bundesliga, EPL","2018, 2019, 2020, 2021, 2022, 2023"
+Netherlands,Bart Verbruggen,Goalkeeper,Brighton,Unknown / verify manually,True,Exact match,Bart Verbruggen,2,EPL,"2023, 2024"
+Netherlands,Mark Flekken,Goalkeeper,Bayer Leverkusen,Bundesliga,True,Exact match,Mark Flekken,7,"Bundesliga, EPL","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Netherlands,Robin Roefs,Goalkeeper,Sunderland,Premier League,False,No reliable match,,0,,
+Netherlands,Frenkie de Jong,Midfielder,Barcelona,LaLiga,True,Exact match,Frenkie de Jong,5,La_Liga,"2019, 2020, 2021, 2022, 2023"
+Netherlands,Guus Til,Midfielder,PSV,Unknown / verify manually,True,Exact match,Guus Til,3,"Bundesliga, RFPL","2019, 2020"
+Netherlands,Marten de Roon,Midfielder,Atalanta,Serie A,True,Exact match,Marten de Roon,10,"EPL, Serie_A","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Netherlands,Mats Wieffer,Midfielder,Brighton & Hove Albion,Premier League,True,Exact match,Mats Wieffer,1,EPL,2024
+Netherlands,Noah Lang,Midfielder,Galatasaray,Turkish Süper Lig,False,No reliable match,,0,,
+Netherlands,Quinten Timber,Midfielder,Marseille,Ligue 1 / French football league system,False,No reliable match,,0,,
+Netherlands,Ryan Gravenberch,Midfielder,Liverpool,Premier League,True,Exact match,Ryan Gravenberch,4,"Bundesliga, EPL","2022, 2023, 2024"
+Netherlands,Teun Koopmeiners,Midfielder,Juventus,Serie A,True,Exact match,Teun Koopmeiners,4,Serie_A,"2021, 2022, 2023, 2024"
+Netherlands,Tijjani Reijnders,Midfielder,Manchester City,Premier League,True,Exact match,Tijjani Reijnders,2,Serie_A,"2023, 2024"
+New Zealand,Callan Elliot,Defender,Auckland FC,New Zealand National League,False,No reliable match,,0,,
+New Zealand,Finn Surman,Defender,Portland Timbers,Unknown / verify manually,False,No reliable match,,0,,
+New Zealand,Francis de Vries,Defender,Auckland FC,New Zealand National League,False,No reliable match,,0,,
+New Zealand,Liberato Cacace,Defender,Wrexham,English football league system,True,Exact match,Liberato Cacace,4,Serie_A,"2021, 2022, 2023, 2024"
+New Zealand,Michael Boxall,Defender,Minnesota United,Major League Soccer,False,No reliable match,,0,,
+New Zealand,Nando Pijnaker,Defender,Auckland FC,New Zealand National League,False,No reliable match,,0,,
+New Zealand,Tim Payne,Defender,Wellington Phoenix,New Zealand National League,False,No reliable match,,0,,
+New Zealand,Tommy Smith,Defender,Braintree Town,Unknown / verify manually,True,Exact match,Tommy Smith,2,EPL,"2017, 2018"
+New Zealand,Tyler Bindon,Defender,Nottingham Forest,Premier League,False,No reliable match,,0,,
+New Zealand,Ben Waine,Forward,Port Vale,Unknown / verify manually,False,No reliable match,,0,,
+New Zealand,Chris Wood,Forward,Nottingham Forest,Premier League,True,Exact match,Chris Wood,9,EPL,"2014, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+New Zealand,Eli Just,Forward,Motherwell,Unknown / verify manually,False,No reliable match,,0,,
+New Zealand,Jesse Randall,Forward,Auckland FC,New Zealand National League,False,No reliable match,,0,,
+New Zealand,Kosta Barbarouses,Forward,Western Sydney Wanderers,Australian A-League Men,False,No reliable match,,0,,
+New Zealand,Alex Paulsen,Goalkeeper,Lechia Gdansk,Unknown / verify manually,False,No reliable match,,0,,
+New Zealand,Max Crocombe,Goalkeeper,Millwall,Unknown / verify manually,False,No reliable match,,0,,
+New Zealand,Michael Woud,Goalkeeper,Auckland FC,New Zealand National League,False,No reliable match,,0,,
+New Zealand,Alex Rufer,Midfielder,Wellington Phoenix,New Zealand National League,False,No reliable match,,0,,
+New Zealand,Ben Old,Midfielder,Saint-Étienne,Unknown / verify manually,True,Exact match,Ben Old,1,Ligue_1,2024
+New Zealand,Callum McCowatt,Midfielder,Silkeborg IF,Unknown / verify manually,False,No reliable match,,0,,
+New Zealand,Joe Bell,Midfielder,Viking FK,Unknown / verify manually,False,No reliable match,,0,,
+New Zealand,Lachlan Bayliss,Midfielder,Newcastle Jets,Unknown / verify manually,False,No reliable match,,0,,
+New Zealand,Marko Stamenic,Midfielder,Swansea City,English football league system,False,No reliable match,,0,,
+New Zealand,Matthew Garbett,Midfielder,Peterborough United,Unknown / verify manually,False,No reliable match,,0,,
+New Zealand,Ryan Thomas,Midfielder,PEC Zwolle,Eredivisie / Dutch football league system,False,No reliable match,,0,,
+New Zealand,Sarpreet Singh,Midfielder,Wellington Phoenix,New Zealand National League,True,Exact match,Sarpreet Singh,1,Bundesliga,2019
+Norway,David Moller Wolfe,Defender,Wolverhampton,Premier League,False,No reliable match,,0,,
+Norway,Fredrik Bjorkan,Defender,Bodo/Glimt,Unknown / verify manually,False,No reliable match,,0,,
+Norway,Henrik Falchener,Defender,Viking,Norwegian Eliteserien,False,No reliable match,,0,,
+Norway,Julian Ryerson,Defender,Borussia Dortmund,Bundesliga,True,Exact match,Julian Ryerson,6,Bundesliga,"2019, 2020, 2021, 2022, 2023, 2024"
+Norway,Kristoffer Ajer,Defender,Brentford,Premier League,True,Exact match,Kristoffer Ajer,4,EPL,"2021, 2022, 2023, 2024"
+Norway,Leo Skiri Ostigard,Defender,Genoa,Serie A,False,No reliable match,,0,,
+Norway,Marcus Holmgren Pedersen,Defender,Torino,Serie A,False,No reliable match,,0,,
+Norway,Sondre Langas,Defender,Derby County,Unknown / verify manually,False,No reliable match,,0,,
+Norway,Torbjorn Heggem,Defender,Bologna,Serie A,False,No reliable match,,0,,
+Norway,Alexander Sorloth,Forward,Atletico Madrid,LaLiga,False,No reliable match,,0,,
+Norway,Andreas Schjelderup,Forward,Benfica,Primeira Liga,False,No reliable match,,0,,
+Norway,Antonio Nusa,Forward,RB Leipzig,Bundesliga,True,Exact match,Antonio Nusa,1,Bundesliga,2024
+Norway,Erling Haaland,Forward,Manchester City,Premier League,True,Exact match,Erling Haaland,6,"Bundesliga, EPL","2019, 2020, 2021, 2022, 2023, 2024"
+Norway,Jens Petter Hauge,Forward,Bodo/Glimt,Unknown / verify manually,True,Exact match,Jens Petter Hauge,3,"Bundesliga, Serie_A","2020, 2021, 2023"
+Norway,Jorgen Strand Larsen,Forward,Crystal Palace,Premier League,False,No reliable match,,0,,
+Norway,Oscar Bobb,Forward,Fulham,Premier League,True,Exact match,Oscar Bobb,1,EPL,2023
+Norway,Egil Selvik,Goalkeeper,Watford,English football league system,False,No reliable match,,0,,
+Norway,Orjan Haskjold Nyland,Goalkeeper,Sevilla,LaLiga,False,No reliable match,,0,,
+Norway,Sander Tangvik,Goalkeeper,Hamburger SV,Bundesliga,False,No reliable match,,0,,
+Norway,Fredrik Aursnes,Midfielder,Benfica,Primeira Liga,False,No reliable match,,0,,
+Norway,Kristian Thorstvedt,Midfielder,Sassuolo,Serie A,True,Exact match,Kristian Thorstvedt,2,Serie_A,"2022, 2023"
+Norway,Martin Odegaard,Midfielder,Arsenal,Premier League,True,Exact match,Martin Odegaard,8,"EPL, La_Liga","2014, 2019, 2020, 2021, 2022, 2023, 2024"
+Norway,Morten Thorsby,Midfielder,Cremonese,Serie A,True,Exact match,Morten Thorsby,6,"Bundesliga, Serie_A","2019, 2020, 2021, 2022, 2023, 2024"
+Norway,Patrick Berg,Midfielder,Bodo/Glimt,Unknown / verify manually,True,Exact match,Patrick Berg,2,Ligue_1,"2021, 2022"
+Norway,Sander Berge,Midfielder,Fulham,Premier League,True,Exact match,Sander Berge,4,EPL,"2019, 2020, 2023, 2024"
+Norway,Thelo Aasgaard,Midfielder,Rangers,Scottish Premiership,False,No reliable match,,0,,
+Panama,Amir Murillo,Defender,Unknown / verify manually,Unknown / verify manually,True,Exact match,Amir Murillo,2,Ligue_1,"2023, 2024"
+Panama,Andres Andrade,Defender,Unknown / verify manually,Unknown / verify manually,True,Exact match,Andrés Andrade,1,Bundesliga,2021
+Panama,Cesar Blackman,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Edgardo Farina,Defender,Unknown / verify manually,Unknown / verify manually,True,Exact match,Edgardo Fariña,1,RFPL,2024
+Panama,Eric Davis,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Fidel Escobar,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Jiovany Ramos,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Jorge Gutierrez,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Jose Cordoba,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Roderick Miller,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Cecilio Waterman,Forward,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Ismael Diaz,Forward,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Jose Fajardo,Forward,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Tomas Rodriguez,Forward,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Cesar Samudio,Goalkeeper,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Luis Mejia,Goalkeeper,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Orlando Mosquera,Goalkeeper,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Adalberto Carrasquilla,Midfielder,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Alberto Quintero,Midfielder,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Anibal Godoy,Midfielder,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Azarias Londono,Midfielder,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Carlos Harvey,Midfielder,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Cesar Yanis,Midfielder,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Cristian Martinez,Midfielder,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Panama,Jose Luis Rodriguez,Midfielder,Unknown / verify manually,Unknown / verify manually,True,Exact match,José Luis Rodríguez,1,La_Liga,2019
+Panama,Yoel Barcenas,Midfielder,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Paraguay,Alexandro Maidana,Defender,Talleres,Argentine Primera División,False,No reliable match,,0,,
+Paraguay,Fabian Balbuena,Defender,Gremio,Campeonato Brasileiro Série A,True,Exact match,Fabián Balbuena,6,"EPL, RFPL","2018, 2019, 2020, 2021, 2023, 2024"
+Paraguay,Gustavo Gomez,Defender,Palmeiras,Campeonato Brasileiro Série A,True,Exact match,Gustavo Gómez,1,Serie_A,2016
+Paraguay,Gustavo Velazquez,Defender,Cerro Porteno,Paraguayan Primera División,False,No reliable match,,0,,
+Paraguay,Jose Canale,Defender,Lanus,Argentine Primera División,False,No reliable match,,0,,
+Paraguay,Juan Jose Caceres,Defender,Dinamo Moscow,Russian Premier League,False,No reliable match,,0,,
+Paraguay,Junior Alonso,Defender,Atletico Mineiro,Campeonato Brasileiro Série A,True,Exact match,Junior Alonso,5,"La_Liga, Ligue_1, RFPL","2016, 2017, 2018, 2022, 2023"
+Paraguay,Omar Alderete,Defender,Sunderland,Premier League,True,Exact match,Omar Alderete,5,"Bundesliga, La_Liga","2020, 2021, 2022, 2023, 2024"
+Paraguay,Alex Arce,Forward,Independiente Rivadavia,Argentine Primera División,False,No reliable match,,0,,
+Paraguay,Antonio Sanabria,Forward,Cremonese,Serie A,True,Exact match,Antonio Sanabria,13,"La_Liga, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Paraguay,Gabriel Avalos,Forward,Independiente,Argentine Primera División,False,No reliable match,,0,,
+Paraguay,Isidro Pitta,Forward,Bragantino,Unknown / verify manually,False,No reliable match,,0,,
+Paraguay,Julio Enciso,Forward,Strasbourg,Ligue 1 / French football league system,True,Exact match,Julio Enciso,3,EPL,"2022, 2023, 2024"
+Paraguay,Miguel Almiron,Forward,Atlanta United,Major League Soccer,True,Exact match,Miguel Almirón,7,EPL,"2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Paraguay,Ramon Sosa,Forward,Palmeiras,Campeonato Brasileiro Série A,True,Exact match,Ramón Sosa,1,EPL,2024
+Paraguay,Gaston Olveira,Goalkeeper,Olimpia,Paraguayan Primera División,False,No reliable match,,0,,
+Paraguay,Orlando Gill,Goalkeeper,San Lorenzo,Paraguayan football league system,False,No reliable match,,0,,
+Paraguay,Roberto Junior Fernandez,Goalkeeper,Cerro Porteno,Paraguayan Primera División,False,No reliable match,,0,,
+Paraguay,Alejandro Romero,Midfielder,Al Ain,UAE Pro League,False,No reliable match,,0,,
+Paraguay,Andres Cubas,Midfielder,Vancouver Whitecaps,Major League Soccer,False,No reliable match,,0,,
+Paraguay,Briaian Ojeda,Midfielder,Orlando City,Major League Soccer,False,No reliable match,,0,,
+Paraguay,Damian Bobadilla,Midfielder,Sao Paulo,Campeonato Brasileiro Série A,False,No reliable match,,0,,
+Paraguay,Diego Gomez,Midfielder,Brighton,Premier League,True,Exact match,Diego Gomez,1,Ligue_1,2015
+Paraguay,Gustavo Caballero,Midfielder,Portsmouth,English football league system,False,No reliable match,,0,,
+Paraguay,Matias Galarza,Midfielder,Atlanta United,Major League Soccer,False,No reliable match,,0,,
+Paraguay,Mauricio Magalhaes,Midfielder,Palmeiras,Campeonato Brasileiro Série A,False,No reliable match,,0,,
+Portugal,Diogo Dalot,Defender,Manchester United,Premier League,True,Exact match,Diogo Dalot,7,"EPL, Serie_A","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Portugal,Goncalo Inacio,Defender,Sporting CP,Primeira Liga,False,No reliable match,,0,,
+Portugal,Joao Cancelo,Defender,FC Barcelona,LaLiga,True,Exact match,João Cancelo,12,"Bundesliga, EPL, La_Liga, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Portugal,Nelson Semedo,Defender,Fenerbahce SK,Turkish Super Lig,True,Exact match,Nélson Semedo,8,"EPL, La_Liga","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Portugal,Nuno Mendes,Defender,PSG,Ligue 1 / French football league system,True,Exact match,Nuno Mendes,4,Ligue_1,"2021, 2022, 2023, 2024"
+Portugal,Renato Veiga,Defender,Villarreal,LaLiga,True,Exact match,Renato Veiga,2,"Bundesliga, EPL","2022, 2024"
+Portugal,Ruben Dias,Defender,Manchester City,Premier League,True,Exact match,Rúben Dias,5,EPL,"2020, 2021, 2022, 2023, 2024"
+Portugal,Tomas Araujo,Defender,Benfica,Primeira Liga,False,No reliable match,,0,,
+Portugal,Cristiano Ronaldo,Forward,Al Nassr,Saudi Pro League,True,Exact match,Cristiano Ronaldo,10,"EPL, La_Liga, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022"
+Portugal,Francisco Conceicao,Forward,Juventus,Serie A,True,Exact match,Francisco Conceição,1,Serie_A,2024
+Portugal,Francisco Trincao,Forward,Sporting CP,Primeira Liga,False,No reliable match,,0,,
+Portugal,Goncalo Guedes,Forward,Real Sociedad,LaLiga,True,Exact match,Gonçalo Guedes,10,"EPL, La_Liga, Ligue_1","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Portugal,Goncalo Ramos,Forward,PSG,Ligue 1 / French football league system,True,Exact match,Gonçalo Ramos,2,Ligue_1,"2023, 2024"
+Portugal,Joao Felix,Forward,Al Nassr,Saudi Pro League,True,Exact match,João Félix,7,"EPL, La_Liga","2019, 2020, 2021, 2022, 2023, 2024"
+Portugal,Pedro Neto,Forward,Chelsea,Premier League,True,Exact match,Pedro Neto,7,"EPL, Serie_A","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Portugal,Rafael Leao,Forward,AC Milan,Serie A,True,Exact match,Rafael Leão,7,"Ligue_1, Serie_A","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Portugal,Diogo Costa,Goalkeeper,FC Porto,Primeira Liga,False,No reliable match,,0,,
+Portugal,Jose Sa,Goalkeeper,Wolverhampton,Premier League,True,Exact match,José Sá,4,EPL,"2021, 2022, 2023, 2024"
+Portugal,Rui Silva,Goalkeeper,Sporting CP,Primeira Liga,True,Exact match,Rui Silva,6,La_Liga,"2019, 2020, 2021, 2022, 2023, 2024"
+Portugal,Bernardo Silva,Midfielder,Manchester City,Premier League,True,Exact match,Bernardo Silva,11,"EPL, Ligue_1","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Portugal,Bruno Fernandes,Midfielder,Manchester United,Premier League,True,Exact match,Bruno Fernandes,9,"EPL, Serie_A","2014, 2015, 2016, 2019, 2020, 2021, 2022, 2023, 2024"
+Portugal,Joao Neves,Midfielder,PSG,Ligue 1 / French football league system,True,Exact match,João Neves,1,Ligue_1,2024
+Portugal,Matheus Nunes,Midfielder,Manchester City,Premier League,True,Exact match,Matheus Nunes,3,EPL,"2022, 2023, 2024"
+Portugal,Ruben Neves,Midfielder,Al Hilal,Saudi Pro League,True,Exact match,Rúben Neves,5,EPL,"2018, 2019, 2020, 2021, 2022"
+Portugal,Samu Costa,Midfielder,Mallorca,LaLiga,True,Exact match,Samú Costa,3,La_Liga,"2022, 2023, 2024"
+Portugal,Vitinha,Midfielder,PSG,Ligue 1 / French football league system,True,Exact match,Vitinha,8,"EPL, Ligue_1, Serie_A","2020, 2022, 2023, 2024"
+Qatar,Ayoub Alawi,Defender,Al Gharafa,Unknown / verify manually,False,No reliable match,,0,,
+Qatar,Boualem Khoukhi,Defender,Al-Sadd,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Hashmi Hussein,Defender,Al Arabi,Unknown / verify manually,False,No reliable match,,0,,
+Qatar,Homam Al-Amin,Defender,Cultural Leonesa,Spanish football league system,False,No reliable match,,0,,
+Qatar,Issa Laaye,Defender,Al Arabi,Unknown / verify manually,False,No reliable match,,0,,
+Qatar,Lucas Mendes,Defender,Al-Wakrah,Qatar Stars League,True,Exact match,Lucas Mendes,1,Ligue_1,2014
+Qatar,Pedro Miguel,Defender,Al-Sadd,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Sultan Al-Brake,Defender,Al-Duhail,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Ahmed Al-Janahi,Forward,Al Gharafa,Unknown / verify manually,False,No reliable match,,0,,
+Qatar,Ahmed Alaa,Forward,Al Rayyan,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Akram Afif,Forward,Al-Sadd,Qatar Stars League,True,Exact match,Akram Afif,1,La_Liga,2016
+Qatar,Almoez Ali,Forward,Al-Duhail,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Edmilson Junior,Forward,Al-Duhail,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Hassan Al-Haydos,Forward,Al-Sadd,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Mohammed Muntari,Forward,Al Gharafa,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Tahseen Mohammed,Forward,Al-Duhail,Unknown / verify manually,False,No reliable match,,0,,
+Qatar,Youssef Abdulrazzaq,Forward,Al-Wakrah,Unknown / verify manually,False,No reliable match,,0,,
+Qatar,Mahmoud Abunada,Goalkeeper,Al Rayyan,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Meshaal Barsham,Goalkeeper,Al-Sadd,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Salah Zakaria,Goalkeeper,Al-Duhail,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Abdulaziz Hatem,Midfielder,Al Rayyan,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Ahmed Fathi,Midfielder,Al Arabi,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Assim Madibo,Midfielder,Al-Wakrah,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Jassem Jaber,Midfielder,Al Arabi,Unknown / verify manually,False,No reliable match,,0,,
+Qatar,Karim Boudiaf,Midfielder,Al-Duhail,Qatar Stars League,False,No reliable match,,0,,
+Qatar,Mohammed Al-Manai,Midfielder,Al Shamal,Unknown / verify manually,False,No reliable match,,0,,
+Saudi Arabia,Abdulelah Al Amri,Defender,Al Nassr,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Ali Lajami,Defender,Al Hilal,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Ali Majrashi,Defender,Al Ahli,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Hassan Kadesh,Defender,Al Ittihad,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Hassan Tambakti,Defender,Al Hilal,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Jehad Thikri,Defender,Al Qadsiah,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Mohammed Abu Al Shamat,Defender,Al Qadsiah,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Moteb Al Harbi,Defender,Al Hilal,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Nawaf Boushal,Defender,Al Nassr,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Saud Abdulhamid,Defender,Lens,Unknown / verify manually,False,No reliable match,,0,,
+Saudi Arabia,Sultan Al-Ghannam,Defender,Al Nassr,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Abdullah Al Hamdan,Forward,Al Nassr,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Firas Al Buraikan,Forward,Al Ahli,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Saleh Al Shehri,Forward,Al Ittihad,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Ahmed Al Kassar,Goalkeeper,Al Qadsiah,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Mohammed Al Owais,Goalkeeper,Al Ula,Middle East / North Africa league - verify club,False,No reliable match,,0,,
+Saudi Arabia,Nawaf Al Aqidi,Goalkeeper,Al Nassr,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Abdullah Al Khaibari,Midfielder,Al Nassr,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Alaa Al Hajji,Midfielder,Neom,Unknown / verify manually,False,No reliable match,,0,,
+Saudi Arabia,Ayman Yahya,Midfielder,Al Nassr,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Khalid Al Ghannam,Midfielder,Al Ettifaq,Middle East / North Africa league - verify club,False,No reliable match,,0,,
+Saudi Arabia,Mohammed Kanno,Midfielder,Al Hilal,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Musab Al Juwayr,Midfielder,Al Qadsiah,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Nasser Al Dawsari,Midfielder,Al Hilal,Saudi Pro League,False,No reliable match,,0,,
+Saudi Arabia,Salem Al Dawsari,Midfielder,Al Hilal,Saudi Pro League,True,Exact match,Salem Al Dawsari,1,La_Liga,2017
+Saudi Arabia,Ziyad Al Johani,Midfielder,Al Ahli,Saudi Pro League,False,No reliable match,,0,,
+Scotland,Aaron Hickey,Defender,Unknown / verify manually,Unknown / verify manually,True,Exact match,Aaron Hickey,4,"EPL, Serie_A","2020, 2021, 2022, 2023"
+Scotland,Andy Robertson,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Scotland,Anthony Ralston,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Scotland,Dom Hyam,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Scotland,Grant Hanley,Defender,Unknown / verify manually,Unknown / verify manually,True,Exact match,Grant Hanley,2,EPL,"2019, 2021"
+Scotland,Jack Hendry,Defender,Unknown / verify manually,Unknown / verify manually,True,Exact match,Jack Hendry,1,Serie_A,2022
+Scotland,John Souttar,Defender,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Scotland,Kieran Tierney,Defender,Unknown / verify manually,Unknown / verify manually,True,Exact match,Kieran Tierney,5,"EPL, La_Liga","2019, 2020, 2021, 2022, 2023"
+Scotland,Nathan Patterson,Defender,Unknown / verify manually,Unknown / verify manually,True,Exact match,Nathan Patterson,2,EPL,"2022, 2023"
+Scotland,Scott McKenna,Defender,Unknown / verify manually,Unknown / verify manually,True,Exact match,Scott McKenna,3,"EPL, La_Liga","2022, 2023, 2024"
+Scotland,Che Adams,Forward,Unknown / verify manually,Unknown / verify manually,True,Exact match,Che Adams,5,"EPL, Serie_A","2019, 2020, 2021, 2022, 2024"
+Scotland,George Hirst,Forward,Unknown / verify manually,Unknown / verify manually,True,Exact match,George Hirst,2,EPL,"2019, 2024"
+Scotland,Lawrence Shankland,Forward,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Scotland,Lyndon Dykes,Forward,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Scotland,Ross Stewart,Forward,Unknown / verify manually,Unknown / verify manually,True,Exact match,Ross Stewart,1,EPL,2024
+Scotland,Angus Gunn,Goalkeeper,Unknown / verify manually,Unknown / verify manually,True,Exact match,Angus Gunn,3,EPL,"2018, 2019, 2021"
+Scotland,Craig Gordon,Goalkeeper,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Scotland,Liam Kelly,Goalkeeper,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Scotland,Ben Gannon-Doak,Midfielder,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Scotland,Billy Gilmour,Midfielder,Unknown / verify manually,Unknown / verify manually,True,Exact match,Billy Gilmour,7,"EPL, Serie_A","2019, 2020, 2021, 2022, 2023, 2024"
+Scotland,Findlay Curtis,Midfielder,Unknown / verify manually,Unknown / verify manually,False,No reliable match,,0,,
+Scotland,John McGinn,Midfielder,Unknown / verify manually,Unknown / verify manually,True,Exact match,John McGinn,6,EPL,"2019, 2020, 2021, 2022, 2023, 2024"
+Scotland,Kenny McLean,Midfielder,Unknown / verify manually,Unknown / verify manually,True,Exact match,Kenny McLean,2,EPL,"2019, 2021"
+Scotland,Lewis Ferguson,Midfielder,Unknown / verify manually,Unknown / verify manually,True,Exact match,Lewis Ferguson,2,Serie_A,"2022, 2023"
+Scotland,Ryan Christie,Midfielder,Unknown / verify manually,Unknown / verify manually,True,Exact match,Ryan Christie,3,EPL,"2022, 2023, 2024"
+Scotland,Scott McTominay,Midfielder,Unknown / verify manually,Unknown / verify manually,True,Exact match,Scott McTominay,10,"EPL, Serie_A","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Senegal,Abdoulaye Seck,Defender,Maccabi Haifa,Israeli Premier League,False,No reliable match,,0,,
+Senegal,Antoine Mendy,Defender,Nice,Ligue 1 / French football league system,True,Exact match,Antoine Mendy,3,Ligue_1,"2022, 2023, 2024"
+Senegal,El-Hadji Malick Diouf,Defender,West Ham United,Premier League,False,No reliable match,,0,,
+Senegal,Ismail Jakobs,Defender,Galatasaray,Turkish Süper Lig,True,Exact match,Ismail Jakobs,6,"Bundesliga, Ligue_1","2019, 2020, 2021, 2022, 2023, 2024"
+Senegal,Kalidou Koulibaly,Defender,Al-Hilal,Saudi Pro League,True,Exact match,Kalidou Koulibaly,9,"EPL, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022"
+Senegal,Krepin Diatta,Defender,Monaco,Ligue 1 / French football league system,True,Exact match,Krépin Diatta,5,Ligue_1,"2020, 2021, 2022, 2023, 2024"
+Senegal,Mamadou Sarr,Defender,Chelsea,Unknown / verify manually,True,Exact match,Mamadou Sarr,3,Ligue_1,"2022, 2023, 2024"
+Senegal,Moussa Niakhate,Defender,Lyon,Ligue 1 / French football league system,True,Exact match,Moussa Niakhate,8,"Bundesliga, EPL, Ligue_1","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Senegal,Assane Diao,Forward,Como,Serie A,True,Exact match,Assane Diao,2,La_Liga,"2023, 2024"
+Senegal,Bamba Dieng,Forward,Lorient,Ligue 1 / French football league system,True,Safe fuzzy match,Ahmadou Bamba Dieng,5,Ligue_1,"2020, 2021, 2022, 2023, 2024"
+Senegal,Cherif Ndiaye,Forward,Samsunspor,Unknown / verify manually,False,No reliable match,,0,,
+Senegal,Ibrahim Mbaye,Forward,Paris St-Germain,Ligue 1 / French football league system,True,Exact match,Ibrahim Mbaye,1,Ligue_1,2024
+Senegal,Iliman Ndiaye,Forward,Everton,Premier League,True,Exact match,Iliman Ndiaye,3,"EPL, Ligue_1","2020, 2023, 2024"
+Senegal,Ismaila Sarr,Forward,Crystal Palace,Premier League,True,Exact match,Ismaila Sarr,7,"EPL, Ligue_1","2016, 2017, 2018, 2019, 2021, 2023, 2024"
+Senegal,Nicolas Jackson,Forward,Bayern Munich,Bundesliga,True,Exact match,Nicolas Jackson,4,"EPL, La_Liga","2021, 2022, 2023, 2024"
+Senegal,Sadio Mane,Forward,Al-Nassr,Unknown / verify manually,True,Exact match,Sadio Mané,9,"Bundesliga, EPL","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022"
+Senegal,Edouard Mendy,Goalkeeper,Al-Ahli,Saudi Pro League,True,Exact match,Edouard Mendy,6,"EPL, Ligue_1","2018, 2019, 2020, 2021, 2022"
+Senegal,Mory Diaw,Goalkeeper,Le Havre,Unknown / verify manually,True,Exact match,Mory Diaw,2,Ligue_1,"2022, 2023"
+Senegal,Yehvann Diouf,Goalkeeper,Nice,Ligue 1 / French football league system,True,Exact match,Yehvann Diouf,4,Ligue_1,"2020, 2022, 2023, 2024"
+Senegal,Bara Ndiaye,Midfielder,Bayern Munich,Bundesliga,False,No reliable match,,0,,
+Senegal,Habib Diarra,Midfielder,Sunderland,Premier League,True,Exact match,Habib Diarra,4,Ligue_1,"2021, 2022, 2023, 2024"
+Senegal,Idrissa Gueye,Midfielder,Everton,Premier League,True,Exact match,Idrissa Gueye,11,"EPL, Ligue_1","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Senegal,Lamine Camara,Midfielder,Monaco,Ligue 1 / French football league system,True,Exact match,Lamine Camara,2,Ligue_1,"2023, 2024"
+Senegal,Pape Gueye,Midfielder,Villarreal,LaLiga,False,No reliable match,,0,,
+Senegal,Pape Matar Sarr,Midfielder,Tottenham,Premier League,False,No reliable match,,0,,
+Senegal,Pathe Ciss,Midfielder,Rayo Vallecano,LaLiga,True,Exact match,Pathé Ciss,4,La_Liga,"2021, 2022, 2023, 2024"
+South Africa,Aubrey Modiba,Defender,Mamelodi Sundowns,South African Premier Division,False,No reliable match,,0,,
+South Africa,Bradley Cross,Defender,Kaizer Chiefs,South African Premier Division,False,No reliable match,,0,,
+South Africa,Ime Okon,Defender,Hannover,Unknown / verify manually,False,No reliable match,,0,,
+South Africa,Kamogelo Sebelebele,Defender,Orlando Pirates,South African Premier Division,False,No reliable match,,0,,
+South Africa,Khuliso Mudau,Defender,Mamelodi Sundowns,South African Premier Division,False,No reliable match,,0,,
+South Africa,Khulumani Ndamane,Defender,Mamelodi Sundowns,South African Premier Division,False,No reliable match,,0,,
+South Africa,Mbekezeli Mbokazi,Defender,Chicago Fire,Major League Soccer,False,No reliable match,,0,,
+South Africa,Nkosinathi Sibisi,Defender,Orlando Pirates,South African Premier Division,False,No reliable match,,0,,
+South Africa,Olwethu Makhanya,Defender,Philadelphia Union,Major League Soccer,False,No reliable match,,0,,
+South Africa,Samukele Kabini,Defender,Molde FK,Unknown / verify manually,False,No reliable match,,0,,
+South Africa,Thabang Matuludi,Defender,Polokwane City,South African Premier Division,False,No reliable match,,0,,
+South Africa,Evidence Makgopa,Forward,Orlando Pirates,South African Premier Division,False,No reliable match,,0,,
+South Africa,Iqraam Rayners,Forward,Mamelodi Sundowns,South African Premier Division,False,No reliable match,,0,,
+South Africa,Lyle Foster,Forward,Burnley,English football league system,True,Exact match,Lyle Foster,2,"EPL, Ligue_1","2019, 2023"
+South Africa,Oswin Appollis,Forward,Orlando Pirates,South African Premier Division,False,No reliable match,,0,,
+South Africa,Relebohile Mofokeng,Forward,Orlando Pirates,South African Premier Division,False,No reliable match,,0,,
+South Africa,Thapelo Maseko,Forward,AEL Limassol,Unknown / verify manually,False,No reliable match,,0,,
+South Africa,Themba Zwane,Forward,Mamelodi Sundowns,South African Premier Division,False,No reliable match,,0,,
+South Africa,Tshepang Moremi,Forward,Orlando Pirates,South African Premier Division,False,No reliable match,,0,,
+South Africa,Ricardo Goss,Goalkeeper,Siwelele,Unknown / verify manually,False,No reliable match,,0,,
+South Africa,Ronwen Williams,Goalkeeper,Mamelodi Sundowns,South African Premier Division,False,No reliable match,,0,,
+South Africa,Sipho Chaine,Goalkeeper,Orlando Pirates,South African Premier Division,False,No reliable match,,0,,
+South Africa,Jayden Adams,Midfielder,Mamelodi Sundowns,South African Premier Division,False,No reliable match,,0,,
+South Africa,Sphephelo Sithole,Midfielder,Tondela,Primeira Liga,False,No reliable match,,0,,
+South Africa,Teboho Mokoena,Midfielder,Mamelodi Sundowns,South African Premier Division,False,No reliable match,,0,,
+South Africa,Thalente Mbatha,Midfielder,Orlando Pirates,South African Premier Division,False,No reliable match,,0,,
+South Korea,Cho Wi-je,Defender,Jeonbuk,Unknown / verify manually,False,No reliable match,,0,,
+South Korea,Jens Castrop,Defender,Borussia Monchengladbach,Bundesliga,False,No reliable match,,0,,
+South Korea,Kim Min-jae,Defender,Bayern Munich,Bundesliga,True,Exact match,Kim Min-Jae,3,"Bundesliga, Serie_A","2022, 2023, 2024"
+South Korea,Kim Moon-hwan,Defender,Daejeon,Unknown / verify manually,False,No reliable match,,0,,
+South Korea,Kim Tae-hyon,Defender,Kashima Antlers,J1 League / Japanese football league system,False,No reliable match,,0,,
+South Korea,Lee Han-beom,Defender,Midtjylland,Danish Superliga,False,No reliable match,,0,,
+South Korea,Lee Ki-hyuk,Defender,Gangwon,Unknown / verify manually,False,No reliable match,,0,,
+South Korea,Lee Tae-seok,Defender,Austria Wien,Unknown / verify manually,False,No reliable match,,0,,
+South Korea,Park Jin-seob,Defender,Zhejiang,Unknown / verify manually,False,No reliable match,,0,,
+South Korea,Seol Young-woo,Defender,Red Star Belgrade,Serbian SuperLiga,False,No reliable match,,0,,
+South Korea,Cho Gue-sung,Forward,Midtjylland,Danish Superliga,False,No reliable match,,0,,
+South Korea,Oh Hyeon-gyu,Forward,Besitkas,Unknown / verify manually,False,No reliable match,,0,,
+South Korea,Son Heung-min,Forward,LAFC,Major League Soccer,True,Exact match,Son Heung-Min,12,"Bundesliga, EPL","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+South Korea,Jo Hyeon-woo,Goalkeeper,Ulsan,Unknown / verify manually,False,No reliable match,,0,,
+South Korea,Kim Seung-gyu,Goalkeeper,FC Tokyo,J1 League / Japanese football league system,False,No reliable match,,0,,
+South Korea,Song Bum-keun,Goalkeeper,Jeonbuk,Unknown / verify manually,False,No reliable match,,0,,
+South Korea,Bae Jun-ho,Midfielder,Stoke City,English football league system,False,No reliable match,,0,,
+South Korea,Eom Ji-sung,Midfielder,Swansea,Unknown / verify manually,False,No reliable match,,0,,
+South Korea,Hwang Hee-chan,Midfielder,Wolves,Premier League,False,No reliable match,,0,,
+South Korea,Hwang In-beom,Midfielder,Feyenoord,Eredivisie / Dutch football league system,True,Exact match,Hwang In-Beom,2,RFPL,"2020, 2021"
+South Korea,Kim Jin-gyu,Midfielder,Jeonbuk,Unknown / verify manually,False,No reliable match,,0,,
+South Korea,Lee Dong-gyeong,Midfielder,Ulsan,Unknown / verify manually,False,No reliable match,,0,,
+South Korea,Lee Jae-sung,Midfielder,Mainz,Bundesliga,False,No reliable match,,0,,
+South Korea,Lee Kang-in,Midfielder,Paris St-Germain,Ligue 1 / French football league system,True,Exact match,Lee Kang-In,7,"La_Liga, Ligue_1","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+South Korea,Paik Seung-ho,Midfielder,Birmingham,Unknown / verify manually,True,Exact match,Paik Seung-Ho,1,La_Liga,2018
+South Korea,Yang Hyun-jun,Midfielder,Celtic,Scottish Premiership,False,No reliable match,,0,,
+Spain,Alejandro Grimaldo,Defender,Bayer Leverkusen,Bundesliga,False,No reliable match,,0,,
+Spain,Aymeric Laporte,Defender,Athletic Bilbao,LaLiga,True,Exact match,Aymeric Laporte,11,"EPL, La_Liga","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Spain,Eric Garcia,Defender,Barcelona,LaLiga,True,Exact match,Eric Garcia,6,"EPL, La_Liga","2019, 2020, 2021, 2022, 2023, 2024"
+Spain,Marc Cucurella,Defender,Chelsea,Unknown / verify manually,True,Exact match,Marc Cucurella,8,"EPL, La_Liga","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Spain,Marc Pubill,Defender,Atletico Madrid,LaLiga,True,Exact match,Marc Pubill,2,La_Liga,"2021, 2023"
+Spain,Marcos Llorente,Defender,Atletico Madrid,LaLiga,True,Exact match,Marcos Llorente,10,La_Liga,"2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Spain,Pau Cubarsi,Defender,Barcelona,LaLiga,True,Exact match,Pau Cubarsí,2,La_Liga,"2023, 2024"
+Spain,Pedro Porro,Defender,Tottenham,Premier League,True,Exact match,Pedro Porro,5,"EPL, La_Liga","2018, 2019, 2022, 2023, 2024"
+Spain,Borja Iglesias,Forward,Celta Vigo,LaLiga,True,Exact match,Borja Iglesias,9,"Bundesliga, La_Liga","2014, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Spain,Dani Olmo,Forward,Barcelona,LaLiga,True,Exact match,Dani Olmo,6,"Bundesliga, La_Liga","2019, 2020, 2021, 2022, 2023, 2024"
+Spain,Ferran Torres,Forward,Barcelona,LaLiga,True,Exact match,Ferrán Torres,9,"EPL, La_Liga","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Spain,Lamine Yamal,Forward,Barcelona,LaLiga,True,Exact match,Lamine Yamal,3,La_Liga,"2022, 2023, 2024"
+Spain,Mikel Oyarzabal,Forward,Real Sociedad,LaLiga,True,Exact match,Mikel Oyarzabal,10,La_Liga,"2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Spain,Nico Williams,Forward,Athletic Bilbao,LaLiga,True,Exact match,Nico Williams,5,La_Liga,"2020, 2021, 2022, 2023, 2024"
+Spain,Victor Munoz,Forward,Osasuna,LaLiga,False,No reliable match,,0,,
+Spain,Yeremy Pino,Forward,Crystal Palace,Premier League,False,No reliable match,,0,,
+Spain,David Raya,Goalkeeper,Arsenal,Premier League,True,Exact match,David Raya,4,EPL,"2021, 2022, 2023, 2024"
+Spain,Joan Garcia,Goalkeeper,Barcelona,LaLiga,True,Exact match,Joan García,3,La_Liga,"2021, 2022, 2024"
+Spain,Unai Simon,Goalkeeper,Athletic Bilbao,LaLiga,True,Exact match,Unai Simón,6,La_Liga,"2018, 2019, 2020, 2021, 2022, 2023"
+Spain,Alex Baena,Midfielder,Atletico Madrid,LaLiga,True,Exact match,Álex Baena,5,La_Liga,"2019, 2020, 2022, 2023, 2024"
+Spain,Fabian Ruiz,Midfielder,Paris St-Germain,Ligue 1 / French football league system,False,No reliable match,,0,,
+Spain,Gavi,Midfielder,Barcelona,LaLiga,True,Exact match,Gavi,3,La_Liga,"2021, 2022, 2023"
+Spain,Martin Zubimendi,Midfielder,Arsenal,Premier League,True,Exact match,Martín Zubimendi,7,La_Liga,"2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Spain,Mikel Merino,Midfielder,Arsenal,Premier League,True,Exact match,Mikel Merino,8,"Bundesliga, EPL, La_Liga","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Spain,Pedri,Midfielder,Barcelona,LaLiga,True,Exact match,Pedri,5,La_Liga,"2020, 2021, 2022, 2023, 2024"
+Spain,Rodri,Midfielder,Manchester City,Premier League,True,Exact match,Rodri,10,"EPL, La_Liga","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Sweden,Carl Starfelt,Defender,Celta Vigo,LaLiga,True,Exact match,Carl Starfelt,4,"La_Liga, RFPL","2019, 2020, 2023, 2024"
+Sweden,Daniel Svensson,Defender,Borussia Dortmund,Bundesliga,False,No reliable match,,0,,
+Sweden,Elliot Stroud,Defender,Mjallby,Unknown / verify manually,False,No reliable match,,0,,
+Sweden,Erik Smith,Defender,St. Pauli,Unknown / verify manually,False,No reliable match,,0,,
+Sweden,Gabriel Gudmundsson,Defender,Leeds United,Premier League,True,Exact match,Gabriel Gudmundsson,4,Ligue_1,"2021, 2022, 2023, 2024"
+Sweden,Gustaf Lagerbielke,Defender,Braga,Primeira Liga,False,No reliable match,,0,,
+Sweden,Herman Johansson,Defender,FC Dallas,Major League Soccer,False,No reliable match,,0,,
+Sweden,Hjalmar Ekdal,Defender,Burnley,English football league system,True,Exact match,Hjalmar Ekdal,1,EPL,2023
+Sweden,Isak Hien,Defender,Atalanta,Serie A,True,Exact match,Isak Hien,3,Serie_A,"2022, 2023, 2024"
+Sweden,Victor Lindelof,Defender,Aston Villa,Premier League,True,Exact match,Victor Lindelöf,7,EPL,"2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Sweden,Alexander Bernhardsson,Forward,Holstein Kiel,Unknown / verify manually,True,Exact match,Alexander Bernhardsson,1,Bundesliga,2024
+Sweden,Alexander Isak,Forward,Liverpool,Premier League,True,Exact match,Alexander Isak,8,"Bundesliga, EPL, La_Liga","2017, 2019, 2020, 2021, 2022, 2023, 2024"
+Sweden,Anthony Elanga,Forward,Newcastle United,Premier League,True,Exact match,Anthony Elanga,5,EPL,"2020, 2021, 2022, 2023, 2024"
+Sweden,Benjamin Nygren,Forward,Celtic,Scottish Premiership,False,No reliable match,,0,,
+Sweden,Gustaf Nilsson,Forward,Club Brugge,Belgian Pro League,False,No reliable match,,0,,
+Sweden,Viktor Gyokeres,Forward,Arsenal,Premier League,False,No reliable match,,0,,
+Sweden,Jacob Widell Zetterstrom,Goalkeeper,Derby County,Unknown / verify manually,False,No reliable match,,0,,
+Sweden,Kristoffer Nordfeldt,Goalkeeper,AIK,Swedish Allsvenskan,True,Exact match,Kristoffer Nordfeldt,2,EPL,"2015, 2016"
+Sweden,Viktor Johansson,Goalkeeper,Stoke City,English football league system,False,No reliable match,,0,,
+Sweden,Besfort Zeneli,Midfielder,Union St-Gilloise,Unknown / verify manually,False,No reliable match,,0,,
+Sweden,Jesper Karlstrom,Midfielder,Udinese,Unknown / verify manually,True,Exact match,Jesper Karlström,1,Serie_A,2024
+Sweden,Ken Sema,Midfielder,Pafos,Cypriot First Division,True,Exact match,Ken Sema,3,"EPL, Serie_A","2018, 2019, 2021"
+Sweden,Lucas Bergvall,Midfielder,Tottenham,Premier League,True,Exact match,Lucas Bergvall,1,EPL,2024
+Sweden,Mattias Svanberg,Midfielder,Wolfsburg,Bundesliga,True,Exact match,Mattias Svanberg,7,"Bundesliga, Serie_A","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Sweden,Taha Ali,Midfielder,Malmo,Unknown / verify manually,False,No reliable match,,0,,
+Sweden,Yasin Ayari,Midfielder,Brighton,Unknown / verify manually,True,Exact match,Yasin Ayari,2,EPL,"2022, 2024"
+Switzerland,Aurele Amenda,Defender,Eintracht Frankfurt,Bundesliga,True,Exact match,Aurèle Amenda,1,Bundesliga,2024
+Switzerland,Eray Comert,Defender,Valencia,LaLiga,True,Exact match,Eray Cömert,4,"La_Liga, Ligue_1","2021, 2022, 2023, 2024"
+Switzerland,Luca Jaquez,Defender,VfB Stuttgart,Bundesliga,False,No reliable match,,0,,
+Switzerland,Manuel Akanji,Defender,Inter Milan,Serie A,True,Exact match,Manuel Akanji,8,"Bundesliga, EPL","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Switzerland,Miro Muheim,Defender,Hamburg,Bundesliga,False,No reliable match,,0,,
+Switzerland,Nico Elvedi,Defender,Borussia Moenchengladbach,Bundesliga,True,Exact match,Nico Elvedi,10,Bundesliga,"2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Switzerland,Ricardo Rodriguez,Defender,Real Betis,LaLiga,True,Exact match,Ricardo Rodríguez,11,"Bundesliga, La_Liga, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Switzerland,Silvan Widmer,Defender,Mainz,Bundesliga,True,Exact match,Silvan Widmer,8,"Bundesliga, Serie_A","2014, 2015, 2016, 2017, 2021, 2022, 2023, 2024"
+Switzerland,Breel Embolo,Forward,Stade Rennais,Unknown / verify manually,True,Exact match,Breel Embolo,9,"Bundesliga, Ligue_1","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Switzerland,Cedric Itten,Forward,Fortuna Dusseldorf,German football league system,True,Exact match,Cedric Itten,1,Bundesliga,2021
+Switzerland,Dan Ndoye,Forward,Nottingham Forest,Premier League,True,Exact match,Dan Ndoye,4,"Ligue_1, Serie_A","2020, 2021, 2023, 2024"
+Switzerland,Noah Okafor,Forward,Leeds United,English football league system,True,Exact match,Noah Okafor,2,Serie_A,"2023, 2024"
+Switzerland,Zeki Amdouni,Forward,Burnley,English football league system,True,Exact match,Zeki Amdouni,1,EPL,2023
+Switzerland,Gregor Kobel,Goalkeeper,Borussia Dortmund,Bundesliga,True,Exact match,Gregor Kobel,6,Bundesliga,"2018, 2020, 2021, 2022, 2023, 2024"
+Switzerland,Marvin Keller,Goalkeeper,Young Boys,Swiss Super League,False,No reliable match,,0,,
+Switzerland,Yvon Mvogo,Goalkeeper,Lorient,Ligue 1 / French football league system,True,Exact match,Yvon Mvogo,5,"Bundesliga, Ligue_1","2017, 2018, 2019, 2022, 2023"
+Switzerland,Ardon Jashari,Midfielder,AC Milan,Serie A,False,No reliable match,,0,,
+Switzerland,Christian Fassnacht,Midfielder,Young Boys,Swiss Super League,False,No reliable match,,0,,
+Switzerland,Denis Zakaria,Midfielder,Monaco,Ligue 1 / French football league system,True,Exact match,Denis Zakaria,10,"Bundesliga, EPL, Ligue_1, Serie_A","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Switzerland,Djibril Sow,Midfielder,Sevilla,LaLiga,True,Exact match,Djibril Sow,7,"Bundesliga, La_Liga","2016, 2019, 2020, 2021, 2022, 2023, 2024"
+Switzerland,Fabian Rieder,Midfielder,Augsburg,Bundesliga,True,Exact match,Fabian Rieder,2,"Bundesliga, Ligue_1","2023, 2024"
+Switzerland,Granit Xhaka,Midfielder,Sunderland,Premier League,True,Exact match,Granit Xhaka,11,"Bundesliga, EPL","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Switzerland,Johan Manzambi,Midfielder,Freiburg,Bundesliga,True,Exact match,Johan Manzambi,1,Bundesliga,2024
+Switzerland,Michel Aebischer,Midfielder,Pisa,Serie A,True,Exact match,Michel Aebischer,4,Serie_A,"2021, 2022, 2023, 2024"
+Switzerland,Remo Freuler,Midfielder,Bologna,Serie A,True,Exact match,Remo Freuler,10,"EPL, Serie_A","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Switzerland,Ruben Vargas,Midfielder,Sevilla,LaLiga,True,Exact match,Ruben Vargas,6,Bundesliga,"2019, 2020, 2021, 2022, 2023, 2024"
+Tunisia,Adem Arous,Defender,Kasimpasa,Turkish Süper Lig,False,No reliable match,,0,,
+Tunisia,Ali Abdi,Defender,Nice,Ligue 1 / French football league system,True,Exact match,Ali Abdi,1,Ligue_1,2024
+Tunisia,Dylan Bronn,Defender,Servette Geneva,Unknown / verify manually,True,Exact match,Dylan Bronn,5,"Ligue_1, Serie_A","2019, 2020, 2021, 2022, 2023"
+Tunisia,Mohamed Amine Ben Hamida,Defender,Esperance,Unknown / verify manually,False,No reliable match,,0,,
+Tunisia,Montassar Talbi,Defender,Lorient,Ligue 1 / French football league system,True,Exact match,Montassar Talbi,3,"Ligue_1, RFPL","2021, 2022, 2023"
+Tunisia,Moutaz Neffati,Defender,Norrkoping,Unknown / verify manually,False,No reliable match,,0,,
+Tunisia,Omar Rekik,Defender,NK Maribor,Slovenian PrvaLiga,False,No reliable match,,0,,
+Tunisia,Raed Chikhaoui,Defender,US Monastir,Tunisian Ligue Professionnelle 1,False,No reliable match,,0,,
+Tunisia,Yan Valery,Defender,Young Boys Berne,Unknown / verify manually,True,Exact match,Yan Valery,6,"EPL, Ligue_1","2018, 2019, 2020, 2021, 2022"
+Tunisia,Elias Achouri,Forward,FC Copenhagen,Unknown / verify manually,False,No reliable match,,0,,
+Tunisia,Elias Saad,Forward,Hannover 96,German football league system,True,Exact match,Elias Saad,1,Bundesliga,2024
+Tunisia,Firas Chaouat,Forward,Club Africain,Tunisian Ligue Professionnelle 1,False,No reliable match,,0,,
+Tunisia,Hazem Mastouri,Forward,Dynamo Makhachkala,Russian Premier League,False,No reliable match,,0,,
+Tunisia,Khalil Ayari,Forward,Paris St Germain,Ligue 1 / French football league system,False,No reliable match,,0,,
+Tunisia,Rayan Elloumi,Forward,Vancouver Whitecaps,Major League Soccer,False,No reliable match,,0,,
+Tunisia,Sebastian Tounekti,Forward,Celtic,Scottish Premiership,False,No reliable match,,0,,
+Tunisia,Abdelmouhib Chamakh,Goalkeeper,Club Africain,Tunisian Ligue Professionnelle 1,False,No reliable match,,0,,
+Tunisia,Aymen Dahman,Goalkeeper,CS Sfaxien,Tunisian Ligue Professionnelle 1,False,No reliable match,,0,,
+Tunisia,Sabri Ben Hessen,Goalkeeper,Etoile Sahel,Unknown / verify manually,False,No reliable match,,0,,
+Tunisia,Anis Ben Slimane,Midfielder,Norwich City,English football league system,True,Exact match,Anis Ben Slimane,1,EPL,2023
+Tunisia,Ellyes Skhiri,Midfielder,Eintracht Frankfurt,Bundesliga,True,Exact match,Ellyes Skhiri,11,"Bundesliga, Ligue_1","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Tunisia,Hannibal Mejbri,Midfielder,Burnley,English football league system,True,Exact match,Hannibal Mejbri,4,"EPL, La_Liga","2020, 2021, 2023"
+Tunisia,Ismael Gharbi,Midfielder,FC Augsburg,Unknown / verify manually,True,Exact match,Ismaël Gharbi,2,Ligue_1,"2021, 2022"
+Tunisia,Mohamed Hadj Mahmoud,Midfielder,Lugano,Swiss Super League,False,No reliable match,,0,,
+Tunisia,Mortadha Ben Ouanes,Midfielder,Kasimpasa,Turkish Süper Lig,False,No reliable match,,0,,
+Tunisia,Rani Khedira,Midfielder,Union Berlin,Unknown / verify manually,True,Exact match,Rani Khedira,9,Bundesliga,"2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Türkiye,Abdulkerim Bardakci,Defender,Galatasaray,Turkish Süper Lig,False,No reliable match,,0,,
+Türkiye,Caglar Soyuncu,Defender,Fenerbahce,Turkish Süper Lig,True,Exact match,Caglar Söyüncü,8,"Bundesliga, EPL, La_Liga","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+Türkiye,Eren Elmali,Defender,Galatasaray,Turkish Süper Lig,False,No reliable match,,0,,
+Türkiye,Ferdi Kadioglu,Defender,Brighton,Premier League,True,Exact match,Ferdi Kadioglu,1,EPL,2024
+Türkiye,Merih Demiral,Defender,Al-Ahli Saudi,Saudi Pro League,True,Exact match,Merih Demiral,5,Serie_A,"2018, 2019, 2020, 2021, 2022"
+Türkiye,Mert Muldur,Defender,Fenerbahce,Turkish Süper Lig,True,Exact match,Mert Müldür,4,Serie_A,"2019, 2020, 2021, 2022"
+Türkiye,Ozan Kabak,Defender,Hoffenheim,Bundesliga,True,Exact match,Ozan Kabak,7,"Bundesliga, EPL","2018, 2019, 2020, 2021, 2022, 2023"
+Türkiye,Samet Akaydin,Defender,Caykur Rizespor,Turkish Süper Lig,False,No reliable match,,0,,
+Türkiye,Zeki Celik,Defender,AS Roma,Serie A,True,Safe fuzzy match,Mehmet Zeki Çelik,7,"Ligue_1, Serie_A","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Türkiye,Arda Guler,Forward,Real Madrid,LaLiga,True,Exact match,Arda Güler,2,La_Liga,"2023, 2024"
+Türkiye,Baris Alper Yilmaz,Forward,Galatasaray,Unknown / verify manually,False,No reliable match,,0,,
+Türkiye,Can Uzun,Forward,Eintracht Frankfurt,Bundesliga,True,Exact match,Can Uzun,1,Bundesliga,2024
+Türkiye,Deniz Gul,Forward,Porto,Primeira Liga,False,No reliable match,,0,,
+Türkiye,Irfan Can Kahveci,Forward,Kasimpasa,Turkish Süper Lig,False,No reliable match,,0,,
+Türkiye,Kenan Yildiz,Forward,Juventus,Serie A,True,Exact match,Kenan Yildiz,2,Serie_A,"2023, 2024"
+Türkiye,Kerem Akturkoglu,Forward,Fenerbahce,Turkish Süper Lig,False,No reliable match,,0,,
+Türkiye,Oguz Aydin,Forward,Fenerbahce,Turkish Süper Lig,False,No reliable match,,0,,
+Türkiye,Yunus Akgun,Forward,Galatasaray,Turkish Süper Lig,False,No reliable match,,0,,
+Türkiye,Altay Bayindir,Goalkeeper,Manchester United,Premier League,False,No reliable match,,0,,
+Türkiye,Mert Gunok,Goalkeeper,Fenerbahce,Turkish Süper Lig,False,No reliable match,,0,,
+Türkiye,Ugurcan Cakir,Goalkeeper,Galatasaray,Turkish Süper Lig,False,No reliable match,,0,,
+Türkiye,Hakan Calhanoglu,Midfielder,Inter Milan,Unknown / verify manually,True,Exact match,Hakan Calhanoglu,11,"Bundesliga, Serie_A","2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Türkiye,Ismail Yuksek,Midfielder,Fenerbahce,Turkish Süper Lig,False,No reliable match,,0,,
+Türkiye,Kaan Ayhan,Midfielder,Galatasaray,Turkish Süper Lig,True,Exact match,Kaan Ayhan,7,"Bundesliga, Serie_A","2014, 2015, 2018, 2019, 2020, 2021, 2022"
+Türkiye,Orkun Kokcu,Midfielder,Besiktas,Turkish Süper Lig,False,No reliable match,,0,,
+Türkiye,Salih Ozcan,Midfielder,Borussia Dortmund,Bundesliga,True,Exact match,Salih Özcan,7,Bundesliga,"2016, 2017, 2020, 2021, 2022, 2023, 2024"
+United States,Alex Freeman,Defender,Villarreal,LaLiga,False,No reliable match,,0,,
+United States,Antonee Robinson,Defender,Fulham,Premier League,True,Exact match,Antonee Robinson,4,EPL,"2020, 2022, 2023, 2024"
+United States,Auston Trusty,Defender,Celtic,Scottish Premiership,True,Exact match,Auston Trusty,1,EPL,2023
+United States,Chris Richards,Defender,Crystal Palace,Premier League,True,Exact match,Chris Richards,6,"Bundesliga, EPL","2019, 2020, 2021, 2022, 2023, 2024"
+United States,Joe Scally,Defender,Borussia Monchengladbach,Bundesliga,True,Exact match,Joe Scally,4,Bundesliga,"2021, 2022, 2023, 2024"
+United States,Mark McKenzie,Defender,Toulouse,Ligue 1 / French football league system,True,Exact match,Mark McKenzie,1,Ligue_1,2024
+United States,Max Arfsten,Defender,Columbus Crew,Major League Soccer,False,No reliable match,,0,,
+United States,Miles Robinson,Defender,Cincinnati,Unknown / verify manually,False,No reliable match,,0,,
+United States,Sergino Dest,Defender,PSV Eindhoven,Eredivisie / Dutch football league system,True,Exact match,Sergiño Dest,3,"La_Liga, Serie_A","2020, 2021, 2022"
+United States,Tim Ream,Defender,Charlotte FC,Major League Soccer,True,Exact match,Tim Ream,4,EPL,"2018, 2020, 2022, 2023"
+United States,Folarin Balogun,Forward,Monaco,Ligue 1 / French football league system,True,Exact match,Folarin Balogun,4,"EPL, Ligue_1","2021, 2022, 2023, 2024"
+United States,Haji Wright,Forward,Coventry City,English football league system,True,Exact match,Haji Wright,1,Bundesliga,2018
+United States,Ricardo Pepi,Forward,PSV Eindhoven,Eredivisie / Dutch football league system,True,Exact match,Ricardo Pepi,2,Bundesliga,"2021, 2022"
+United States,Chris Brady,Goalkeeper,Chicago Fire,Major League Soccer,False,No reliable match,,0,,
+United States,Matt Freese,Goalkeeper,New York City,Unknown / verify manually,False,No reliable match,,0,,
+United States,Matt Turner,Goalkeeper,New England Revolution,Major League Soccer,True,Exact match,Matt Turner,1,EPL,2023
+United States,Alejandro Zendejas,Midfielder,Club America,Liga MX,False,No reliable match,,0,,
+United States,Brenden Aaronson,Midfielder,Leeds United,Premier League,True,Exact match,Brenden Aaronson,2,"Bundesliga, EPL","2022, 2023"
+United States,Christian Pulisic,Midfielder,AC Milan,Serie A,True,Exact match,Christian Pulisic,10,"Bundesliga, EPL, Serie_A","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+United States,Cristian Roldan,Midfielder,Seattle Sounders,Major League Soccer,False,No reliable match,,0,,
+United States,Gio Reyna,Midfielder,Borussia Monchengladbach,Bundesliga,False,No reliable match,,0,,
+United States,Malik Tillman,Midfielder,Bayer Leverkusen,Bundesliga,True,Exact match,Malik Tillman,1,Bundesliga,2021
+United States,Sebastian Berhalter,Midfielder,Vancouver Whitecaps,Major League Soccer,False,No reliable match,,0,,
+United States,Tim Weah,Midfielder,Marseille,Ligue 1 / French football league system,False,No reliable match,,0,,
+United States,Tyler Adams,Midfielder,Bournemouth,Premier League,True,Exact match,Tyler Adams,6,"Bundesliga, EPL","2018, 2019, 2020, 2021, 2022, 2023"
+United States,Weston McKennie,Midfielder,Juventus,Serie A,True,Exact match,Weston McKennie,10,"Bundesliga, EPL, Serie_A","2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Uruguay,Guillermo Varela,Defender,Flamengo,Brazilian football league system,True,Exact match,Guillermo Varela,5,"Bundesliga, EPL, RFPL","2015, 2016, 2020, 2021, 2022"
+Uruguay,Joaquin Piquerez,Defender,Palmeiras,Brazilian football league system,False,No reliable match,,0,,
+Uruguay,Jose Maria Gimenez,Defender,Atletico Madrid,LaLiga,True,Safe fuzzy match,José Mari,6,La_Liga,"2014, 2015, 2020, 2021, 2022, 2023"
+Uruguay,Mathias Olivera,Defender,Napoli,Serie A,True,Exact match,Mathías Olivera,8,"La_Liga, Serie_A","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Uruguay,Matias Vina,Defender,Flamengo,Brazilian football league system,True,Exact match,Matias Viña,4,"EPL, Serie_A","2021, 2022, 2023"
+Uruguay,Ronald Araujo,Defender,Barcelona,LaLiga,True,Exact match,Ronald Araújo,5,La_Liga,"2019, 2020, 2021, 2022, 2023"
+Uruguay,Santiago Bueno,Defender,Wolves,Premier League,True,Exact match,Santiago Bueno,3,"EPL, La_Liga","2022, 2023, 2024"
+Uruguay,Sebastian Caceres,Defender,Club America,Liga MX,False,No reliable match,,0,,
+Uruguay,Darwin Nunez,Forward,Al Hilal,Saudi Pro League,True,Exact match,Darwin Núñez,3,EPL,"2022, 2023, 2024"
+Uruguay,Federico Vinas,Forward,Real Oviedo,LaLiga,False,No reliable match,,0,,
+Uruguay,Rodrigo Aguirre,Forward,Club America,Liga MX,True,Exact match,Rodrigo Aguirre,2,Serie_A,"2014, 2015"
+Uruguay,Fernando Muslera,Goalkeeper,Galatasaray,Turkish Süper Lig,False,No reliable match,,0,,
+Uruguay,Santiago Mele,Goalkeeper,Junior FC,Unknown / verify manually,False,No reliable match,,0,,
+Uruguay,Sergio Rochet,Goalkeeper,Internacional,Brazilian football league system,False,No reliable match,,0,,
+Uruguay,Agustin Canobbio,Midfielder,Fluminense,Brazilian football league system,False,No reliable match,,0,,
+Uruguay,Brian Rodriguez,Midfielder,Club America,Liga MX,False,No reliable match,,0,,
+Uruguay,Emiliano Martinez,Midfielder,Palmeiras,Brazilian football league system,True,Exact match,Emiliano Martinez,9,"EPL, La_Liga","2014, 2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024"
+Uruguay,Facundo Pellistri,Midfielder,Panathinaikos,Greek Super League,True,Exact match,Facundo Pellistri,5,"EPL, La_Liga","2020, 2021, 2022, 2023"
+Uruguay,Federico Valverde,Midfielder,Real Madrid,LaLiga,True,Exact match,Federico Valverde,8,La_Liga,"2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Uruguay,Giorgian de Arrascaeta,Midfielder,Flamengo,Brazilian football league system,False,No reliable match,,0,,
+Uruguay,Juan Manuel Sanabria,Midfielder,Atletico San Luis,Unknown / verify manually,False,No reliable match,,0,,
+Uruguay,Manuel Ugarte,Midfielder,Manchester United,Premier League,True,Exact match,Manuel Ugarte,2,"EPL, Ligue_1","2023, 2024"
+Uruguay,Maximiliano Araujo,Midfielder,Sporting CP,Primeira Liga,False,No reliable match,,0,,
+Uruguay,Nicolas de la Cruz,Midfielder,Flamengo,Brazilian football league system,False,No reliable match,,0,,
+Uruguay,Rodrigo Bentancur,Midfielder,Tottenham,Premier League,True,Exact match,Rodrigo Bentancur,9,"EPL, Serie_A","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Uruguay,Rodrigo Zalazar,Midfielder,SC Braga,Unknown / verify manually,True,Exact match,Rodrigo Zalazar,1,Bundesliga,2022
+Uzbekistan,Abdukodir Khusanov,Defender,Manchester City,Unknown / verify manually,False,No reliable match,,0,,
+Uzbekistan,Abdulla Abdullaev,Defender,Dibba,UAE Pro League,False,No reliable match,,0,,
+Uzbekistan,Avazbek Ulmasaliev,Defender,AGMK,Unknown / verify manually,False,No reliable match,,0,,
+Uzbekistan,Bekhruz Karimov,Defender,Surkhon,Unknown / verify manually,False,No reliable match,,0,,
+Uzbekistan,Farrukh Sayfiev,Defender,Neftchi,Uzbekistan Super League,False,No reliable match,,0,,
+Uzbekistan,Jakhongir Urozov,Defender,Dinamo Samarqand,Unknown / verify manually,False,No reliable match,,0,,
+Uzbekistan,Khojiakbar Alijonov,Defender,Pakhtakor,Unknown / verify manually,False,No reliable match,,0,,
+Uzbekistan,Rustam Ashurmatov,Defender,Esteghlal,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Uzbekistan,Sherzod Nasrullaev,Defender,Nasaf,Uzbekistan Super League,False,No reliable match,,0,,
+Uzbekistan,Umar Eshmurodov,Defender,Nasaf,Malaysia Super League,False,No reliable match,,0,,
+Uzbekistan,Azizbek Amonov,Forward,Bukhara,Unknown / verify manually,False,No reliable match,,0,,
+Uzbekistan,Eldor Shomurodov,Forward,Istanbul Basaksehir,Serie A,True,Exact match,Eldor Shomurodov,9,"RFPL, Serie_A","2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Uzbekistan,Igor Sergeev,Forward,Persepolis,Thai League 1,False,No reliable match,,0,,
+Uzbekistan,Abduvohid Nematov,Goalkeeper,Nasaf,Uzbekistan Super League,False,No reliable match,,0,,
+Uzbekistan,Botirali Ergashev,Goalkeeper,Neftchi,Unknown / verify manually,False,No reliable match,,0,,
+Uzbekistan,Utkir Yusupov,Goalkeeper,Navbahor,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Uzbekistan,Abbosbek Fayzullaev,Midfielder,Istanbul Basaksehir,Russian Premier League,True,Exact match,Abbosbek Fayzullaev,2,RFPL,"2023, 2024"
+Uzbekistan,Akmal Mozgovoy,Midfielder,Pakhtakor,Uzbekistan Super League,False,No reliable match,,0,,
+Uzbekistan,Azizjon Ganiev,Midfielder,Al Bataeh,Unknown / verify manually,False,No reliable match,,0,,
+Uzbekistan,Dostonbek Khamdamov,Midfielder,Pakhtakor,Unknown / verify manually,True,Exact match,Dostonbek Khamdamov,2,RFPL,"2017, 2018"
+Uzbekistan,Jaloliddin Masharipov,Midfielder,Esteghlal,Iran Persian Gulf Pro League,False,No reliable match,,0,,
+Uzbekistan,Jamshid Iskanderov,Midfielder,Neftchi,Uzbekistan Super League,False,No reliable match,,0,,
+Uzbekistan,Odiljon Hamrobekov,Midfielder,Tractor,Uzbekistan Super League,False,No reliable match,,0,,
+Uzbekistan,Oston Urunov,Midfielder,Persepolis,Iran Persian Gulf Pro League,True,Exact match,Oston Urunov,4,RFPL,"2019, 2020, 2021, 2022"
+Uzbekistan,Otabek Shukurov,Midfielder,Baniyas,Turkish Süper Lig,False,No reliable match,,0,,
+Uzbekistan,Sherzod Esanov,Midfielder,Bukhara,Russian Premier League,True,Exact match,Sherzod Esanov,1,RFPL,2024

@@ -3,98 +3,87 @@ FBref Failed/Skipped League Attempts
 
 Active leagues attempted:
 - Big 5 European Leagues Combined
+- ARG-Primera Division
+- BEL-Pro League
+- BRA-Serie A
 - ENG-Premier League
 - ESP-La Liga
 - FRA-Ligue 1
 - GER-Bundesliga
 - ITA-Serie A
+- KSA-Saudi Pro League
+- MEX-Liga MX
+- NED-Eredivisie
+- POR-Primeira Liga
+- SCO-Premiership
+- TUR-Super Lig
+- USA-MLS
 
 Mapped active leagues unsupported by current soccerdata FBref:
-None
+- ARG-Primera Division
+- BEL-Pro League
+- BRA-Serie A
+- KSA-Saudi Pro League
+- MEX-Liga MX
+- NED-Eredivisie
+- POR-Primeira Liga
+- SCO-Premiership
+- TUR-Super Lig
+- USA-MLS
 
 Failed active leagues:
-- GER-Bundesliga
-- ITA-Serie A
+- ARG-Primera Division
+- BEL-Pro League
+- BRA-Serie A
+- KSA-Saudi Pro League
+- MEX-Liga MX
+- NED-Eredivisie
+- POR-Primeira Liga
+- SCO-Premiership
+- TUR-Super Lig
+- USA-MLS
 
 Maybe-supported leagues not attempted:
-- Argentina Primera División -> ARG-Primera Division
-- Argentina/Primera División -> ARG-Primera Division
-- Argentine Primera División -> ARG-Primera Division
-- Belgian Pro League -> BEL-Pro League
-- Belgium/Belgian Pro League -> BEL-Pro League
-- Brazil/Série A -> BRA-Serie A
-- Brazilian football league system -> BRA-Serie A
-- Campeonato Brasileiro Série A -> BRA-Serie A
 - Czech First League -> CZE-First League
 - Danish Superliga -> DEN-Superliga
 - Egyptian Premier League -> EGY-Premier League
-- Eredivisie -> NED-Eredivisie
-- Eredivisie / Dutch football league system -> NED-Eredivisie
-- Liga MX -> MEX-Liga MX
-- MLS -> USA-MLS
-- Major League Soccer -> USA-MLS
-- Mexico/Liga MX -> MEX-Liga MX
-- Netherlands/Eredivisie -> NED-Eredivisie
-- Portugal/Primeira Liga -> POR-Primeira Liga
-- Primeira Liga -> POR-Primeira Liga
+- Iran Persian Gulf Pro League -> IRN-Persian Gulf Pro League
+- New Zealand National League -> NZL-National League
+- Qatar Stars League -> QAT-Stars League
 - Russian Premier League -> RUS-Premier League
-- Saudi Arabia/Saudi Pro League -> KSA-Saudi Pro League
-- Saudi Pro League -> KSA-Saudi Pro League
-- Scotland/Scottish Premiership -> SCO-Premiership
-- Scottish Premiership -> SCO-Premiership
 - South African Premier Division -> RSA-Premier Division
-- Turkey/Süper Lig -> TUR-Super Lig
-- Turkish Süper Lig -> TUR-Super Lig
 - UAE Pro League -> UAE-Pro League
-- USA/MLS -> USA-MLS
+- Uzbekistan Super League -> UZB-Super League
 
 Squad leagues with no configured active mapping:
 - Australian A-League Men
 - Austrian Bundesliga
-- Azerbaijan Premier League
-- Chile Primera División
-- Chinese Super League
 - Colombian Categoría Primera A
-- Costa Rican Primera División
 - Croatian Football League
 - Cypriot First Division
 - Ecuadorian Serie A
-- English football league system
 - German football league system
-- German lower leagues
 - Ghana Premier League
 - Greek Super League
-- Hong Kong Premier League
 - Hungarian NB I
-- Iran Persian Gulf Pro League
 - Iraqi Stars League
 - Irish Premier Division
 - Israeli Premier League
 - Italian football league system
 - J1 League / Japanese football league system
-- Jordanian Pro League
-- K League
 - Kazakhstan Premier League
 - Malaysia Super League
 - Middle East / North Africa league - verify club
 - Moroccan Botola
-- New Zealand National League
 - Norwegian Eliteserien
-- Panamanian Liga Panameña de Fútbol
 - Paraguayan Primera División
 - Paraguayan football league system
 - Polish Ekstraklasa
-- Qatar Stars League
 - Romanian Liga I
 - Serbian SuperLiga
-- Slovak First Football League
 - Slovenian PrvaLiga
-- Spanish football league system
 - Swedish Allsvenskan
 - Swiss Super League
 - Thai League 1
 - Tunisian Ligue Professionnelle 1
 - USL Championship
-- Uruguayan Primera División
-- Uzbekistan Super League
-- Venezuelan Primera División

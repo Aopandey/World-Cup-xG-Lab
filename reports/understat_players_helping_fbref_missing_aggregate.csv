@@ -1,0 +1,26 @@
+world_cup_team,player,position_group,club,squad_league,understat_found,match_confidence,matched_understat_player,understat_rows,understat_leagues,understat_seasons
+Argentina,Nico Paz,Forward,Como,Serie A,True,Exact match,Nico Paz,4,"La_Liga, Serie_A, mixed_top6_unknown_per_row","2023, 2024"
+Australia,Mathew Leckie,Forward,Melbourne City,Australian A-League Men,True,Exact match,Mathew Leckie,12,"Bundesliga, mixed_top6_unknown_per_row","2015, 2016, 2017, 2018, 2019, 2020"
+Australia,O'Neill,Midfielder,New York City,Unknown / verify manually,True,Safe fuzzy match,Aiden O'Neill,1,mixed_top6_unknown_per_row,2016
+Bosnia and Herzegovina,Dennis Hadzikadunic,Defender,Sampdoria,Italian football league system,True,Exact match,Dennis Hadzikadunic,10,"La_Liga, RFPL, mixed_top6_unknown_per_row","2018, 2019, 2020, 2021, 2022"
+Brazil,Bremer,Defender,Juventus,Serie A,True,Exact match,Bremer,14,"Serie_A, mixed_top6_unknown_per_row","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Colombia,Juan Camilo Hernandez,Forward,Real Betis,LaLiga,True,Exact match,Juan Camilo Hernández,8,"EPL, La_Liga, mixed_top6_unknown_per_row","2018, 2019, 2020, 2021"
+Curaçao,Jurgen Locadia,Forward,Miami FC,Unknown / verify manually,True,Exact match,Jürgen Locadia,12,"Bundesliga, EPL, mixed_top6_unknown_per_row","2017, 2018, 2019, 2021"
+Curaçao,Kenji Gorré,Forward,Maccabi Haifa,Israeli Premier League,True,Exact match,Kenji Gorré,2,"EPL, mixed_top6_unknown_per_row",2014
+Haiti,Yassin Fortune,Forward,Vizela,Unknown / verify manually,True,Exact match,Yassin Fortuné,2,"Ligue_1, mixed_top6_unknown_per_row",2020
+Iran,Mohammad Ghorbani,Midfielder,"Al-Wahda, UAE",Unknown / verify manually,True,Exact match,Mohammad Ghorbani,4,"RFPL, mixed_top6_unknown_per_row","2023, 2024"
+Iran,Mohammad Mohebi,Midfielder,"Rostov, Rus",Unknown / verify manually,True,Exact match,Mohammad Mohebi,4,"RFPL, mixed_top6_unknown_per_row","2023, 2024"
+Iraq,Aimar Sher,Midfielder,Sarpsborg,Unknown / verify manually,True,Exact match,Aimar Sher,2,"Serie_A, mixed_top6_unknown_per_row",2021
+Ivory Coast,Evan Ndicka,Defender,AS Roma,Serie A,True,Exact match,Evan Ndicka,14,"Bundesliga, Serie_A, mixed_top6_unknown_per_row","2018, 2019, 2020, 2021, 2022, 2023, 2024"
+Ivory Coast,Jean-Michael Seri,Midfielder,NK Maribor,Slovenian PrvaLiga,True,Exact match,Jean Michael Seri,10,"EPL, Ligue_1, mixed_top6_unknown_per_row","2015, 2016, 2017, 2018, 2020"
+Japan,Ito Suzuki,Forward,SC Freiburg,Unknown / verify manually,True,Safe fuzzy match,Yuito Suzuki,2,"Ligue_1, mixed_top6_unknown_per_row",2022
+Jordan,Mousa Al-Tamari,Forward,Rennes,Ligue 1 / French football league system,True,Exact match,Mousa Al Tamari,4,"Ligue_1, mixed_top6_unknown_per_row","2023, 2024"
+Morocco,Abdessamad Ezzalzouli,Forward,Real Betis,LaLiga,True,Exact match,Abdessamad Ezzalzouli,9,"La_Liga, mixed_top6_unknown_per_row","2021, 2022, 2023, 2024"
+Netherlands,Memphis Depay,Forward,Corinthians,Unknown / verify manually,True,Exact match,Memphis Depay,21,"EPL, La_Liga, Ligue_1, mixed_top6_unknown_per_row","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+New Zealand,Tommy Smith,Defender,Braintree Town,Unknown / verify manually,True,Exact match,Tommy Smith,4,"EPL, mixed_top6_unknown_per_row","2017, 2018"
+New Zealand,Sarpreet Singh,Midfielder,Wellington Phoenix,New Zealand National League,True,Exact match,Sarpreet Singh,2,"Bundesliga, mixed_top6_unknown_per_row",2019
+Norway,Martin Odegaard,Midfielder,Arsenal,Premier League,True,Exact match,Martin Odegaard,16,"EPL, La_Liga, mixed_top6_unknown_per_row","2014, 2019, 2020, 2021, 2022, 2023, 2024"
+Sweden,Kristoffer Nordfeldt,Goalkeeper,AIK,Swedish Allsvenskan,True,Exact match,Kristoffer Nordfeldt,4,"EPL, mixed_top6_unknown_per_row","2015, 2016"
+Türkiye,Kenan Yildiz,Forward,Juventus,Serie A,True,Exact match,Kenan Yildiz,4,"Serie_A, mixed_top6_unknown_per_row","2023, 2024"
+Uzbekistan,Abbosbek Fayzullaev,Midfielder,Istanbul Basaksehir,Russian Premier League,True,Exact match,Abbosbek Fayzullaev,4,"RFPL, mixed_top6_unknown_per_row","2023, 2024"
+Uzbekistan,Dostonbek Khamdamov,Midfielder,Pakhtakor,Unknown / verify manually,True,Exact match,Dostonbek Khamdamov,4,"RFPL, mixed_top6_unknown_per_row","2017, 2018"

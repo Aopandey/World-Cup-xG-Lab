@@ -9,6 +9,7 @@ import streamlit as st
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.append(str(PROJECT_ROOT))
 
+from src.data.data_confidence import calculate_team_data_confidence
 from src.data.make_dataset import (
     filter_by_team,
     load_xg_predictions,
@@ -84,7 +85,12 @@ def main() -> None:
     st.write("Explore a team's shot volume, expected goals, finishing performance, and shot locations.")
     st.info(
         "Showing only 2026 World Cup teams found in the available historical data. "
-        "Final 26-player squad filtering will be added after official squads are announced."
+        "Official squad filtering is enabled where final squad data is available."
+    )
+    st.caption(
+        "This dashboard combines historical StatsBomb shot-location data with recent "
+        "FBref player context. It shows where players have generated high-quality "
+        "chances in available data, not guaranteed future scoring locations."
     )
 
     try:
@@ -120,9 +126,14 @@ def main() -> None:
 
     team_summary = summarize_team_xg(team_shots, team_col="world_cup_team").iloc[0]
     team_coverage = summarize_world_cup_team_coverage(team_shots).iloc[0]
+    data_confidence = calculate_team_data_confidence(
+        int(team_coverage["shots"]),
+        selected_team in confirmed_squad_teams,
+        0.0,
+    )
 
     st.subheader("Sample Coverage")
-    coverage_columns = st.columns(4)
+    coverage_columns = st.columns(5)
     coverage_columns[0].metric("Matches in Sample", f"{int(team_coverage['matches']):,}")
     coverage_columns[1].metric("Shots in Sample", f"{int(team_coverage['shots']):,}")
     coverage_columns[2].metric(
@@ -130,6 +141,7 @@ def main() -> None:
         f"{team_coverage['earliest_match_date']} to {team_coverage['latest_match_date']}",
     )
     coverage_columns[3].metric("Goals in Sample", f"{int(team_coverage['goals']):,}")
+    coverage_columns[4].metric("Data Confidence", data_confidence)
 
     st.caption(f"Competitions included: {team_coverage['competitions_included']}")
 

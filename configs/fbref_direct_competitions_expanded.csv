@@ -1,0 +1,37 @@
+competition_group,competition_name,fbref_comp_url,season_type,scrape_priority,notes
+domestic_leagues,Argentina Primera Division,https://fbref.com/en/comps/21/Primera-Division-Stats,calendar,1,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Austrian Bundesliga,https://fbref.com/en/comps/56/Austrian-Bundesliga-Stats,european,2,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Belgian Pro League,https://fbref.com/en/comps/37/Belgian-Pro-League-Stats,european,3,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Brazil Serie A,https://fbref.com/en/comps/24/Serie-A-Stats,calendar,4,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Bundesliga,https://fbref.com/en/comps/20/Bundesliga-Stats,european,5,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Croatian Football League,https://fbref.com/en/comps/63/Hrvatska-NL-Stats,european,6,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Czech First League,https://fbref.com/en/comps/66/Czech-First-League-Stats,european,7,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Danish Superliga,https://fbref.com/en/comps/50/Superliga-Stats,european,8,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Premier League,https://fbref.com/en/comps/9/Premier-League-Stats,european,9,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Eredivisie,https://fbref.com/en/comps/23/Eredivisie-Stats,european,10,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Greek Super League,https://fbref.com/en/comps/27/Super-League-Greece-Stats,european,11,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Iran Persian Gulf Pro League,https://fbref.com/en/comps/64/Persian-Gulf-Pro-League-Stats,european,12,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,J1 League,https://fbref.com/en/comps/25/J1-League-Stats,calendar,13,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,K League 1,https://fbref.com/en/comps/55/K-League-1-Stats,calendar,14,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,La Liga,https://fbref.com/en/comps/12/La-Liga-Stats,european,15,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Liga MX,https://fbref.com/en/comps/31/Liga-MX-Stats,calendar,16,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Ligue 1,https://fbref.com/en/comps/13/Ligue-1-Stats,european,17,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Major League Soccer,https://fbref.com/en/comps/22/Major-League-Soccer-Stats,calendar,18,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Primeira Liga,https://fbref.com/en/comps/32/Primeira-Liga-Stats,european,19,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Russian Premier League,https://fbref.com/en/comps/30/Russian-Premier-League-Stats,european,20,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Saudi Pro League,https://fbref.com/en/comps/70/Saudi-Pro-League-Stats,european,21,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Scottish Premiership,https://fbref.com/en/comps/40/Scottish-Premiership-Stats,european,22,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Serie A,https://fbref.com/en/comps/11/Serie-A-Stats,european,23,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,South African Premier Division,https://fbref.com/en/comps/52/South-African-Premiership-Stats,european,24,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Swiss Super League,https://fbref.com/en/comps/57/Swiss-Super-League-Stats,european,25,Expanded direct FBref mapping from uploaded competition file
+domestic_leagues,Turkish Super Lig,https://fbref.com/en/comps/26/Super-Lig-Stats,european,26,Expanded direct FBref mapping from uploaded competition file
+club_competitions,Champions League,https://fbref.com/en/comps/8/Champions-League-Stats,european,27,Expanded direct FBref mapping from uploaded competition file
+club_competitions,Europa League,https://fbref.com/en/comps/19/Europa-League-Stats,european,28,Expanded direct FBref mapping from uploaded competition file
+club_competitions,Conference League,https://fbref.com/en/comps/882/Conference-League-Stats,european,29,Expanded direct FBref mapping from uploaded competition file
+international_competitions,World Cup,https://fbref.com/en/comps/1/World-Cup-Stats,tournament,30,Expanded direct FBref mapping from uploaded competition file
+international_competitions,UEFA Euros,https://fbref.com/en/comps/676/UEFA-Euro-Stats,tournament,31,Expanded direct FBref mapping from uploaded competition file
+international_competitions,UEFA Nations League,https://fbref.com/en/comps/677/UEFA-Nations-League-Stats,tournament,32,Expanded direct FBref mapping from uploaded competition file
+international_competitions,AFCON,https://fbref.com/en/comps/656/Africa-Cup-of-Nations-Stats,tournament,33,Expanded direct FBref mapping from uploaded competition file
+international_competitions,Copa America,https://fbref.com/en/comps/685/Copa-America-Stats,tournament,34,Expanded direct FBref mapping from uploaded competition file
+international_competitions,International Friendlies,https://fbref.com/en/comps/218/history/Friendlies-M-Seasons,tournament,35,Expanded direct FBref mapping from uploaded competition file
+international_competitions,Asian Cup,https://fbref.com/en/comps/664/2024/2024-Stats,tournament,36,Expanded direct FBref mapping from uploaded competition file

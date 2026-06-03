@@ -13,3 +13,11 @@ python-dotenv
 pytest
 soccerdata
 openpyxl
+fastapi
+uvicorn
+requests
+beautifulsoup4
+lxml
+rapidfuzz
+Unidecode
+pyarrow

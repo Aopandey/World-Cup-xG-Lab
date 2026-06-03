@@ -1,562 +1,247 @@
 world_cup_team,player,position,position_group,club,league,reason_missing
 Algeria,Achraf Abada,Defender,Defender,USM Alger,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Algeria,Mohamed Amine Tougai,Defender,Defender,Esperance,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Algeria,Zinedine Belaid,Defender,Defender,JS Kabylie,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Algeria,Adil Boulbina,Forward,Forward,Al Duhail,Qatar Stars League,No reliable FBref match in currently supported/pulled leagues
-Algeria,Anis Hadj Moussa,Forward,Forward,Feyenoord,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Algeria,Mohamed Amine Amoura,Forward,Forward,VfL Wolfsburg,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Algeria,Nadir Benbouali,Forward,Forward,Győri ETO,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Algeria,Riyad Mahrez,Forward,Forward,Al Ahli,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Algeria,Luca Zidane,Goalkeeper,Goalkeeper,Granada,Spanish football league system,No reliable FBref match in currently supported/pulled leagues
+Algeria,Mohamed Amine Amoura,Forward,Forward,Wolfsburg,Bundesliga,No reliable FBref match in currently supported/pulled leagues
+Algeria,Nadir Benbouali,Forward,Forward,Gyori ETO,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Algeria,Melvin Masstil,Goalkeeper,Goalkeeper,Stade Nyonnaise,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Algeria,Oussama Benbot,Goalkeeper,Goalkeeper,USM Alger,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Algeria,Ramiz Zerrouki,Midfielder,Midfielder,FC Twente,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Algeria,Yassine Titraoui,Midfielder,Midfielder,Charleroi,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Argentina,Nicolás Otamendi,Defender,Defender,Benfica,Primeira Liga,No reliable FBref match in currently supported/pulled leagues
-Argentina,Jose Manuel López,Forward,Forward,Palmeiras,Brazilian football league system,No reliable FBref match in currently supported/pulled leagues
-Argentina,Lionel Messi,Forward,Forward,Inter Miami,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
 Argentina,Nico Paz,Forward,Forward,Como,Serie A,No reliable FBref match in currently supported/pulled leagues
-Australia,Aziz Behich,Defender,Defender,Melbourne City,Australian A-League Men,No reliable FBref match in currently supported/pulled leagues
-Australia,Harry Souttar,Defender,Defender,Leicester City,English football league system,No reliable FBref match in currently supported/pulled leagues
-Australia,Jacob Italiano,Defender,Defender,Grazer AK,Austrian Bundesliga,No reliable FBref match in currently supported/pulled leagues
-Australia,Jason Geria,Defender,Defender,Albirex Niigata,J1 League / Japanese football league system,No reliable FBref match in currently supported/pulled leagues
-Australia,Jordan Bos,Defender,Defender,Feyenoord Rotterdam,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Australia,Kai Trewin,Defender,Defender,New York City FC,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
+Argentina,Ezequiel Palacios,Midfielder,Midfielder,Bayer Leverkusen,Bundesliga,No reliable FBref match in currently supported/pulled leagues
+Australia,Jordan Bos,Defender,Defender,Feynoord,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Australia,Kai Trewin,Defender,Defender,New York City,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Australia,Lucas Herrington,Defender,Defender,Colorado Rapids,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Australia,Milos Degenek,Defender,Defender,Apoel Nicosia,Cypriot First Division,No reliable FBref match in currently supported/pulled leagues
-Australia,Ajdin Hrustic,Forward,Forward,Heracles Almelo,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Australia,Awer Mabil,Forward,Forward,Castellón,Spanish football league system,No reliable FBref match in currently supported/pulled leagues
 Australia,Mathew Leckie,Forward,Forward,Melbourne City,Australian A-League Men,No reliable FBref match in currently supported/pulled leagues
-Australia,Mohamed Toure,Forward,Forward,Norwich City,English football league system,No reliable FBref match in currently supported/pulled leagues
-Australia,Nestory Irankunda,Forward,Forward,Watford,English football league system,No reliable FBref match in currently supported/pulled leagues
-Australia,Nishan Velupillay,Forward,Forward,Melbourne Victory,Australian A-League Men,No reliable FBref match in currently supported/pulled leagues
-Australia,Tete Yengi,Forward,Forward,Machida Zelvia,J1 League / Japanese football league system,No reliable FBref match in currently supported/pulled leagues
+Australia,Velupilly,Forward,Forward,Melbourne City,Australian A-League Men,No reliable FBref match in currently supported/pulled leagues
 Australia,Patrick Beach,Goalkeeper,Goalkeeper,Melbourne City,Australian A-League Men,No reliable FBref match in currently supported/pulled leagues
-Australia,Paul Izzo,Goalkeeper,Goalkeeper,Randers FC,Danish Superliga,No reliable FBref match in currently supported/pulled leagues
-Australia,Aiden O'Neill,Midfielder,Midfielder,New York City FC,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
 Australia,Cameron Devlin,Midfielder,Midfielder,Heart of Midlothian,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-Australia,Paul Okon Jr,Midfielder,Midfielder,Sydney FC,Australian A-League Men,No reliable FBref match in currently supported/pulled leagues
-Austria,Philipp Mwene,Defender,Defender,Mainz 05,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Austria,Alexander Schlager,Goalkeeper,Goalkeeper,RB Salzburg,Austrian Bundesliga,No reliable FBref match in currently supported/pulled leagues
-Austria,Florian Wiegele,Goalkeeper,Goalkeeper,Viktoria Plzen,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Austria,Patrick Pentz,Goalkeeper,Goalkeeper,Brondby,Danish Superliga,No reliable FBref match in currently supported/pulled leagues
-Austria,Alessandro Schopf,Midfielder,Midfielder,Wolfsberger AC,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Belgium,Brandon Mechele,Defender,Defender,Club Brugge,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Belgium,Joaquin Seys,Defender,Defender,Club Brugge,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Belgium,Zeno Debast,Defender,Defender,Sporting CP,Primeira Liga,No reliable FBref match in currently supported/pulled leagues
-Belgium,Hans Vanaken,Midfielder,Midfielder,Club Brugge,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Belgium,Nicolas Raskin,Midfielder,Midfielder,Rangers,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
+Australia,O'Neill,Midfielder,Midfielder,New York City,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Australia,Okon-Englster,Midfielder,Midfielder,Sydney,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Bosnia and Herzegovina,Dennis Hadzikadunic,Defender,Defender,Sampdoria,Italian football league system,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Nihad Mujakic,Defender,Defender,Gaziantep,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Nikola Katic,Defender,Defender,Schalke 04,Bundesliga,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Stjepan Radeljic,Defender,Defender,Rijeka,Croatian Football League,No reliable FBref match in currently supported/pulled leagues
 Bosnia and Herzegovina,Jovo Lukic,Forward,Forward,Universitatea Cluj,Romanian Liga I,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Samed Bazdar,Forward,Forward,Jagiellonia Bialystok,Polish Ekstraklasa,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Martin Zlomislic,Goalkeeper,Goalkeeper,Rijeka,Croatian Football League,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Osman Hadzikic,Goalkeeper,Goalkeeper,Slaven Belupo,Croatian Football League,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Amar Memic,Midfielder,Midfielder,Viktoria Plzen,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Amir Hadziahmetovic,Midfielder,Midfielder,Hull City,English football league system,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Benjamin Tahirovic,Midfielder,Midfielder,Brondby,Danish Superliga,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Dzenis Burnic,Midfielder,Midfielder,Karlsruher SC,German football league system,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Ermin Mahmic,Midfielder,Midfielder,Slovan Liberec,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Esmir Bajraktarevic,Midfielder,Midfielder,PSV Eindhoven,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Ivan Basic,Midfielder,Midfielder,Astana,Kazakhstan Premier League,No reliable FBref match in currently supported/pulled leagues
-Bosnia and Herzegovina,Ivan Sunjic,Midfielder,Midfielder,Pafos,Cypriot First Division,No reliable FBref match in currently supported/pulled leagues
 Brazil,Bremer,Defender,Defender,Juventus,Serie A,No reliable FBref match in currently supported/pulled leagues
-Brazil,Douglas Santos,Defender,Defender,Zenit St. Petersburg,Russian Premier League,No reliable FBref match in currently supported/pulled leagues
-Brazil,Léo Pereira,Defender,Defender,Flamengo,Brazilian football league system,No reliable FBref match in currently supported/pulled leagues
-Brazil,Roger Ibañez,Defender,Defender,Al Ahli,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Brazil,Neymar,Forward,Forward,Santos,Brazilian football league system,No reliable FBref match in currently supported/pulled leagues
-Brazil,Weverton,Goalkeeper,Goalkeeper,Grêmio,Brazilian football league system,No reliable FBref match in currently supported/pulled leagues
-Brazil,Fabinho,Midfielder,Midfielder,Al Ittihad,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
 Cabo Verde,Diney,Defender,Defender,Al Bataeh,Middle East / North Africa league - verify club,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Joao Paulo,Defender,Defender,FCSB,Romanian Liga I,No reliable FBref match in currently supported/pulled leagues
 Cabo Verde,Kelvin Pires,Defender,Defender,SJK,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Pico,Defender,Defender,Shamrock Rovers,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Cabo Verde,Roberto Lopes,Defender,Defender,Shamrock Rovers,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Cabo Verde,Sidny Lopes Cabral,Defender,Defender,Benfica,Primeira Liga,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Steven Moreira,Defender,Defender,Columbus Crew,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
 Cabo Verde,Stopira,Defender,Defender,Torreense,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Wagner Pina,Defender,Defender,Trabzonspor,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Garry Rodrigues,Forward,Forward,Apollon Limassol,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Gilson Benchimol,Forward,Forward,Akron Tolyatti,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Helio Varela,Forward,Forward,Maccabi Tel Aviv,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Nuno da Costa,Forward,Forward,Istanbul Basaksehir,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Ryan Mendes,Forward,Forward,Igdir,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Willy Semedo,Forward,Forward,Omonia,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,CJ dos Santos,Goalkeeper,Goalkeeper,San Diego FC,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
+Cabo Verde,Gilson Tavares,Forward,Forward,Akron Tolyatti,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Cabo Verde,CJ dos Santos,Goalkeeper,Goalkeeper,San Diego,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Cabo Verde,Marcio Rosa,Goalkeeper,Goalkeeper,Montana,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Cabo Verde,Vozinha,Goalkeeper,Goalkeeper,Chaves,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Deroy Duarte,Midfielder,Midfielder,Ludogorets Razgrad,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Jamiro Monteiro,Midfielder,Midfielder,PEC Zwolle,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Kevin Pina,Midfielder,Midfielder,Krasnodar,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Laros Duarte,Midfielder,Midfielder,Puskas Akademia,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Cabo Verde,Telmo Arcanjo,Midfielder,Midfielder,Vitoria Guimaraes,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Cabo Verde,Yannick Semedo,Midfielder,Midfielder,Farense,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Canada,Alfie Jones,Defender,Defender,Middlesbrough,English football league system,No reliable FBref match in currently supported/pulled leagues
-Canada,Alistair Johnston,Defender,Defender,Celtic,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-Canada,Joel Waterman,Defender,Defender,Chicago Fire,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Canada,Niko Sigur,Defender,Defender,Hajduk Split,Croatian Football League,No reliable FBref match in currently supported/pulled leagues
-Canada,Richie Laryea,Defender,Defender,Toronto FC,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Canada,Promise David,Forward,Forward,Royale-Union Saint Gilloise,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Canada,Dayne St. Clair,Goalkeeper,Goalkeeper,Inter Miami,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Canada,Maxime Crépeau,Goalkeeper,Goalkeeper,Orlando City,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Canada,Owen Goodman,Goalkeeper,Goalkeeper,Barnsley,English football league system,No reliable FBref match in currently supported/pulled leagues
-Canada,Ali Ahmed,Midfielder,Midfielder,Norwich City,English football league system,No reliable FBref match in currently supported/pulled leagues
-Canada,Jacob Shaffelburg,Midfielder,Midfielder,LAFC,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Canada,Jonathan Osorio,Midfielder,Midfielder,Toronto FC,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Canada,Liam Millar,Midfielder,Midfielder,Hull City,English football league system,No reliable FBref match in currently supported/pulled leagues
-Canada,Marcelo Flores,Midfielder,Midfielder,Tigres UANL,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Canada,Mathieu Choinière,Midfielder,Midfielder,LAFC,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Canada,Nathan Saliba,Midfielder,Midfielder,Anderlecht,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Canada,Stephen Eustáquio,Midfielder,Midfielder,LAFC,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Colombia,Santiago Arias,Defender,Defender,Independiente,Argentina Primera División,No reliable FBref match in currently supported/pulled leagues
-Colombia,Willer Ditta,Defender,Defender,Cruz Azul,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Colombia,Cucho Hernández,Forward,Forward,Real Betis,LaLiga,No reliable FBref match in currently supported/pulled leagues
-Colombia,Jhon Córdoba,Forward,Forward,Krasnodar,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Colombia,Luis Suárez,Forward,Forward,Sporting CP,Primeira Liga,No reliable FBref match in currently supported/pulled leagues
-Colombia,Camilo Vargas,Goalkeeper,Goalkeeper,Atlas,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Colombia,David Ospina,Goalkeeper,Goalkeeper,Atlético Nacional,Colombian Categoría Primera A,No reliable FBref match in currently supported/pulled leagues
-Colombia,Álvaro Montero,Goalkeeper,Goalkeeper,Vélez Sarsfield,Argentina Primera División,No reliable FBref match in currently supported/pulled leagues
-Colombia,Jaminton Campaz,Midfielder,Midfielder,Rosario Central,Argentina Primera División,No reliable FBref match in currently supported/pulled leagues
-Colombia,Jorge Carrascal,Midfielder,Midfielder,Flamengo,Brazilian football league system,No reliable FBref match in currently supported/pulled leagues
+Canada,Owen Goodman,Goalkeeper,Goalkeeper,Crystal Palace,Premier League,No reliable FBref match in currently supported/pulled leagues
+Colombia,Juan Camilo Hernandez,Forward,Forward,Real Betis,LaLiga,No reliable FBref match in currently supported/pulled leagues
+Colombia,Alvaro Montero,Goalkeeper,Goalkeeper,Velez Sarsfield,Argentina Primera División,No reliable FBref match in currently supported/pulled leagues
 Colombia,Juan Fernando Quintero,Midfielder,Midfielder,River Plate,Argentina Primera División,No reliable FBref match in currently supported/pulled leagues
-Colombia,Juan Portilla,Midfielder,Midfielder,Athletico Paranaense,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Colombia,Kevin Castaño,Midfielder,Midfielder,River Plate,Argentina Primera División,No reliable FBref match in currently supported/pulled leagues
-Colombia,Richard Ríos,Midfielder,Midfielder,Benfica,Primeira Liga,No reliable FBref match in currently supported/pulled leagues
-Croatia,Josip Sutalo,Defender,Defender,Ajax,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Croatia,Marco Pasalic,Forward,Forward,Orlando City,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Croatia,Petar Musa,Forward,Forward,FC Dallas,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Croatia,Dominik Kotarski,Goalkeeper,Goalkeeper,Kobenhavn,Danish Superliga,No reliable FBref match in currently supported/pulled leagues
-Croatia,Ivor Pandur,Goalkeeper,Goalkeeper,Hull City,English football league system,No reliable FBref match in currently supported/pulled leagues
-Croatia,Toni Fruk,Midfielder,Midfielder,Rijeka,Croatian Football League,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Armando Obispo,Defender,Defender,PSV Eindhoven,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Deveron Fonville,Defender,Defender,NEC Nijmegen,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Joshua Brenet,Defender,Defender,Kayserispor,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Jurien Gaari,Defender,Defender,Abha,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Riechedly Bazoer,Defender,Defender,Konyaspor,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Roshon van Eijma,Defender,Defender,RKC Waalwijk,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Sherel Floranus,Defender,Defender,PEC Zwolle,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Shurandy Sambo,Defender,Defender,Sparta Rotterdam,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Brandley Kuwas,Forward,Forward,Volendam,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Gervane Kastaneer,Forward,Forward,Terengganu,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Jearl Margaritha,Forward,Forward,Beveren,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Jeremy Antonisse,Forward,Forward,Kifisia,Greek Super League,No reliable FBref match in currently supported/pulled leagues
+Curaçao,Gervane Kastaneer,Forward,Forward,Terengganu FC,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Curaçao,Jearl Margaritha,Forward,Forward,SK Beveren,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Curaçao,Jurgen Locadia,Forward,Forward,Miami FC,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Kenji Gorre,Forward,Forward,Maccabi Haifa,Israeli Premier League,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Sontje Hansen,Forward,Forward,Middlesbrough,English football league system,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Eloy Room,Goalkeeper,Goalkeeper,Miami FC,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Trevor Doornbusch,Goalkeeper,Goalkeeper,VVV Venlo,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Tyrick Bodak,Goalkeeper,Goalkeeper,Telstar,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Ar'jany Martha,Midfielder,Midfielder,Rotherham United,English football league system,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Godfried Roemeratoe,Midfielder,Midfielder,RKC Waalwijk,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Juninho Bacuna,Midfielder,Midfielder,Volendam,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Kevin Felida,Midfielder,Midfielder,Den Bosch,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Leandro Bacuna,Midfielder,Midfielder,Igdir,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Livano Comenencia,Midfielder,Midfielder,Zurich,Swiss Super League,No reliable FBref match in currently supported/pulled leagues
-Curaçao,Tyrese Noslin,Midfielder,Midfielder,Telstar,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Czechia,David Douděra,Defender,Defender,SK Slavia Praha,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Jaroslav Zelený,Defender,Defender,AC Sparta Praha,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Tomáš Holeš,Defender,Defender,SK Slavia Praha,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Štěpán Chaloupek,Defender,Defender,SK Slavia Praha,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Jan Kuchta,Forward,Forward,AC Sparta Praha,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Mojmír Chytil,Forward,Forward,SK Slavia Praha,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Tomáš Chorý,Forward,Forward,SK Slavia Praha,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Jindřich Staněk,Goalkeeper,Goalkeeper,SK Slavia Praha,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Lukáš Horníček,Goalkeeper,Goalkeeper,Braga SC,Primeira Liga,No reliable FBref match in currently supported/pulled leagues
-Czechia,Alexandr Sojka,Midfielder,Midfielder,FC Viktoria Plzeň,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Denis Višinský,Midfielder,Midfielder,FC Viktoria Plzeň,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Hugo Sochůrek,Midfielder,Midfielder,AC Sparta Praha,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Lukáš Provod,Midfielder,Midfielder,SK Slavia Praha,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Lukáš Červ,Midfielder,Midfielder,FC Viktoria Plzeň,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Michal Sadílek,Midfielder,Midfielder,SK Slavia Praha,Czech First League,No reliable FBref match in currently supported/pulled leagues
-Czechia,Vladimír Darida,Midfielder,Midfielder,FC Hradec Králové,Czech First League,No reliable FBref match in currently supported/pulled leagues
-DR Congo,Aaron Tshibola,Defender,Defender,Kilmarnock,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-DR Congo,Joris Kayembe,Defender,Defender,Genk,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-DR Congo,Steve Kapuadi,Defender,Defender,Widzew Łódź,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-DR Congo,Fiston Mayele,Forward,Forward,Pyramids FC,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
-DR Congo,Simon Banza,Forward,Forward,Al Jazira,Middle East / North Africa league - verify club,No reliable FBref match in currently supported/pulled leagues
-DR Congo,Matthieu Epolo,Goalkeeper,Goalkeeper,Standard Liege,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-DR Congo,Timothy Fayulu,Goalkeeper,Goalkeeper,FC Noah,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-DR Congo,Brian Cipenga,Midfielder,Midfielder,Castellón,Spanish football league system,No reliable FBref match in currently supported/pulled leagues
-DR Congo,Edo Kayembe,Midfielder,Midfielder,Watford,English football league system,No reliable FBref match in currently supported/pulled leagues
-DR Congo,Gaël Kakuta,Midfielder,Midfielder,AEL,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-DR Congo,Théo Bongonda,Midfielder,Midfielder,Spartak Moscow,Russian Premier League,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Félix Torres,Defender,Defender,Internacional,Brazilian football league system,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Joel Ordóñez,Defender,Defender,Club Brugge,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Yaimar Medina,Defender,Defender,Racing Genk,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Ángelo Preciado,Defender,Defender,Atlético Mineiro,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Anthony Valencia,Forward,Forward,Antwerp,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Enner Valencia,Forward,Forward,Pachuca,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Jordy Caicedo,Forward,Forward,Huracán,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Kevin Rodríguez,Forward,Forward,Union St.-Gilloise,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Gonzalo Valle,Goalkeeper,Goalkeeper,LDU Quito,Ecuadorian Serie A,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Hernán Galíndez,Goalkeeper,Goalkeeper,Huracan,Argentina Primera División,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Moisés Ramírez,Goalkeeper,Goalkeeper,AE Kifisias,Greek Super League,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Alan Franco,Midfielder,Midfielder,Atlético Mineiro,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Alan Minda,Midfielder,Midfielder,Atlético Mineiro,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Denil Castillo,Midfielder,Midfielder,FC Midtjylland,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Gonzalo Plata,Midfielder,Midfielder,Flamengo,Brazilian football league system,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Jordy Alcivar,Midfielder,Midfielder,Independiente del Valle,Ecuadorian Serie A,No reliable FBref match in currently supported/pulled leagues
-Ecuador,Pedro Vite,Midfielder,Midfielder,Pumas UNAM,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Egypt,Ahmed Fatouh,Defender,Defender,Zamalek,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
-Egypt,Hamdy Fathy,Defender,Defender,Al Wakrah,Qatar Stars League,No reliable FBref match in currently supported/pulled leagues
+Curaçao,Kenji Gorré,Forward,Forward,Maccabi Haifa,Israeli Premier League,No reliable FBref match in currently supported/pulled leagues
+Curaçao,Trevor Doornbusch,Goalkeeper,Goalkeeper,VVV-Venlo,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
+Curaçao,Tyrick Bodak,Goalkeeper,Goalkeeper,SC Telstar,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+DR Congo,Gedoon Kalulu,Defender,Defender,Aris Limassol,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+DR Congo,Meshack Elia,Midfielder,Midfielder,Alanyaspor,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Ecuador,Gonzalo Valle,Goalkeeper,Goalkeeper,L.D.U Quito,Ecuadorian Serie A,No reliable FBref match in currently supported/pulled leagues
+Ecuador,Jordy Alcivar,Midfielder,Midfielder,Independiente,Ecuadorian Serie A,No reliable FBref match in currently supported/pulled leagues
+Egypt,Ahmed Abou El Fotouh,Defender,Defender,Zamalek,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
 Egypt,Hossam Abdelmaguid,Defender,Defender,Zamalek,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
-Egypt,Karim Hafez,Defender,Defender,Pyramids,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Egypt,Mohamed Hany,Defender,Defender,Al Ahly,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
-Egypt,Ramy Rabia,Defender,Defender,Al Ain,UAE Pro League,No reliable FBref match in currently supported/pulled leagues
-Egypt,Tarek Alaa,Defender,Defender,Zamalek,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
-Egypt,Yasser Ibrahim,Defender,Defender,Al Ahly,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
-Egypt,Hamza Abdelkarim,Forward,Forward,Barcelona B,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Egypt,Karim Hafez,Defender,Defender,Pyramids,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
+Egypt,Tarek Alaa,Defender,Defender,ZED,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
+Egypt,Hamza Abdelkarim,Forward,Forward,Barcelona,LaLiga,No reliable FBref match in currently supported/pulled leagues
 Egypt,El Mahdy Soliman,Goalkeeper,Goalkeeper,Zamalek,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
-Egypt,Mohamed Alaa,Goalkeeper,Goalkeeper,El Gouna,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Egypt,Mohamed El Shenawy,Goalkeeper,Goalkeeper,Al Ahly,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
+Egypt,Mohamed Alaa,Goalkeeper,Goalkeeper,El Gouna,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
 Egypt,Mostafa Shobeir,Goalkeeper,Goalkeeper,Al Ahly,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
-Egypt,Ahmed Zizo,Midfielder,Midfielder,Al Ahly,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
-Egypt,Emam Ashour,Midfielder,Midfielder,Al Ahly,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
-Egypt,Ibrahim Adel,Midfielder,Midfielder,Nordsjaelland,Danish Superliga,No reliable FBref match in currently supported/pulled leagues
-Egypt,Mahmoud Saber,Midfielder,Midfielder,Zed,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Egypt,Mahmoud Trezeguet,Midfielder,Midfielder,Al Ahly,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
-Egypt,Marwan Attia,Midfielder,Midfielder,Al Ahly,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
-Egypt,Mohanad Lasheen,Midfielder,Midfielder,Pyramids,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Egypt,Mostafa Ziko,Midfielder,Midfielder,Pyramids,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Egypt,Nabil Emad,Midfielder,Midfielder,Al Najma,Middle East / North Africa league - verify club,No reliable FBref match in currently supported/pulled leagues
-France,N'Golo Kanté,Midfielder,Midfielder,Fenerbahçe,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
-Ghana,Abdul Baba Rahman,Defender,Defender,PAOK,Greek Super League,No reliable FBref match in currently supported/pulled leagues
-Ghana,Alexander Djiku,Defender,Defender,Spartak Moscow,Russian Premier League,No reliable FBref match in currently supported/pulled leagues
-Ghana,Jerome Opoku,Defender,Defender,Istanbul Basaksehir,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
+Egypt,Mostafa Ziko,Midfielder,Midfielder,Pyramids,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
+Egypt,Nabil Emad,Midfielder,Midfielder,Al-Najma,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
+France,Dayot Upamenaco,Defender,Defender,Bayern Munich,Bundesliga,No reliable FBref match in currently supported/pulled leagues
+France,Jean-Phillipe Mateta,Forward,Forward,Crystal Palace,Premier League,No reliable FBref match in currently supported/pulled leagues
+Ghana,Baba Abdul Rahman,Defender,Defender,PAOK,Greek Super League,No reliable FBref match in currently supported/pulled leagues
 Ghana,Kojo Oppong Peprah,Defender,Defender,Nice,Ligue 1 / French football league system,No reliable FBref match in currently supported/pulled leagues
-Ghana,Brandon Thomas Asante,Forward,Forward,Coventry City,English football league system,No reliable FBref match in currently supported/pulled leagues
-Ghana,Prince Adu Kwabena,Forward,Forward,Viktoria Plzen,Czech First League,No reliable FBref match in currently supported/pulled leagues
+Ghana,Brandon Thomas-Asante,Forward,Forward,Coventry City,English football league system,No reliable FBref match in currently supported/pulled leagues
+Ghana,Prince Kwabena Adu,Forward,Forward,Viktoria Plzen,Czech First League,No reliable FBref match in currently supported/pulled leagues
 Ghana,Benjamin Asare,Goalkeeper,Goalkeeper,Accra Hearts of Oak SC,Ghana Premier League,No reliable FBref match in currently supported/pulled leagues
-Ghana,Joseph Tetteh Anang,Goalkeeper,Goalkeeper,St Patrick's Athletic,Irish Premier Division,No reliable FBref match in currently supported/pulled leagues
-Ghana,Lawrence Ati-Zigi,Goalkeeper,Goalkeeper,St Gallen,Swiss Super League,No reliable FBref match in currently supported/pulled leagues
-Ghana,Caleb Yirenkyi,Midfielder,Midfielder,Nordsjaelland,Danish Superliga,No reliable FBref match in currently supported/pulled leagues
-Ghana,Christopher Bonsu Baah,Midfielder,Midfielder,Al Qadsiah,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Haiti,Duke Lacroix,Defender,Defender,Colorado Springs Switchbacks,USL Championship,No reliable FBref match in currently supported/pulled leagues
-Haiti,Keeto Thermoncy,Defender,Defender,Young Boys,Swiss Super League,No reliable FBref match in currently supported/pulled leagues
+Haiti,Duke Lacroix,Defender,Defender,Colorado Springs,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Haiti,Keeto Thermoncy,Defender,Defender,Young Boys Berne,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Haiti,Martin Expérience,Defender,Defender,Nancy,Ligue 1 / French football league system,No reliable FBref match in currently supported/pulled leagues
-Haiti,Ricardo Adé,Defender,Defender,LDU Quito,Ecuadorian Serie A,No reliable FBref match in currently supported/pulled leagues
-Haiti,Wilguens Paugain,Defender,Defender,Zulte Waregem,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Haiti,Derrick Etienne,Forward,Forward,Toronto FC,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Haiti,Don Deedson Louicius,Forward,Forward,FC Dallas,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Haiti,Duckens Nazon,Forward,Forward,Esteghlal,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Haiti,Frantzdy Pierrot,Forward,Forward,Çaykur Rizespor,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Haiti,Lenny Joseph,Forward,Forward,Ferencváros,Hungarian NB I,No reliable FBref match in currently supported/pulled leagues
-Haiti,Ruben Providence,Forward,Forward,Almere,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Haiti,Yassin Fortuné,Forward,Forward,Vizela,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Haiti,Johny Placide,Goalkeeper,Goalkeeper,Bastia,Ligue 1 / French football league system,No reliable FBref match in currently supported/pulled leagues
-Haiti,Josue Duverger,Goalkeeper,Goalkeeper,Cosmos Koblenz,German lower leagues,No reliable FBref match in currently supported/pulled leagues
-Haiti,Carl Fred Sainté,Midfielder,Midfielder,El Paso Locomotive,USL Championship,No reliable FBref match in currently supported/pulled leagues
-Haiti,Dominique Simon,Midfielder,Midfielder,FC Tatran Prešov,Slovak First Football League,No reliable FBref match in currently supported/pulled leagues
+Haiti,Ricardo Ade,Defender,Defender,LDU Quito,Ecuadorian Serie A,No reliable FBref match in currently supported/pulled leagues
+Haiti,Wilguens Pauguain,Defender,Defender,Zulte Waregem,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
+Haiti,Yassin Fortune,Forward,Forward,Vizela,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Haiti,Johnny Placide,Goalkeeper,Goalkeeper,Bastia,Ligue 1 / French football league system,No reliable FBref match in currently supported/pulled leagues
+Haiti,Josue Duverger,Goalkeeper,Goalkeeper,FC Cosmos Koblenz,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Haiti,Carl-Fred Sainthe,Midfielder,Midfielder,El Paso Locomotive,USL Championship,No reliable FBref match in currently supported/pulled leagues
+Haiti,Jean-Jacques Danley,Midfielder,Midfielder,Philadelphia Union,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
 Haiti,Leverton Pierre,Midfielder,Midfielder,Vizela,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Haiti,Woodensky Pierre,Midfielder,Midfielder,Violette,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iran,Ali Nemati,Defender,Defender,Foolad,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Danial Eiri,Defender,Defender,Zob Ahan Esfahan,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Ehsan Hajsafi,Defender,Defender,Sepahan,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Hossein Kanaani,Defender,Defender,Persepolis,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Milad Mohammadi,Defender,Defender,Persepolis,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Ramin Rezaeian,Defender,Defender,Foolad,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Saleh Hardani,Defender,Defender,Esteghlal,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Shoja Khalilzadeh,Defender,Defender,Tractor,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Ali Alipour,Forward,Forward,Persepolis,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Amirhossein Hosseinzadeh,Forward,Forward,Tractor,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Dennis Dargahi,Forward,Forward,Standard Liege,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Shahriar Moghanlou,Forward,Forward,Kalba,UAE Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Alireza Beiranvand,Goalkeeper,Goalkeeper,Tractor,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Payam Niazmand,Goalkeeper,Goalkeeper,Persepolis,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Seyed Hossein Hosseini,Goalkeeper,Goalkeeper,Sepahan,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Alireza Jahanbakhsh,Midfielder,Midfielder,Dender,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Amir Mohammad Razzaghinia,Midfielder,Midfielder,Esteghlal,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Aria Yousefi,Midfielder,Midfielder,Sepahan,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Mehdi Ghaedi,Midfielder,Midfielder,Al-Nasr,UAE Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Mehdi Torabi,Midfielder,Midfielder,Tractor,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Mohammad Ghorbani,Midfielder,Midfielder,Al Wahda,UAE Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Mohammad Mohebi,Midfielder,Midfielder,Rostov,Russian Premier League,No reliable FBref match in currently supported/pulled leagues
-Iran,Rouzbeh Cheshmi,Midfielder,Midfielder,Esteghlal,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
-Iran,Saeid Ezatolahi,Midfielder,Midfielder,Shabab Al Ahli,UAE Pro League,No reliable FBref match in currently supported/pulled leagues
-Iraq,Ahmed Yahya,Defender,Defender,Al-Shorta,Iraqi Stars League,No reliable FBref match in currently supported/pulled leagues
-Iraq,Akam Hashem,Defender,Defender,Al-Zawraa,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Frans Putros,Defender,Defender,Port FC,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Hussein Ali,Defender,Defender,Pogoń Szczecin,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Manaf Younis,Defender,Defender,Al-Shorta,Iraqi Stars League,No reliable FBref match in currently supported/pulled leagues
-Iraq,Merchas Doski,Defender,Defender,Viktoria Plzeň,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Haiti,Pierre Woodenski,Midfielder,Midfielder,Violette,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Iran,Danial Eiri,Defender,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
+Iran,Shojae Khalilzadeh,Defender,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
+Iran,Shahriyar Moghanlou,Forward,Forward,"Kalba, UAE",Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Iran,Amirmohammad Razzaghinia,Midfielder,Midfielder,Iran-based club not specified,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
+Iran,Aria Yousefi,Midfielder,Midfielder,Iran-based club not specified,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
+Iran,Mehdi Ghayedi,Midfielder,Midfielder,"Al-Nasr, UAE",Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Iran,Mohammad Ghorbani,Midfielder,Midfielder,"Al-Wahda, UAE",Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Iran,Mohammad Mohebi,Midfielder,Midfielder,"Rostov, Rus",Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Iran,Rouzbeh Cheshmi,Midfielder,Midfielder,Iran-based club not specified,Iran Persian Gulf Pro League,No reliable FBref match in currently supported/pulled leagues
+Iraq,Akam Hashim,Defender,Defender,Al-Zawraa,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Iraq,Frans Putros,Defender,Defender,Persib,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Iraq,Manaf Younis,Defender,Defender,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Iraq,Mustafa Saadoon,Defender,Defender,Al-Shorta,Iraqi Stars League,No reliable FBref match in currently supported/pulled leagues
-Iraq,Rebin Sulaka,Defender,Defender,Port FC,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Iraq,Zaid Ismail,Defender,Defender,Al-Talaba,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Zaid Tahseen,Defender,Defender,Pakhtakor,Uzbekistan Super League,No reliable FBref match in currently supported/pulled leagues
-Iraq,Ali Yousef,Forward,Forward,Al-Shorta,Iraqi Stars League,No reliable FBref match in currently supported/pulled leagues
-Iraq,Aymen Hussein,Forward,Forward,Al-Khor,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Mohanad Ali,Forward,Forward,Al-Shorta,Iraqi Stars League,No reliable FBref match in currently supported/pulled leagues
-Iraq,Ahmed Basil,Goalkeeper,Goalkeeper,Al-Shorta,Iraqi Stars League,No reliable FBref match in currently supported/pulled leagues
-Iraq,Fahad Talib,Goalkeeper,Goalkeeper,Al-Talaba,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Jalal Hassan,Goalkeeper,Goalkeeper,Al-Zawraa,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Ahmed Qasim,Midfielder,Midfielder,Elfsborg,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Aimar Sher,Midfielder,Midfielder,Sarpsborg 08,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Amir Al-Ammari,Midfielder,Midfielder,Cracovia,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Ibrahim Bayesh,Midfielder,Midfielder,Al-Riyadh,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Kevin Yakob,Midfielder,Midfielder,AGF Aarhus,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Marko Farji,Midfielder,Midfielder,Strømsgodset,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Youssef Amyn,Midfielder,Midfielder,Eintracht Braunschweig,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Iraq,Zidane Iqbal,Midfielder,Midfielder,FC Utrecht,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Iraq,Ali Jassim,Forward,Forward,Al-Najma,Middle East / North Africa league - verify club,No reliable FBref match in currently supported/pulled leagues
+Iraq,Ali Yousef,Forward,Forward,Al-Talaba,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Iraq,Aymen Hussein,Forward,Forward,Al-Karma,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Iraq,Aimar Sher,Midfielder,Midfielder,Sarpsborg,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Iraq,Marko Farji,Midfielder,Midfielder,Venezia,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Ivory Coast,Evan Ndicka,Defender,Defender,AS Roma,Serie A,No reliable FBref match in currently supported/pulled leagues
-Ivory Coast,Ghislain Konan,Defender,Defender,Gil Vicente,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Ivory Coast,Ousmane Diomande,Defender,Defender,Sporting CP,Primeira Liga,No reliable FBref match in currently supported/pulled leagues
-Ivory Coast,Christ Inao Oulaï,Midfielder,Midfielder,Trabzonspor,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
-Ivory Coast,Franck Kessié,Midfielder,Midfielder,Al Ahli,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Ivory Coast,Jean Michaël Seri,Midfielder,Midfielder,NK Maribor,Slovenian PrvaLiga,No reliable FBref match in currently supported/pulled leagues
-Ivory Coast,Parfait Guiagon,Midfielder,Midfielder,Charleroi,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Japan,Shogo Taniguchi,Defender,Defender,Sint-Truiden,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Japan,Tsuyoshi Watanabe,Defender,Defender,Feyenoord,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Japan,Yūto Nagatomo,Defender,Defender,FC Tokyo,J1 League / Japanese football league system,No reliable FBref match in currently supported/pulled leagues
-Japan,Ayase Ueda,Forward,Forward,Feyenoord,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Japan,Daizen Maeda,Forward,Forward,Celtic,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-Japan,Keisuke Goto,Forward,Forward,Sint-Truiden,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Japan,Koki Ogawa,Forward,Forward,NEC Nijmegen,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-Japan,Keisuke Osako,Goalkeeper,Goalkeeper,Sanfrecce Hiroshima,J1 League / Japanese football league system,No reliable FBref match in currently supported/pulled leagues
-Japan,Tomoki Hayakawa,Goalkeeper,Goalkeeper,Kashima Antlers,J1 League / Japanese football league system,No reliable FBref match in currently supported/pulled leagues
-Japan,Junnosuke Suzuki,Midfielder,Midfielder,Copenhagen,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Mexico,Israel Reyes,Defender,Defender,América,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Mexico,Jesús Gallardo,Defender,Defender,Toluca,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Mexico,Jorge Sánchez,Defender,Defender,PAOK,Greek Super League,No reliable FBref match in currently supported/pulled leagues
-Mexico,Mateo Chávez,Defender,Defender,AZ Alkmaar,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Mexico,Alexis Vega,Forward,Forward,Toluca,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Mexico,Armando González,Forward,Forward,Chivas,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Mexico,Guillermo Martínez,Forward,Forward,Pumas,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Mexico,Julián Quiñones,Forward,Forward,Al Qadsiah,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Mexico,Carlos Acevedo,Goalkeeper,Goalkeeper,Santos Laguna,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Mexico,Raúl Rangel,Goalkeeper,Goalkeeper,Chivas,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Mexico,Brian Gutiérrez,Midfielder,Midfielder,Chivas,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Mexico,César Huerta,Midfielder,Midfielder,Anderlecht,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Mexico,Erik Lira,Midfielder,Midfielder,Cruz Azul,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Mexico,Gilberto Mora,Midfielder,Midfielder,Tijuana,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Mexico,Luis Chávez,Midfielder,Midfielder,Dinamo Moscow,Russian Premier League,No reliable FBref match in currently supported/pulled leagues
-Mexico,Luis Romo,Midfielder,Midfielder,Chivas,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Mexico,Orbelín Pineda,Midfielder,Midfielder,AEK Athens,Greek Super League,No reliable FBref match in currently supported/pulled leagues
-Mexico,Roberto Alvarado,Midfielder,Midfielder,Chivas,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Morocco,Redouane Halhal,Defender,Defender,KV Mechelen,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
+Ivory Coast,Odilon Kossonou,Defender,Defender,Atalanta,Serie A,No reliable FBref match in currently supported/pulled leagues
+Ivory Coast,Christ Oulai,Midfielder,Midfielder,Trabzonspor,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
+Ivory Coast,Jean-Michael Seri,Midfielder,Midfielder,NK Maribor,Slovenian PrvaLiga,No reliable FBref match in currently supported/pulled leagues
+Japan,Junosuke Suzuki,Defender,Defender,FC Copenhagen,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Japan,Ito Suzuki,Forward,Forward,SC Freiburg,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Japan,Kento Shiode,Forward,Forward,Wolfsburg,Bundesliga,No reliable FBref match in currently supported/pulled leagues
+Japan,Aya Suzuka,Goalkeeper,Goalkeeper,Parma Calcio,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Jordan,Anas Banawi,Defender,Defender,Al-Faisaly,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Jordan,Ehsan Haddad,Defender,Defender,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Jordan,Husam Abu Dahab,Defender,Defender,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Jordan,Mohammad Abualnadi,Defender,Defender,Selangor,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Jordan,Saed Al-Rosan,Defender,Defender,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Jordan,Saleem Obaid,Defender,Defender,Al-Hussein,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Jordan,Mohammad Abu Zrayq,Forward,Forward,Raja Casablanca,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Jordan,Mousa Al-Tamari,Forward,Forward,Rennes,Ligue 1 / French football league system,No reliable FBref match in currently supported/pulled leagues
+Jordan,Odeh Al-Fakhouri,Forward,Forward,Pyramids,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Jordan,Abdullah Al-Fakhouri,Goalkeeper,Goalkeeper,Al-Wehdat,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Jordan,Noor Bani Attiah,Goalkeeper,Goalkeeper,Al-Faisaly,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Jordan,Amer Jamous,Midfielder,Midfielder,Al-Zawraa,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Jordan,Ibrahim Saadeh,Midfielder,Midfielder,Al-Karma,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Jordan,Mohammad Al-Dawoud,Midfielder,Midfielder,Al-Wehdat,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Mexico,Jorge Sanchez,Defender,Defender,PAOK,Greek Super League,No reliable FBref match in currently supported/pulled leagues
+Mexico,Raul Rangel,Goalkeeper,Goalkeeper,Guadalajara,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Morocco,Youssef Belammari,Defender,Defender,Al Ahly,Egyptian Premier League,No reliable FBref match in currently supported/pulled leagues
-Morocco,Zakaria El Ouahdi,Defender,Defender,Racing Genk,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
-Morocco,Ayoub El Kaabi,Forward,Forward,Olympiacos,Greek Super League,No reliable FBref match in currently supported/pulled leagues
-Morocco,Soufiane Rahimi,Forward,Forward,Al Ain,UAE Pro League,No reliable FBref match in currently supported/pulled leagues
-Morocco,Munir El Kajoui,Goalkeeper,Goalkeeper,RS Berkane,Moroccan Botola,No reliable FBref match in currently supported/pulled leagues
-Morocco,Reda Tagnaouti,Goalkeeper,Goalkeeper,AS Far,Moroccan Botola,No reliable FBref match in currently supported/pulled leagues
-Morocco,Ismael Saibari,Midfielder,Midfielder,PSV Eindhoven,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
+Morocco,Abdessamad Ezzalzouli,Forward,Forward,Real Betis,LaLiga,No reliable FBref match in currently supported/pulled leagues
+Morocco,Ayoub Amaimouni-Echghouyabe,Forward,Forward,Eintracht Frankfurt,Bundesliga,No reliable FBref match in currently supported/pulled leagues
+Morocco,Yassine Gessime,Forward,Forward,Strasbourg,Ligue 1 / French football league system,No reliable FBref match in currently supported/pulled leagues
+Morocco,Ahmed Tagnaouti,Goalkeeper,Goalkeeper,Royal Armed Forces,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Morocco,Munir Mohamedi,Goalkeeper,Goalkeeper,RS Berkane,Moroccan Botola,No reliable FBref match in currently supported/pulled leagues
 Netherlands,Memphis Depay,Forward,Forward,Corinthians,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Netherlands,Guus Til,Midfielder,Midfielder,PSV,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Netherlands,Noah Lang,Midfielder,Midfielder,Galatasaray,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
 New Zealand,Callan Elliot,Defender,Defender,Auckland FC,New Zealand National League,No reliable FBref match in currently supported/pulled leagues
-New Zealand,Finn Surman,Defender,Defender,Portland Timbers,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-New Zealand,Francis De Vries,Defender,Defender,Auckland FC,New Zealand National League,No reliable FBref match in currently supported/pulled leagues
-New Zealand,Michael Boxall,Defender,Defender,Minnesota United,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
+New Zealand,Francis de Vries,Defender,Defender,Auckland FC,New Zealand National League,No reliable FBref match in currently supported/pulled leagues
 New Zealand,Nando Pijnaker,Defender,Defender,Auckland FC,New Zealand National League,No reliable FBref match in currently supported/pulled leagues
 New Zealand,Tim Payne,Defender,Defender,Wellington Phoenix,New Zealand National League,No reliable FBref match in currently supported/pulled leagues
 New Zealand,Tommy Smith,Defender,Defender,Braintree Town,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 New Zealand,Tyler Bindon,Defender,Defender,Nottingham Forest,Premier League,No reliable FBref match in currently supported/pulled leagues
 New Zealand,Ben Waine,Forward,Forward,Port Vale,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-New Zealand,Callum McCowatt,Forward,Forward,Silkeborg IF,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-New Zealand,Eli Just,Forward,Forward,Motherwell,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 New Zealand,Jesse Randall,Forward,Forward,Auckland FC,New Zealand National League,No reliable FBref match in currently supported/pulled leagues
 New Zealand,Kosta Barbarouses,Forward,Forward,Western Sydney Wanderers,Australian A-League Men,No reliable FBref match in currently supported/pulled leagues
-New Zealand,Lachlan Bayliss,Forward,Forward,Newcastle Jets,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-New Zealand,Alex Paulsen,Goalkeeper,Goalkeeper,Lechia Gdańsk,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+New Zealand,Alex Paulsen,Goalkeeper,Goalkeeper,Lechia Gdansk,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 New Zealand,Max Crocombe,Goalkeeper,Goalkeeper,Millwall,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 New Zealand,Michael Woud,Goalkeeper,Goalkeeper,Auckland FC,New Zealand National League,No reliable FBref match in currently supported/pulled leagues
 New Zealand,Alex Rufer,Midfielder,Midfielder,Wellington Phoenix,New Zealand National League,No reliable FBref match in currently supported/pulled leagues
-New Zealand,Joe Bell,Midfielder,Midfielder,Viking FK,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-New Zealand,Marko Stamenic,Midfielder,Midfielder,Swansea City,English football league system,No reliable FBref match in currently supported/pulled leagues
-New Zealand,Matt Garbett,Midfielder,Midfielder,Peterborough United,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-New Zealand,Ryan Thomas,Midfielder,Midfielder,PEC Zwolle,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
+New Zealand,Lachlan Bayliss,Midfielder,Midfielder,Newcastle Jets,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+New Zealand,Matthew Garbett,Midfielder,Midfielder,Peterborough United,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 New Zealand,Sarpreet Singh,Midfielder,Midfielder,Wellington Phoenix,New Zealand National League,No reliable FBref match in currently supported/pulled leagues
-Norway,Fredrik André Bjørkan,Defender,Defender,Bodø/Glimt,Norwegian Eliteserien,No reliable FBref match in currently supported/pulled leagues
+Norway,David Moller Wolfe,Defender,Defender,Wolverhampton,Premier League,No reliable FBref match in currently supported/pulled leagues
+Norway,Fredrik Bjorkan,Defender,Defender,Bodo/Glimt,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Norway,Henrik Falchener,Defender,Defender,Viking,Norwegian Eliteserien,No reliable FBref match in currently supported/pulled leagues
-Norway,Leo Østigård,Defender,Defender,Genoa,Serie A,No reliable FBref match in currently supported/pulled leagues
-Norway,Sondre Langås,Defender,Defender,Derby County,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Norway,Andreas Schjelderup,Midfielder,Midfielder,Benfica,Primeira Liga,No reliable FBref match in currently supported/pulled leagues
-Norway,Fredrik Aursnes,Midfielder,Midfielder,Benfica,Primeira Liga,No reliable FBref match in currently supported/pulled leagues
-Norway,Patrick Berg,Midfielder,Midfielder,Bodø/Glimt,Norwegian Eliteserien,No reliable FBref match in currently supported/pulled leagues
-Norway,Thelo Aasgaard,Midfielder,Midfielder,Rangers,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-Panama,Andrés Andrade,Defender,Defender,LASK,Austrian Bundesliga,No reliable FBref match in currently supported/pulled leagues
-Panama,César Blackman,Defender,Defender,Slovan Bratislava,Slovak First Football League,No reliable FBref match in currently supported/pulled leagues
-Panama,Edgardo Fariña,Defender,Defender,Pari Nizhny Novgorod,Russian Premier League,No reliable FBref match in currently supported/pulled leagues
-Panama,Fidel Escobar,Defender,Defender,Saprissa,Costa Rican Primera División,No reliable FBref match in currently supported/pulled leagues
-Panama,Jiovany Ramos,Defender,Defender,Puerto Cabello,Venezuelan Primera División,No reliable FBref match in currently supported/pulled leagues
-Panama,Jorge Gutiérrez,Defender,Defender,Deportivo La Guaira,Venezuelan Primera División,No reliable FBref match in currently supported/pulled leagues
-Panama,José Córdoba,Defender,Defender,Norwich City,English football league system,No reliable FBref match in currently supported/pulled leagues
-Panama,Roderick Miller,Defender,Defender,Turan Tovuz,Azerbaijan Premier League,No reliable FBref match in currently supported/pulled leagues
-Panama,Éric Davis,Defender,Defender,Plaza Amador,Panamanian Liga Panameña de Fútbol,No reliable FBref match in currently supported/pulled leagues
-Panama,Cecilio Waterman,Forward,Forward,Universidad de Concepción,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Panama,Ismael Díaz,Forward,Forward,León,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Panama,José Fajardo,Forward,Forward,Universidad Católica,Chile Primera División,No reliable FBref match in currently supported/pulled leagues
-Panama,Tomás Rodríguez,Forward,Forward,Saprissa,Costa Rican Primera División,No reliable FBref match in currently supported/pulled leagues
-Panama,César Samudio,Goalkeeper,Goalkeeper,Marathón,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Panama,Luis Mejía,Goalkeeper,Goalkeeper,Nacional,Uruguayan Primera División,No reliable FBref match in currently supported/pulled leagues
-Panama,Orlando Mosquera,Goalkeeper,Goalkeeper,Al Fayha,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Panama,Adalberto Carrasquilla,Midfielder,Midfielder,Pumas UNAM,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Panama,Alberto Quintero,Midfielder,Midfielder,Plaza Amador,Panamanian Liga Panameña de Fútbol,No reliable FBref match in currently supported/pulled leagues
-Panama,Aníbal Godoy,Midfielder,Midfielder,San Diego FC,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Panama,Azarias Londoño,Midfielder,Midfielder,Universidad Católica,Chile Primera División,No reliable FBref match in currently supported/pulled leagues
-Panama,Carlos Harvey,Midfielder,Midfielder,Minnesota United,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Panama,Cristian Martínez,Midfielder,Midfielder,Ironi Kiryat Shmona,Israeli Premier League,No reliable FBref match in currently supported/pulled leagues
-Panama,César Yanis,Midfielder,Midfielder,Cobresal,Chile Primera División,No reliable FBref match in currently supported/pulled leagues
-Panama,José Luis Rodríguez,Midfielder,Midfielder,Juárez,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Panama,Yoel Bárcenas,Midfielder,Midfielder,Mazatlán,Liga MX,No reliable FBref match in currently supported/pulled leagues
+Norway,Leo Skiri Ostigard,Defender,Defender,Genoa,Serie A,No reliable FBref match in currently supported/pulled leagues
+Norway,Marcus Holmgren Pedersen,Defender,Defender,Torino,Serie A,No reliable FBref match in currently supported/pulled leagues
+Norway,Torbjorn Heggem,Defender,Defender,Bologna,Serie A,No reliable FBref match in currently supported/pulled leagues
+Norway,Alexander Sorloth,Forward,Forward,Atletico Madrid,LaLiga,No reliable FBref match in currently supported/pulled leagues
+Norway,Jorgen Strand Larsen,Forward,Forward,Crystal Palace,Premier League,No reliable FBref match in currently supported/pulled leagues
+Norway,Orjan Haskjold Nyland,Goalkeeper,Goalkeeper,Sevilla,LaLiga,No reliable FBref match in currently supported/pulled leagues
+Norway,Martin Odegaard,Midfielder,Midfielder,Arsenal,Premier League,No reliable FBref match in currently supported/pulled leagues
+Panama,Eric Davis,Defender,Defender,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Panama,Fidel Escobar,Defender,Defender,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Panama,Jiovany Ramos,Defender,Defender,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Panama,Jorge Gutierrez,Defender,Defender,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Panama,Cecilio Waterman,Forward,Forward,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Panama,Tomas Rodriguez,Forward,Forward,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Panama,Cesar Samudio,Goalkeeper,Goalkeeper,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Panama,Luis Mejia,Goalkeeper,Goalkeeper,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Panama,Alberto Quintero,Midfielder,Midfielder,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Panama,Azarias Londono,Midfielder,Midfielder,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Paraguay,Alexandro Maidana,Defender,Defender,Talleres,Argentine Primera División,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Fabián Balbuena,Defender,Defender,Grêmio,Campeonato Brasileiro Série A,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Gustavo Gómez,Defender,Defender,Palmeiras,Campeonato Brasileiro Série A,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Gustavo Velázquez,Defender,Defender,Cerro Porteño,Paraguayan Primera División,No reliable FBref match in currently supported/pulled leagues
-Paraguay,José Canale,Defender,Defender,Lanús,Argentine Primera División,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Juan Cáceres,Defender,Defender,Dynamo Moscow,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Júnior Alonso,Defender,Defender,Atlético Mineiro,Campeonato Brasileiro Série A,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Alex Arce,Forward,Forward,Independiente Rivadavia,Argentine Primera División,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Gabriel Ávalos,Forward,Forward,Independiente,Argentine Primera División,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Gustavo Caballero,Forward,Forward,Portsmouth,English football league system,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Isidro Pitta,Forward,Forward,Red Bull Bragantino,Campeonato Brasileiro Série A,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Gastón Olveira,Goalkeeper,Goalkeeper,Olimpia,Paraguayan Primera División,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Gatito Fernández,Goalkeeper,Goalkeeper,Cerro Porteño,Paraguayan Primera División,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Orlando Gill,Goalkeeper,Goalkeeper,San Lorenzo,Paraguayan football league system,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Alejandro “Kaku” Romero Gamarra,Midfielder,Midfielder,Al Ain,UAE Pro League,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Andrés Cubas,Midfielder,Midfielder,Vancouver Whitecaps,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Braian Ojeda,Midfielder,Midfielder,Orlando City,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Damián Bobadilla,Midfielder,Midfielder,São Paulo,Campeonato Brasileiro Série A,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Matías Galarza,Midfielder,Midfielder,Atlanta United,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Paraguay,Maurício Magalhães,Midfielder,Midfielder,Palmeiras,Campeonato Brasileiro Série A,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Abdulelah Al Amri,Defender,Defender,Al Nassr,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Ali Lajami,Defender,Defender,Al Hilal,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Ali Majrashi,Defender,Defender,Al Ahli,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Hassan Kadesh,Defender,Defender,Al Ittihad,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
+Paraguay,Gustavo Velazquez,Defender,Defender,Cerro Porteno,Paraguayan Primera División,No reliable FBref match in currently supported/pulled leagues
+Paraguay,Juan Jose Caceres,Defender,Defender,Dinamo Moscow,Russian Premier League,No reliable FBref match in currently supported/pulled leagues
+Paraguay,Gaston Olveira,Goalkeeper,Goalkeeper,Olimpia,Paraguayan Primera División,No reliable FBref match in currently supported/pulled leagues
+Paraguay,Roberto Junior Fernandez,Goalkeeper,Goalkeeper,Cerro Porteno,Paraguayan Primera División,No reliable FBref match in currently supported/pulled leagues
+Paraguay,Briaian Ojeda,Midfielder,Midfielder,Orlando City,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
+Paraguay,Mauricio Magalhaes,Midfielder,Midfielder,Palmeiras,Campeonato Brasileiro Série A,No reliable FBref match in currently supported/pulled leagues
+Qatar,Ayoub Alawi,Defender,Defender,Al Gharafa,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Qatar,Hashmi Hussein,Defender,Defender,Al Arabi,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Qatar,Homam Al-Amin,Defender,Defender,Cultural Leonesa,Spanish football league system,No reliable FBref match in currently supported/pulled leagues
+Qatar,Issa Laaye,Defender,Defender,Al Arabi,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Qatar,Pedro Miguel,Defender,Defender,Al-Sadd,Qatar Stars League,No reliable FBref match in currently supported/pulled leagues
+Qatar,Ahmed Al-Janahi,Forward,Forward,Al Gharafa,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Qatar,Edmilson Junior,Forward,Forward,Al-Duhail,Qatar Stars League,No reliable FBref match in currently supported/pulled leagues
+Qatar,Mohammed Muntari,Forward,Forward,Al Gharafa,Qatar Stars League,No reliable FBref match in currently supported/pulled leagues
+Qatar,Tahseen Mohammed,Forward,Forward,Al-Duhail,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Qatar,Youssef Abdulrazzaq,Forward,Forward,Al-Wakrah,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Qatar,Mahmoud Abunada,Goalkeeper,Goalkeeper,Al Rayyan,Qatar Stars League,No reliable FBref match in currently supported/pulled leagues
+Qatar,Ahmed Fathi,Midfielder,Midfielder,Al Arabi,Qatar Stars League,No reliable FBref match in currently supported/pulled leagues
+Qatar,Assim Madibo,Midfielder,Midfielder,Al-Wakrah,Qatar Stars League,No reliable FBref match in currently supported/pulled leagues
+Qatar,Jassem Jaber,Midfielder,Midfielder,Al Arabi,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Qatar,Karim Boudiaf,Midfielder,Midfielder,Al-Duhail,Qatar Stars League,No reliable FBref match in currently supported/pulled leagues
+Qatar,Mohammed Al-Manai,Midfielder,Midfielder,Al Shamal,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Saudi Arabia,Hassan Tambakti,Defender,Defender,Al Hilal,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
 Saudi Arabia,Jehad Thikri,Defender,Defender,Al Qadsiah,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
 Saudi Arabia,Mohammed Abu Al Shamat,Defender,Defender,Al Qadsiah,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Moteb Al Harbi,Defender,Defender,Al Hilal,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Nawaf Boushal,Defender,Defender,Al Nassr,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
 Saudi Arabia,Sultan Al-Ghannam,Defender,Defender,Al Nassr,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Abdullah Al Hamdan,Forward,Forward,Al Nassr,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Firas Al Buraikan,Forward,Forward,Al Ahli,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Saleh Al Shehri,Forward,Forward,Al Ittihad,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Ahmed Al Kassar,Goalkeeper,Goalkeeper,Al Qadsiah,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Mohammed Al Owais,Goalkeeper,Goalkeeper,Al Ula,Middle East / North Africa league - verify club,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Nawaf Al Aqidi,Goalkeeper,Goalkeeper,Al Nassr,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Abdullah Al Khaibari,Midfielder,Midfielder,Al Nassr,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
 Saudi Arabia,Alaa Al Hajji,Midfielder,Midfielder,Neom,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Saudi Arabia,Ayman Yahya,Midfielder,Midfielder,Al Nassr,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Khalid Al Ghannam,Midfielder,Midfielder,Al Ettifaq,Middle East / North Africa league - verify club,No reliable FBref match in currently supported/pulled leagues
 Saudi Arabia,Mohammed Kanno,Midfielder,Midfielder,Al Hilal,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Musab Al Juwayr,Midfielder,Midfielder,Al Qadsiah,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Nasser Al Dawsari,Midfielder,Midfielder,Al Hilal,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Salem Al Dawsari,Midfielder,Midfielder,Al Hilal,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Saudi Arabia,Ziyad Al Johani,Midfielder,Midfielder,Al Ahli,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Scotland,Andy Robertson,Defender,Defender,Liverpool,Premier League,No reliable FBref match in currently supported/pulled leagues
-Scotland,Anthony Ralston,Defender,Defender,Celtic,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-Scotland,Dom Hyam,Defender,Defender,Wrexham,English football league system,No reliable FBref match in currently supported/pulled leagues
-Scotland,Grant Hanley,Defender,Defender,Hibernian,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-Scotland,Jack Hendry,Defender,Defender,Al Etiffaq,Saudi Pro League,No reliable FBref match in currently supported/pulled leagues
-Scotland,John Souttar,Defender,Defender,Rangers,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-Scotland,Lawrence Shankland,Forward,Forward,Hearts,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-Scotland,Lyndon Dykes,Forward,Forward,Charlton Athletic,English football league system,No reliable FBref match in currently supported/pulled leagues
-Scotland,Craig Gordon,Goalkeeper,Goalkeeper,Hearts,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-Scotland,Liam Kelly,Goalkeeper,Goalkeeper,Rangers,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-Scotland,Finlay Curtis,Midfielder,Midfielder,Kilmarnock,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-Scotland,Kenny McLean,Midfielder,Midfielder,Norwich,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-South Africa,Aubrey Modiba,Defender,Defender,Mamelodi Sundowns,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Bradley Cross,Defender,Defender,Kaizer Chiefs,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Ime Okon,Defender,Defender,Hannover 96,German football league system,No reliable FBref match in currently supported/pulled leagues
-South Africa,Kamgogelo Sebelebele,Defender,Defender,Orlando Pirates,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Khuliso Mudau,Defender,Defender,Mamelodi Sundowns,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Khulumani Ndamane,Defender,Defender,Mamelodi Sundowns,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Mbekezeli Mbokazi,Defender,Defender,Chicago Fire,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-South Africa,Nkosinathi Sibisi,Defender,Defender,Orlando Pirates,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Olwethu Makhanya,Defender,Defender,Philadelphia Union,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-South Africa,Samukelo Kabini,Defender,Defender,Molde,Norwegian Eliteserien,No reliable FBref match in currently supported/pulled leagues
-South Africa,Thabang Matuludi,Defender,Defender,Polokwane City,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Evidence Makgopa,Forward,Forward,Orlando Pirates,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Iqraam Rayners,Forward,Forward,Mamelodi Sundowns,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Oswin Appollis,Forward,Forward,Orlando Pirates,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Relebohile Mofokeng,Forward,Forward,Orlando Pirates,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Thapelo Maseko,Forward,Forward,AEL Limassol,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-South Africa,Themba Zwane,Forward,Forward,Mamelodi Sundowns,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Tshepang Moremi,Forward,Forward,Orlando Pirates,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Ricardo Goss,Goalkeeper,Goalkeeper,Mamelodi Sundowns,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Ronwen Williams,Goalkeeper,Goalkeeper,Mamelodi Sundowns,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Sipho Chaine,Goalkeeper,Goalkeeper,Orlando Pirates,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Jayden Adams,Midfielder,Midfielder,Mamelodi Sundowns,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Teboho Mokoena,Midfielder,Midfielder,Mamelodi Sundowns,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Thalente Mbatha,Midfielder,Midfielder,Orlando Pirates,South African Premier Division,No reliable FBref match in currently supported/pulled leagues
-South Africa,Yaya Sithole,Midfielder,Midfielder,Tondela,Primeira Liga,No reliable FBref match in currently supported/pulled leagues
-South Korea,Jens Castrop,Defender,Defender,Borussia Mönchengladbach,Bundesliga,No reliable FBref match in currently supported/pulled leagues
-South Korea,Jo Yu-Min,Defender,Defender,Sharjah,UAE Pro League,No reliable FBref match in currently supported/pulled leagues
-South Korea,Kim Moon-Hwan,Defender,Defender,Daejeon Hana,K League,No reliable FBref match in currently supported/pulled leagues
-South Korea,Kim Tae-Hyun,Defender,Defender,Kashima Antlers,J1 League / Japanese football league system,No reliable FBref match in currently supported/pulled leagues
-South Korea,Lee Han-Beom,Defender,Defender,Midtjylland,Danish Superliga,No reliable FBref match in currently supported/pulled leagues
-South Korea,Lee Ki-Hyeok,Defender,Defender,Gangwon FC,K League,No reliable FBref match in currently supported/pulled leagues
-South Korea,Lee Tae-Seok,Defender,Defender,Austria Vienna,Austrian Bundesliga,No reliable FBref match in currently supported/pulled leagues
-South Korea,Park Jin-Seop,Defender,Defender,Zhejiang FC,Chinese Super League,No reliable FBref match in currently supported/pulled leagues
-South Korea,Seol Young-Woo,Defender,Defender,Red Star Belgrade,Serbian SuperLiga,No reliable FBref match in currently supported/pulled leagues
-South Korea,Cho Kyu-Sung,Forward,Forward,Midtjylland,Danish Superliga,No reliable FBref match in currently supported/pulled leagues
-South Korea,Oh Hyun-Kyu,Forward,Forward,Besiktas,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
-South Korea,Jo Hyun-Woo,Goalkeeper,Goalkeeper,Ulsan HD,K League,No reliable FBref match in currently supported/pulled leagues
-South Korea,Kim Seung-Gyu,Goalkeeper,Goalkeeper,FC Tokyo,J1 League / Japanese football league system,No reliable FBref match in currently supported/pulled leagues
-South Korea,Song Bum-Keun,Goalkeeper,Goalkeeper,Jeonbuk Hyundai,K League,No reliable FBref match in currently supported/pulled leagues
-South Korea,Bae Jun-Ho,Midfielder,Midfielder,Stoke City,English football league system,No reliable FBref match in currently supported/pulled leagues
-South Korea,Hwang In-Beom,Midfielder,Midfielder,Feyenoord,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-South Korea,Kim Jin-Kyu,Midfielder,Midfielder,Jeonbuk Hyundai,K League,No reliable FBref match in currently supported/pulled leagues
-South Korea,Lee Dong-Gyeong,Midfielder,Midfielder,Ulsan HD,K League,No reliable FBref match in currently supported/pulled leagues
-South Korea,Paik Seung-Ho,Midfielder,Midfielder,Birmingham City,English football league system,No reliable FBref match in currently supported/pulled leagues
-South Korea,Um Ji-Sung,Midfielder,Midfielder,Swansea City,English football league system,No reliable FBref match in currently supported/pulled leagues
-South Korea,Yang Hyun-Jun,Midfielder,Midfielder,Celtic,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-Spain,Yéremy Pino,Forward,Forward,Crystal Palace,Premier League,No reliable FBref match in currently supported/pulled leagues
+Scotland,Andy Robertson,Defender,Defender,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Scotland,Dom Hyam,Defender,Defender,Unknown / verify manually,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+South Korea,Cho Wi-je,Defender,Defender,Jeonbuk,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+South Korea,Jens Castrop,Defender,Defender,Borussia Monchengladbach,Bundesliga,No reliable FBref match in currently supported/pulled leagues
+South Korea,Kim Moon-hwan,Defender,Defender,Daejeon,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+South Korea,Kim Tae-hyon,Defender,Defender,Kashima Antlers,J1 League / Japanese football league system,No reliable FBref match in currently supported/pulled leagues
+South Korea,Lee Han-beom,Defender,Defender,Midtjylland,Danish Superliga,No reliable FBref match in currently supported/pulled leagues
+South Korea,Lee Ki-hyuk,Defender,Defender,Gangwon,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+South Korea,Lee Tae-seok,Defender,Defender,Austria Wien,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+South Korea,Park Jin-seob,Defender,Defender,Zhejiang,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+South Korea,Song Bum-keun,Goalkeeper,Goalkeeper,Jeonbuk,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+South Korea,Bae Jun-ho,Midfielder,Midfielder,Stoke City,English football league system,No reliable FBref match in currently supported/pulled leagues
+South Korea,Eom Ji-sung,Midfielder,Midfielder,Swansea,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+South Korea,Kim Jin-gyu,Midfielder,Midfielder,Jeonbuk,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+South Korea,Yang Hyun-jun,Midfielder,Midfielder,Celtic,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
+Spain,Alejandro Grimaldo,Defender,Defender,Bayer Leverkusen,Bundesliga,No reliable FBref match in currently supported/pulled leagues
+Spain,Yeremy Pino,Forward,Forward,Crystal Palace,Premier League,No reliable FBref match in currently supported/pulled leagues
 Sweden,Elliot Stroud,Defender,Defender,Mjallby,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Sweden,Erik Smith,Defender,Defender,St. Pauli,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Sweden,Gustaf Lagerbielke,Defender,Defender,Braga,Primeira Liga,No reliable FBref match in currently supported/pulled leagues
-Sweden,Benjamin Nygren,Forward,Forward,Celtic,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
-Sweden,Gustaf Nilsson,Forward,Forward,Club Brugge,Belgian Pro League,No reliable FBref match in currently supported/pulled leagues
+Sweden,Herman Johansson,Defender,Defender,FC Dallas,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
 Sweden,Jacob Widell Zetterstrom,Goalkeeper,Goalkeeper,Derby County,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
 Sweden,Kristoffer Nordfeldt,Goalkeeper,Goalkeeper,AIK,Swedish Allsvenskan,No reliable FBref match in currently supported/pulled leagues
-Sweden,Viktor Johansson,Goalkeeper,Goalkeeper,Stoke City,English football league system,No reliable FBref match in currently supported/pulled leagues
-Sweden,Besfort Zeneli,Midfielder,Midfielder,Union St-Gilloise,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Sweden,Ken Sema,Midfielder,Midfielder,Pafos,Cypriot First Division,No reliable FBref match in currently supported/pulled leagues
 Sweden,Taha Ali,Midfielder,Midfielder,Malmo,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Switzerland,Cedric Itten,Forward,Forward,Fortuna Dusseldorf,German football league system,No reliable FBref match in currently supported/pulled leagues
-Switzerland,Marvin Keller,Goalkeeper,Goalkeeper,Young Boys,Swiss Super League,No reliable FBref match in currently supported/pulled leagues
-Switzerland,Christian Fassnacht,Midfielder,Midfielder,Young Boys,Swiss Super League,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Adem Arous,Defender,Defender,Kasımpaşa,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Amine Ben Hamida,Defender,Defender,Espérance de Tunis,Tunisian Ligue Professionnelle 1,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Moutaz Neffati,Defender,Defender,IFK Norrköping,Swedish Allsvenskan,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Omar Rekik,Defender,Defender,Maribor,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Tunisia,Adem Arous,Defender,Defender,Kasimpasa,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
+Tunisia,Mohamed Amine Ben Hamida,Defender,Defender,Esperance,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Tunisia,Moutaz Neffati,Defender,Defender,Norrkoping,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Tunisia,Omar Rekik,Defender,Defender,NK Maribor,Slovenian PrvaLiga,No reliable FBref match in currently supported/pulled leagues
 Tunisia,Raed Chikhaoui,Defender,Defender,US Monastir,Tunisian Ligue Professionnelle 1,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Yan Valery,Defender,Defender,Young Boys,Swiss Super League,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Firas Chaouat,Forward,Forward,Club Africain,Tunisian Ligue Professionnelle 1,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Hazem Mastouri,Forward,Forward,Dynamo Makhachkala,Russian Premier League,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Khalil Ayari,Forward,Forward,Paris Saint-Germain,Ligue 1 / French football league system,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Rayan Elloumi,Forward,Forward,Vancouver Whitecaps,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Sebastian Tounekti,Forward,Forward,Celtic,Scottish Premiership,No reliable FBref match in currently supported/pulled leagues
+Tunisia,Khalil Ayari,Forward,Forward,Paris St Germain,Ligue 1 / French football league system,No reliable FBref match in currently supported/pulled leagues
 Tunisia,Abdelmouhib Chamakh,Goalkeeper,Goalkeeper,Club Africain,Tunisian Ligue Professionnelle 1,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Aymen Dahmen,Goalkeeper,Goalkeeper,CS Sfaxien,Tunisian Ligue Professionnelle 1,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Sabri Ben Hessen,Goalkeeper,Goalkeeper,Étoile du Sahel,Tunisian Ligue Professionnelle 1,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Elias Achouri,Midfielder,Midfielder,Copenhagen,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Hadj Mahmoud,Midfielder,Midfielder,Lugano,Swiss Super League,No reliable FBref match in currently supported/pulled leagues
-Tunisia,Mortadha Ben Ouanes,Midfielder,Midfielder,Kasımpaşa,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
-United States,Max Arfsten,Defender,Defender,Columbus Crew,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-United States,Miles Robinson,Defender,Defender,FC Cincinnati,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-United States,Sergiño Dest,Defender,Defender,PSV Eindhoven,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-United States,Haji Wright,Forward,Forward,Coventry City,English football league system,No reliable FBref match in currently supported/pulled leagues
-United States,Ricardo Pepi,Forward,Forward,PSV Eindhoven,Eredivisie / Dutch football league system,No reliable FBref match in currently supported/pulled leagues
-United States,Chris Brady,Goalkeeper,Goalkeeper,Chicago Fire,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-United States,Matt Freese,Goalkeeper,Goalkeeper,New York City FC,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-United States,Alejandro Zendejas,Midfielder,Midfielder,Club América,Liga MX,No reliable FBref match in currently supported/pulled leagues
-United States,Cristian Roldan,Midfielder,Midfielder,Seattle Sounders,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
-United States,Sebastian Berhalter,Midfielder,Midfielder,Vancouver Whitecaps,Major League Soccer,No reliable FBref match in currently supported/pulled leagues
+Tunisia,Aymen Dahman,Goalkeeper,Goalkeeper,CS Sfaxien,Tunisian Ligue Professionnelle 1,No reliable FBref match in currently supported/pulled leagues
+Tunisia,Sabri Ben Hessen,Goalkeeper,Goalkeeper,Etoile Sahel,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Tunisia,Mohamed Hadj Mahmoud,Midfielder,Midfielder,Lugano,Swiss Super League,No reliable FBref match in currently supported/pulled leagues
+Türkiye,Samet Akaydin,Defender,Defender,Caykur Rizespor,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
+Türkiye,Baris Alper Yilmaz,Forward,Forward,Galatasaray,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Türkiye,Irfan Can Kahveci,Forward,Forward,Kasimpasa,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
+Türkiye,Kenan Yildiz,Forward,Forward,Juventus,Serie A,No reliable FBref match in currently supported/pulled leagues
+Türkiye,Oguz Aydin,Forward,Forward,Fenerbahce,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
+Türkiye,Altay Bayindir,Goalkeeper,Goalkeeper,Manchester United,Premier League,No reliable FBref match in currently supported/pulled leagues
+Türkiye,Ugurcan Cakir,Goalkeeper,Goalkeeper,Galatasaray,Turkish Süper Lig,No reliable FBref match in currently supported/pulled leagues
 United States,Tim Weah,Midfielder,Midfielder,Marseille,Ligue 1 / French football league system,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Guillermo Varela,Defender,Defender,Flamengo,Brazilian football league system,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Joaquín Piquerez,Defender,Defender,Palmeiras,Brazilian football league system,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Juan Manuel Sanabria,Defender,Defender,Real Salt Lake,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Sebastián Cáceres,Defender,Defender,América,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Rodrigo Aguirre,Forward,Forward,Tigres,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Fernando Muslera,Goalkeeper,Goalkeeper,Estudiantes de La Plata,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Santiago Mele,Goalkeeper,Goalkeeper,Monterrey,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Sergio Rochet,Goalkeeper,Goalkeeper,Internacional de Porto Alegre,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Agustín Canobbio,Midfielder,Midfielder,Fluminense,Brazilian football league system,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Brian Rodríguez,Midfielder,Midfielder,América,Liga MX,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Emiliano Martínez,Midfielder,Midfielder,Palmeiras,Brazilian football league system,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Giorgian De Arrascaeta,Midfielder,Midfielder,Flamengo,Brazilian football league system,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Maximiliano Araújo,Midfielder,Midfielder,Sporting CP,Primeira Liga,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Nicolás De La Cruz,Midfielder,Midfielder,Flamengo,Brazilian football league system,No reliable FBref match in currently supported/pulled leagues
-Uruguay,Rodrigo Zalazar,Midfielder,Midfielder,Sporting CP,Primeira Liga,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Abdulla Abdullaev,Defender,Defender,Dibba,UAE Pro League,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Avazbek Ulmasaliev,Defender,Defender,AGMK,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Bekhruz Karimov,Defender,Defender,Surkhon,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Jakhongir Urozov,Defender,Defender,Dinamo Samarqand,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Khojiakbar Alijonov,Defender,Defender,Pakhtakor,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Sherzod Nasrullaev,Defender,Defender,Nasaf,Uzbekistan Super League,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Azizbek Amonov,Forward,Forward,Bukhara,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Abduvohid Nematov,Goalkeeper,Goalkeeper,Nasaf,Uzbekistan Super League,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Botirali Ergashev,Goalkeeper,Goalkeeper,Neftchi,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Abbosbek Fayzullaev,Midfielder,Midfielder,Istanbul Basaksehir,Russian Premier League,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Akmal Mozgovoy,Midfielder,Midfielder,Pakhtakor,Uzbekistan Super League,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Azizjon Ganiev,Midfielder,Midfielder,Al Bataeh,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Dostonbek Khamdamov,Midfielder,Midfielder,Pakhtakor,Unknown / verify manually,No reliable FBref match in currently supported/pulled leagues
+Uzbekistan,Odiljon Hamrobekov,Midfielder,Midfielder,Tractor,Uzbekistan Super League,No reliable FBref match in currently supported/pulled leagues

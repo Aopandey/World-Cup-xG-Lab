@@ -1,0 +1,85 @@
+final_26_squad_corrections:
+  Ecuador:
+    players:
+      - {player: Hernan Galindez, position_group: Goalkeeper, club: Huracan, league: Argentina Primera Division}
+      - {player: Moises Ramirez, position_group: Goalkeeper, club: A.E Kifisia, league: Greek Super League}
+      - {player: Gonzalo Valle, position_group: Goalkeeper, club: L.D.U Quito, league: Ecuadorian Serie A}
+      - {player: Piero Hincapie, position_group: Defender, club: Arsenal, league: Premier League}
+      - {player: Willian Pacho, position_group: Defender, club: PSG, league: Ligue 1 / French football league system}
+      - {player: Pervis Estupinan, position_group: Defender, club: AC Milan, league: Serie A}
+      - {player: Felix Torres, position_group: Defender, club: Internacional, league: Brazilian football league system}
+      - {player: Joel Ordonez, position_group: Defender, club: Club Brugge, league: Belgian Pro League}
+      - {player: Jackson Porozo, position_group: Defender, club: Tijuana, league: Liga MX}
+      - {player: Angelo Preciado, position_group: Defender, club: Atletico Mineiro, league: Brazilian football league system}
+      - {player: Moises Caicedo, position_group: Midfielder, club: Chelsea, league: Premier League}
+      - {player: Alan Franco, position_group: Midfielder, club: Atletico Mineiro, league: Brazilian football league system}
+      - {player: Kendry Paez, position_group: Midfielder, club: River Plate, league: Argentina Primera Division}
+      - {player: Pedro Vite, position_group: Midfielder, club: UNAM, league: Liga MX}
+      - {player: Jordy Alcivar, position_group: Midfielder, club: Independiente, league: Ecuadorian Serie A}
+      - {player: Denil Castillo, position_group: Midfielder, club: FC Midtjylland, league: Danish Superliga}
+      - {player: Yaimar Medina, position_group: Midfielder, club: Genk, league: Belgian Pro League}
+      - {player: Enner Valencia, position_group: Forward, club: Pachuca, league: Liga MX}
+      - {player: Gonzalo Plata, position_group: Forward, club: Flamengo, league: Brazilian football league system}
+      - {player: Alan Minda, position_group: Forward, club: Atletico Mineiro, league: Brazilian football league system}
+      - {player: John Yeboah, position_group: Forward, club: Venezia, league: Serie A}
+      - {player: Kevin Rodriguez, position_group: Forward, club: Union Saint-Gilloise, league: Belgian Pro League}
+      - {player: Jordy Caicedo, position_group: Forward, club: Atlas, league: Liga MX}
+      - {player: Nilson Angulo, position_group: Forward, club: Sunderland, league: Premier League}
+      - {player: Anthony Valencia, position_group: Forward, club: Royal Antwerp, league: Belgian Pro League}
+      - {player: Jeremy Arevalo, position_group: Forward, club: Stuttgart, league: Bundesliga}
+  Egypt:
+    players:
+      - {player: Mohamed El Shenawy, position_group: Goalkeeper, club: Al Ahly, league: Egyptian Premier League}
+      - {player: Mostafa Shobeir, position_group: Goalkeeper, club: Al Ahly, league: Egyptian Premier League}
+      - {player: Mohamed Alaa, position_group: Goalkeeper, club: El Gouna, league: Egyptian Premier League}
+      - {player: El Mahdy Soliman, position_group: Goalkeeper, club: Zamalek, league: Egyptian Premier League}
+      - {player: Ramy Rabia, position_group: Defender, club: Al Ain, league: UAE Pro League}
+      - {player: Mohamed Hany, position_group: Defender, club: Al Ahly, league: Egyptian Premier League}
+      - {player: Ahmed Abou El Fotouh, position_group: Defender, club: Zamalek, league: Egyptian Premier League}
+      - {player: Mohamed Abdelmonem, position_group: Defender, club: Nice, league: Ligue 1 / French football league system}
+      - {player: Yasser Ibrahim, position_group: Defender, club: Al Ahly, league: Egyptian Premier League}
+      - {player: Hossam Abdelmaguid, position_group: Defender, club: Zamalek, league: Egyptian Premier League}
+      - {player: Karim Hafez, position_group: Defender, club: Pyramids, league: Egyptian Premier League}
+      - {player: Tarek Alaa, position_group: Defender, club: ZED, league: Egyptian Premier League}
+      - {player: Hamdy Fathy, position_group: Midfielder, club: Al-Wakrah, league: Qatar Stars League}
+      - {player: Marwan Attia, position_group: Midfielder, club: Al Ahly, league: Egyptian Premier League}
+      - {player: Emam Ashour, position_group: Midfielder, club: Al Ahly, league: Egyptian Premier League}
+      - {player: Mohanad Lasheen, position_group: Midfielder, club: Pyramids, league: Egyptian Premier League}
+      - {player: Mahmoud Saber, position_group: Midfielder, club: ZED, league: Egyptian Premier League}
+      - {player: Nabil Emad, position_group: Midfielder, club: Al-Najma, league: Saudi Pro League}
+      - {player: Mostafa Ziko, position_group: Midfielder, club: Pyramids, league: Egyptian Premier League}
+      - {player: Mohamed Salah, position_group: Forward, club: Liverpool, league: Premier League}
+      - {player: Trezeguet, position_group: Forward, club: Al Ahly, league: Egyptian Premier League}
+      - {player: Zizo, position_group: Forward, club: Al Ahly, league: Egyptian Premier League}
+      - {player: Omar Marmoush, position_group: Forward, club: Manchester City, league: Premier League}
+      - {player: Ibrahim Adel, position_group: Forward, club: Nordsjaelland, league: Danish Superliga}
+      - {player: Haissem Hassan, position_group: Forward, club: Real Oviedo, league: Spanish football league system}
+      - {player: Hamza Abdelkarim, position_group: Forward, club: Barcelona, league: LaLiga}
+  Portugal:
+    players:
+      - {player: Diogo Costa, position_group: Goalkeeper, club: FC Porto, league: Primeira Liga}
+      - {player: Rui Silva, position_group: Goalkeeper, club: Sporting CP, league: Primeira Liga}
+      - {player: Jose Sa, position_group: Goalkeeper, club: Wolverhampton, league: Premier League}
+      - {player: Ruben Dias, position_group: Defender, club: Manchester City, league: Premier League}
+      - {player: Goncalo Inacio, position_group: Defender, club: Sporting CP, league: Primeira Liga}
+      - {player: Joao Cancelo, position_group: Defender, club: FC Barcelona, league: LaLiga}
+      - {player: Nuno Mendes, position_group: Defender, club: PSG, league: Ligue 1 / French football league system}
+      - {player: Diogo Dalot, position_group: Defender, club: Manchester United, league: Premier League}
+      - {player: Nelson Semedo, position_group: Defender, club: Fenerbahce SK, league: Turkish Super Lig}
+      - {player: Tomas Araujo, position_group: Defender, club: Benfica, league: Primeira Liga}
+      - {player: Renato Veiga, position_group: Defender, club: Villarreal, league: LaLiga}
+      - {player: Vitinha, position_group: Midfielder, club: PSG, league: Ligue 1 / French football league system}
+      - {player: Joao Neves, position_group: Midfielder, club: PSG, league: Ligue 1 / French football league system}
+      - {player: Bruno Fernandes, position_group: Midfielder, club: Manchester United, league: Premier League}
+      - {player: Ruben Neves, position_group: Midfielder, club: Al Hilal, league: Saudi Pro League}
+      - {player: Matheus Nunes, position_group: Midfielder, club: Manchester City, league: Premier League}
+      - {player: Samu Costa, position_group: Midfielder, club: Mallorca, league: LaLiga}
+      - {player: Bernardo Silva, position_group: Midfielder, club: Manchester City, league: Premier League}
+      - {player: Cristiano Ronaldo, position_group: Forward, club: Al Nassr, league: Saudi Pro League}
+      - {player: Francisco Trincao, position_group: Forward, club: Sporting CP, league: Primeira Liga}
+      - {player: Joao Felix, position_group: Forward, club: Al Nassr, league: Saudi Pro League}
+      - {player: Goncalo Ramos, position_group: Forward, club: PSG, league: Ligue 1 / French football league system}
+      - {player: Pedro Neto, position_group: Forward, club: Chelsea, league: Premier League}
+      - {player: Francisco Conceicao, position_group: Forward, club: Juventus, league: Serie A}
+      - {player: Rafael Leao, position_group: Forward, club: AC Milan, league: Serie A}
+      - {player: Goncalo Guedes, position_group: Forward, club: Real Sociedad, league: LaLiga}

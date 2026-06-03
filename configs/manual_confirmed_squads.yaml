@@ -1,0 +1,170 @@
+manual_confirmed_squads:
+  Uzbekistan:
+    players:
+      - {player: Utkir Yusupov, position_group: Goalkeeper, club: Navbahor}
+      - {player: Abduvohid Nematov, position_group: Goalkeeper, club: Nasaf}
+      - {player: Botirali Ergashev, position_group: Goalkeeper, club: Neftchi}
+      - {player: Rustam Ashurmatov, position_group: Defender, club: Esteghlal}
+      - {player: Farrukh Sayfiev, position_group: Defender, club: Neftchi}
+      - {player: Khojiakbar Alijonov, position_group: Defender, club: Pakhtakor}
+      - {player: Sherzod Nasrullaev, position_group: Defender, club: Nasaf}
+      - {player: Umar Eshmurodov, position_group: Defender, club: Nasaf}
+      - {player: Abdukodir Khusanov, position_group: Defender, club: Manchester City}
+      - {player: Abdulla Abdullaev, position_group: Defender, club: Dibba}
+      - {player: Bekhruz Karimov, position_group: Defender, club: Surkhon}
+      - {player: Jakhongir Urozov, position_group: Defender, club: Dinamo Samarqand}
+      - {player: Avazbek Ulmasaliev, position_group: Defender, club: AGMK}
+      - {player: Otabek Shukurov, position_group: Midfielder, club: Baniyas}
+      - {player: Jaloliddin Masharipov, position_group: Midfielder, club: Esteghlal}
+      - {player: Odiljon Hamrobekov, position_group: Midfielder, club: Tractor}
+      - {player: Oston Urunov, position_group: Midfielder, club: Persepolis}
+      - {player: Jamshid Iskanderov, position_group: Midfielder, club: Neftchi}
+      - {player: Dostonbek Khamdamov, position_group: Midfielder, club: Pakhtakor}
+      - {player: Abbosbek Fayzullaev, position_group: Midfielder, club: Istanbul Basaksehir}
+      - {player: Akmal Mozgovoy, position_group: Midfielder, club: Pakhtakor}
+      - {player: Azizjon Ganiev, position_group: Midfielder, club: Al Bataeh}
+      - {player: Sherzod Esanov, position_group: Midfielder, club: Bukhara}
+      - {player: Eldor Shomurodov, position_group: Forward, club: Istanbul Basaksehir}
+      - {player: Igor Sergeev, position_group: Forward, club: Persepolis}
+      - {player: Azizbek Amonov, position_group: Forward, club: Bukhara}
+  Portugal:
+    players:
+      - {player: Diogo Costa, position_group: Goalkeeper}
+      - {player: Jose Sa, position_group: Goalkeeper}
+      - {player: Rui Silva, position_group: Goalkeeper}
+      - {player: Nelson Semedo, position_group: Defender}
+      - {player: Ruben Dias, position_group: Defender}
+      - {player: Tomas Araujo, position_group: Defender}
+      - {player: Diogo Dalot, position_group: Defender}
+      - {player: Renato Veiga, position_group: Defender}
+      - {player: Goncalo Inacio, position_group: Defender}
+      - {player: Joao Cancelo, position_group: Defender}
+      - {player: Nuno Mendes, position_group: Defender}
+      - {player: Matheus Nunes, position_group: Midfielder}
+      - {player: Bruno Fernandes, position_group: Midfielder}
+      - {player: Bernardo Silva, position_group: Midfielder}
+      - {player: Joao Neves, position_group: Midfielder}
+      - {player: Ruben Neves, position_group: Midfielder}
+      - {player: Vitinha, position_group: Midfielder}
+      - {player: Samu Costa, position_group: Midfielder}
+      - {player: Cristiano Ronaldo, position_group: Forward}
+      - {player: Goncalo Ramos, position_group: Forward}
+      - {player: Joao Felix, position_group: Forward}
+      - {player: Francisco Trincao, position_group: Forward}
+      - {player: Rafael Leao, position_group: Forward}
+      - {player: Pedro Neto, position_group: Forward}
+      - {player: Goncalo Guedes, position_group: Forward}
+      - {player: Francisco Conceicao, position_group: Forward}
+  Jordan:
+    players:
+      - {player: Yazeed Abulaila, position_group: Goalkeeper, club: Al-Hussein}
+      - {player: Abdullah Al-Fakhouri, position_group: Goalkeeper, club: Al-Wehdat}
+      - {player: Noor Bani Attiah, position_group: Goalkeeper, club: Al-Faisaly}
+      - {player: Abdallah Nasib, position_group: Defender, club: Al-Zawraa}
+      - {player: Ehsan Haddad, position_group: Defender}
+      - {player: Saed Al-Rosan, position_group: Defender}
+      - {player: Saleem Obaid, position_group: Defender, club: Al-Hussein}
+      - {player: Yazan Al-Arab, position_group: Defender, club: FC Seoul}
+      - {player: Mohammad Abualnadi, position_group: Defender, club: Selangor}
+      - {player: Husam Abu Dahab, position_group: Defender}
+      - {player: Anas Banawi, position_group: Defender, club: Al-Faisaly}
+      - {player: Mohannad Abu Taha, position_group: Defender, club: Al-Quwa Al-Jawiya}
+      - {player: Mohammad Abu Hasheesh, position_group: Defender, club: Al-Karma}
+      - {player: Noor Al-Rawabdeh, position_group: Midfielder, club: Selangor}
+      - {player: Nizar Al-Rashdan, position_group: Midfielder, club: Qatar}
+      - {player: Ibrahim Saadeh, position_group: Midfielder, club: Al-Karma}
+      - {player: Rajaei Ayed, position_group: Midfielder}
+      - {player: Mahmoud Al-Mardi, position_group: Midfielder, club: Al-Hussein}
+      - {player: Amer Jamous, position_group: Midfielder, club: Al-Zawraa}
+      - {player: Mohammad Al-Dawoud, position_group: Midfielder, club: Al-Wehdat}
+      - {player: Mousa Al-Tamari, position_group: Forward, club: Rennes}
+      - {player: Odeh Al-Fakhouri, position_group: Forward, club: Pyramids}
+      - {player: Mohammad Abu Zrayq, position_group: Forward, club: Raja Casablanca}
+      - {player: Ali Azaizeh, position_group: Forward, club: Al-Shabab}
+      - {player: Ibrahim Sabra, position_group: Forward, club: Lokomotiva Zagreb}
+      - {player: Ali Olwan, position_group: Forward, club: Al-Sailiya}
+  Senegal:
+    players:
+      - {player: Edouard Mendy, position_group: Goalkeeper}
+      - {player: Mory Diaw, position_group: Goalkeeper}
+      - {player: Yehvann Diouf, position_group: Goalkeeper}
+      - {player: Kalidou Koulibaly, position_group: Defender}
+      - {player: Moussa Niakhate, position_group: Defender}
+      - {player: Mamadou Sarr, position_group: Defender}
+      - {player: Abdoulaye Seck, position_group: Defender}
+      - {player: Krepin Diatta, position_group: Defender}
+      - {player: Antoine Mendy, position_group: Defender}
+      - {player: Ismail Jakobs, position_group: Defender}
+      - {player: El Hadji Malick Diouf, position_group: Defender}
+      - {player: Idrissa Gana Gueye, position_group: Midfielder}
+      - {player: Lamine Camara, position_group: Midfielder}
+      - {player: Pape Gueye, position_group: Midfielder}
+      - {player: Pape Matar Sarr, position_group: Midfielder}
+      - {player: Habib Diarra, position_group: Midfielder}
+      - {player: Bara Sapoko Ndiaye, position_group: Midfielder}
+      - {player: Pathe Ciss, position_group: Midfielder}
+      - {player: Sadio Mane, position_group: Forward}
+      - {player: Ismaila Sarr, position_group: Forward}
+      - {player: Iliman Ndiaye, position_group: Forward}
+      - {player: Nicolas Jackson, position_group: Forward}
+      - {player: Cherif Ndiaye, position_group: Forward}
+      - {player: Bamba Dieng, position_group: Forward}
+      - {player: Ibrahim Mbaye, position_group: Forward}
+      - {player: Assane Diao, position_group: Forward}
+  Turkey:
+    canonical_team: "Türkiye"
+    players:
+      - {player: Altay Bayindir, position_group: Goalkeeper, club: Manchester United}
+      - {player: Mert Gunok, position_group: Goalkeeper, club: Fenerbahce}
+      - {player: Ugurcan Cakir, position_group: Goalkeeper, club: Galatasaray}
+      - {player: Abdulkerim Bardakci, position_group: Defender, club: Galatasaray}
+      - {player: Caglar Soyuncu, position_group: Defender, club: Fenerbahce}
+      - {player: Eren Elmali, position_group: Defender, club: Galatasaray}
+      - {player: Ferdi Kadioglu, position_group: Defender, club: Brighton}
+      - {player: Merih Demiral, position_group: Defender, club: Al-Ahli Saudi}
+      - {player: Mert Muldur, position_group: Defender, club: Fenerbahce}
+      - {player: Ozan Kabak, position_group: Defender, club: Hoffenheim}
+      - {player: Samet Akaydin, position_group: Defender, club: Caykur Rizespor}
+      - {player: Zeki Celik, position_group: Defender, club: AS Roma}
+      - {player: Hakan Calhanoglu, position_group: Midfielder, club: Inter Milan}
+      - {player: Ismail Yuksek, position_group: Midfielder, club: Fenerbahce}
+      - {player: Kaan Ayhan, position_group: Midfielder, club: Galatasaray}
+      - {player: Orkun Kokcu, position_group: Midfielder, club: Besiktas}
+      - {player: Salih Ozcan, position_group: Midfielder, club: Borussia Dortmund}
+      - {player: Arda Guler, position_group: Forward, club: Real Madrid}
+      - {player: Baris Alper Yilmaz, position_group: Forward, club: Galatasaray}
+      - {player: Can Uzun, position_group: Forward, club: Eintracht Frankfurt}
+      - {player: Deniz Gul, position_group: Forward, club: Porto}
+      - {player: Irfan Can Kahveci, position_group: Forward, club: Kasimpasa}
+      - {player: Kenan Yildiz, position_group: Forward, club: Juventus}
+      - {player: Kerem Akturkoglu, position_group: Forward, club: Fenerbahce}
+      - {player: Oguz Aydin, position_group: Forward, club: Fenerbahce}
+      - {player: Yunus Akgun, position_group: Forward, club: Galatasaray}
+  Qatar:
+    players:
+      - {player: Salah Zakaria, position_group: Goalkeeper, club: Al-Duhail}
+      - {player: Mahmoud Abunada, position_group: Goalkeeper, club: Al Rayyan}
+      - {player: Meshaal Barsham, position_group: Goalkeeper, club: Al-Sadd}
+      - {player: Hashmi Hussein, position_group: Defender, club: Al Arabi}
+      - {player: Ayoub Alawi, position_group: Defender, club: Al Gharafa}
+      - {player: Boualem Khoukhi, position_group: Defender, club: Al-Sadd}
+      - {player: Pedro Miguel, position_group: Defender, club: Al-Sadd}
+      - {player: Issa Laaye, position_group: Defender, club: Al Arabi}
+      - {player: Lucas Mendes, position_group: Defender, club: Al-Wakrah}
+      - {player: Sultan Al-Brake, position_group: Defender, club: Al-Duhail}
+      - {player: Homam Al-Amin, position_group: Defender, club: Cultural Leonesa}
+      - {player: Mohammed Al-Manai, position_group: Midfielder, club: Al Shamal}
+      - {player: Jassem Jaber, position_group: Midfielder, club: Al Arabi}
+      - {player: Karim Boudiaf, position_group: Midfielder, club: Al-Duhail}
+      - {player: Ahmed Fathi, position_group: Midfielder, club: Al Arabi}
+      - {player: Abdulaziz Hatem, position_group: Midfielder, club: Al Rayyan}
+      - {player: Assim Madibo, position_group: Midfielder, club: Al-Wakrah}
+      - {player: Tahseen Mohammed, position_group: Forward, club: Al-Duhail}
+      - {player: Edmilson Junior, position_group: Forward, club: Al-Duhail}
+      - {player: Almoez Ali, position_group: Forward, club: Al-Duhail}
+      - {player: Akram Afif, position_group: Forward, club: Al-Sadd}
+      - {player: Mohammed Muntari, position_group: Forward, club: Al Gharafa}
+      - {player: Youssef Abdulrazzaq, position_group: Forward, club: Al-Wakrah}
+      - {player: Ahmed Alaa, position_group: Forward, club: Al Rayyan}
+      - {player: Hassan Al-Haydos, position_group: Forward, club: Al-Sadd}
+      - {player: Ahmed Al-Janahi, position_group: Forward, club: Al Gharafa}

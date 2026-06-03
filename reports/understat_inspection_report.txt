@@ -1,0 +1,77 @@
+Understat Inspection Report
+===========================
+
+Archive 2 tables:
+- player_stats rows=35,076, unique_players=10,053, seasons=[2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+- game_stats rows=41,722, leagues=['Bundesliga', 'EPL', 'La liga', 'Ligue 1', 'RFPL', 'Serie A'], seasons=2014-2024
+
+Archive 3 shot/player tables:
+- player rows=34,100, unique_players=10,066, leagues=['Bundesliga', 'EPL', 'La_Liga', 'Ligue_1', 'RFPL', 'Serie_A'], seasons=2014-2024
+- shot rows=515,220, unique_players=7,924, leagues=['Bundesliga', 'EPL', 'La_Liga', 'Ligue_1', 'RFPL', 'Serie_A'], seasons=2014-2023
+- match_info rows=20,475, leagues=['Bundesliga', 'EPL', 'La_Liga', 'Ligue_1', 'RFPL', 'Serie_A']
+
+Shot data columns:
+id, minute, result, X, Y, xG, player, h_a, player_id, situation, season, shotType, match_id, h_team, a_team, h_goals, a_goals, date, player_assisted, lastAction, understat_league
+
+Player aggregate columns:
+player_id, name, season, position, games, goals, shots, time, xG, assists, xA, key_passes, team, yellow, red, npg, npxG, xGChain, xGBuildup
+
+World Cup squad coverage:
+- archive2_player_stats: matched=593/1,248 (47.5%), attackers_midfielders=361/683
+- archive3_player_stats: matched=590/1,248 (47.3%), attackers_midfielders=358/683
+- any_player_aggregate: matched=593/1,248 (47.5%), attackers_midfielders=361/683
+- archive3_shot_data: matched=507/1,248 (40.6%), attackers_midfielders=317/683
+
+Shot coverage by WC position group:
+                sum  count
+position_group            
+Defender        174    420
+Forward         149    304
+Goalkeeper       16    145
+Midfielder      168    379
+
+Shot coverage by WC team, top 20 found:
+world_cup_team
+England          24
+Germany          23
+Argentina        22
+Spain            21
+Portugal         20
+Austria          19
+Brazil           19
+France           19
+Switzerland      18
+Netherlands      18
+Belgium          17
+Ivory Coast      16
+Croatia          16
+Colombia         16
+Senegal          15
+DR Congo         14
+Uruguay          14
+United States    14
+Scotland         13
+Algeria          11
+
+Aggregate coverage by WC team, top 20 found:
+world_cup_team
+England          25
+Germany          24
+Argentina        23
+Austria          22
+Portugal         22
+Netherlands      22
+Spain            22
+Switzerland      21
+France           21
+Senegal          20
+Brazil           20
+Croatia          19
+Colombia         18
+Ivory Coast      18
+Belgium          17
+DR Congo         16
+United States    16
+Scotland         16
+Uruguay          14
+Sweden           14

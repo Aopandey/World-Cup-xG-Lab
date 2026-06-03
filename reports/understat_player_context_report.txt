@@ -1,0 +1,14 @@
+Understat Player Context Report
+===============================
+
+Rows: 69,176
+Unique players: 10,129
+Leagues: 6
+Seasons: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+
+World Cup squad coverage:
+- Matched players: 593/1,248
+- Matched midfielders/forwards: 361/683
+
+Leagues included:
+Bundesliga, EPL, La Liga, Ligue 1, RFPL, Serie A

@@ -1,178 +1,172 @@
 FBref Squad Player Coverage
 ===========================
-Number of squad players: 1092
-Number matched in FBref: 528
-Number missing from FBref: 564
+Number of squad players: 1248
+Number matched in FBref: 991
+Number missing from FBref: 257
 
 Missing players by team:
 world_cup_team
-Algeria                   13
-Argentina                  4
-Australia                 20
-Austria                    5
-Belgium                    5
-Bosnia and Herzegovina    16
-Brazil                     7
-Cabo Verde                23
-Canada                    17
-Colombia                  14
-Croatia                    6
-Curaçao                   25
-Czechia                   16
-DR Congo                  11
-Ecuador                   17
-Egypt                     22
-England                    1
-France                     1
-Ghana                     11
-Haiti                     18
-Iran                      24
-Iraq                      24
-Ivory Coast                7
-Japan                     10
-Mexico                    18
-Morocco                    9
+Algeria                    6
+Argentina                  2
+Australia                  9
+Bosnia and Herzegovina     2
+Brazil                     1
+Cabo Verde                10
+Canada                     2
+Colombia                   4
+Curaçao                    6
+DR Congo                   2
+Ecuador                    3
+Egypt                     10
+France                     2
+Ghana                      5
+Haiti                     12
+Iran                       9
+Iraq                      10
+Ivory Coast                4
+Japan                      4
+Jordan                    14
+Mexico                     3
+Morocco                    6
 Netherlands                2
-New Zealand               23
-Norway                     8
-Panama                    26
-Paraguay                  20
-Saudi Arabia              25
-Scotland                  12
-South Africa              25
-South Korea               21
-Spain                      2
-Sweden                    11
-Switzerland                3
-Tunisia                   17
-United States             11
-Uruguay                   14
+New Zealand               16
+Norway                    10
+Panama                    13
+Paraguay                   8
+Qatar                     17
+Saudi Arabia               7
+Scotland                   2
+South Korea               13
+Spain                      3
+Sweden                     6
+Tunisia                   10
+Türkiye                    9
+United States              1
+Uzbekistan                14
 
 Missing player names by team:
-Algeria: Achraf Abada, Adil Boulbina, Anis Hadj Moussa, Luca Zidane, Melvin Masstil, Mohamed Amine Amoura, Mohamed Amine Tougai, Nadir Benbouali, Oussama Benbot, Ramiz Zerrouki, Riyad Mahrez, Yassine Titraoui, Zinedine Belaid
-Argentina: Jose Manuel López, Lionel Messi, Nico Paz, Nicolás Otamendi
-Australia: Aiden O'Neill, Ajdin Hrustic, Awer Mabil, Aziz Behich, Cameron Devlin, Harry Souttar, Jacob Italiano, Jason Geria, Jordan Bos, Kai Trewin, Lucas Herrington, Mathew Leckie, Milos Degenek, Mohamed Toure, Nestory Irankunda, Nishan Velupillay, Patrick Beach, Paul Izzo, Paul Okon Jr, Tete Yengi
-Austria: Alessandro Schopf, Alexander Schlager, Florian Wiegele, Patrick Pentz, Philipp Mwene
-Belgium: Brandon Mechele, Hans Vanaken, Joaquin Seys, Nicolas Raskin, Zeno Debast
-Bosnia and Herzegovina: Amar Memic, Amir Hadziahmetovic, Benjamin Tahirovic, Dennis Hadzikadunic, Dzenis Burnic, Ermin Mahmic, Esmir Bajraktarevic, Ivan Basic, Ivan Sunjic, Jovo Lukic, Martin Zlomislic, Nihad Mujakic, Nikola Katic, Osman Hadzikic, Samed Bazdar, Stjepan Radeljic
-Brazil: Bremer, Douglas Santos, Fabinho, Léo Pereira, Neymar, Roger Ibañez, Weverton
-Cabo Verde: CJ dos Santos, Deroy Duarte, Diney, Garry Rodrigues, Gilson Benchimol, Helio Varela, Jamiro Monteiro, Joao Paulo, Kelvin Pires, Kevin Pina, Laros Duarte, Marcio Rosa, Nuno da Costa, Pico, Ryan Mendes, Sidny Lopes Cabral, Steven Moreira, Stopira, Telmo Arcanjo, Vozinha, Wagner Pina, Willy Semedo, Yannick Semedo
-Canada: Alfie Jones, Ali Ahmed, Alistair Johnston, Dayne St. Clair, Jacob Shaffelburg, Joel Waterman, Jonathan Osorio, Liam Millar, Marcelo Flores, Mathieu Choinière, Maxime Crépeau, Nathan Saliba, Niko Sigur, Owen Goodman, Promise David, Richie Laryea, Stephen Eustáquio
-Colombia: Camilo Vargas, Cucho Hernández, David Ospina, Jaminton Campaz, Jhon Córdoba, Jorge Carrascal, Juan Fernando Quintero, Juan Portilla, Kevin Castaño, Luis Suárez, Richard Ríos, Santiago Arias, Willer Ditta, Álvaro Montero
-Croatia: Dominik Kotarski, Ivor Pandur, Josip Sutalo, Marco Pasalic, Petar Musa, Toni Fruk
-Curaçao: Ar'jany Martha, Armando Obispo, Brandley Kuwas, Deveron Fonville, Eloy Room, Gervane Kastaneer, Godfried Roemeratoe, Jearl Margaritha, Jeremy Antonisse, Joshua Brenet, Juninho Bacuna, Jurgen Locadia, Jurien Gaari, Kenji Gorre, Kevin Felida, Leandro Bacuna, Livano Comenencia, Riechedly Bazoer, Roshon van Eijma, Sherel Floranus, Shurandy Sambo, Sontje Hansen, Trevor Doornbusch, Tyrese Noslin, Tyrick Bodak
-Czechia: Alexandr Sojka, David Douděra, Denis Višinský, Hugo Sochůrek, Jan Kuchta, Jaroslav Zelený, Jindřich Staněk, Lukáš Horníček, Lukáš Provod, Lukáš Červ, Michal Sadílek, Mojmír Chytil, Tomáš Chorý, Tomáš Holeš, Vladimír Darida, Štěpán Chaloupek
-DR Congo: Aaron Tshibola, Brian Cipenga, Edo Kayembe, Fiston Mayele, Gaël Kakuta, Joris Kayembe, Matthieu Epolo, Simon Banza, Steve Kapuadi, Théo Bongonda, Timothy Fayulu
-Ecuador: Alan Franco, Alan Minda, Anthony Valencia, Denil Castillo, Enner Valencia, Félix Torres, Gonzalo Plata, Gonzalo Valle, Hernán Galíndez, Joel Ordóñez, Jordy Alcivar, Jordy Caicedo, Kevin Rodríguez, Moisés Ramírez, Pedro Vite, Yaimar Medina, Ángelo Preciado
-Egypt: Ahmed Fatouh, Ahmed Zizo, El Mahdy Soliman, Emam Ashour, Hamdy Fathy, Hamza Abdelkarim, Hossam Abdelmaguid, Ibrahim Adel, Karim Hafez, Mahmoud Saber, Mahmoud Trezeguet, Marwan Attia, Mohamed Alaa, Mohamed El Shenawy, Mohamed Hany, Mohanad Lasheen, Mostafa Shobeir, Mostafa Ziko, Nabil Emad, Ramy Rabia, Tarek Alaa, Yasser Ibrahim
-England: Tino Livramento
-France: N'Golo Kanté
-Ghana: Abdul Baba Rahman, Alexander Djiku, Benjamin Asare, Brandon Thomas Asante, Caleb Yirenkyi, Christopher Bonsu Baah, Jerome Opoku, Joseph Tetteh Anang, Kojo Oppong Peprah, Lawrence Ati-Zigi, Prince Adu Kwabena
-Haiti: Carl Fred Sainté, Derrick Etienne, Dominique Simon, Don Deedson Louicius, Duckens Nazon, Duke Lacroix, Frantzdy Pierrot, Johny Placide, Josue Duverger, Keeto Thermoncy, Lenny Joseph, Leverton Pierre, Martin Expérience, Ricardo Adé, Ruben Providence, Wilguens Paugain, Woodensky Pierre, Yassin Fortuné
-Iran: Ali Alipour, Ali Nemati, Alireza Beiranvand, Alireza Jahanbakhsh, Amir Mohammad Razzaghinia, Amirhossein Hosseinzadeh, Aria Yousefi, Danial Eiri, Dennis Dargahi, Ehsan Hajsafi, Hossein Kanaani, Mehdi Ghaedi, Mehdi Torabi, Milad Mohammadi, Mohammad Ghorbani, Mohammad Mohebi, Payam Niazmand, Ramin Rezaeian, Rouzbeh Cheshmi, Saeid Ezatolahi, Saleh Hardani, Seyed Hossein Hosseini, Shahriar Moghanlou, Shoja Khalilzadeh
-Iraq: Ahmed Basil, Ahmed Qasim, Ahmed Yahya, Aimar Sher, Akam Hashem, Ali Yousef, Amir Al-Ammari, Aymen Hussein, Fahad Talib, Frans Putros, Hussein Ali, Ibrahim Bayesh, Jalal Hassan, Kevin Yakob, Manaf Younis, Marko Farji, Merchas Doski, Mohanad Ali, Mustafa Saadoon, Rebin Sulaka, Youssef Amyn, Zaid Ismail, Zaid Tahseen, Zidane Iqbal
-Ivory Coast: Christ Inao Oulaï, Evan Ndicka, Franck Kessié, Ghislain Konan, Jean Michaël Seri, Ousmane Diomande, Parfait Guiagon
-Japan: Ayase Ueda, Daizen Maeda, Junnosuke Suzuki, Keisuke Goto, Keisuke Osako, Koki Ogawa, Shogo Taniguchi, Tomoki Hayakawa, Tsuyoshi Watanabe, Yūto Nagatomo
-Mexico: Alexis Vega, Armando González, Brian Gutiérrez, Carlos Acevedo, César Huerta, Erik Lira, Gilberto Mora, Guillermo Martínez, Israel Reyes, Jesús Gallardo, Jorge Sánchez, Julián Quiñones, Luis Chávez, Luis Romo, Mateo Chávez, Orbelín Pineda, Raúl Rangel, Roberto Alvarado
-Morocco: Ayoub El Kaabi, Ayoube Amaimouni, Ismael Saibari, Munir El Kajoui, Reda Tagnaouti, Redouane Halhal, Soufiane Rahimi, Youssef Belammari, Zakaria El Ouahdi
-Netherlands: Guus Til, Memphis Depay
-New Zealand: Alex Paulsen, Alex Rufer, Ben Waine, Callan Elliot, Callum McCowatt, Eli Just, Finn Surman, Francis De Vries, Jesse Randall, Joe Bell, Kosta Barbarouses, Lachlan Bayliss, Marko Stamenic, Matt Garbett, Max Crocombe, Michael Boxall, Michael Woud, Nando Pijnaker, Ryan Thomas, Sarpreet Singh, Tim Payne, Tommy Smith, Tyler Bindon
-Norway: Andreas Schjelderup, Fredrik André Bjørkan, Fredrik Aursnes, Henrik Falchener, Leo Østigård, Patrick Berg, Sondre Langås, Thelo Aasgaard
-Panama: Adalberto Carrasquilla, Alberto Quintero, Amir Murillo, Andrés Andrade, Aníbal Godoy, Azarias Londoño, Carlos Harvey, Cecilio Waterman, Cristian Martínez, César Blackman, César Samudio, César Yanis, Edgardo Fariña, Fidel Escobar, Ismael Díaz, Jiovany Ramos, Jorge Gutiérrez, José Córdoba, José Fajardo, José Luis Rodríguez, Luis Mejía, Orlando Mosquera, Roderick Miller, Tomás Rodríguez, Yoel Bárcenas, Éric Davis
-Paraguay: Alejandro “Kaku” Romero Gamarra, Alex Arce, Alexandro Maidana, Andrés Cubas, Braian Ojeda, Damián Bobadilla, Fabián Balbuena, Gabriel Ávalos, Gastón Olveira, Gatito Fernández, Gustavo Caballero, Gustavo Gómez, Gustavo Velázquez, Isidro Pitta, José Canale, Juan Cáceres, Júnior Alonso, Matías Galarza, Maurício Magalhães, Orlando Gill
-Saudi Arabia: Abdulelah Al Amri, Abdullah Al Hamdan, Abdullah Al Khaibari, Ahmed Al Kassar, Alaa Al Hajji, Ali Lajami, Ali Majrashi, Ayman Yahya, Firas Al Buraikan, Hassan Kadesh, Hassan Tambakti, Jehad Thikri, Khalid Al Ghannam, Mohammed Abu Al Shamat, Mohammed Al Owais, Mohammed Kanno, Moteb Al Harbi, Musab Al Juwayr, Nasser Al Dawsari, Nawaf Al Aqidi, Nawaf Boushal, Saleh Al Shehri, Salem Al Dawsari, Sultan Al-Ghannam, Ziyad Al Johani
-Scotland: Andy Robertson, Anthony Ralston, Craig Gordon, Dom Hyam, Finlay Curtis, Grant Hanley, Jack Hendry, John Souttar, Kenny McLean, Lawrence Shankland, Liam Kelly, Lyndon Dykes
-South Africa: Aubrey Modiba, Bradley Cross, Evidence Makgopa, Ime Okon, Iqraam Rayners, Jayden Adams, Kamgogelo Sebelebele, Khuliso Mudau, Khulumani Ndamane, Mbekezeli Mbokazi, Nkosinathi Sibisi, Olwethu Makhanya, Oswin Appollis, Relebohile Mofokeng, Ricardo Goss, Ronwen Williams, Samukelo Kabini, Sipho Chaine, Teboho Mokoena, Thabang Matuludi, Thalente Mbatha, Thapelo Maseko, Themba Zwane, Tshepang Moremi, Yaya Sithole
-South Korea: Bae Jun-Ho, Cho Kyu-Sung, Hwang In-Beom, Jens Castrop, Jo Hyun-Woo, Jo Yu-Min, Kim Jin-Kyu, Kim Moon-Hwan, Kim Seung-Gyu, Kim Tae-Hyun, Lee Dong-Gyeong, Lee Han-Beom, Lee Ki-Hyeok, Lee Tae-Seok, Oh Hyun-Kyu, Paik Seung-Ho, Park Jin-Seop, Seol Young-Woo, Song Bum-Keun, Um Ji-Sung, Yang Hyun-Jun
-Spain: Fabián Ruiz, Yéremy Pino
-Sweden: Benjamin Nygren, Besfort Zeneli, Elliot Stroud, Erik Smith, Gustaf Lagerbielke, Gustaf Nilsson, Jacob Widell Zetterstrom, Ken Sema, Kristoffer Nordfeldt, Taha Ali, Viktor Johansson
-Switzerland: Cedric Itten, Christian Fassnacht, Marvin Keller
-Tunisia: Abdelmouhib Chamakh, Adem Arous, Amine Ben Hamida, Aymen Dahmen, Elias Achouri, Firas Chaouat, Hadj Mahmoud, Hazem Mastouri, Khalil Ayari, Mortadha Ben Ouanes, Moutaz Neffati, Omar Rekik, Raed Chikhaoui, Rayan Elloumi, Sabri Ben Hessen, Sebastian Tounekti, Yan Valery
-United States: Alejandro Zendejas, Chris Brady, Cristian Roldan, Haji Wright, Matt Freese, Max Arfsten, Miles Robinson, Ricardo Pepi, Sebastian Berhalter, Sergiño Dest, Tim Weah
-Uruguay: Agustín Canobbio, Brian Rodríguez, Fernando Muslera, Giorgian De Arrascaeta, Guillermo Varela, Joaquín Piquerez, Juan Manuel Sanabria, Maximiliano Araújo, Nicolás De La Cruz, Rodrigo Aguirre, Rodrigo Zalazar, Santiago Mele, Sebastián Cáceres, Sergio Rochet
+Algeria: Achraf Abada, Melvin Masstil, Mohamed Amine Amoura, Nadir Benbouali, Oussama Benbot, Zinedine Belaid
+Argentina: Ezequiel Palacios, Nico Paz
+Australia: Cameron Devlin, Jordan Bos, Kai Trewin, Lucas Herrington, Mathew Leckie, O'Neill, Okon-Englster, Patrick Beach, Velupilly
+Bosnia and Herzegovina: Dennis Hadzikadunic, Jovo Lukic
+Brazil: Bremer
+Cabo Verde: CJ dos Santos, Diney, Gilson Tavares, Kelvin Pires, Marcio Rosa, Roberto Lopes, Sidny Lopes Cabral, Stopira, Vozinha, Yannick Semedo
+Canada: Alfie Jones, Owen Goodman
+Colombia: Alvaro Montero, Carlos Andres Gomez, Juan Camilo Hernandez, Juan Fernando Quintero
+Curaçao: Gervane Kastaneer, Jearl Margaritha, Jurgen Locadia, Kenji Gorré, Trevor Doornbusch, Tyrick Bodak
+DR Congo: Gedoon Kalulu, Meshack Elia
+Ecuador: Felix Torres, Gonzalo Valle, Jordy Alcivar
+Egypt: Ahmed Abou El Fotouh, El Mahdy Soliman, Hamza Abdelkarim, Hossam Abdelmaguid, Karim Hafez, Mohamed Alaa, Mostafa Shobeir, Mostafa Ziko, Nabil Emad, Tarek Alaa
+France: Dayot Upamenaco, Jean-Phillipe Mateta
+Ghana: Baba Abdul Rahman, Benjamin Asare, Brandon Thomas-Asante, Kojo Oppong Peprah, Prince Kwabena Adu
+Haiti: Carl-Fred Sainthe, Duke Lacroix, Jean-Jacques Danley, Johnny Placide, Josue Duverger, Keeto Thermoncy, Leverton Pierre, Martin Expérience, Pierre Woodenski, Ricardo Ade, Wilguens Pauguain, Yassin Fortune
+Iran: Amirmohammad Razzaghinia, Aria Yousefi, Danial Eiri, Mehdi Ghayedi, Mohammad Ghorbani, Mohammad Mohebi, Rouzbeh Cheshmi, Shahriyar Moghanlou, Shojae Khalilzadeh
+Iraq: Aimar Sher, Akam Hashim, Ali Jassim, Ali Yousef, Aymen Hussein, Frans Putros, Manaf Younis, Marko Farji, Mustafa Saadoon, Zaid Ismail
+Ivory Coast: Christ Oulai, Evan Ndicka, Jean-Michael Seri, Odilon Kossonou
+Japan: Aya Suzuka, Ito Suzuki, Junosuke Suzuki, Kento Shiode
+Jordan: Abdullah Al-Fakhouri, Amer Jamous, Anas Banawi, Ehsan Haddad, Husam Abu Dahab, Ibrahim Saadeh, Mohammad Abu Zrayq, Mohammad Abualnadi, Mohammad Al-Dawoud, Mousa Al-Tamari, Noor Bani Attiah, Odeh Al-Fakhouri, Saed Al-Rosan, Saleem Obaid
+Mexico: Guillermo Martinez, Jorge Sanchez, Raul Rangel
+Morocco: Abdessamad Ezzalzouli, Ahmed Tagnaouti, Ayoub Amaimouni-Echghouyabe, Munir Mohamedi, Yassine Gessime, Youssef Belammari
+Netherlands: Memphis Depay, Noah Lang
+New Zealand: Alex Paulsen, Alex Rufer, Ben Waine, Callan Elliot, Francis de Vries, Jesse Randall, Kosta Barbarouses, Lachlan Bayliss, Matthew Garbett, Max Crocombe, Michael Woud, Nando Pijnaker, Sarpreet Singh, Tim Payne, Tommy Smith, Tyler Bindon
+Norway: Alexander Sorloth, David Moller Wolfe, Fredrik Bjorkan, Henrik Falchener, Jorgen Strand Larsen, Leo Skiri Ostigard, Marcus Holmgren Pedersen, Martin Odegaard, Orjan Haskjold Nyland, Torbjorn Heggem
+Panama: Alberto Quintero, Amir Murillo, Andres Andrade, Azarias Londono, Cecilio Waterman, Cesar Samudio, Eric Davis, Fidel Escobar, Jiovany Ramos, Jorge Gutierrez, Luis Mejia, Tomas Rodriguez, Yoel Barcenas
+Paraguay: Alejandro Romero, Alexandro Maidana, Briaian Ojeda, Gaston Olveira, Gustavo Velazquez, Juan Jose Caceres, Mauricio Magalhaes, Roberto Junior Fernandez
+Qatar: Ahmed Al-Janahi, Ahmed Alaa, Ahmed Fathi, Assim Madibo, Ayoub Alawi, Edmilson Junior, Hashmi Hussein, Homam Al-Amin, Issa Laaye, Jassem Jaber, Karim Boudiaf, Mahmoud Abunada, Mohammed Al-Manai, Mohammed Muntari, Pedro Miguel, Tahseen Mohammed, Youssef Abdulrazzaq
+Saudi Arabia: Alaa Al Hajji, Ayman Yahya, Hassan Tambakti, Jehad Thikri, Mohammed Abu Al Shamat, Mohammed Kanno, Sultan Al-Ghannam
+Scotland: Andy Robertson, Dom Hyam
+South Korea: Bae Jun-ho, Cho Wi-je, Eom Ji-sung, Jens Castrop, Kim Jin-gyu, Kim Moon-hwan, Kim Tae-hyon, Lee Han-beom, Lee Ki-hyuk, Lee Tae-seok, Park Jin-seob, Song Bum-keun, Yang Hyun-jun
+Spain: Alejandro Grimaldo, Fabian Ruiz, Yeremy Pino
+Sweden: Elliot Stroud, Erik Smith, Herman Johansson, Jacob Widell Zetterstrom, Kristoffer Nordfeldt, Taha Ali
+Tunisia: Abdelmouhib Chamakh, Adem Arous, Aymen Dahman, Khalil Ayari, Mohamed Amine Ben Hamida, Mohamed Hadj Mahmoud, Moutaz Neffati, Omar Rekik, Raed Chikhaoui, Sabri Ben Hessen
+Türkiye: Abdulkerim Bardakci, Altay Bayindir, Baris Alper Yilmaz, Eren Elmali, Irfan Can Kahveci, Kenan Yildiz, Oguz Aydin, Samet Akaydin, Ugurcan Cakir
+United States: Tim Weah
+Uzbekistan: Abbosbek Fayzullaev, Abdulla Abdullaev, Abduvohid Nematov, Akmal Mozgovoy, Avazbek Ulmasaliev, Azizbek Amonov, Azizjon Ganiev, Bekhruz Karimov, Botirali Ergashev, Dostonbek Khamdamov, Jakhongir Urozov, Khojiakbar Alijonov, Odiljon Hamrobekov, Sherzod Nasrullaev
 
 Missing players by league:
 league
-Unknown / verify manually                          113
-Major League Soccer                                 33
-Saudi Pro League                                    30
-Eredivisie / Dutch football league system           25
-English football league system                      23
-Liga MX                                             22
-South African Premier Division                      19
-Iran Persian Gulf Pro League                        18
-Czech First League                                  18
-Belgian Pro League                                  17
-Scottish Premiership                                16
-Egyptian Premier League                             14
-Primeira Liga                                       13
-Brazilian football league system                    12
-Turkish Süper Lig                                   12
-UAE Pro League                                       8
+Unknown / verify manually                          117
+Egyptian Premier League                              9
+Turkish Süper Lig                                    9
+Ligue 1 / French football league system              8
+Premier League                                       8
+Serie A                                              8
 New Zealand National League                          8
-Danish Superliga                                     8
-Swiss Super League                                   7
-Russian Premier League                               7
-J1 League / Japanese football league system          7
-Iraqi Stars League                                   6
-Campeonato Brasileiro Série A                        6
-K League                                             6
-Tunisian Ligue Professionnelle 1                     6
-Argentina Primera División                           6
-Greek Super League                                   6
-Australian A-League Men                              6
-Croatian Football League                             5
-Middle East / North Africa league - verify club      5
+Qatar Stars League                                   8
+Saudi Pro League                                     7
+Bundesliga                                           7
+LaLiga                                               5
+Iran Persian Gulf Pro League                         5
+Australian A-League Men                              4
+Major League Soccer                                  4
+Uzbekistan Super League                              4
+Paraguayan Primera División                          3
+Tunisian Ligue Professionnelle 1                     3
+Ecuadorian Serie A                                   3
+English football league system                       3
+Scottish Premiership                                 2
+Middle East / North Africa league - verify club      2
+Argentina Primera División                           2
+Greek Super League                                   2
+UAE Pro League                                       2
+Slovenian PrvaLiga                                   2
+Russian Premier League                               2
+Romanian Liga I                                      1
+Italian football league system                       1
+Primeira Liga                                        1
+Eredivisie / Dutch football league system            1
 
 Matched players by league:
 league
-Premier League                               121
-Bundesliga                                    84
-LaLiga                                        65
-Unknown / verify manually                     63
-Ligue 1 / French football league system       57
-Serie A                                       56
-English football league system                14
-Turkish Süper Lig                              8
-Eredivisie / Dutch football league system      7
-Major League Soccer                            7
-Brazilian football league system               6
-Saudi Pro League                               5
-Swiss Super League                             4
-Argentina Primera División                     4
-Primeira Liga                                  4
-Scottish Premiership                           3
-Belgian Pro League                             3
-Greek Super League                             3
-Czech First League                             2
-Austrian Bundesliga                            2
-Croatian Football League                       2
-Russian Premier League                         2
-Serbian SuperLiga                              1
-Danish Superliga                               1
-UAE Pro League                                 1
-Norwegian Eliteserien                          1
-Campeonato Brasileiro Série A                  1
-German football league system                  1
+Unknown / verify manually                      220
+Premier League                                 135
+Bundesliga                                      89
+LaLiga                                          71
+Ligue 1 / French football league system         65
+Serie A                                         52
+Saudi Pro League                                33
+English football league system                  27
+Eredivisie / Dutch football league system       25
+Turkish Süper Lig                               24
+Major League Soccer                             22
+Primeira Liga                                   21
+Brazilian football league system                20
+Iran Persian Gulf Pro League                    18
+South African Premier Division                  18
+Liga MX                                         16
+Belgian Pro League                              16
+Qatar Stars League                              11
+Egyptian Premier League                          9
+Scottish Premiership                             8
+Danish Superliga                                 7
+Russian Premier League                           6
+Croatian Football League                         6
+Campeonato Brasileiro Série A                    5
+Greek Super League                               5
+Argentina Primera División                       5
+J1 League / Japanese football league system      5
+Swiss Super League                               5
+Spanish football league system                   4
+Czech First League                               4
 
 Examples of matched names:
 Algeria: Aissa Mandi
 Algeria: Jaouen Hadjam
+Algeria: Mohamed Amine Tougai
 Algeria: Rafik Belghali
 Algeria: Ramy Bensebaini
-Algeria: Rayan Ait Nouri
+Algeria: Rayan Ait-Nouri
 Algeria: Samir Chergui
+Algeria: Adil Boulbina
 Algeria: Amine Gouiri
+Algeria: Anis Hadj Moussa
 Algeria: Fares Ghedjemis
+Algeria: Riyad Mahrez
+Algeria: Luca Zidane
 Algeria: Fares Chaibi
 Algeria: Hicham Boudaoui
 Algeria: Houssem Aouar
 Algeria: Ibrahim Maza
 Algeria: Nabil Bentaleb
-Argentina: Cristian Romero
-Argentina: Facundo Medina
-Argentina: Gonzalo Montiel
-Argentina: Leonardo Balerdi
-Argentina: Lisandro Martínez
-Argentina: Nahuel Molina
-Argentina: Nicolás Tagliafico
+Algeria: Ramiz Zerrouki
+Algeria: Yassine Titraoui

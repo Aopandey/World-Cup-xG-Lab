@@ -7,8 +7,14 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 STEPS = [
     ("Ingest World Cup squads", "src/data/ingest_world_cup_squads.py"),
+    ("Apply manual confirmed squad overrides", "scripts/apply_manual_squad_overrides.py"),
+    ("Apply final squad text update", "scripts/apply_final_squad_text.py"),
+    ("Apply final 26-player squad corrections", "scripts/apply_final_26_corrections.py"),
+    ("Export FBref scrape handoff workbook", "scripts/export_fbref_scrape_handoff.py"),
     ("Ingest FBref player season context", "src/data/ingest_fbref.py"),
     ("Build cleaned FBref player context", "src/data/build_fbref_player_context.py"),
+    ("Build dashboard artifacts", "scripts/build_dashboard_artifacts.py"),
+    ("Validate dashboard artifacts", "scripts/validate_dashboard_artifacts.py"),
 ]
 
 

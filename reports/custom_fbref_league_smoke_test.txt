@@ -1,0 +1,20 @@
+Custom FBref League Smoke Test
+==============================
+
+Result summary:
+- Created soccerdata custom league dictionary at data/fbref/soccerdata_cache/config/league_dict.json.
+- Verified soccerdata now recognizes custom league IDs such as POR-Primeira Liga and NED-Eredivisie.
+- Soccerdata no longer rejects those leagues as unsupported at validation time.
+
+Smoke test attempted:
+- POR-Primeira Liga, season 2025, stat types standard and shooting.
+- NED-Eredivisie, season 2025, stat types standard and shooting.
+
+Observed blocker:
+- Soccerdata opened the Primeira Liga season history URL, but Selenium returned an invalid session id and the run timed out.
+- Direct pandas/read_html and requests fallback reached FBref but received HTTP 403 with a Cloudflare "Just a moment..." page.
+
+Conclusion:
+- The league dictionary fix works.
+- The remaining blocker is FBref/Cloudflare/browser automation, not the league mapping itself.
+- The next practical path is to use a browser-based scraper with careful rate limiting, or reuse the existing fbref_wc2026_scraper.py flow that is built around direct FBref URLs.

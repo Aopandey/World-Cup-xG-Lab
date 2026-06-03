@@ -1,7 +1,7 @@
 2026 World Cup Squad Coverage
 ==============================
 Number of teams in squad file: 48
-Number of confirmed players: 1092
+Number of confirmed players: 1248
 
 Players per team:
 world_cup_team
@@ -30,7 +30,7 @@ Iran                      26
 Iraq                      26
 Ivory Coast               26
 Japan                     26
-Jordan                    30
+Jordan                    26
 Mexico                    26
 Morocco                   26
 Netherlands               26
@@ -38,84 +38,76 @@ New Zealand               26
 Norway                    26
 Panama                    26
 Paraguay                  26
-Portugal                  27
-Qatar                     34
+Portugal                  26
+Qatar                     26
 Saudi Arabia              26
 Scotland                  26
-Senegal                   28
+Senegal                   26
 South Africa              26
 South Korea               26
 Spain                     26
 Sweden                    26
 Switzerland               26
 Tunisia                   26
-Türkiye                   35
+Türkiye                   26
 United States             26
 Uruguay                   26
-Uzbekistan                30
+Uzbekistan                26
 
 Teams with fewer than 26 players:
 None
 
 Teams with more than 26 players:
-world_cup_team
-Jordan        30
-Portugal      27
-Qatar         34
-Senegal       28
-Türkiye       35
-Uzbekistan    30
+None
 
 Teams missing final squads:
-Jordan, Portugal, Qatar, Senegal, Türkiye, Uzbekistan
+None
 
 Duplicate player names within the same team:
-world_cup_team                player position_group      club
-    Uzbekistan Jaloliddin Masharipov        Forward Esteghlal
-    Uzbekistan Jaloliddin Masharipov     Midfielder Esteghlal
+None
 
 Top leagues represented:
 league
-Unknown / verify manually                    219
-Premier League                               139
-Bundesliga                                    92
-LaLiga                                        71
-Ligue 1 / French football league system       70
-Serie A                                       67
-Turkish Süper Lig                             45
-Saudi Pro League                              41
-Major League Soccer                           40
-English football league system                37
-Qatar Stars League                            35
-Eredivisie / Dutch football league system     33
+Unknown / verify manually                    337
+Premier League                               143
+Bundesliga                                    96
+LaLiga                                        76
+Ligue 1 / French football league system       73
+Serie A                                       60
+Saudi Pro League                              40
+Turkish Süper Lig                             33
+English football league system                30
+Major League Soccer                           26
+Eredivisie / Dutch football league system     26
 Iran Persian Gulf Pro League                  23
-Liga MX                                       22
-Belgian Pro League                            21
-Czech First League                            20
-Primeira Liga                                 20
-South African Premier Division                19
-Scottish Premiership                          19
-Brazilian football league system              18
+Primeira Liga                                 22
+Brazilian football league system              21
+Qatar Stars League                            19
+Egyptian Premier League                       18
+South African Premier Division                18
+Belgian Pro League                            17
+Liga MX                                       16
+Scottish Premiership                          10
 
 Top clubs represented:
 club
-Manchester City        19
-Bayern Munich          17
-Arsenal                16
-Barcelona              13
-Manchester United      11
-Atlético Madrid        11
-Liverpool              11
-Borussia Dortmund      11
-Crystal Palace         11
-Paris Saint-Germain    11
-Al Hilal               10
-Chelsea                10
-Aston Villa            10
-SK Slavia Praha        10
-Galatasaray            10
-AC Milan               10
-Real Madrid            10
-Flamengo                9
-Sunderland              9
-Al Ahly                 9
+Unknown / verify manually        62
+Bayern Munich                    18
+Manchester City                  18
+Iran-based club not specified    18
+Arsenal                          16
+Barcelona                        13
+Crystal Palace                   12
+Atletico Madrid                  12
+Galatasaray                      12
+Borussia Dortmund                11
+Manchester United                11
+AC Milan                         10
+Real Madrid                      10
+Liverpool                        10
+Al Hilal                         10
+Slavia Prague                    10
+Paris St-Germain                 10
+PSV Eindhoven                     9
+Al Nassr                          9
+Aston Villa                       9

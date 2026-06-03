@@ -8,8 +8,12 @@ import streamlit as st
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 FBREF_CONTEXT_PATH = PROJECT_ROOT / "data" / "fbref" / "processed" / "fbref_player_context.csv"
+UNDERSTAT_CONTEXT_PATH = (
+    PROJECT_ROOT / "data" / "understat" / "processed" / "understat_player_context.csv"
+)
 sys.path.append(str(PROJECT_ROOT))
 
+from src.data.data_confidence import calculate_player_data_confidence
 from src.data.make_dataset import get_overall_date_range, load_xg_predictions
 from src.data.player_matching import (
     MATCH_NONE,
@@ -35,6 +39,18 @@ def load_fbref_player_context():
         return pd.DataFrame()
 
     return pd.read_csv(FBREF_CONTEXT_PATH)
+
+
+@st.cache_data
+def load_understat_player_context():
+    """Load cleaned Understat player context when it has been generated."""
+    if not UNDERSTAT_CONTEXT_PATH.exists():
+        return pd.DataFrame()
+
+    context = pd.read_csv(UNDERSTAT_CONTEXT_PATH)
+    if "pos" not in context.columns and "position" in context.columns:
+        context["pos"] = context["position"]
+    return context
 
 
 @st.cache_data
@@ -123,6 +139,68 @@ def summarize_player_shots(player_shots):
     }
 
 
+def get_fbref_match(fbref_context, selected_player, selected_position):
+    """Return the safe FBref match result for a player."""
+    return match_player_to_fbref(
+        selected_player,
+        fbref_context,
+        selected_position=selected_position,
+    )
+
+
+def get_understat_match(understat_context, selected_player, selected_position):
+    """Return the safe Understat match result for a player."""
+    return match_player_to_fbref(
+        selected_player,
+        understat_context,
+        selected_position=selected_position,
+    )
+
+
+def fbref_match_available(fbref_match) -> bool:
+    """Return whether a safe FBref match has usable rows."""
+    return fbref_match["confidence"] != MATCH_NONE and not fbref_match["rows"].empty
+
+
+def understat_match_available(understat_match) -> bool:
+    """Return whether a safe Understat match has usable rows."""
+    return understat_match["confidence"] != MATCH_NONE and not understat_match["rows"].empty
+
+
+def render_limited_sample_panel(squad_row, player_summary, fbref_available):
+    """Render a focused weak-sample panel for official squad players."""
+    if squad_row is None:
+        return
+
+    st.subheader("Limited Historical Shot Sample")
+    st.warning(
+        "This player is in the official World Cup squad, but the available historical "
+        "StatsBomb data has too few shot events to create a reliable scoring-zone profile."
+    )
+
+    panel_columns = st.columns(4)
+    panel_columns[0].metric("World Cup Team", squad_row["world_cup_team"])
+    panel_columns[1].metric("Position", squad_row["position"])
+    panel_columns[2].metric("Position Group", squad_row["position_group"])
+    panel_columns[3].metric("StatsBomb Shots", f"{player_summary['shots']:,}")
+
+    detail_columns = st.columns(3)
+    detail_columns[0].metric("Club", squad_row["club"])
+    detail_columns[1].metric("League", squad_row["league"])
+    detail_columns[2].metric(
+        "Club Context",
+        "Available" if fbref_available else "Unavailable",
+    )
+
+    if fbref_available:
+        st.info("Use the club/league context below to supplement this profile.")
+    else:
+        st.info(
+            "No aggregate club context is available for this player with the currently "
+            "processed sources."
+        )
+
+
 def summarize_category_xg(player_shots, category_column):
     """Summarize total xG by a categorical shot field."""
     return (
@@ -150,7 +228,13 @@ def render_squad_metadata(squad_row, selected_team):
     metadata_columns[4].metric("League", squad_row["league"])
 
 
-def render_fbref_context(fbref_context, selected_player, selected_position, squad_row=None):
+def render_fbref_context(
+    fbref_context,
+    selected_player,
+    selected_position,
+    squad_row=None,
+    fbref_match=None,
+):
     """Render recent/current FBref shooting context for the selected player."""
     st.subheader("Recent Club/League Shooting Context from FBref")
     st.write(
@@ -159,11 +243,7 @@ def render_fbref_context(fbref_context, selected_player, selected_position, squa
         "the historical shot sample is small."
     )
 
-    match = match_player_to_fbref(
-        selected_player,
-        fbref_context,
-        selected_position=selected_position,
-    )
+    match = fbref_match or get_fbref_match(fbref_context, selected_player, selected_position)
     fbref_rows = match["rows"]
 
     if match["confidence"] == MATCH_NONE or fbref_rows.empty:
@@ -222,6 +302,100 @@ def render_fbref_context(fbref_context, selected_player, selected_position, squa
                 "xG": 2,
                 "npxG": 2,
                 "xG per 90": 2,
+            }
+        ),
+        use_container_width=True,
+        hide_index=True,
+    )
+
+
+def render_understat_context(
+    understat_context,
+    selected_player,
+    selected_position,
+    squad_row=None,
+    understat_match=None,
+):
+    """Render club xG context from Understat for the selected player."""
+    st.subheader("Club xG Context from Understat")
+    st.write(
+        "Understat adds club-season xG, xA, key passes, xGChain, xGBuildup, "
+        "and shot-volume context from major European leagues and RFPL. This layer is "
+        "dashboard context only and has not been used to retrain the model."
+    )
+
+    match = understat_match or get_understat_match(
+        understat_context,
+        selected_player,
+        selected_position,
+    )
+    understat_rows = match["rows"]
+
+    if match["confidence"] == MATCH_NONE or understat_rows.empty:
+        st.info("No reliable Understat match found for this player yet.")
+        if squad_row is not None:
+            st.write(f"Squad club/league: {squad_row['club']} / {squad_row['league']}")
+        st.caption(
+            "Understat context is unavailable for this player in the current "
+            "top-league/RFPL archive."
+        )
+        return
+
+    st.caption(f"Understat match confidence: {match['confidence']}")
+
+    display_columns = [
+        "season",
+        "league",
+        "team",
+        "position",
+        "games",
+        "minutes",
+        "goals",
+        "assists",
+        "shots",
+        "xg",
+        "npxg",
+        "xa",
+        "key_passes",
+        "xg_chain",
+        "xg_buildup",
+        "yellow",
+        "red",
+        "avg_shot_xg",
+    ]
+    available_columns = [
+        column
+        for column in display_columns
+        if column in understat_rows.columns and not understat_rows[column].isna().all()
+    ]
+    column_labels = {
+        "xg": "xG",
+        "npxg": "npxG",
+        "xa": "xA",
+        "key_passes": "key passes",
+        "xg_chain": "xGChain",
+        "xg_buildup": "xGBuildup",
+        "avg_shot_xg": "avg shot xG",
+    }
+    understat_display = understat_rows[available_columns].rename(columns=column_labels)
+
+    st.dataframe(
+        understat_display.head(8).round(
+            {
+                "games": 0,
+                "minutes": 0,
+                "goals": 0,
+                "assists": 0,
+                "shots": 0,
+                "xG": 2,
+                "npxG": 2,
+                "xA": 2,
+                "key passes": 0,
+                "xGChain": 2,
+                "xGBuildup": 2,
+                "yellow": 0,
+                "red": 0,
+                "avg shot xG": 3,
             }
         ),
         use_container_width=True,
@@ -321,6 +495,7 @@ def main() -> None:
 
     squads = load_squad_data()
     fbref_context = load_fbref_player_context()
+    understat_context = load_understat_player_context()
     teams = sorted(predictions["world_cup_team"].dropna().unique())
 
     filter_columns = st.columns(3)
@@ -371,13 +546,45 @@ def main() -> None:
         "Negative means they scored fewer than expected."
     )
 
+    selected_position = squad_row["position_group"] if squad_row is not None else None
+    fbref_match = get_fbref_match(fbref_context, selected_player, selected_position)
+    fbref_available = fbref_match_available(fbref_match)
+    understat_match = get_understat_match(
+        understat_context,
+        selected_player,
+        selected_position,
+    )
+    understat_available = understat_match_available(understat_match)
+    data_confidence = calculate_player_data_confidence(
+        player_summary["shots"],
+        fbref_available or understat_available,
+    )
+    st.metric("Data Confidence", data_confidence)
+
     if player_summary["shots"] < 20:
         st.warning(
-            "Small historical shot sample. Use FBref recent context to supplement this profile."
+            "Small historical shot sample. Use FBref and Understat club context to supplement this profile."
+        )
+        render_limited_sample_panel(
+            squad_row,
+            player_summary,
+            fbref_available or understat_available,
         )
 
-    selected_position = squad_row["position_group"] if squad_row is not None else None
-    render_fbref_context(fbref_context, selected_player, selected_position, squad_row)
+    render_fbref_context(
+        fbref_context,
+        selected_player,
+        selected_position,
+        squad_row,
+        fbref_match,
+    )
+    render_understat_context(
+        understat_context,
+        selected_player,
+        selected_position,
+        squad_row,
+        understat_match,
+    )
     render_statsbomb_sections(selected_player, player_shots)
 
 

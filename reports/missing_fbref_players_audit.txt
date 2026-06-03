@@ -1,160 +1,157 @@
 Missing FBref Squad-Player Audit
 =================================
-Total confirmed squad players: 1,092
-Total matched in FBref: 531
-Total missing from FBref: 561
-Missing attackers/midfielders count: 289
+Total confirmed squad players: 1,248
+Total matched in FBref: 1,002
+Total missing from FBref: 246
+Missing attackers/midfielders count: 106
 
 Missing players by world_cup_team:
 world_cup_team
-Saudi Arabia              25
-Panama                    25
-South Africa              25
-Curaçao                   25
-Iran                      24
-Iraq                      24
-Cabo Verde                23
-New Zealand               23
-Egypt                     22
-South Korea               21
-Australia                 20
-Paraguay                  20
-Haiti                     18
-Mexico                    18
-Ecuador                   17
-Tunisia                   17
-Canada                    17
-Bosnia and Herzegovina    16
-Czechia                   16
-Uruguay                   15
-Colombia                  14
-Algeria                   13
-Scotland                  12
-United States             11
-DR Congo                  11
-Ghana                     11
-Sweden                    11
-Japan                     10
-Norway                     8
-Morocco                    8
-Ivory Coast                7
-Brazil                     7
-Croatia                    6
-Austria                    5
-Belgium                    5
-Argentina                  4
-Switzerland                3
+Qatar                     16
+New Zealand               16
+Jordan                    14
+Uzbekistan                14
+South Korea               13
+Haiti                     12
+Iraq                      10
+Tunisia                   10
+Panama                    10
+Cabo Verde                10
+Norway                    10
+Egypt                     10
+Australia                  9
+Iran                       9
+Paraguay                   7
+Türkiye                    7
+Saudi Arabia               7
+Sweden                     6
+Curaçao                    6
+Morocco                    6
+Algeria                    6
+Ghana                      5
+Ivory Coast                4
+Japan                      4
+Colombia                   3
+Mexico                     2
+Bosnia and Herzegovina     2
+Argentina                  2
+Canada                     2
 Netherlands                2
-France                     1
-Spain                      1
+DR Congo                   2
+Ecuador                    2
+France                     2
+Spain                      2
+Scotland                   2
+Brazil                     1
+United States              1
 
 Missing players by position_group:
 position_group
-Defender      187
-Midfielder    175
-Forward       114
-Goalkeeper     85
+Defender      98
+Midfielder    57
+Forward       49
+Goalkeeper    42
 
 Top 20 missing leagues by player count:
 league
-Unknown / verify manually                    112
-Major League Soccer                           33
-Saudi Pro League                              30
-Eredivisie / Dutch football league system     25
-English football league system                23
-Liga MX                                       22
-South African Premier Division                19
-Iran Persian Gulf Pro League                  18
-Czech First League                            18
-Belgian Pro League                            17
-Scottish Premiership                          16
-Egyptian Premier League                       14
-Primeira Liga                                 13
-Brazilian football league system              13
-Turkish Süper Lig                             11
-UAE Pro League                                 8
-New Zealand National League                    8
-Danish Superliga                               8
-Swiss Super League                             7
-Russian Premier League                         7
+Unknown / verify manually                  112
+Egyptian Premier League                      9
+Serie A                                      8
+New Zealand National League                  8
+Premier League                               8
+Saudi Pro League                             7
+Ligue 1 / French football league system      7
+Turkish Süper Lig                            7
+Qatar Stars League                           7
+Bundesliga                                   7
+Iran Persian Gulf Pro League                 5
+LaLiga                                       5
+Australian A-League Men                      4
+Major League Soccer                          4
+Uzbekistan Super League                      4
+Paraguayan Primera División                  3
+Ecuadorian Serie A                           3
+Tunisian Ligue Professionnelle 1             3
+English football league system               3
+Scottish Premiership                         2
 
 Top 20 missing leagues by forward/midfielder count:
 league
-Unknown / verify manually                          64
-Major League Soccer                                18
-English football league system                     16
-Liga MX                                            16
-Saudi Pro League                                   15
-Eredivisie / Dutch football league system          15
-Czech First League                                 12
-Belgian Pro League                                 10
-South African Premier Division                      9
-Scottish Premiership                                9
-Brazilian football league system                    8
-Iran Persian Gulf Pro League                        7
-Primeira Liga                                       7
-UAE Pro League                                      6
-Turkish Süper Lig                                   5
-Egyptian Premier League                             5
-Russian Premier League                              4
-Australian A-League Men                             4
-Danish Superliga                                    4
-Middle East / North Africa league - verify club     3
+Unknown / verify manually                  47
+Qatar Stars League                          5
+LaLiga                                      4
+Bundesliga                                  4
+Turkish Süper Lig                           4
+Ligue 1 / French football league system     4
+Premier League                              4
+Iran Persian Gulf Pro League                3
+Saudi Pro League                            3
+Australian A-League Men                     3
+New Zealand National League                 3
+Serie A                                     2
+Uzbekistan Super League                     2
+Scottish Premiership                        2
+Major League Soccer                         2
+English football league system              2
+Romanian Liga I                             1
+Ecuadorian Serie A                          1
+Israeli Premier League                      1
+Argentina Primera División                  1
 
 Top 20 missing clubs by player count:
 club
-Mamelodi Sundowns    9
-Al Ahly              9
-Orlando Pirates      8
-SK Slavia Praha      8
-Al Nassr             7
-Al Qadsiah           6
-Al-Shorta            6
-Al Hilal             6
-Flamengo             6
-Al Ahli              6
-Celtic               6
-PSV Eindhoven        5
-Benfica              5
-Sporting CP          5
-Chivas               5
-Club Brugge          5
-Palmeiras            5
-Auckland FC          5
-Rangers              4
-Young Boys           4
+Unknown / verify manually        16
+Iran-based club not specified     5
+Auckland FC                       5
+Al Arabi                          4
+Crystal Palace                    4
+Zamalek                           3
+Melbourne City                    3
+Galatasaray                       3
+Al Gharafa                        3
+Jeonbuk                           3
+Wellington Phoenix                3
+Pyramids                          3
+Al-Duhail                         3
+Pakhtakor                         3
+New York City                     2
+PAOK                              2
+Al-Najma                          2
+Al-Zawraa                         2
+NK Maribor                        2
+Al-Talaba                         2
 
 Top 20 missing clubs by forward/midfielder count:
 club
-Orlando Pirates        5
-Flamengo               4
-Al Ahli                4
-Chivas                 4
-Celtic                 4
-Al Ahly                4
-SK Slavia Praha        4
-Mamelodi Sundowns      4
-FC Viktoria Plzeň      3
-LAFC                   3
-Sporting CP            3
-Benfica                3
-PSV Eindhoven          3
-Feyenoord              3
-Palmeiras              3
-Al Qadsiah             3
-Esteghlal              3
-Vancouver Whitecaps    3
-Al Nassr               3
-Al Hilal               3
+Unknown / verify manually        4
+Iran-based club not specified    3
+Crystal Palace                   3
+Al-Duhail                        3
+Pyramids                         2
+Al-Najma                         2
+Al Gharafa                       2
+Galatasaray                      2
+Al Arabi                         2
+Al-Wakrah                        2
+Pakhtakor                        2
+Wellington Phoenix               2
+Wolfsburg                        2
+Melbourne City                   2
+Vizela                           2
+Al-Karma                         2
+Real Betis                       2
+Como                             1
+Bayer Leverkusen                 1
+Gyori ETO                        1
 
 Recommended leagues to try next based on missing forward/midfielder counts:
-- Major League Soccer
-- English football league system
-- Liga MX
+- Qatar Stars League
+- LaLiga
+- Bundesliga
+- Turkish Süper Lig
+- Ligue 1 / French football league system
+- Premier League
+- Iran Persian Gulf Pro League
 - Saudi Pro League
-- Eredivisie / Dutch football league system
-- Czech First League
-- Belgian Pro League
-- South African Premier Division
-- Scottish Premiership
-- Brazilian football league system
+- Australian A-League Men
+- New Zealand National League

@@ -1,0 +1,168 @@
+Final Squad Text Update Report
+==============================
+Teams parsed from text: 48
+Teams in updated squad table: 48
+Rows before: 1,248
+Rows after: 1,247
+Players added by team/name: 88
+Players removed by team/name: 89
+Club changes for matched players: 345
+League changes for matched players: 187
+Position-group changes for matched players: 29
+Unknown clubs before: 1
+Unknown clubs after: 62
+Unknown leagues before: 236
+Unknown leagues after: 357
+
+Teams missing from updated squad table:
+None
+
+Updated player counts by team:
+world_cup_team
+Algeria                   26
+Argentina                 26
+Australia                 26
+Austria                   26
+Belgium                   26
+Bosnia and Herzegovina    26
+Brazil                    26
+Cabo Verde                26
+Canada                    26
+Colombia                  26
+Croatia                   26
+Curaçao                   26
+Czechia                   26
+DR Congo                  26
+Ecuador                   23
+Egypt                     27
+England                   26
+France                    26
+Germany                   26
+Ghana                     26
+Haiti                     26
+Iran                      26
+Iraq                      26
+Ivory Coast               26
+Japan                     26
+Jordan                    26
+Mexico                    26
+Morocco                   26
+Netherlands               26
+New Zealand               26
+Norway                    26
+Panama                    26
+Paraguay                  26
+Portugal                  27
+Qatar                     26
+Saudi Arabia              26
+Scotland                  26
+Senegal                   26
+South Africa              26
+South Korea               26
+Spain                     26
+Sweden                    26
+Switzerland               26
+Tunisia                   26
+Türkiye                   26
+United States             26
+Uruguay                   26
+Uzbekistan                26
+
+Top 30 club changes:
+world_cup_team           player_old            club_old                  club_new
+       Algeria        Jaouen Hadjam          Young Boys           Young Boys Bern
+       Algeria        Houssem Aouar          Al Ittihad                Al-Ittihad
+       Algeria       Ramiz Zerrouki           FC Twente                    Twente
+       Algeria        Adil Boulbina           Al Duhail                 Al-Duhail
+       Algeria Mohamed Amine Amoura       VfL Wolfsburg                 Wolfsburg
+       Algeria      Nadir Benbouali           Győri ETO                 Gyori ETO
+       Algeria         Riyad Mahrez             Al Ahli                   Al-Ahli
+     Argentina           Juan Musso     Atlético Madrid           Atletico Madrid
+     Argentina        Nahuel Molina     Atlético Madrid           Atletico Madrid
+     Argentina      Leandro Paredes        Boca Juniors               River Plate
+     Argentina     Giuliano Simeone     Atlético Madrid           Atletico Madrid
+     Argentina       Julián Álvarez     Atlético Madrid           Atletico Madrid
+     Argentina     Lautaro Martínez      Internazionale               Inter Milan
+     Argentina        Thiago Almada     Atlético Madrid           Atletico Madrid
+     Australia            Paul Izzo          Randers FC                   Randers
+     Australia       Jacob Italiano           Grazer AK                    Grazer
+     Australia           Jordan Bos Feyenoord Rotterdam                  Feynoord
+     Australia           Kai Trewin    New York City FC             New York City
+     Australia        Milos Degenek       Apoel Nicosia                     APOEL
+     Australia       Jackson Irvine           St. Pauli                  St Pauli
+     Australia           Awer Mabil           Castellón                 Castellon
+     Australia      Connor Metcalfe           St. Pauli                  St Pauli
+     Australia           Tete Yengi      Machida Zelvia Livingston/Machida Zelvia
+       Austria      Florian Wiegele      Viktoria Plzen           Viktoria Pilsen
+       Austria      Alexander Prass      TSG Hoffenheim                Hoffenheim
+       Austria          Kevin Danso           Tottehham                 Tottenham
+       Austria     Philipp Lienhart         SC Freiburg                  Freiburg
+       Austria         Stefan Posch            Mainz 05                     Mainz
+       Austria    Alessandro Schopf      Wolfsberger AC            RZ Pellets WAC
+       Austria  Michael Gregoritsch         FC Augsburg                  Augsburg
+
+Top 30 added players:
+world_cup_team                player position_group                  club
+     Argentina     Ezequiel Palacios     Midfielder      Bayer Leverkusen
+     Australia             Velupilly        Forward        Melbourne City
+     Australia               O'Neill     Midfielder         New York City
+     Australia         Okon-Englster     Midfielder                Sydney
+       Austria        Phillipp Mwene       Defender                 Mainz
+        Brazil               Gabriel       Defender               Arsenal
+    Cabo Verde         Roberto Lopes       Defender       Shamrock Rovers
+    Cabo Verde        Gilson Tavares        Forward        Akron Tolyatti
+      Colombia   Carlos Andres Gomez        Forward         Vasco da Gama
+      Colombia Juan Camilo Hernandez        Forward            Real Betis
+      Colombia  Juan Camilo Portilla     Midfielder  Athletico Paranaense
+      DR Congo         Gedoon Kalulu       Defender         Aris Limassol
+      DR Congo          Meshack Elia     Midfielder            Alanyaspor
+         Egypt   Mohamed Abdelmonemn       Defender                  Nice
+         Egypt            Rami Rabia       Defender                Al Ain
+         Egypt        Aqtay Abdallah        Forward                 Enppi
+         Egypt      El Mahdi Soliman     Goalkeeper               Zamalek
+         Egypt          Marwan Ateya     Midfielder               Al Ahly
+        France       Dayot Upamenaco       Defender         Bayern Munich
+        France  Jean-Phillipe Mateta        Forward        Crystal Palace
+         Ghana     Baba Abdul Rahman       Defender                  PAOK
+         Ghana     Derrick Luckassen       Defender                 Pafos
+         Ghana    Prince Kwabena Adu        Forward        Viktoria Plzen
+         Ghana          Joseph Anang     Goalkeeper St Patrick's Athletic
+         Haiti     Wilguens Pauguain       Defender         Zulte Waregem
+         Haiti      Louicius Deedson        Forward                Dallas
+         Haiti        Johnny Placide     Goalkeeper                Bastia
+         Haiti     Carl-Fred Sainthe     Midfielder    El Paso Locomotive
+         Haiti   Jean-Jacques Danley     Midfielder    Philadelphia Union
+         Haiti      Pierre Woodenski     Midfielder              Violette
+
+Top 30 removed players:
+world_cup_team               player position_group                  club
+     Argentina    Exequiel Palacios     Midfielder      Bayer Leverkusen
+     Australia        Aiden O'Neill     Midfielder      New York City FC
+     Australia         Paul Okon Jr     Midfielder             Sydney FC
+     Australia    Nishan Velupillay        Forward     Melbourne Victory
+       Austria        Philipp Mwene       Defender              Mainz 05
+        Brazil    Gabriel Magalhães       Defender               Arsenal
+    Cabo Verde                 Pico       Defender       Shamrock Rovers
+    Cabo Verde     Gilson Benchimol        Forward        Akron Tolyatti
+      Colombia        Juan Portilla     Midfielder  Athletico Paranaense
+      Colombia         Andrés Gómez        Forward         Vasco da Gama
+      Colombia      Cucho Hernández        Forward            Real Betis
+      DR Congo        Gedeon Kalulu       Defender         Aris Limassol
+      DR Congo         Meschak Elia     Midfielder            Alanyaspor
+       Ecuador           Alan Minda     Midfielder      Atlético Mineiro
+       Ecuador        Gonzalo Plata     Midfielder              Flamengo
+       Ecuador          John Yeboah     Midfielder               Venezia
+         Egypt     El Mahdy Soliman     Goalkeeper               Zamalek
+         Egypt   Mohamed Abdelmonem       Defender                  Nice
+         Egypt           Ramy Rabia       Defender                Al Ain
+         Egypt         Marwan Attia     Midfielder               Al Ahly
+        France      Dayot Upamecano       Defender         Bayern Munich
+        France Jean-Philippe Mateta        Forward        Crystal Palace
+         Ghana  Joseph Tetteh Anang     Goalkeeper St Patrick's Athletic
+         Ghana    Abdul Baba Rahman       Defender                  PAOK
+         Ghana      Alexander Djiku       Defender        Spartak Moscow
+         Ghana   Prince Adu Kwabena        Forward        Viktoria Plzen
+         Haiti        Johny Placide     Goalkeeper                Bastia
+         Haiti     Wilguens Paugain       Defender         Zulte Waregem
+         Haiti    Carl Fred Sainté     Midfielder    El Paso Locomotive
+         Haiti  Danley Jean Jacques     Midfielder    Philadelphia Union

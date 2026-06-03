@@ -1,0 +1,59 @@
+Understat Dashboard Context Coverage
+====================================
+
+Total squad players: 1,248
+Players with Understat context: 593
+Players with FBref context: 1,002
+Players with both FBref and Understat: 568
+Players with Understat only, no FBref: 25
+Midfielders/forwards with Understat context: 361
+Weak StatsBomb sample players with Understat context: 575
+
+Top teams by Understat context count:
+- England: 25
+- Germany: 24
+- Argentina: 23
+- Austria: 22
+- Netherlands: 22
+- Portugal: 22
+- Spain: 22
+- France: 21
+- Switzerland: 21
+- Brazil: 20
+- Senegal: 20
+- Croatia: 19
+- Colombia: 18
+- Ivory Coast: 18
+- Belgium: 17
+- DR Congo: 16
+- Scotland: 16
+- United States: 16
+- Ghana: 14
+- Sweden: 14
+
+Understat-only players:
+- Argentina / Nico Paz / Como / Serie A
+- Australia / Mathew Leckie / Melbourne City / Australian A-League Men
+- Australia / O'Neill / New York City / Unknown / verify manually
+- Bosnia and Herzegovina / Dennis Hadzikadunic / Sampdoria / Italian football league system
+- Brazil / Bremer / Juventus / Serie A
+- Colombia / Juan Camilo Hernandez / Real Betis / LaLiga
+- Curaçao / Jurgen Locadia / Miami FC / Unknown / verify manually
+- Curaçao / Kenji Gorré / Maccabi Haifa / Israeli Premier League
+- Haiti / Yassin Fortune / Vizela / Unknown / verify manually
+- Iran / Mohammad Ghorbani / Al-Wahda, UAE / Unknown / verify manually
+- Iran / Mohammad Mohebi / Rostov, Rus / Unknown / verify manually
+- Iraq / Aimar Sher / Sarpsborg / Unknown / verify manually
+- Ivory Coast / Evan Ndicka / AS Roma / Serie A
+- Ivory Coast / Jean-Michael Seri / NK Maribor / Slovenian PrvaLiga
+- Japan / Ito Suzuki / SC Freiburg / Unknown / verify manually
+- Jordan / Mousa Al-Tamari / Rennes / Ligue 1 / French football league system
+- Morocco / Abdessamad Ezzalzouli / Real Betis / LaLiga
+- Netherlands / Memphis Depay / Corinthians / Unknown / verify manually
+- New Zealand / Sarpreet Singh / Wellington Phoenix / New Zealand National League
+- New Zealand / Tommy Smith / Braintree Town / Unknown / verify manually
+- Norway / Martin Odegaard / Arsenal / Premier League
+- Sweden / Kristoffer Nordfeldt / AIK / Swedish Allsvenskan
+- Türkiye / Kenan Yildiz / Juventus / Serie A
+- Uzbekistan / Abbosbek Fayzullaev / Istanbul Basaksehir / Russian Premier League
+- Uzbekistan / Dostonbek Khamdamov / Pakhtakor / Unknown / verify manually

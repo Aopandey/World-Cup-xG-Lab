@@ -13,6 +13,7 @@ from src.data.squad_filter import get_missing_squad_players_in_fbref, load_world
 
 
 RAW_DIR = PROJECT_ROOT / "data" / "fbref" / "raw"
+RAW_DIRECT_DIR = PROJECT_ROOT / "data" / "fbref" / "raw_direct"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "fbref" / "processed"
 OUTPUT_PATH = PROCESSED_DIR / "fbref_player_context.csv"
 REPORT_PATH = PROJECT_ROOT / "reports" / "fbref_squad_player_coverage.txt"
@@ -75,8 +76,8 @@ USEFUL_COLUMN_CANDIDATES = {
         "g_per_sot",
         "goals_per_shot_on_target",
     ],
-    "xg": ["expected_xg", "standard_xg", "xg"],
-    "npxg": ["expected_npxg", "standard_npxg", "npxg"],
+    "xg": ["expected_xg", "standard_xg", "shooting_xg", "xg"],
+    "npxg": ["expected_npxg", "standard_npxg", "shooting_npxg", "npxg"],
     "xg_per_90": ["expected_xg_per_90", "per_90_minutes_xg", "xg_per_90"],
     "npxg_per_90": [
         "expected_npxg_per_90",
@@ -114,26 +115,62 @@ def normalize_column_name(column: str) -> str:
     return column.strip("_")
 
 
+def make_unique_columns(columns: list[str]) -> list[str]:
+    """Ensure normalized column names are unique after loading mixed FBref sources."""
+    counts: dict[str, int] = {}
+    unique_columns = []
+    for column in columns:
+        counts[column] = counts.get(column, 0) + 1
+        if counts[column] == 1:
+            unique_columns.append(column)
+        else:
+            unique_columns.append(f"{column}_{counts[column]}")
+    return unique_columns
+
+
 def load_raw_tables(raw_dir: Path = RAW_DIR) -> dict[str, pd.DataFrame]:
     """Load whichever FBref raw files are available."""
     tables = {}
 
-    if not raw_dir.exists():
+    if not raw_dir.exists() and not RAW_DIRECT_DIR.exists():
         raise FileNotFoundError(
-            f"FBref raw folder was not found: {raw_dir}. "
-            "Run python src/data/ingest_fbref.py first."
+            f"FBref raw folders were not found: {raw_dir} or {RAW_DIRECT_DIR}. "
+            "Run python src/data/ingest_fbref.py or python src/data/ingest_fbref_direct.py first."
         )
 
     for stat_type, filename in RAW_FILES.items():
-        path = raw_dir / filename
-        if not path.exists():
-            print(f"WARNING: Missing optional FBref raw file: {path}")
+        frames = []
+        source_paths = [
+            ("soccerdata", raw_dir / filename),
+            ("direct", RAW_DIRECT_DIR / filename),
+        ]
+        for source_name, path in source_paths:
+            if not path.exists():
+                continue
+
+            df = pd.read_csv(path)
+            df.columns = make_unique_columns(
+                [normalize_column_name(column) for column in df.columns]
+            )
+            df["fbref_ingest_source"] = source_name
+            frames.append(df)
+            print(
+                f"Loaded {stat_type} ({source_name}): "
+                f"{len(df):,} rows, {len(df.columns):,} columns"
+            )
+
+        if not frames:
+            print(
+                "WARNING: Missing optional FBref raw file for "
+                f"stat_type={stat_type} in {raw_dir} and {RAW_DIRECT_DIR}"
+            )
             continue
 
-        df = pd.read_csv(path)
-        df.columns = [normalize_column_name(column) for column in df.columns]
-        tables[stat_type] = df
-        print(f"Loaded {stat_type}: {len(df):,} rows, {len(df.columns):,} columns")
+        tables[stat_type] = pd.concat(frames, ignore_index=True, sort=False)
+        print(
+            f"Loaded {stat_type} combined: "
+            f"{len(tables[stat_type]):,} rows, {len(tables[stat_type].columns):,} columns"
+        )
 
     if not tables:
         raise FileNotFoundError(
@@ -254,7 +291,35 @@ def build_clean_context(merged: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
             output[column] = pd.to_numeric(output[column], errors="coerce")
 
     output["data_source"] = "FBref"
-    return output[DISPLAY_COLUMNS], missing_useful_columns
+    output = deduplicate_context_rows(output[DISPLAY_COLUMNS])
+    return output, missing_useful_columns
+
+
+def deduplicate_context_rows(df: pd.DataFrame) -> pd.DataFrame:
+    """Prefer explicit league rows over Big 5 combined duplicate rows."""
+    output = df.copy()
+    metric_columns = [
+        "player_normalized",
+        "team",
+        "season",
+        "minutes",
+        "matches_played",
+        "starts",
+        "goals",
+        "assists",
+        "shots",
+        "shots_on_target",
+        "shots_per_90",
+    ]
+    available_metric_columns = [
+        column for column in metric_columns if column in output.columns
+    ]
+
+    output["_has_league"] = output["league"].notna() & (output["league"].astype(str) != "")
+    output = output.sort_values("_has_league", ascending=False)
+    output = output.drop_duplicates(subset=available_metric_columns, keep="first")
+    output = output.drop(columns=["_has_league"])
+    return output.sort_values(["player", "team", "season"]).reset_index(drop=True)
 
 
 def build_fbref_squad_coverage_report(cleaned: pd.DataFrame) -> str:

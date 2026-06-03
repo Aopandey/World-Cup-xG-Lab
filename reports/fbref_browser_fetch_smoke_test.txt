@@ -1,0 +1,9 @@
+FBref Browser Fetch Smoke Test
+==============================
+URL: https://fbref.com/en/comps/32/Primeira-Liga-Stats
+
+title: Primeira Liga Stats | FBref.com
+html_length: 926,475
+contains_cloudflare_wait: False
+contains_fbref_table: True
+contains_primeira_liga: True

@@ -1,0 +1,102 @@
+Final 26-Player Squad Corrections Report
+=========================================
+Corrected teams: Ecuador, Egypt, Portugal
+Rows before: 1,247
+Rows after: 1,248
+
+Corrected team counts:
+- Ecuador: 23 -> 26
+- Egypt: 27 -> 26
+- Portugal: 27 -> 26
+
+Corrected roster details:
+
+Ecuador (26 players)
+          player position_group                 club                                  league
+ Angelo Preciado       Defender     Atletico Mineiro        Brazilian football league system
+    Felix Torres       Defender        Internacional        Brazilian football league system
+  Jackson Porozo       Defender              Tijuana                                 Liga MX
+    Joel Ordonez       Defender          Club Brugge                      Belgian Pro League
+Pervis Estupinan       Defender             AC Milan                                 Serie A
+  Piero Hincapie       Defender              Arsenal                          Premier League
+   Willian Pacho       Defender                  PSG Ligue 1 / French football league system
+      Alan Minda        Forward     Atletico Mineiro        Brazilian football league system
+Anthony Valencia        Forward        Royal Antwerp                      Belgian Pro League
+  Enner Valencia        Forward              Pachuca                                 Liga MX
+   Gonzalo Plata        Forward             Flamengo        Brazilian football league system
+  Jeremy Arevalo        Forward            Stuttgart                              Bundesliga
+     John Yeboah        Forward              Venezia                                 Serie A
+   Jordy Caicedo        Forward                Atlas                                 Liga MX
+ Kevin Rodriguez        Forward Union Saint-Gilloise                      Belgian Pro League
+   Nilson Angulo        Forward           Sunderland                          Premier League
+   Gonzalo Valle     Goalkeeper          L.D.U Quito                      Ecuadorian Serie A
+ Hernan Galindez     Goalkeeper              Huracan              Argentina Primera Division
+  Moises Ramirez     Goalkeeper          A.E Kifisia                      Greek Super League
+     Alan Franco     Midfielder     Atletico Mineiro        Brazilian football league system
+  Denil Castillo     Midfielder       FC Midtjylland                        Danish Superliga
+   Jordy Alcivar     Midfielder        Independiente                      Ecuadorian Serie A
+     Kendry Paez     Midfielder          River Plate              Argentina Primera Division
+  Moises Caicedo     Midfielder              Chelsea                          Premier League
+      Pedro Vite     Midfielder                 UNAM                                 Liga MX
+   Yaimar Medina     Midfielder                 Genk                      Belgian Pro League
+
+Egypt (26 players)
+              player position_group            club                                  league
+Ahmed Abou El Fotouh       Defender         Zamalek                 Egyptian Premier League
+  Hossam Abdelmaguid       Defender         Zamalek                 Egyptian Premier League
+         Karim Hafez       Defender        Pyramids                 Egyptian Premier League
+  Mohamed Abdelmonem       Defender            Nice Ligue 1 / French football league system
+        Mohamed Hany       Defender         Al Ahly                 Egyptian Premier League
+          Ramy Rabia       Defender          Al Ain                          UAE Pro League
+          Tarek Alaa       Defender             ZED                 Egyptian Premier League
+      Yasser Ibrahim       Defender         Al Ahly                 Egyptian Premier League
+      Haissem Hassan        Forward     Real Oviedo          Spanish football league system
+    Hamza Abdelkarim        Forward       Barcelona                                  LaLiga
+        Ibrahim Adel        Forward   Nordsjaelland                        Danish Superliga
+       Mohamed Salah        Forward       Liverpool                          Premier League
+       Omar Marmoush        Forward Manchester City                          Premier League
+           Trezeguet        Forward         Al Ahly                 Egyptian Premier League
+                Zizo        Forward         Al Ahly                 Egyptian Premier League
+    El Mahdy Soliman     Goalkeeper         Zamalek                 Egyptian Premier League
+        Mohamed Alaa     Goalkeeper        El Gouna                 Egyptian Premier League
+  Mohamed El Shenawy     Goalkeeper         Al Ahly                 Egyptian Premier League
+     Mostafa Shobeir     Goalkeeper         Al Ahly                 Egyptian Premier League
+         Emam Ashour     Midfielder         Al Ahly                 Egyptian Premier League
+         Hamdy Fathy     Midfielder       Al-Wakrah                      Qatar Stars League
+       Mahmoud Saber     Midfielder             ZED                 Egyptian Premier League
+        Marwan Attia     Midfielder         Al Ahly                 Egyptian Premier League
+     Mohanad Lasheen     Midfielder        Pyramids                 Egyptian Premier League
+        Mostafa Ziko     Midfielder        Pyramids                 Egyptian Premier League
+          Nabil Emad     Midfielder        Al-Najma                        Saudi Pro League
+
+Portugal (26 players)
+             player position_group              club                                  league
+        Diogo Dalot       Defender Manchester United                          Premier League
+     Goncalo Inacio       Defender       Sporting CP                           Primeira Liga
+       Joao Cancelo       Defender      FC Barcelona                                  LaLiga
+      Nelson Semedo       Defender     Fenerbahce SK                       Turkish Super Lig
+        Nuno Mendes       Defender               PSG Ligue 1 / French football league system
+       Renato Veiga       Defender        Villarreal                                  LaLiga
+         Ruben Dias       Defender   Manchester City                          Premier League
+       Tomas Araujo       Defender           Benfica                           Primeira Liga
+  Cristiano Ronaldo        Forward          Al Nassr                        Saudi Pro League
+Francisco Conceicao        Forward          Juventus                                 Serie A
+  Francisco Trincao        Forward       Sporting CP                           Primeira Liga
+     Goncalo Guedes        Forward     Real Sociedad                                  LaLiga
+      Goncalo Ramos        Forward               PSG Ligue 1 / French football league system
+         Joao Felix        Forward          Al Nassr                        Saudi Pro League
+         Pedro Neto        Forward           Chelsea                          Premier League
+        Rafael Leao        Forward          AC Milan                                 Serie A
+        Diogo Costa     Goalkeeper          FC Porto                           Primeira Liga
+            Jose Sa     Goalkeeper     Wolverhampton                          Premier League
+          Rui Silva     Goalkeeper       Sporting CP                           Primeira Liga
+     Bernardo Silva     Midfielder   Manchester City                          Premier League
+    Bruno Fernandes     Midfielder Manchester United                          Premier League
+         Joao Neves     Midfielder               PSG Ligue 1 / French football league system
+      Matheus Nunes     Midfielder   Manchester City                          Premier League
+        Ruben Neves     Midfielder          Al Hilal                        Saudi Pro League
+         Samu Costa     Midfielder          Mallorca                                  LaLiga
+            Vitinha     Midfielder               PSG Ligue 1 / French football league system
+
+Teams not at 26 players after correction:
+None

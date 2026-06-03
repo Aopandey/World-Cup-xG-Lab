@@ -1,0 +1,35 @@
+{
+  "total_world_cup_teams": 48,
+  "teams_with_squad_data": 48,
+  "teams_missing_squad_data": [],
+  "teams_with_statsbomb_data": 39,
+  "missing_teams": [
+    "Bosnia and Herzegovina",
+    "Cabo Verde",
+    "Curaçao",
+    "Haiti",
+    "Iraq",
+    "Jordan",
+    "New Zealand",
+    "Norway",
+    "Uzbekistan"
+  ],
+  "total_squad_players": 1248,
+  "fbref_matched_players": 1002,
+  "fbref_missing_players": 246,
+  "fbref_coverage_rate": 0.8029,
+  "understat_matched_players": 593,
+  "understat_missing_players": 655,
+  "understat_coverage_rate": 0.4752,
+  "date_range": {
+    "earliest": "1958-06-24",
+    "latest": "2024-07-15"
+  },
+  "known_limitations": [
+    "The xG model and shot maps use historical StatsBomb open/event data.",
+    "The dashboard is not a complete 2026 prediction model.",
+    "FBref aggregate data is used only as recent player context.",
+    "Understat club xG data is used only as recent/historical club context.",
+    "Player images are intentionally left as placeholders unless approved/licensed sources are provided."
+  ]
+}

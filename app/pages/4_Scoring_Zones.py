@@ -11,8 +11,10 @@ import streamlit as st
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.append(str(PROJECT_ROOT))
 
+from src.data.data_confidence import calculate_team_data_confidence
 from src.data.make_dataset import load_xg_predictions
 from src.data.squad_filter import filter_to_squad_players, load_world_cup_squads
+from src.data.squad_filter import teams_with_confirmed_squads
 from src.data.world_cup_filter import filter_world_cup_teams
 from src.visualization.pitch import draw_pitch
 
@@ -70,6 +72,17 @@ def apply_filters(df, team, player, position_group, body_part, play_pattern):
         filtered = filtered[filtered["play_pattern"] == play_pattern]
 
     return filtered
+
+
+def should_show_sample_warning(filtered_shots, selected_team, selected_player, selected_position_group):
+    """Return whether selected filters create a weak scoring-zone sample."""
+    shot_count = len(filtered_shots)
+
+    if selected_player != "All":
+        return shot_count < 20
+
+    team_or_position_filtered = selected_team != "All" or selected_position_group != "All"
+    return team_or_position_filtered and shot_count < 100
 
 
 def plot_xg_heatmap(df):
@@ -148,6 +161,7 @@ def main() -> None:
         st.stop()
 
     squads = load_squad_data()
+    confirmed_squad_teams = teams_with_confirmed_squads(squads)
 
     filter_columns = st.columns(5)
     selected_team = filter_columns[0].selectbox("Team", option_list(predictions["world_cup_team"]))
@@ -186,8 +200,23 @@ def main() -> None:
     )
 
     st.caption(f"Showing {len(filtered_shots):,} shots for the selected filters.")
-    if len(filtered_shots) < 20:
-        st.warning("Small sample size: interpret this scoring-zone view carefully.")
+
+    if selected_team != "All":
+        selected_team_shots = predictions[predictions["world_cup_team"] == selected_team]
+        data_confidence = calculate_team_data_confidence(
+            len(selected_team_shots),
+            selected_team in confirmed_squad_teams,
+            0.0,
+        )
+        st.metric("Team Data Confidence", data_confidence)
+
+    if should_show_sample_warning(
+        filtered_shots,
+        selected_team,
+        selected_player,
+        selected_position_group,
+    ):
+        st.warning("Small sample size: scoring-zone patterns may not be reliable.")
 
     chart_columns = st.columns(2)
     chart_columns[0].pyplot(plot_xg_heatmap(filtered_shots), clear_figure=True)

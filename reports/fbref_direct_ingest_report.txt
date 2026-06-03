@@ -1,0 +1,12 @@
+FBref Direct URL Ingestion Report
+=================================
+
+Attempted URLs: 188
+Failed URLs: 1
+
+Rows saved by stat type:
+- shooting: 94,733
+- standard: 95,726
+
+Failed URLs:
+- Argentina Primera Division / 2024 / shooting: ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)) (https://fbref.com/en/comps/21/2024/shooting/2024-Primera-Division-Stats)

@@ -1,0 +1,21 @@
+world_cup_team,player,position_group,club,squad_league,understat_found,match_confidence,matched_understat_player,understat_rows,understat_leagues,understat_seasons
+Argentina,Nico Paz,Forward,Como,Serie A,True,Exact match,Nico Paz,1,La_Liga,2023
+Australia,Mathew Leckie,Forward,Melbourne City,Australian A-League Men,True,Exact match,Mathew Leckie,6,Bundesliga,"2015, 2016, 2017, 2018, 2019, 2020"
+Bosnia and Herzegovina,Dennis Hadzikadunic,Defender,Sampdoria,Italian football league system,True,Exact match,Dennis Hadzikadunic,5,"La_Liga, RFPL","2018, 2019, 2020, 2021, 2022"
+Brazil,Bremer,Defender,Juventus,Serie A,True,Exact match,Bremer,6,Serie_A,"2018, 2019, 2020, 2021, 2022, 2023"
+Colombia,Juan Camilo Hernandez,Forward,Real Betis,LaLiga,True,Exact match,Juan Camilo Hernández,4,"EPL, La_Liga","2018, 2019, 2020, 2021"
+Curaçao,Jurgen Locadia,Forward,Miami FC,Unknown / verify manually,True,Exact match,Jürgen Locadia,6,"Bundesliga, EPL","2017, 2018, 2019, 2021"
+Iran,Mohammad Ghorbani,Midfielder,"Al-Wahda, UAE",Unknown / verify manually,True,Exact match,Mohammad Ghorbani,1,RFPL,2023
+Iran,Mohammad Mohebi,Midfielder,"Rostov, Rus",Unknown / verify manually,True,Exact match,Mohammad Mohebi,1,RFPL,2023
+Ivory Coast,Evan Ndicka,Defender,AS Roma,Serie A,True,Exact match,Evan Ndicka,6,"Bundesliga, Serie_A","2018, 2019, 2020, 2021, 2022, 2023"
+Ivory Coast,Jean-Michael Seri,Midfielder,NK Maribor,Slovenian PrvaLiga,True,Exact match,Jean Michael Seri,5,"EPL, Ligue_1","2015, 2016, 2017, 2018, 2020"
+Japan,Ito Suzuki,Forward,SC Freiburg,Unknown / verify manually,True,Safe fuzzy match,Yuito Suzuki,1,Ligue_1,2022
+Jordan,Mousa Al-Tamari,Forward,Rennes,Ligue 1 / French football league system,True,Exact match,Mousa Al Tamari,1,Ligue_1,2023
+Morocco,Abdessamad Ezzalzouli,Forward,Real Betis,LaLiga,True,Exact match,Abdessamad Ezzalzouli,3,La_Liga,"2021, 2022, 2023"
+Netherlands,Memphis Depay,Forward,Corinthians,Unknown / verify manually,True,Exact match,Memphis Depay,9,"EPL, La_Liga, Ligue_1","2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023"
+New Zealand,Tommy Smith,Defender,Braintree Town,Unknown / verify manually,True,Exact match,Tommy Smith,2,EPL,"2017, 2018"
+New Zealand,Sarpreet Singh,Midfielder,Wellington Phoenix,New Zealand National League,True,Exact match,Sarpreet Singh,1,Bundesliga,2019
+Norway,Martin Odegaard,Midfielder,Arsenal,Premier League,True,Exact match,Martin Odegaard,6,"EPL, La_Liga","2019, 2020, 2021, 2022, 2023"
+Türkiye,Kenan Yildiz,Forward,Juventus,Serie A,True,Exact match,Kenan Yildiz,1,Serie_A,2023
+Uzbekistan,Abbosbek Fayzullaev,Midfielder,Istanbul Basaksehir,Russian Premier League,True,Exact match,Abbosbek Fayzullaev,1,RFPL,2023
+Uzbekistan,Dostonbek Khamdamov,Midfielder,Pakhtakor,Unknown / verify manually,True,Exact match,Dostonbek Khamdamov,2,RFPL,"2017, 2018"
