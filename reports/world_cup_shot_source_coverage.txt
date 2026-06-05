@@ -1,0 +1,67 @@
+World Cup Shot-Source Coverage
+==============================
+
+Total squad players: 1,248
+Players with StatsBomb shots: 346
+Players with Understat shots: 507
+
+Coverage buckets:
+coverage_bucket
+neither           653
+both              258
+understat_only    249
+statsbomb_only     88
+
+Midfielders/forwards: 683
+Midfielder/forward coverage buckets:
+coverage_bucket
+neither           306
+both              171
+understat_only    146
+statsbomb_only     60
+
+Top Understat-only shot coverage players:
+world_cup_team           player position_group                      club  understat_shots
+      Colombia      Luis Suarez        Forward                  Sporting             1030
+   South Korea    Son Heung-min        Forward                      LAFC              734
+     Argentina Lautaro Martinez        Forward               Inter Milan              652
+      Portugal  Bruno Fernandes     Midfielder         Manchester United              597
+     Argentina  Rodrigo de Paul     Midfielder               Inter Miami              457
+        Norway   Erling Haaland        Forward           Manchester City              450
+      Colombia     Jhon Cordoba        Forward                 Krasnodar              447
+      Portugal   Bernardo Silva     Midfielder           Manchester City              409
+        Mexico     Raul Jimenez        Forward                    Fulham              390
+      Portugal      Rafael Leao        Forward                  AC Milan              384
+        Brazil           Danilo       Defender Unknown / verify manually              374
+        Brazil  Vinicius Junior        Forward               Real Madrid              355
+   New Zealand       Chris Wood        Forward         Nottingham Forest              350
+        Brazil         Raphinha        Forward                 Barcelona              345
+     Argentina Nicolas Gonzalez        Forward           Atletico Madrid              326
+   Ivory Coast    Franck Kessie     Midfielder                   Al Ahli              311
+      Portugal      Ruben Neves     Midfielder                  Al Hilal              311
+        Brazil         Casemiro     Midfielder         Manchester United              311
+        Brazil    Matheus Cunha        Forward         Manchester United              305
+        France   Theo Hernandez       Defender                  Al Hilal              304
+
+Top players covered by both sources:
+        world_cup_team              player position_group  statsbomb_shots  understat_shots
+              Portugal   Cristiano Ronaldo        Forward              413             1478
+             Argentina        Lionel Messi        Forward             2670             1462
+               England          Harry Kane        Forward              224             1300
+                 Egypt       Mohamed Salah        Forward               91             1099
+Bosnia and Herzegovina          Edin Dzeko        Forward               88              940
+                France       Kylian Mbappe        Forward              306              870
+               Belgium       Romelu Lukaku        Forward              159              830
+               Türkiye    Hakan Calhanoglu     Midfielder               97              795
+               Belgium     Kevin de Bruyne     Midfielder               87              727
+               Croatia     Andrej Kramaric        Forward               75              722
+                Brazil              Neymar        Forward              466              702
+               Senegal          Sadio Mane        Forward               99              683
+                 Ghana      Inaki Williams        Forward               67              663
+           Netherlands       Memphis Depay        Forward               96              595
+               Algeria        Riyad Mahrez        Forward               88              589
+               Croatia        Ivan Perisic        Forward              125              586
+               England     Marcus Rashford        Forward               34              572
+               Germany          Leroy Sane        Forward               82              525
+               Austria Michael Gregoritsch        Forward               63              499
+                 Ghana         Jordan Ayew        Forward               65              474

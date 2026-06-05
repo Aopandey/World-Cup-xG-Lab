@@ -1,0 +1,4 @@
+model_name,training_source,evaluation_scope,uses_source_xg_as_feature,log_loss,brier_score,roc_auc,accuracy_at_0_5,train_rows,test_rows,feature_count
+combined_source_xgboost,StatsBomb + Understat,heldout_combined_shots,False,0.2712467510028633,0.07749705761671066,0.8024541270783483,0.9040264312234866,498800.0,124701.0,10.0
+combined_source_xgboost,StatsBomb + Understat,heldout_StatsBomb_shots,False,0.2843460484351702,0.08137158348446026,0.7866602255266009,0.8994066510280115,498800.0,21741.0,10.0
+combined_source_xgboost,StatsBomb + Understat,heldout_Understat_shots,False,0.26848070775620514,0.07667891322183173,0.8057482553187642,0.9050019425019425,498800.0,102960.0,10.0

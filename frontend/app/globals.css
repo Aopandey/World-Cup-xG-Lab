@@ -13,9 +13,12 @@
 body {
   margin: 0;
   background:
-    linear-gradient(180deg, rgba(7, 24, 31, 0.94), rgba(5, 12, 18, 1)),
+    radial-gradient(circle at 18% 0%, rgba(29, 185, 84, 0.14), transparent 28rem),
+    radial-gradient(circle at 84% 8%, rgba(105, 183, 255, 0.12), transparent 26rem),
+    linear-gradient(180deg, rgba(7, 24, 31, 0.97), rgba(5, 12, 18, 1)),
     #07181f;
   color: #f8fafc;
+  font-variant-numeric: tabular-nums;
 }
 
 a {
@@ -25,4 +28,38 @@ a {
 
 ::selection {
   background: rgba(29, 185, 84, 0.45);
+}
+
+button,
+a,
+input,
+select {
+  outline-offset: 3px;
+}
+
+:focus-visible {
+  outline: 2px solid rgba(57, 210, 125, 0.9);
+  outline-offset: 3px;
+}
+
+@layer components {
+  .surface-hero {
+    @apply rounded-lg border border-white/10 bg-surface-hero shadow-premium;
+  }
+
+  .surface-card {
+    @apply rounded-lg border border-white/10 bg-surface-card shadow-card;
+  }
+
+  .surface-inset {
+    @apply rounded-lg border border-white/10 bg-surface-inset;
+  }
+
+  .stat-label {
+    @apply text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-slate-400;
+  }
+
+  .stat-value {
+    @apply font-semibold tracking-tight text-white;
+  }
 }

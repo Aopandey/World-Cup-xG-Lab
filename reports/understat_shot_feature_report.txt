@@ -1,0 +1,25 @@
+Understat Shot Feature Report
+=============================
+
+Rows: 515,220
+Goal rate: 10.54%
+Leagues: Bundesliga, EPL, La Liga, Ligue 1, RFPL, Serie A
+Seasons: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023
+Columns: data_source, source_shot_id, match_id, player, team, opponent, competition, league, season, match_date, minute, period, shot_x, shot_y, distance_to_goal, angle_to_goal, body_part, shot_type, under_pressure, play_pattern, last_action, assisted_by, home_away, is_goal, source_xg
+
+Top play patterns/situations:
+play_pattern
+OpenPlay          377864
+FromCorner         76231
+SetPiece           32828
+DirectFreekick     21737
+Penalty             6560
+
+Top body part / shot type values:
+body_part
+RightFoot        263921
+LeftFoot         161664
+Head              87612
+OtherBodyPart      2023
+
+Note: source_xg is Understat's published xG and is kept for benchmarking only, not as a model input.

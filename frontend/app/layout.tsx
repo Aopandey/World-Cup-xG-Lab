@@ -38,8 +38,9 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
           </nav>
         </div>
         <main className="mx-auto max-w-7xl px-5 py-8 md:py-10">{children}</main>
-        <footer className="mx-auto max-w-7xl px-5 pb-8 pt-4 text-sm text-slate-500">
-          StatsBomb powers the historical xG model and shot-location views. FBref adds recent aggregate player context where available. This dashboard is not a guaranteed 2026 World Cup prediction model.
+        <footer className="mx-auto max-w-7xl px-5 pb-8 pt-4 text-sm leading-6 text-slate-500">
+          StatsBomb powers the historical xG model and shot-location views. FBref adds recent aggregate player context.
+          Understat adds club xG context. This dashboard is not a guaranteed 2026 World Cup prediction model.
         </footer>
       </body>
     </html>

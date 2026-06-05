@@ -16,7 +16,8 @@ export default function DataConfidenceBadge({ value }: DataConfidenceBadgeProps)
   const className = badgeStyles[confidence] ?? badgeStyles.Unavailable;
 
   return (
-    <span className={`inline-flex items-center rounded-lg border px-2.5 py-1 text-xs font-semibold ${className}`}>
+    <span className={`inline-flex items-center gap-1.5 rounded-md border px-2.5 py-1 text-[0.68rem] font-semibold uppercase tracking-[0.12em] ${className}`}>
+      <span className="h-1.5 w-1.5 rounded-full bg-current" aria-hidden="true" />
       {value}
     </span>
   );

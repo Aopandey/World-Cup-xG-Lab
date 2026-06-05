@@ -80,6 +80,7 @@ export type TeamProfile = {
   avg_xg_per_shot: number;
   statsbomb_date_range: DateRange;
   competitions_included: string[];
+  shot_points?: ShotPoint[];
   top_xg_players: TopXgPlayer[];
   top_recent_fbref_players: RecentFbrefPlayer[];
   top_recent_understat_players?: RecentUnderstatPlayer[];
@@ -127,6 +128,35 @@ export type UnderstatRecentRow = {
   avg_shot_xg?: number | null;
 };
 
+export type UnderstatModelRecentRow = {
+  season?: number | string | null;
+  league?: string | null;
+  team?: string | null;
+  understat_model_shots?: number | null;
+  understat_model_goals?: number | null;
+  understat_model_xg?: number | null;
+  understat_source_xg?: number | null;
+  understat_model_minus_source_xg?: number | null;
+  avg_understat_model_xg?: number | null;
+  avg_understat_source_xg?: number | null;
+  high_xg_shots?: number | null;
+  earliest_match_date?: string | null;
+  latest_match_date?: string | null;
+};
+
+export type UnderstatModelSummary = {
+  shots: number;
+  goals: number;
+  experimental_xg: number;
+  understat_source_xg: number;
+  experimental_minus_source_xg: number;
+  avg_experimental_xg_per_shot: number;
+  avg_understat_source_xg_per_shot: number;
+  high_xg_shots: number;
+  match_confidence?: string | null;
+  matched_player?: string | null;
+};
+
 export type PlayerProfile = {
   player: string;
   player_normalized: string;
@@ -142,10 +172,14 @@ export type PlayerProfile = {
   goals_minus_xg: number;
   avg_xg_per_shot: number;
   statsbomb_date_range: DateRange;
+  shot_points?: ShotPoint[];
   fbref_available: boolean;
   fbref_recent_rows: FbrefRecentRow[];
   understat_available?: boolean;
   understat_recent_rows?: UnderstatRecentRow[];
+  understat_model_available?: boolean;
+  understat_model_recent_rows?: UnderstatModelRecentRow[];
+  understat_model_summary?: UnderstatModelSummary | null;
   data_confidence: DataConfidence;
   imageUrl: string | null;
   avatarSeed: string;
@@ -179,7 +213,21 @@ export type PlayersResponse = {
 
 export type ModelMetric = {
   model_name: string;
-  prediction_file: string;
+  prediction_file?: string;
+  model_label?: string;
+  training_source?: string;
+  test_source?: string;
+  feature_set?: string;
+  rows?: number;
+  train_rows?: number;
+  test_rows?: number;
+  feature_count?: number;
+  dataset_name?: string;
+  evaluation_scope?: string;
+  actual_feature_count?: number;
+  reference_features_available?: number;
+  reference_features_missing_pct?: number;
+  description?: string;
   log_loss: number;
   brier_score: number;
   roc_auc: number;
@@ -189,7 +237,12 @@ export type ModelMetric = {
 export type ModelSummary = {
   experiment_name: string;
   best_model_by_log_loss: string | null;
+  best_research_model_by_log_loss?: string | null;
   models: ModelMetric[];
+  production_models?: ModelMetric[];
+  research_source_models?: ModelMetric[];
+  feature_missingness_experiments?: ModelMetric[];
+  research_explanation?: string;
   xg_explanation: string;
   limitations: string[];
 };

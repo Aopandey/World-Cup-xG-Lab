@@ -1,0 +1,9 @@
+model_label,model_name,training_source,test_source,feature_set,rows,log_loss,brier_score,roc_auc,accuracy_at_0_5
+StatsBomb-only rich model,statsbomb_full_rich_features,StatsBomb,overall,rich_statsbomb,21657,0.2828380646597736,0.08132803473498258,0.7960135973789263,0.8986470887011128
+StatsBomb-only rich model,statsbomb_full_rich_features,StatsBomb,StatsBomb,rich_statsbomb,21657,0.2828380646597736,0.08132803473498258,0.7960135973789263,0.8986470887011128
+Understat-only model,understat_only_xgboost,Understat,overall,understat_reduced,103044,0.2612113043208373,0.07454631148726368,0.8189490418741249,0.906826210162649
+Understat-only model,understat_only_xgboost,Understat,Understat,understat_reduced,103044,0.2612113043208373,0.07454631148726368,0.8189490418741249,0.906826210162649
+Understat published xG benchmark,understat_published_xg,Understat published model,Understat,external_benchmark_not_trained_here,103044,0.24818799175959946,0.0702301294355827,0.835858493396548,0.9079907612282132
+Combined-source shared model,combined_source_xgboost,StatsBomb + Understat,overall,shared_plus_data_source,124701,0.2712467510903542,0.07749705696677886,0.8024541270783483,0.9040264312234866
+Combined-source shared model,combined_source_xgboost,StatsBomb + Understat,StatsBomb,shared_plus_data_source,21741,0.2843460483924873,0.08137158346515995,0.7866602255266009,0.8994066510280115
+Combined-source shared model,combined_source_xgboost,StatsBomb + Understat,Understat,shared_plus_data_source,102960,0.26848070774686467,0.07667891321579497,0.8057482553187642,0.9050019425019425

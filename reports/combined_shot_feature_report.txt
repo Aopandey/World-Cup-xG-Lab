@@ -1,0 +1,20 @@
+Combined Shot Feature Report
+============================
+
+StatsBomb rows: 108,281
+Understat rows: 515,220
+Combined rows: 623,501
+
+Rows by source:
+data_source
+Understat    515220
+StatsBomb    108281
+
+Goal rate by source:
+data_source
+StatsBomb    11.16%
+Understat    10.54%
+
+Understat rows with source_xg benchmark: 100.00%
+
+Shared model inputs exclude source_xg to avoid leakage.

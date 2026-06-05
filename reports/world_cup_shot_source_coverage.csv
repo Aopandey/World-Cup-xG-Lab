@@ -1,0 +1,1249 @@
+world_cup_team,player,position_group,club,league,coverage_bucket,has_statsbomb_shots,statsbomb_shots,statsbomb_match_confidence,statsbomb_matched_player,has_understat_shots,understat_shots,understat_match_confidence,understat_matched_player
+Algeria,Achraf Abada,Defender,USM Alger,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Aissa Mandi,Defender,Lille,Ligue 1 / French football league system,both,True,24,Exact match,Aïssa Mandi,True,111,Exact match,Aissa Mandi
+Algeria,Jaouen Hadjam,Defender,Young Boys Bern,Unknown / verify manually,understat_only,False,0,No reliable match,,True,8,Exact match,Jaouen Hadjam
+Algeria,Mohamed Amine Tougai,Defender,Esperance,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Rafik Belghali,Defender,Verona,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Ramy Bensebaini,Defender,Borussia Dortmund,Bundesliga,both,True,11,Exact match,Ramy Bensebaini,True,196,Exact match,Ramy Bensebaini
+Algeria,Rayan Ait-Nouri,Defender,Manchester City,Premier League,both,True,3,Exact match,Rayan Aït Nouri,True,68,Exact match,Rayan Ait Nouri
+Algeria,Samir Chergui,Defender,Paris FC,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Zinedine Belaid,Defender,JS Kabylie,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Adil Boulbina,Forward,Al-Duhail,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Amine Gouiri,Forward,Marseille,Ligue 1 / French football league system,both,True,5,Exact match,Amine Gouiri,True,315,Exact match,Amine Gouiri
+Algeria,Anis Hadj Moussa,Forward,Feyenoord,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Fares Ghedjemis,Forward,Frosinone,Unknown / verify manually,understat_only,False,0,No reliable match,,True,3,Exact match,Farès Ghedjemis
+Algeria,Mohamed Amine Amoura,Forward,Wolfsburg,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Nadir Benbouali,Forward,Gyori ETO,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Riyad Mahrez,Forward,Al-Ahli,Saudi Pro League,both,True,88,Exact match,Riyad Mahrez,True,589,Exact match,Riyad Mahrez
+Algeria,Luca Zidane,Goalkeeper,Granada,Spanish football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Melvin Masstil,Goalkeeper,Stade Nyonnaise,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Oussama Benbot,Goalkeeper,USM Alger,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Fares Chaibi,Midfielder,Eintracht Frankfurt,Bundesliga,both,True,11,Exact match,Fares Chaïbi,True,103,Exact match,Farès Chaïbi
+Algeria,Hicham Boudaoui,Midfielder,Nice,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Houssem Aouar,Midfielder,Al-Ittihad,Saudi Pro League,both,True,2,Exact match,Houssem Aouar,True,337,Exact match,Houssem Aouar
+Algeria,Ibrahim Maza,Midfielder,Bayer Leverkusen,Bundesliga,understat_only,False,0,No reliable match,,True,1,Exact match,Ibrahim Maza
+Algeria,Nabil Bentaleb,Midfielder,Lille,Ligue 1 / French football league system,both,True,4,Exact match,Nabil Bentaleb,True,179,Exact match,Nabil Bentaleb
+Algeria,Ramiz Zerrouki,Midfielder,Twente,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Algeria,Yassine Titraoui,Midfielder,Charleroi,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Argentina,Cristian Romero,Defender,Tottenham,Premier League,understat_only,False,0,No reliable match,,True,91,Exact match,Cristian Romero
+Argentina,Facundo Medina,Defender,Marseille,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,58,Exact match,Facundo Medina
+Argentina,Gonzalo Montiel,Defender,River Plate,Argentina Primera División,understat_only,False,0,No reliable match,,True,15,Exact match,Gonzalo Montiel
+Argentina,Leonardo Balerdi,Defender,Marseille,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,41,Exact match,Leonardo Balerdi
+Argentina,Lisandro Martinez,Defender,Manchester United,Premier League,both,True,6,Exact match,Lisandro Martínez,True,11,Exact match,Lisandro Martínez
+Argentina,Nahuel Molina,Defender,Atletico Madrid,LaLiga,both,True,3,Safe fuzzy match,Nahuel Molina Lucero,True,93,Exact match,Nahuel Molina
+Argentina,Nicolas Otamendi,Defender,Benfica,Primeira Liga,understat_only,False,0,No reliable match,,True,125,Exact match,Nicolás Otamendi
+Argentina,Nicolas Tagliafico,Defender,Lyon,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,39,Exact match,Nicolás Tagliafico
+Argentina,Giuliano Simeone,Forward,Atletico Madrid,LaLiga,understat_only,False,0,No reliable match,,True,15,Exact match,Giuliano Simeone
+Argentina,Jose Manuel Lopez,Forward,Palmeiras,Brazilian football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Argentina,Julian Alvarez,Forward,Atletico Madrid,LaLiga,both,True,21,Exact match,Julián Álvarez,True,145,Exact match,Julián Álvarez
+Argentina,Lautaro Martinez,Forward,Inter Milan,Serie A,understat_only,False,0,No reliable match,,True,652,Exact match,Lautaro Martínez
+Argentina,Lionel Messi,Forward,Inter Miami,Major League Soccer,both,True,2670,Alias match,Lionel Andrés Messi Cuccittini,True,1462,Exact match,Lionel Messi
+Argentina,Nico Paz,Forward,Como,Serie A,understat_only,False,0,No reliable match,,True,2,Exact match,Nico Paz
+Argentina,Nicolas Gonzalez,Forward,Atletico Madrid,LaLiga,understat_only,False,0,No reliable match,,True,326,Exact match,Nicolás González
+Argentina,Thiago Almada,Forward,Atletico Madrid,LaLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+Argentina,Emiliano Martinez,Goalkeeper,Aston Villa,Premier League,understat_only,False,0,No reliable match,,True,3,Exact match,Emiliano Martinez
+Argentina,Geronimo Rulli,Goalkeeper,Marseille,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Argentina,Juan Musso,Goalkeeper,Atletico Madrid,LaLiga,understat_only,False,0,No reliable match,,True,1,Exact match,Juan Musso
+Argentina,Alexis Mac Allister,Midfielder,Liverpool,Premier League,both,True,14,Exact match,Alexis Mac Allister,True,222,Exact match,Alexis Mac Allister
+Argentina,Enzo Fernandez,Midfielder,Chelsea,Unknown / verify manually,both,True,15,Exact match,Enzo Fernandez,True,67,Exact match,Enzo Fernández
+Argentina,Ezequiel Palacios,Midfielder,Bayer Leverkusen,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Argentina,Giovani lo Celso,Midfielder,Real Betis,LaLiga,both,True,9,Exact match,Giovani Lo Celso,True,208,Exact match,Giovani Lo Celso
+Argentina,Leandro Paredes,Midfielder,River Plate,Argentina Primera División,understat_only,False,0,No reliable match,,True,297,Exact match,Leandro Paredes
+Argentina,Rodrigo de Paul,Midfielder,Inter Miami,Major League Soccer,understat_only,False,0,No reliable match,,True,457,Exact match,Rodrigo de Paul
+Argentina,Valentin Barco,Midfielder,Strasbourg,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,4,Exact match,Valentín Barco
+Australia,Alessandro Circati,Defender,Parma,Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Aziz Behich,Defender,Melbourne City,Australian A-League Men,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Cameron Burgess,Defender,Swansea City,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Harry Souttar,Defender,Leicester City,English football league system,both,True,1,Exact match,Harry Souttar,True,9,Exact match,Harry Souttar
+Australia,Jacob Italiano,Defender,Grazer,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Jason Geria,Defender,Albirex Niigata,J1 League / Japanese football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Jordan Bos,Defender,Feynoord,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Kai Trewin,Defender,New York City,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Lucas Herrington,Defender,Colorado Rapids,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Milos Degenek,Defender,APOEL,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Awer Mabil,Forward,Castellon,Spanish football league system,understat_only,False,0,No reliable match,,True,3,Exact match,Awer Mabil
+Australia,Cristian Volpato,Forward,Sassuolo,Serie A,understat_only,False,0,No reliable match,,True,17,Exact match,Cristian Volpato
+Australia,Mathew Leckie,Forward,Melbourne City,Australian A-League Men,both,True,50,Exact match,Mathew Leckie,True,137,Exact match,Mathew Leckie
+Australia,Mohamed Toure,Forward,Norwich City,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Nestory Irankunda,Forward,Watford,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Tete Yengi,Forward,Livingston/Machida Zelvia,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Velupilly,Forward,Melbourne City,Australian A-League Men,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Mathew Ryan,Goalkeeper,Levante,LaLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Patrick Beach,Goalkeeper,Melbourne City,Australian A-League Men,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Paul Izzo,Goalkeeper,Randers,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Ajdin Hrustic,Midfielder,Heracles Almelo,Eredivisie / Dutch football league system,both,True,1,Exact match,Ajdin Hrustic,True,39,Exact match,Ajdin Hrustic
+Australia,Cameron Devlin,Midfielder,Heart of Midlothian,Scottish Premiership,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Connor Metcalfe,Midfielder,St Pauli,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Jackson Irvine,Midfielder,St Pauli,Unknown / verify manually,statsbomb_only,True,3,Exact match,Jackson Irvine,False,0,No reliable match,
+Australia,O'Neill,Midfielder,New York City,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Australia,Okon-Englster,Midfielder,Sydney,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Austria,Alexander Prass,Defender,Hoffenheim,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Austria,David Affengruber,Defender,Elche,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Austria,David Alaba,Defender,Real Madrid,LaLiga,understat_only,False,0,No reliable match,,True,248,Exact match,David Alaba
+Austria,Kevin Danso,Defender,Tottenham,Premier League,both,True,3,Exact match,Kevin Danso,True,82,Exact match,Kevin Danso
+Austria,Marco Friedl,Defender,Werder Bremen,Bundesliga,understat_only,False,0,No reliable match,,True,40,Exact match,Marco Friedl
+Austria,Michael Svoboda,Defender,Venezia,Unknown / verify manually,understat_only,False,0,No reliable match,,True,7,Exact match,Michael Svoboda
+Austria,Philipp Lienhart,Defender,Freiburg,Bundesliga,both,True,2,Exact match,Philipp Lienhart,True,65,Exact match,Philipp Lienhart
+Austria,Phillipp Mwene,Defender,Mainz,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Austria,Stefan Posch,Defender,Mainz,Bundesliga,both,True,7,Exact match,Stefan Posch,True,102,Exact match,Stefan Posch
+Austria,Marko Arnautovic,Forward,Red Star Belgrade,Serbian SuperLiga,both,True,84,Exact match,Marko Arnautović,True,446,Exact match,Marko Arnautovic
+Austria,Michael Gregoritsch,Forward,Augsburg,Bundesliga,both,True,63,Exact match,Michael Gregoritsch,True,499,Exact match,Michael Gregoritsch
+Austria,Sasa Kalajdzic,Forward,LASK,Austrian Bundesliga,both,True,6,Exact match,Sasa Kalajdzic,True,116,Exact match,Sasa Kalajdzic
+Austria,Alexander Schlager,Goalkeeper,RB Salzburg,Austrian Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Austria,Florian Wiegele,Goalkeeper,Viktoria Pilsen,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Austria,Patrick Pentz,Goalkeeper,Brondby,Danish Superliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Austria,Alessandro Schopf,Midfielder,RZ Pellets WAC,Unknown / verify manually,both,True,15,Exact match,Alessandro Schöpf,True,129,Exact match,Alessandro Schöpf
+Austria,Carney Chukwuemeka,Midfielder,Borussia Dortmund,Bundesliga,understat_only,False,0,No reliable match,,True,13,Exact match,Carney Chukwuemeka
+Austria,Christoph Baumgartner,Midfielder,RB Leipzig,Bundesliga,both,True,11,Exact match,Christoph Baumgartner,True,257,Exact match,Christoph Baumgartner
+Austria,Florian Grillitsch,Midfielder,Braga,Primeira Liga,both,True,34,Exact match,Florian Grillitsch,True,164,Exact match,Florian Grillitsch
+Austria,Konrad Laimer,Midfielder,Bayern Munich,Bundesliga,both,True,6,Exact match,Konrad Laimer,True,84,Exact match,Konrad Laimer
+Austria,Marcel Sabitzer,Midfielder,Borussia Dortmund,Bundesliga,both,True,25,Exact match,Marcel Sabitzer,True,429,Exact match,Marcel Sabitzer
+Austria,Nicolas Seiwald,Midfielder,RB Leipzig,Bundesliga,both,True,1,Exact match,Nicolas Seiwald,True,1,Exact match,Nicolas Seiwald
+Austria,Patrick Wimmer,Midfielder,Wolfsburg,Bundesliga,both,True,3,Exact match,Patrick Wimmer,True,97,Exact match,Patrick Wimmer
+Austria,Paul Wanner,Midfielder,PSV Eindhoven,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Austria,Romano Schmid,Midfielder,Werder Bremen,Bundesliga,both,True,2,Exact match,Romano Schmid,True,74,Exact match,Romano Schmid
+Austria,Xaver Schlager,Midfielder,RB Leipzig,Bundesliga,both,True,6,Exact match,Xaver Schlager,True,117,Exact match,Xaver Schlager
+Belgium,Arthur Theate,Defender,Eintracht Frankfurt,Bundesliga,both,True,3,Exact match,Arthur Theate,True,75,Exact match,Arthur Theate
+Belgium,Brandon Mechele,Defender,Club Brugge,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Belgium,Joaquin Seys,Defender,Club Brugge,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Belgium,Koni de Winter,Defender,AC Milan,Serie A,understat_only,False,0,No reliable match,,True,11,Exact match,Koni de Winter
+Belgium,Maxim de Cuyper,Defender,Brighton,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Belgium,Nathan Ngoy,Defender,Lille,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Belgium,Thomas Meunier,Defender,Lille,Ligue 1 / French football league system,both,True,13,Exact match,Thomas Meunier,True,99,Exact match,Thomas Meunier
+Belgium,Timothy Castagne,Defender,Fulham,Premier League,understat_only,False,0,No reliable match,,True,92,Exact match,Timothy Castagne
+Belgium,Zeno Debast,Defender,Sporting,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Belgium,Alexis Saelemaekers,Forward,AC Milan,Serie A,understat_only,False,0,No reliable match,,True,140,Exact match,Alexis Saelemaekers
+Belgium,Charles de Ketelaere,Forward,Atalanta,Serie A,understat_only,False,0,No reliable match,,True,65,Exact match,Charles De Ketelaere
+Belgium,Diego Moreira,Forward,Strasbourg,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,5,Exact match,Diego Moreira
+Belgium,Dodi Lukebakio,Forward,Benfica,Primeira Liga,both,True,3,Exact match,Dodi Lukebakio,True,269,Exact match,Dodi Lukebakio
+Belgium,Jeremy Doku,Forward,Manchester City,Premier League,both,True,8,Exact match,Jeremy Doku,True,129,Exact match,Jéremy Doku
+Belgium,Leandro Trossard,Forward,Arsenal,Premier League,both,True,5,Exact match,Leandro Trossard,True,287,Exact match,Leandro Trossard
+Belgium,Matias Fernandez-Pardo,Forward,Lille,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,76,Safe fuzzy match,Matías Fernández
+Belgium,Romelu Lukaku,Forward,Napoli,Serie A,both,True,159,Safe fuzzy match,Romelu Lukaku Menama,True,830,Exact match,Romelu Lukaku
+Belgium,Mike Penders,Goalkeeper,Racing Strasbourg,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Belgium,Senne Lammens,Goalkeeper,Manchester United,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Belgium,Thibaut Courtois,Goalkeeper,Real Madrid,LaLiga,understat_only,False,0,No reliable match,,True,2,Exact match,Thibaut Courtois
+Belgium,Amadou Onana,Midfielder,Aston Villa,Premier League,both,True,7,Exact match,Amadou Onana,True,78,Exact match,Amadou Onana
+Belgium,Axel Witsel,Midfielder,Girona,LaLiga,both,True,9,Exact match,Axel Witsel,True,215,Exact match,Axel Witsel
+Belgium,Hans Vanaken,Midfielder,Club Brugge,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Belgium,Kevin de Bruyne,Midfielder,Napoli,Serie A,both,True,87,Exact match,Kevin De Bruyne,True,727,Exact match,Kevin De Bruyne
+Belgium,Nicolas Raskin,Midfielder,Rangers,Scottish Premiership,neither,False,0,No reliable match,,False,0,No reliable match,
+Belgium,Youri Tielemans,Midfielder,Aston Villa,Premier League,both,True,10,Exact match,Youri Tielemans,True,298,Exact match,Youri Tielemans
+Bosnia and Herzegovina,Amar Dedic,Defender,Benfica,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Dennis Hadzikadunic,Defender,Sampdoria,Italian football league system,understat_only,False,0,No reliable match,,True,38,Exact match,Dennis Hadzikadunic
+Bosnia and Herzegovina,Nidal Celik,Defender,Lens,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Nihad Mujakic,Defender,Gaziantep,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Nikola Katic,Defender,Schalke 04,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Sead Kolasinac,Defender,Atalanta,Serie A,both,True,13,Exact match,Sead Kolašinac,True,108,Exact match,Sead Kolasinac
+Bosnia and Herzegovina,Stjepan Radeljic,Defender,Rijeka,Croatian Football League,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Tarik Muharemovic,Defender,Sassuolo,Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Edin Dzeko,Forward,Schalke 04,Bundesliga,both,True,88,Exact match,Edin Džeko,True,940,Exact match,Edin Dzeko
+Bosnia and Herzegovina,Ermedin Demirovic,Forward,VfB Stuttgart,Bundesliga,both,True,6,Exact match,Ermedin Demirović,True,218,Exact match,Ermedin Demirovic
+Bosnia and Herzegovina,Haris Tabakovic,Forward,Borussia Moenchengladbach,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Jovo Lukic,Forward,Universitatea Cluj,Romanian Liga I,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Samed Bazdar,Forward,Jagiellonia Bialystok,Polish Ekstraklasa,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Martin Zlomislic,Goalkeeper,Rijeka,Croatian Football League,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Nikola Vasilj,Goalkeeper,St Pauli,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Osman Hadzikic,Goalkeeper,Slaven Belupo,Croatian Football League,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Amar Memic,Midfielder,Viktoria Plzen,Czech First League,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Amir Hadziahmetovic,Midfielder,Hull City,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Armin Gigovic,Midfielder,Young Boys,Swiss Super League,understat_only,False,0,No reliable match,,True,30,Exact match,Armin Gigovic
+Bosnia and Herzegovina,Benjamin Tahirovic,Midfielder,Brondby,Danish Superliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Dzenis Burnic,Midfielder,Karlsruher SC,German football league system,understat_only,False,0,No reliable match,,True,7,Exact match,Dzenis Burnic
+Bosnia and Herzegovina,Ermin Mahmic,Midfielder,Slovan Liberec,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Esmir Bajraktarevic,Midfielder,PSV Eindhoven,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Bosnia and Herzegovina,Ivan Basic,Midfielder,Astana,Kazakhstan Premier League,understat_only,False,0,No reliable match,,True,45,Exact match,Ivan Basic
+Bosnia and Herzegovina,Ivan Sunjic,Midfielder,Pafos,Cypriot First Division,understat_only,False,0,No reliable match,,True,6,Exact match,Ivan Sunjic
+Bosnia and Herzegovina,Kerim Alajbegovic,Midfielder,RB Salzburg,Austrian Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Brazil,Alex Sandro,Defender,Unknown / verify manually,Unknown / verify manually,both,True,20,Safe fuzzy match,Alex Sandro Lobo Silva,True,128,Exact match,Alex Sandro
+Brazil,Bremer,Defender,Juventus,Serie A,understat_only,False,0,No reliable match,,True,118,Exact match,Bremer
+Brazil,Danilo,Defender,Unknown / verify manually,Unknown / verify manually,understat_only,False,0,No reliable match,,True,374,Exact match,Danilo
+Brazil,Douglas Santos,Defender,Zenit St. Petersburg,Russian Premier League,understat_only,False,0,No reliable match,,True,136,Exact match,Douglas Santos
+Brazil,Gabriel,Defender,Arsenal,Premier League,understat_only,False,0,No reliable match,,True,260,Exact match,Gabriel
+Brazil,Leo Pereira,Defender,Flamengo,Brazilian football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Brazil,Marquinhos,Defender,Paris St-Germain,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,129,Exact match,Marquinhos
+Brazil,Roger Ibañez,Defender,Al-Ahli,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Brazil,Wesley,Defender,Roma,Serie A,understat_only,False,0,No reliable match,,True,37,Exact match,Wesley
+Brazil,Endrick,Forward,Lyon,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Brazil,Gabriel Martinelli,Forward,Arsenal,Premier League,understat_only,False,0,No reliable match,,True,220,Exact match,Gabriel Martinelli
+Brazil,Igor Thiago,Forward,Brentford,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Brazil,Luiz Henrique,Forward,Zenit St. Petersburg,Russian Premier League,understat_only,False,0,No reliable match,,True,60,Exact match,Luiz Henrique
+Brazil,Matheus Cunha,Forward,Manchester United,Premier League,understat_only,False,0,No reliable match,,True,305,Exact match,Matheus Cunha
+Brazil,Neymar,Forward,Santos,Brazilian football league system,both,True,466,Alias match,Neymar da Silva Santos Junior,True,702,Exact match,Neymar
+Brazil,Raphinha,Forward,Barcelona,LaLiga,understat_only,False,0,No reliable match,,True,345,Exact match,Raphinha
+Brazil,Rayan,Forward,Bournemouth,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Brazil,Vinicius Junior,Forward,Real Madrid,LaLiga,understat_only,False,0,No reliable match,,True,355,Exact match,Vinícius Júnior
+Brazil,Alisson,Goalkeeper,Liverpool,Premier League,understat_only,False,0,No reliable match,,True,2,Exact match,Alisson
+Brazil,Weverton,Goalkeeper,Gremio,Brazilian football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Brazil,Éderson,Goalkeeper,Fenerbahce,Turkish Süper Lig,understat_only,False,0,No reliable match,,True,97,Exact match,Éderson
+Brazil,Bruno Guimaraes,Midfielder,Newcastle,Premier League,both,True,12,Safe fuzzy match,Bruno Guimarães Rodriguez Moura,True,139,Exact match,Bruno Guimarães
+Brazil,Casemiro,Midfielder,Manchester United,Premier League,understat_only,False,0,No reliable match,,True,311,Exact match,Casemiro
+Brazil,Danilo Santos,Midfielder,Botafogo,Brazilian football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Brazil,Fabinho,Midfielder,Al-Ittihad,Saudi Pro League,understat_only,False,0,No reliable match,,True,181,Exact match,Fabinho
+Brazil,Lucas Paqueta,Midfielder,Flamengo,Brazilian football league system,understat_only,False,0,No reliable match,,True,288,Exact match,Lucas Paquetá
+Cabo Verde,Diney,Defender,Al Bataeh,Middle East / North Africa league - verify club,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Joao Paulo,Defender,FCSB,Romanian Liga I,statsbomb_only,True,4,Safe fuzzy match,João Paulo Moreira Fernandes,False,0,No reliable match,
+Cabo Verde,Kelvin Pires,Defender,SJK,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Logan Costa,Defender,Villarreal,LaLiga,understat_only,False,0,No reliable match,,True,20,Exact match,Logan Costa
+Cabo Verde,Roberto Lopes,Defender,Shamrock Rovers,Unknown / verify manually,statsbomb_only,True,1,Exact match,Roberto Lopes,False,0,No reliable match,
+Cabo Verde,Sidny Lopes Cabral,Defender,Benfica,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Steven Moreira,Defender,Columbus Crew,Major League Soccer,both,True,3,Exact match,Steven Moreira,True,28,Exact match,Steven Moreira
+Cabo Verde,Stopira,Defender,Torreense,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Wagner Pina,Defender,Trabzonspor,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Dailon Livramento,Forward,Casa Pia,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Garry Rodrigues,Forward,Apollon Limassol,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Gilson Tavares,Forward,Akron Tolyatti,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Helio Varela,Forward,Maccabi Tel Aviv,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Jovane Cabral,Forward,Estrela Amadora,Unknown / verify manually,understat_only,False,0,No reliable match,,True,31,Exact match,Jovane Cabral
+Cabo Verde,Nuno da Costa,Forward,Istanbul Basaksehir,Turkish Süper Lig,understat_only,False,0,No reliable match,,True,135,Safe fuzzy match,Joia Nuno Da Costa
+Cabo Verde,Ryan Mendes,Forward,Igdir,Unknown / verify manually,understat_only,False,0,No reliable match,,True,25,Exact match,Ryan Mendes
+Cabo Verde,Willy Semedo,Forward,Omonia,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,CJ dos Santos,Goalkeeper,San Diego,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Marcio Rosa,Goalkeeper,Montana,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Vozinha,Goalkeeper,Chaves,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Deroy Duarte,Midfielder,Ludogorets,Unknown / verify manually,statsbomb_only,True,5,Exact match,Deroy Duarte,False,0,No reliable match,
+Cabo Verde,Jamiro Monteiro,Midfielder,PEC Zwolle,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Kevin Pina,Midfielder,Krasnodar,Unknown / verify manually,understat_only,False,0,No reliable match,,True,14,Exact match,Kevin Pina
+Cabo Verde,Laros Duarte,Midfielder,Puskas Akademia,Unknown / verify manually,statsbomb_only,True,1,Exact match,Laros Duarte,False,0,No reliable match,
+Cabo Verde,Telmo Arcanjo,Midfielder,Vitoria Guimaraes,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Cabo Verde,Yannick Semedo,Midfielder,Farense,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Canada,Alfie Jones,Defender,Middlesbrough,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Canada,Alistair Johnston,Defender,Celtic,Scottish Premiership,statsbomb_only,True,3,Exact match,Alistair Johnston,False,0,No reliable match,
+Canada,Alphonso Davies,Defender,Bayern Munich,Bundesliga,both,True,12,Exact match,Alphonso Davies,True,68,Exact match,Alphonso Davies
+Canada,Derek Cornelius,Defender,Marseille,Ligue 1 / French football league system,statsbomb_only,True,1,Exact match,Derek Cornelius,False,0,No reliable match,
+Canada,Joel Waterman,Defender,Chicago Fire,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+Canada,Luc de Fougerolles,Defender,Fulham,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Canada,Moise Bombito,Defender,Nice,Ligue 1 / French football league system,statsbomb_only,True,5,Exact match,Moise Bombito,False,0,No reliable match,
+Canada,Niko Sigur,Defender,Hajduk Split,Croatian Football League,neither,False,0,No reliable match,,False,0,No reliable match,
+Canada,Richie Laryea,Defender,Toronto,Unknown / verify manually,statsbomb_only,True,6,Exact match,Richie Laryea,False,0,No reliable match,
+Canada,Cyle Larin,Forward,Southampton,English football league system,both,True,10,Exact match,Cyle Larin,True,119,Exact match,Cyle Larin
+Canada,Jonathan David,Forward,Juventus,Serie A,statsbomb_only,True,32,Exact match,Jonathan David,False,0,No reliable match,
+Canada,Promise David,Forward,Union SG,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Canada,Tani Oluwaseyi,Forward,Villarreal,LaLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+Canada,Dayne St Clair,Goalkeeper,Inter Miami,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+Canada,Maxime Crepeau,Goalkeeper,Orlando City,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+Canada,Owen Goodman,Goalkeeper,Crystal Palace,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Canada,Ali Ahmed,Midfielder,Norwich City,English football league system,statsbomb_only,True,1,Exact match,Ali Ahmed,False,0,No reliable match,
+Canada,Ismael Kone,Midfielder,Sassuolo,Serie A,statsbomb_only,True,7,Exact match,Ismael Koné,False,0,No reliable match,
+Canada,Jacob Shaffelburg,Midfielder,Toronto,Unknown / verify manually,statsbomb_only,True,6,Exact match,Jacob Shaffelburg,False,0,No reliable match,
+Canada,Jonathan Osorio,Midfielder,Toronto,Unknown / verify manually,statsbomb_only,True,3,Exact match,Jonathan Osorio,False,0,No reliable match,
+Canada,Liam Millar,Midfielder,Hull City,English football league system,statsbomb_only,True,6,Exact match,Liam Millar,False,0,No reliable match,
+Canada,Marcelo Flores,Midfielder,Tigres UANL,Liga MX,neither,False,0,No reliable match,,False,0,No reliable match,
+Canada,Mathieu Choiniere,Midfielder,Los Angeles FC,Unknown / verify manually,statsbomb_only,True,1,Exact match,Mathieu Choiniere,False,0,No reliable match,
+Canada,Nathan Saliba,Midfielder,Anderlecht,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Canada,Stephen Eustaquio,Midfielder,Porto,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Canada,Tajon Buchanan,Midfielder,Villarreal,LaLiga,both,True,7,Exact match,Tajon Buchanan,True,4,Exact match,Tajon Buchanan
+Colombia,Daniel Munoz,Defender,Crystal Palace,Premier League,both,True,4,Safe fuzzy match,Daniel Muñoz Mejía,True,8,Exact match,Daniel Muñoz
+Colombia,Davinson Sanchez,Defender,Galatasaray,Turkish Süper Lig,both,True,9,Safe fuzzy match,Davinson Sánchez Mina,True,57,Exact match,Davinson Sánchez
+Colombia,Deiver Machado,Defender,Nantes,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,36,Exact match,Deiver Machado
+Colombia,Jhon Lucumi,Defender,Bologna,Serie A,understat_only,False,0,No reliable match,,True,23,Exact match,Jhon Lucumí
+Colombia,Johan Mojica,Defender,Mallorca,Unknown / verify manually,understat_only,False,0,No reliable match,,True,71,Exact match,Johan Mojica
+Colombia,Santiago Arias,Defender,Independiente,Argentina Primera División,both,True,4,Safe fuzzy match,Santiago Arias Naranjo,True,18,Exact match,Santiago Arias
+Colombia,Willer Ditta,Defender,Cruz Azul,Liga MX,neither,False,0,No reliable match,,False,0,No reliable match,
+Colombia,Yerry Mina,Defender,Cagliari,Unknown / verify manually,understat_only,False,0,No reliable match,,True,73,Exact match,Yerry Mina
+Colombia,Carlos Andres Gomez,Forward,Vasco da Gama,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Colombia,Jhon Cordoba,Forward,Krasnodar,Unknown / verify manually,understat_only,False,0,No reliable match,,True,447,Exact match,Jhon Córdoba
+Colombia,Juan Camilo Hernandez,Forward,Real Betis,LaLiga,both,True,6,Safe fuzzy match,Juan Camilo Hernández Suárez,True,187,Exact match,Juan Camilo Hernández
+Colombia,Luis Diaz,Forward,Bayern Munich,Bundesliga,understat_only,False,0,No reliable match,,True,159,Exact match,Luis Díaz
+Colombia,Luis Suarez,Forward,Sporting,Primeira Liga,understat_only,False,0,No reliable match,,True,1030,Exact match,Luis Suárez
+Colombia,Alvaro Montero,Goalkeeper,Velez Sarsfield,Argentina Primera División,neither,False,0,No reliable match,,False,0,No reliable match,
+Colombia,Camilo Vargas,Goalkeeper,Atlas,Liga MX,neither,False,0,No reliable match,,False,0,No reliable match,
+Colombia,David Ospina,Goalkeeper,Atletico Nacional,Colombian Categoría Primera A,neither,False,0,No reliable match,,False,0,No reliable match,
+Colombia,Gustavo Puerta,Midfielder,Racing de Santander,Unknown / verify manually,understat_only,False,0,No reliable match,,True,2,Exact match,Gustavo Puerta
+Colombia,James Rodriguez,Midfielder,Minnesota United,Major League Soccer,understat_only,False,0,No reliable match,,True,247,Exact match,James Rodríguez
+Colombia,Jaminton Campaz,Midfielder,Rosario Central,Argentina Primera División,neither,False,0,No reliable match,,False,0,No reliable match,
+Colombia,Jefferson Lerma,Midfielder,Crystal Palace,Premier League,understat_only,False,0,No reliable match,,True,194,Exact match,Jefferson Lerma
+Colombia,Jhon Arias,Midfielder,Palmeiras,Brazilian football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Colombia,Jorge Carrascal,Midfielder,Flamengo,Brazilian football league system,understat_only,False,0,No reliable match,,True,116,Exact match,Jorge Carrascal
+Colombia,Juan Camilo Portilla,Midfielder,Athletico Paranaense,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Colombia,Juan Fernando Quintero,Midfielder,River Plate,Argentina Primera División,statsbomb_only,True,25,Safe fuzzy match,Juan Fernando Quintero Paniagua,False,0,No reliable match,
+Colombia,Kevin Castano,Midfielder,River Plate,Argentina Primera División,understat_only,False,0,No reliable match,,True,9,Exact match,Kevin Castaño
+Colombia,Richard Rios,Midfielder,Benfica,Primeira Liga,statsbomb_only,True,8,Safe fuzzy match,Richard Rios Montoya,False,0,No reliable match,
+Croatia,Duje Caleta-Car,Defender,Real Sociedad,LaLiga,both,True,1,Exact match,Duje Ćaleta-Car,True,58,Exact match,Duje Caleta-Car
+Croatia,Josip Stanisic,Defender,Bayern Munich,Bundesliga,both,True,12,Exact match,Josip Stanišić,True,16,Exact match,Josip Stanisic
+Croatia,Josip Sutalo,Defender,Ajax Amsterdam,Unknown / verify manually,statsbomb_only,True,1,Exact match,Josip Šutalo,False,0,No reliable match,
+Croatia,Josko Gvardiol,Defender,Manchester City,Premier League,both,True,7,Exact match,Joško Gvardiol,True,70,Exact match,Josko Gvardiol
+Croatia,Luka Vuskovic,Defender,Hamburg,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Croatia,Marin Pongracic,Defender,Fiorentina,Serie A,understat_only,False,0,No reliable match,,True,20,Exact match,Marin Pongracic
+Croatia,Martin Erlic,Defender,Midtjylland,Danish Superliga,understat_only,False,0,No reliable match,,True,37,Exact match,Martin Erlic
+Croatia,Andrej Kramaric,Forward,Hoffenheim,Bundesliga,both,True,75,Exact match,Andrej Kramarić,True,722,Exact match,Andrej Kramaric
+Croatia,Ante Budimir,Forward,Osasuna,LaLiga,both,True,14,Exact match,Ante Budimir,True,322,Exact match,Ante Budimir
+Croatia,Igor Matanovic,Forward,Freiburg,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Croatia,Ivan Perisic,Forward,PSV Eindhoven,Eredivisie / Dutch football league system,both,True,125,Exact match,Ivan Perišić,True,586,Exact match,Ivan Perisic
+Croatia,Marco Pasalic,Forward,Orlando City,Major League Soccer,understat_only,False,0,No reliable match,,True,1,Exact match,Marco Pasalic
+Croatia,Petar Musa,Forward,Dallas,Unknown / verify manually,understat_only,False,0,No reliable match,,True,17,Exact match,Petar Musa
+Croatia,Dominik Kotarski,Goalkeeper,Copenhagen,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Croatia,Dominik Livakovic,Goalkeeper,Dinamo Zagreb,Croatian Football League,neither,False,0,No reliable match,,False,0,No reliable match,
+Croatia,Ivor Pandur,Goalkeeper,Hull City,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Croatia,Kristijan Jakic,Midfielder,Augsburg,Bundesliga,understat_only,False,0,No reliable match,,True,52,Exact match,Kristijan Jakic
+Croatia,Luka Modric,Midfielder,AC Milan,Serie A,both,True,77,Exact match,Luka Modrić,True,299,Exact match,Luka Modric
+Croatia,Luka Sucic,Midfielder,Real Sociedad,LaLiga,statsbomb_only,True,3,Exact match,Luka Sučić,False,0,No reliable match,
+Croatia,Mario Pasalic,Midfielder,Atalanta,Serie A,both,True,31,Exact match,Mario Pašalić,True,348,Exact match,Mario Pasalic
+Croatia,Martin Baturina,Midfielder,Como,Serie A,statsbomb_only,True,1,Exact match,Martin Baturina,False,0,No reliable match,
+Croatia,Mateo Kovacic,Midfielder,Manchester City,Premier League,both,True,29,Exact match,Mateo Kovačić,True,213,Exact match,Mateo Kovacic
+Croatia,Nikola Moro,Midfielder,Bologna,Serie A,understat_only,False,0,No reliable match,,True,96,Exact match,Nikola Moro
+Croatia,Nikola Vlasic,Midfielder,Torino,Serie A,both,True,10,Exact match,Nikola Vlašić,True,403,Exact match,Nikola Vlasic
+Croatia,Petar Sucic,Midfielder,Inter Milan,Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Croatia,Toni Fruk,Midfielder,Rijeka,Croatian Football League,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Armando Obispo,Defender,PSV Eindhoven,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Deveron Fonville,Defender,NEC Nijmegen,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Joshua Brenet,Defender,Kayserispor,Turkish Süper Lig,understat_only,False,0,No reliable match,,True,11,Exact match,Joshua Brenet
+Curaçao,Jurien Gaari,Defender,Abha Club,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Riechedly Bazoer,Defender,Konyaspor,Turkish Süper Lig,understat_only,False,0,No reliable match,,True,26,Exact match,Riechedly Bazoer
+Curaçao,Roshon Van Eijma,Defender,RKC Waalwijk,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Sherel Floranus,Defender,PEC Zwolle,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Shurandy Sambo,Defender,Sparta Rotterdam,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Brandley Kuwas,Forward,FC Volendam,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Gervane Kastaneer,Forward,Terengganu FC,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Jearl Margaritha,Forward,SK Beveren,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Jeremy Antonisse,Forward,AE Kifisia,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Jurgen Locadia,Forward,Miami FC,Unknown / verify manually,understat_only,False,0,No reliable match,,True,75,Exact match,Jürgen Locadia
+Curaçao,Kenji Gorré,Forward,Maccabi Haifa,Israeli Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Sontje Hansen,Forward,Middlesbrough,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Tahith Chong,Forward,Sheffield United,Unknown / verify manually,understat_only,False,0,No reliable match,,True,42,Exact match,Tahith Chong
+Curaçao,Eloy Room,Goalkeeper,Miami FC,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Trevor Doornbusch,Goalkeeper,VVV-Venlo,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Tyrick Bodak,Goalkeeper,SC Telstar,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Ar'Jany Martha,Midfielder,Rotherham United,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Godfried Roemeratoe,Midfielder,RKC Waalwijk,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Juninho Bacuna,Midfielder,FC Volendam,Unknown / verify manually,understat_only,False,0,No reliable match,,True,19,Exact match,Juninho Bacuna
+Curaçao,Kevin Felida,Midfielder,FC Den Bosch,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Leandro Bacuna,Midfielder,Igdır,Unknown / verify manually,both,True,32,Exact match,Leandro Bacuna,True,54,Exact match,Leandro Bacuna
+Curaçao,Livano Comenencia,Midfielder,FC Zurich,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Curaçao,Tyrese Noslin,Midfielder,SC Telstar,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Czechia,David Doudera,Defender,Slavia Prague,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Czechia,David Jurasek,Defender,Slavia Prague,Unknown / verify manually,both,True,4,Exact match,David Jurásek,True,5,Exact match,David Jurásek
+Czechia,David Zima,Defender,Slavia Prague,Unknown / verify manually,understat_only,False,0,No reliable match,,True,9,Exact match,David Zima
+Czechia,Jaroslav Zeleny,Defender,Sparta Prague,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Czechia,Ladislav Krejci,Defender,Wolverhampton,Premier League,both,True,5,Exact match,Ladislav Krejčí,True,51,Exact match,Ladislav Krejci
+Czechia,Robin Hranac,Defender,Hoffenheim,Bundesliga,statsbomb_only,True,2,Exact match,Robin Hranáč,False,0,No reliable match,
+Czechia,Stepan Chaloupek,Defender,Slavia Prague,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Czechia,Tomas Holes,Defender,Slavia Prague,Unknown / verify manually,statsbomb_only,True,7,Exact match,Tomáš Holeš,False,0,No reliable match,
+Czechia,Vladimir Coufal,Defender,Hoffenheim,Bundesliga,both,True,3,Exact match,Vladimír Coufal,True,41,Exact match,Vladimir Coufal
+Czechia,Adam Hlozek,Forward,Hoffenheim,Bundesliga,both,True,24,Exact match,Adam Hložek,True,48,Exact match,Adam Hlozek
+Czechia,Jan Kuchta,Forward,Sparta Prague,Unknown / verify manually,understat_only,False,0,No reliable match,,True,15,Exact match,Jan Kuchta
+Czechia,Mojmir Chytil,Forward,Slavia Prague,Unknown / verify manually,statsbomb_only,True,2,Exact match,Mojmír Chytil,False,0,No reliable match,
+Czechia,Patrik Schick,Forward,Bayer Leverkusen,Bundesliga,both,True,63,Exact match,Patrik Schick,True,378,Exact match,Patrik Schick
+Czechia,Tomas Chory,Forward,Slavia Prague,Unknown / verify manually,statsbomb_only,True,1,Exact match,Tomáš Chorý,False,0,No reliable match,
+Czechia,Jindrich Stanek,Goalkeeper,Slavia Prague,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Czechia,Lukas Hornicek,Goalkeeper,Braga,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Czechia,Matej Kovar,Goalkeeper,PSV Eindhoven,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Czechia,Alexandr Sojka,Midfielder,Viktoria Plzen,Czech First League,neither,False,0,No reliable match,,False,0,No reliable match,
+Czechia,Denis Visinsky,Midfielder,Viktoria Plzen,Czech First League,neither,False,0,No reliable match,,False,0,No reliable match,
+Czechia,Hugo Sochurek,Midfielder,Sparta Prague,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Czechia,Lukas Cerv,Midfielder,Viktoria Plzen,Czech First League,neither,False,0,No reliable match,,False,0,No reliable match,
+Czechia,Lukas Provod,Midfielder,Slavia Prague,Unknown / verify manually,statsbomb_only,True,3,Exact match,Lukáš Provod,False,0,No reliable match,
+Czechia,Michal Sadilek,Midfielder,Slavia Prague,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Czechia,Pavel Sulc,Midfielder,Olympique Lyonnais,Unknown / verify manually,statsbomb_only,True,1,Exact match,Pavel Šulc,False,0,No reliable match,
+Czechia,Tomas Soucek,Midfielder,West Ham,Premier League,both,True,13,Exact match,Tomáš Souček,True,206,Exact match,Tomas Soucek
+Czechia,Vladimir Darida,Midfielder,Hradec Kralove,Unknown / verify manually,both,True,43,Exact match,Vladimír Darida,True,248,Exact match,Vladimir Darida
+DR Congo,Aaron Wan-Bissaka,Defender,West Ham United,Unknown / verify manually,understat_only,False,0,No reliable match,,True,41,Exact match,Aaron Wan-Bissaka
+DR Congo,Arthur Masuaku,Defender,Racing Lens,Unknown / verify manually,both,True,7,Exact match,Arthur Masuaku,True,32,Exact match,Arthur Masuaku
+DR Congo,Axel Tuanzebe,Defender,Burnley,English football league system,understat_only,False,0,No reliable match,,True,5,Exact match,Axel Tuanzebe
+DR Congo,Chancel Mbemba,Defender,Lille,Ligue 1 / French football league system,both,True,22,Safe fuzzy match,Chancel Mbemba Mangulu,True,59,Exact match,Chancel Mbemba
+DR Congo,Dylan Batubinsika,Defender,Larisa,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+DR Congo,Gedoon Kalulu,Defender,Aris Limassol,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+DR Congo,Joris Kayembe,Defender,Racing Genk,Belgian Pro League,both,True,1,Safe fuzzy match,Joris Kayembe Ditu,True,1,Exact match,Joris Kayembe
+DR Congo,Steve Kapuadi,Defender,Widzew Lodz,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+DR Congo,Cedric Bakambu,Forward,Real Betis,LaLiga,both,True,62,Exact match,Cédric Bakambu,True,152,Exact match,Cédric Bakambu
+DR Congo,Fiston Mayele,Forward,Pyramids,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+DR Congo,Simon Banza,Forward,Al Jazira,Middle East / North Africa league - verify club,understat_only,False,0,No reliable match,,True,41,Exact match,Simon Banza
+DR Congo,Yoane Wissa,Forward,Newcastle United,Premier League,both,True,21,Exact match,Yoane Wissa,True,190,Exact match,Yoane Wissa
+DR Congo,Lionel Mpasi,Goalkeeper,Le Havre,Unknown / verify manually,statsbomb_only,True,1,Safe fuzzy match,Lionel Mpasi-Nzau,False,0,No reliable match,
+DR Congo,Matthieu Epolo,Goalkeeper,Standard Liege,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+DR Congo,Timothy Fayulu,Goalkeeper,Noah,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+DR Congo,Aaron Tshibola,Midfielder,Kilmarnock,Scottish Premiership,statsbomb_only,True,1,Exact match,Aaron Tshibola,False,0,No reliable match,
+DR Congo,Brian Cipenga,Midfielder,Castellon,Spanish football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+DR Congo,Charles Pickel,Midfielder,Espanyol,Unknown / verify manually,both,True,3,Exact match,Charles Pickel,True,23,Exact match,Charles Pickel
+DR Congo,Edo Kayembe,Midfielder,Watford,English football league system,understat_only,False,0,No reliable match,,True,6,Exact match,Edo Kayembe
+DR Congo,Gael Kakuta,Midfielder,Larisa,Unknown / verify manually,both,True,11,Exact match,Gaël Kakuta,True,279,Exact match,Gaël Kakuta
+DR Congo,Meshack Elia,Midfielder,Alanyaspor,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+DR Congo,Nathanael Mbuku,Midfielder,Montpellier,Unknown / verify manually,both,True,2,Exact match,Nathanaël Mbuku,True,83,Exact match,Nathanael Mbuku
+DR Congo,Ngal'ayel Mukau,Midfielder,Lille,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+DR Congo,Noah Sadiki,Midfielder,Sunderland,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+DR Congo,Samuel Moutoussamy,Midfielder,Atromitos,Unknown / verify manually,both,True,11,Exact match,Samuel Moutoussamy,True,89,Exact match,Samuel Moutoussamy
+DR Congo,Theo Bongonda,Midfielder,Spartak Moscow,Russian Premier League,both,True,29,Safe fuzzy match,Théo Bongonda Mbul''Ofeko Batombo,True,132,Exact match,Theo Bongonda
+Ecuador,Angelo Preciado,Defender,Atletico Mineiro,Brazilian football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Felix Torres,Defender,Internacional,Brazilian football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Jackson Porozo,Defender,Tijuana,Liga MX,understat_only,False,0,No reliable match,,True,22,Exact match,Jackson Porozo
+Ecuador,Joel Ordonez,Defender,Club Brugge,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Pervis Estupinan,Defender,AC Milan,Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Piero Hincapie,Defender,Arsenal,Premier League,understat_only,False,0,No reliable match,,True,43,Exact match,Piero Hincapié
+Ecuador,Willian Pacho,Defender,PSG,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Alan Minda,Forward,Atletico Mineiro,Brazilian football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Anthony Valencia,Forward,Royal Antwerp,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Enner Valencia,Forward,Pachuca,Liga MX,understat_only,False,0,No reliable match,,True,137,Exact match,Enner Valencia
+Ecuador,Gonzalo Plata,Forward,Flamengo,Brazilian football league system,understat_only,False,0,No reliable match,,True,37,Exact match,Gonzalo Plata
+Ecuador,Jeremy Arevalo,Forward,Stuttgart,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,John Yeboah,Forward,Venezia,Serie A,both,True,4,Safe fuzzy match,John Yeboah Zamora,True,1,Exact match,John Yeboah
+Ecuador,Jordy Caicedo,Forward,Atlas,Liga MX,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Kevin Rodriguez,Forward,Union Saint-Gilloise,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Nilson Angulo,Forward,Sunderland,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Gonzalo Valle,Goalkeeper,L.D.U Quito,Ecuadorian Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Hernan Galindez,Goalkeeper,Huracan,Argentina Primera Division,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Moises Ramirez,Goalkeeper,A.E Kifisia,Greek Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Alan Franco,Midfielder,Atletico Mineiro,Brazilian football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Denil Castillo,Midfielder,FC Midtjylland,Danish Superliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Jordy Alcivar,Midfielder,Independiente,Ecuadorian Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Kendry Paez,Midfielder,River Plate,Argentina Primera Division,statsbomb_only,True,11,Safe fuzzy match,Ray Kendry Páez Andrade,False,0,No reliable match,
+Ecuador,Moises Caicedo,Midfielder,Chelsea,Premier League,understat_only,False,0,No reliable match,,True,50,Exact match,Moisés Caicedo
+Ecuador,Pedro Vite,Midfielder,UNAM,Liga MX,neither,False,0,No reliable match,,False,0,No reliable match,
+Ecuador,Yaimar Medina,Midfielder,Genk,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Ahmed Abou El Fotouh,Defender,Zamalek,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Hossam Abdelmaguid,Defender,Zamalek,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Karim Hafez,Defender,Pyramids,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Mohamed Abdelmonem,Defender,Nice,Ligue 1 / French football league system,statsbomb_only,True,6,Exact match,Mohamed Abdelmonem,False,0,No reliable match,
+Egypt,Mohamed Hany,Defender,Al Ahly,Egyptian Premier League,statsbomb_only,True,2,Safe fuzzy match,Mohamed Hany Gamal Eldemerdash,False,0,No reliable match,
+Egypt,Ramy Rabia,Defender,Al Ain,UAE Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Tarek Alaa,Defender,ZED,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Yasser Ibrahim,Defender,Al Ahly,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Haissem Hassan,Forward,Real Oviedo,Spanish football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Hamza Abdelkarim,Forward,Barcelona,LaLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Ibrahim Adel,Forward,Nordsjaelland,Danish Superliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Mohamed Salah,Forward,Liverpool,Premier League,both,True,91,Exact match,Mohamed Salah,True,1099,Exact match,Mohamed Salah
+Egypt,Omar Marmoush,Forward,Manchester City,Premier League,both,True,13,Exact match,Omar Marmoush,True,177,Exact match,Omar Marmoush
+Egypt,Trezeguet,Forward,Al Ahly,Egyptian Premier League,understat_only,False,0,No reliable match,,True,86,Exact match,Trézéguet
+Egypt,Zizo,Forward,Al Ahly,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,El Mahdy Soliman,Goalkeeper,Zamalek,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Mohamed Alaa,Goalkeeper,El Gouna,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Mohamed El Shenawy,Goalkeeper,Al Ahly,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Mostafa Shobeir,Goalkeeper,Al Ahly,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Emam Ashour,Midfielder,Al Ahly,Egyptian Premier League,statsbomb_only,True,7,Safe fuzzy match,Emam Ashour Metwally Abdelghany,False,0,No reliable match,
+Egypt,Hamdy Fathy,Midfielder,Al-Wakrah,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Mahmoud Saber,Midfielder,ZED,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Marwan Attia,Midfielder,Al Ahly,Egyptian Premier League,statsbomb_only,True,2,Safe fuzzy match,Marwan Attia Fahim Ghallab,False,0,No reliable match,
+Egypt,Mohanad Lasheen,Midfielder,Pyramids,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Mostafa Ziko,Midfielder,Pyramids,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Egypt,Nabil Emad,Midfielder,Al-Najma,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+England,Dan Burn,Defender,Newcastle United,Premier League,understat_only,False,0,No reliable match,,True,93,Exact match,Dan Burn
+England,Djed Spence,Defender,Tottenham,Premier League,both,True,1,Exact match,Djed Spence,True,6,Exact match,Djed Spence
+England,Ezri Konsa,Defender,Aston Villa,Premier League,understat_only,False,0,No reliable match,,True,74,Safe fuzzy match,Ezri Konsa Ngoyo
+England,Jarell Quansah,Defender,Bayer Leverkusen,Bundesliga,understat_only,False,0,No reliable match,,True,6,Exact match,Jarell Quansah
+England,John Stones,Defender,Manchester City,Premier League,both,True,24,Exact match,John Stones,True,90,Exact match,John Stones
+England,Marc Guehi,Defender,Manchester City,Premier League,both,True,2,Exact match,Marc Guehi,True,39,Exact match,Marc Guehi
+England,Nico O'Reilly,Defender,Manchester City,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+England,Reece James,Defender,Chelsea,Unknown / verify manually,both,True,1,Exact match,Reece James,True,114,Exact match,Reece James
+England,Tino Livramento,Defender,Newcastle,Premier League,understat_only,False,0,No reliable match,,True,16,Safe fuzzy match,Valentino Livramento
+England,Anthony Gordon,Forward,Newcastle United,Premier League,understat_only,False,0,No reliable match,,True,165,Exact match,Anthony Gordon
+England,Bukayo Saka,Forward,Arsenal,Premier League,both,True,17,Exact match,Bukayo Saka,True,368,Exact match,Bukayo Saka
+England,Harry Kane,Forward,Bayern Munich,Bundesliga,both,True,224,Exact match,Harry Kane,True,1300,Exact match,Harry Kane
+England,Ivan Toney,Forward,Al-Ahli,Saudi Pro League,both,True,2,Exact match,Ivan Toney,True,233,Exact match,Ivan Toney
+England,Marcus Rashford,Forward,Barcelona on loan from Manchester United,Unknown / verify manually,both,True,34,Exact match,Marcus Rashford,True,572,Exact match,Marcus Rashford
+England,Noni Madueke,Forward,Arsenal,Premier League,understat_only,False,0,No reliable match,,True,44,Exact match,Noni Madueke
+England,Ollie Watkins,Forward,Aston Villa,Premier League,both,True,3,Exact match,Ollie Watkins,True,366,Exact match,Ollie Watkins
+England,Dean Henderson,Goalkeeper,Crystal Palace,Premier League,understat_only,False,0,No reliable match,,True,3,Exact match,Dean Henderson
+England,James Trafford,Goalkeeper,Manchester City,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+England,Jordan Pickford,Goalkeeper,Everton,Premier League,understat_only,False,0,No reliable match,,True,1,Exact match,Jordan Pickford
+England,Declan Rice,Midfielder,Arsenal,Premier League,both,True,10,Exact match,Declan Rice,True,206,Exact match,Declan Rice
+England,Eberechi Eze,Midfielder,Arsenal,Premier League,both,True,2,Exact match,Eberechi Eze,True,200,Exact match,Eberechi Eze
+England,Elliot Anderson,Midfielder,Nottingham Forest,Premier League,understat_only,False,0,No reliable match,,True,30,Exact match,Elliot Anderson
+England,Jordan Henderson,Midfielder,Brentford,Premier League,understat_only,False,0,No reliable match,,True,212,Exact match,Jordan Henderson
+England,Jude Bellingham,Midfielder,Real Madrid,LaLiga,both,True,12,Exact match,Jude Bellingham,True,205,Exact match,Jude Bellingham
+England,Kobbie Mainoo,Midfielder,Manchester United,Premier League,both,True,5,Exact match,Kobbie Mainoo,True,11,Exact match,Kobbie Mainoo
+England,Morgan Rogers,Midfielder,Aston Villa,Premier League,understat_only,False,0,No reliable match,,True,11,Exact match,Morgan Rogers
+France,Dayot Upamenaco,Defender,Bayern Munich,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+France,Ibrahima Konate,Defender,Liverpool,Premier League,both,True,2,Exact match,Ibrahima Konaté,True,47,Exact match,Ibrahima Konaté
+France,Jules Kounde,Defender,Barcelona,LaLiga,both,True,9,Exact match,Jules Koundé,True,119,Exact match,Jules Koundé
+France,Lucas Digne,Defender,Aston Villa,Premier League,both,True,24,Exact match,Lucas Digne,True,153,Exact match,Lucas Digne
+France,Lucas Hernandez,Defender,Paris St-Germain,Ligue 1 / French football league system,both,True,5,Safe fuzzy match,Lucas Hernández Pi,True,31,Exact match,Lucas Hernández
+France,Malo Gusto,Defender,Chelsea,Unknown / verify manually,both,True,1,Exact match,Malo Gusto,True,35,Exact match,Malo Gusto
+France,Maxence Lacroix,Defender,Crystal Palace,Premier League,both,True,1,Exact match,Maxence Lacroix,True,51,Exact match,Maxence Lacroix
+France,Theo Hernandez,Defender,Al Hilal,Saudi Pro League,understat_only,False,0,No reliable match,,True,304,Exact match,Theo Hernández
+France,William Saliba,Defender,Arsenal,Premier League,both,True,3,Exact match,William Saliba,True,47,Exact match,William Saliba
+France,Bradley Barcola,Forward,Paris St-Germain,Ligue 1 / French football league system,both,True,5,Exact match,Bradley Barcola,True,65,Exact match,Bradley Barcola
+France,Desire Doue,Forward,Paris St-Germain,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,57,Exact match,Désiré Doué
+France,Jean-Phillipe Mateta,Forward,Crystal Palace,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+France,Kylian Mbappe,Forward,Real Madrid,LaLiga,both,True,306,Alias match,Kylian Mbappé Lottin,True,870,Alias match,Kylian Mbappe-Lottin
+France,Maghnes Akliouche,Forward,Monaco,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,42,Exact match,Maghnes Akliouche
+France,Marcus Thuram,Forward,Inter Milan,Serie A,both,True,14,Exact match,Marcus Thuram,True,430,Exact match,Marcus Thuram
+France,Michael Olise,Forward,Bayern Munich,Bundesliga,understat_only,False,0,No reliable match,,True,126,Exact match,Michael Olise
+France,Ousmane Dembele,Forward,Paris St-Germain,Ligue 1 / French football league system,both,True,178,Exact match,Ousmane Dembélé,True,370,Exact match,Ousmane Dembélé
+France,Rayan Cherki,Forward,Man City,Unknown / verify manually,statsbomb_only,True,2,Safe fuzzy match,Mathis Rayan Cherki,False,0,No reliable match,
+France,Brice Samba,Goalkeeper,Rennes,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+France,Mike Maignan,Goalkeeper,AC Milan,Serie A,understat_only,False,0,No reliable match,,True,1,Exact match,Mike Maignan
+France,Robin Risser,Goalkeeper,Lens,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+France,Adrien Rabiot,Midfielder,AC Milan,Serie A,both,True,29,Exact match,Adrien Rabiot,True,249,Exact match,Adrien Rabiot
+France,Aurelien Tchouameni,Midfielder,Real Madrid,LaLiga,understat_only,False,0,No reliable match,,True,196,Exact match,Aurelien Tchouameni
+France,Manu Kone,Midfielder,Roma,Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+France,N'Golo Kante,Midfielder,Fenerbache,Unknown / verify manually,statsbomb_only,True,28,Exact match,N''Golo Kanté,False,0,No reliable match,
+France,Warren Zaire-Emery,Midfielder,Paris St-Germain,Ligue 1 / French football league system,both,True,7,Exact match,Warren Zaire Emery,True,23,Exact match,Warren Zaïre-Emery
+Germany,Antonio Rudiger,Defender,Real Madrid,LaLiga,both,True,30,Exact match,Antonio Rüdiger,True,206,Exact match,Antonio Rüdiger
+Germany,David Raum,Defender,RB Leipzig,Bundesliga,both,True,1,Exact match,David Raum,True,53,Exact match,David Raum
+Germany,Jonathan Tah,Defender,Bayern Munich,Bundesliga,both,True,42,Exact match,Jonathan Tah,True,111,Exact match,Jonathan Tah
+Germany,Joshua Kimmich,Defender,Bayern Munich,Bundesliga,both,True,26,Exact match,Joshua Kimmich,True,214,Exact match,Joshua Kimmich
+Germany,Malick Thiaw,Defender,Newcastle United,Premier League,understat_only,False,0,No reliable match,,True,26,Exact match,Malick Thiaw
+Germany,Nathaniel Brown,Defender,Eintracht Frankfurt,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Germany,Nico Schlotterbeck,Defender,Borussia Dortmund,Bundesliga,both,True,2,Exact match,Nico Schlotterbeck,True,106,Exact match,Nico Schlotterbeck
+Germany,Waldemar Anton,Defender,Borussia Dortmund,Bundesliga,both,True,7,Exact match,Waldemar Anton,True,141,Exact match,Waldemar Anton
+Germany,Deniz Undav,Forward,Stuttgart,Bundesliga,both,True,9,Exact match,Deniz Undav,True,135,Exact match,Deniz Undav
+Germany,Kai Havertz,Forward,Arsenal,Premier League,both,True,35,Exact match,Kai Havertz,True,441,Exact match,Kai Havertz
+Germany,Lennart Karl,Forward,Bayern Munich,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Germany,Leroy Sane,Forward,Galatasaray,Turkish Süper Lig,both,True,82,Exact match,Leroy Sané,True,525,Exact match,Leroy Sané
+Germany,Maximilian Beier,Forward,Borussia Dortmund,Bundesliga,both,True,6,Exact match,Maximilian Beier,True,87,Exact match,Maximilian Beier
+Germany,Nick Woltemade,Forward,Newcastle United,Premier League,both,True,1,Exact match,Nick Woltemade,True,27,Exact match,Nick Woltemade
+Germany,Alexander Nubel,Goalkeeper,Stuttgart,Bundesliga,understat_only,False,0,No reliable match,,True,3,Exact match,Alexander Nübel
+Germany,Manuel Neuer,Goalkeeper,Bayern Munich,Bundesliga,both,True,1,Exact match,Manuel Neuer,True,2,Exact match,Manuel Neuer
+Germany,Oliver Baumann,Goalkeeper,Hoffenheim,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Germany,Aleksandar Pavlovic,Midfielder,Bayern Munich,Bundesliga,understat_only,False,0,No reliable match,,True,8,Exact match,Aleksandar Pavlovic
+Germany,Angelo Stiller,Midfielder,Stuttgart,Bundesliga,both,True,1,Exact match,Angelo Stiller,True,40,Exact match,Angelo Stiller
+Germany,Felix Nmecha,Midfielder,Borussia Dortmund,Bundesliga,understat_only,False,0,No reliable match,,True,69,Exact match,Felix Nmecha
+Germany,Florian Wirtz,Midfielder,Liverpool,Premier League,both,True,79,Exact match,Florian Wirtz,True,149,Exact match,Florian Wirtz
+Germany,Jamal Musiala,Midfielder,Bayern Munich,Bundesliga,both,True,22,Exact match,Jamal Musiala,True,190,Exact match,Jamal Musiala
+Germany,Jamie Leweling,Midfielder,Stuttgart,Bundesliga,both,True,1,Exact match,Jamie Leweling,True,96,Exact match,Jamie Leweling
+Germany,Leon Goretzka,Midfielder,Bayern Munich,Bundesliga,both,True,52,Exact match,Leon Goretzka,True,421,Exact match,Leon Goretzka
+Germany,Nadiem Amiri,Midfielder,Mainz,Bundesliga,both,True,41,Exact match,Nadiem Amiri,True,321,Exact match,Nadiem Amiri
+Germany,Pascal Gross,Midfielder,Brighton and Hove Albion,Premier League,both,True,69,Exact match,Pascal Groß,True,369,Exact match,Pascal Groß
+Ghana,Abdul Mumin,Defender,Rayo Vallecano,LaLiga,understat_only,False,0,No reliable match,,True,12,Exact match,Abdul Mumin
+Ghana,Alidu Seidu,Defender,Rennes,Ligue 1 / French football league system,both,True,1,Exact match,Alidu Seidu,True,23,Exact match,Alidu Seidu
+Ghana,Baba Abdul Rahman,Defender,PAOK,Greek Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Derrick Luckassen,Defender,Pafos,Cypriot First Division,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Elisha Owusu,Defender,Auxerre,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Gideon Mensah,Defender,Auxerre,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,7,Exact match,Gideon Mensah
+Ghana,Jerome Opoku,Defender,Istanbul Basaksehir,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Jonas Adjetey,Defender,Wolfsburg,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Kojo Oppong Peprah,Defender,Nice,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Marvin Senaya,Defender,Auxerre,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,15,Exact match,Marvin Senaya
+Ghana,Antoine Semenyo,Forward,Manchester City,Premier League,both,True,3,Exact match,Antoine Semenyo,True,73,Exact match,Antoine Semenyo
+Ghana,Brandon Thomas-Asante,Forward,Coventry City,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Christopher Bonsu Baah,Forward,Al Qadsiah,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Ernest Nuamah,Forward,Lyon,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,43,Exact match,Ernest Nuamah
+Ghana,Inaki Williams,Forward,Athletic Bilbao,LaLiga,both,True,67,Safe fuzzy match,Iñaki Williams Arthuer,True,663,Exact match,Iñaki Williams
+Ghana,Jordan Ayew,Forward,Leicester City,English football league system,both,True,65,Exact match,Jordan Ayew,True,474,Exact match,Jordan Ayew
+Ghana,Kamaldeen Sulemana,Forward,Atalanta,Serie A,both,True,4,Exact match,Kamaldeen Sulemana,True,63,Exact match,Kamaldeen Sulemana
+Ghana,Prince Kwabena Adu,Forward,Viktoria Plzen,Czech First League,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Benjamin Asare,Goalkeeper,Accra Hearts of Oak SC,Ghana Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Joseph Anang,Goalkeeper,St Patrick's Athletic,Irish Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Lawrence Ati-Zigi,Goalkeeper,St Gallen,Swiss Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Abdul Fatawu Issahaku,Midfielder,Leicester City,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Augustine Boakye,Midfielder,Saint-Etienne,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Caleb Yirenkyi,Midfielder,Nordsjaelland,Danish Superliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Kwasi Sibo,Midfielder,Real Oviedo,LaLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+Ghana,Thomas Partey,Midfielder,Villarreal,LaLiga,understat_only,False,0,No reliable match,,True,250,Exact match,Thomas Partey
+Haiti,Carlens Arcus,Defender,Angers,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Duke Lacroix,Defender,Colorado Springs,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Hannes Delcroix,Defender,Lugano,Swiss Super League,understat_only,False,0,No reliable match,,True,4,Exact match,Hannes Delcroix
+Haiti,Jean-Kevin Duverne,Defender,KAA Gent,Unknown / verify manually,both,True,1,Exact match,Jean-Kevin Duverne,True,34,Exact match,Jean-Kevin Duverne
+Haiti,Keeto Thermoncy,Defender,Young Boys Berne,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Martin Expérience,Defender,Nancy,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Ricardo Ade,Defender,LDU Quito,Ecuadorian Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Wilguens Pauguain,Defender,Zulte Waregem,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Derrick Etienne,Forward,Toronto,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Duckens Nazon,Forward,Esteghlal,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Frantzdy Pierrot,Forward,Caykur Rizespor,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Josue Casimir,Forward,Auxerre,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,21,Exact match,Josué Casimir
+Haiti,Lenny Joseph,Forward,Ferencvaros,Hungarian NB I,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Louicius Deedson,Forward,Dallas,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Ruben Providence,Forward,Almere City,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Wilson Isidor,Forward,Sunderland,Premier League,understat_only,False,0,No reliable match,,True,92,Exact match,Wilson Isidor
+Haiti,Yassin Fortune,Forward,Vizela,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Alexandre Pierre,Goalkeeper,Sochaux,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Johnny Placide,Goalkeeper,Bastia,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Josue Duverger,Goalkeeper,FC Cosmos Koblenz,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Carl-Fred Sainthe,Midfielder,El Paso Locomotive,USL Championship,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Dominique Simon,Midfielder,Tatran Presov,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Jean-Jacques Danley,Midfielder,Philadelphia Union,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Jean-Ricner Bellegarde,Midfielder,Wolves,Premier League,both,True,4,Exact match,Jean-Ricner Bellegarde,True,130,Exact match,Jean-Ricner Bellegarde
+Haiti,Leverton Pierre,Midfielder,Vizela,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Haiti,Pierre Woodenski,Midfielder,Violette,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Ali Nemati,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Danial Eiri,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Ehsan Hajsafi,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,statsbomb_only,True,3,Exact match,Ehsan Hajsafi,False,0,No reliable match,
+Iran,Hossein Kanaanizadegan,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Milad Mohammadi,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,understat_only,False,0,No reliable match,,True,78,Exact match,Milad Mohammadi
+Iran,Ramin Rezaeian,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,statsbomb_only,True,3,Exact match,Ramin Rezaeian,False,0,No reliable match,
+Iran,Saleh Hardani,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Shojae Khalilzadeh,Defender,Iran-based club not specified,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Ali Alipour,Forward,Iran-based club not specified,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Amirhossein Hosseinzadeh,Forward,Iran-based club not specified,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Dennis Eckert,Forward,"known in Iran as Dennis Dargahi, Standard Liege, Bel",Unknown / verify manually,understat_only,False,0,No reliable match,,True,8,Exact match,Dennis Eckert
+Iran,Mehdi Taremi,Forward,"Olympiakos, Gre",Unknown / verify manually,statsbomb_only,True,9,Exact match,Mehdi Taremi,False,0,No reliable match,
+Iran,Shahriyar Moghanlou,Forward,"Kalba, UAE",Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Alireza Beiranvand,Goalkeeper,Iran-based club not specified,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Hossein Hosseini,Goalkeeper,Iran-based club not specified,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Payam Niazmand,Goalkeeper,Iran-based club not specified,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Alireza Jahanbakhsh,Midfielder,Iran-based club not specified,Iran Persian Gulf Pro League,both,True,5,Exact match,Alireza Jahanbakhsh,True,51,Exact match,Alireza Jahanbakhsh
+Iran,Amirmohammad Razzaghinia,Midfielder,Iran-based club not specified,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Aria Yousefi,Midfielder,Iran-based club not specified,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Mehdi Ghayedi,Midfielder,"Al-Nasr, UAE",Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Mehdi Torabi,Midfielder,Iran-based club not specified,Iran Persian Gulf Pro League,statsbomb_only,True,2,Exact match,Mehdi Torabi,False,0,No reliable match,
+Iran,Mohammad Ghorbani,Midfielder,"Al-Wahda, UAE",Unknown / verify manually,understat_only,False,0,No reliable match,,True,9,Exact match,Mohammad Ghorbani
+Iran,Mohammad Mohebi,Midfielder,"Rostov, Rus",Unknown / verify manually,understat_only,False,0,No reliable match,,True,44,Exact match,Mohammad Mohebi
+Iran,Rouzbeh Cheshmi,Midfielder,Iran-based club not specified,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iran,Saeid Ezatolahi,Midfielder,"Shahab al-Ahli, UAE",Unknown / verify manually,both,True,4,Safe fuzzy match,Saeid Ezatolahi Afagh,True,42,Exact match,Saeid Ezatolahi
+Iran,Saman Ghoddos,Midfielder,"Kalba, UAE",Unknown / verify manually,both,True,3,Exact match,Saman Ghoddos,True,67,Exact match,Saman Ghoddos
+Iraq,Ahmed Yahya,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Akam Hashim,Defender,Al-Zawraa,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Frans Putros,Defender,Persib,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Hussein Ali,Defender,Pogon Szczecin,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Manaf Younis,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Merchas Doski,Defender,Viktoria Plzen,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Mustafa Saadoon,Defender,Al-Shorta,Iraqi Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Rebin Sulaka,Defender,Port,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Zaid Ismail,Defender,Al-Talaba,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Zaid Tahseen,Defender,Pakhtakor,Uzbekistan Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Ali Al-Hamadi,Forward,Ipswich,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Ali Jassim,Forward,Al-Najma,Middle East / North Africa league - verify club,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Ali Yousef,Forward,Al-Talaba,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Aymen Hussein,Forward,Al-Karma,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Mohanad Ali,Forward,Dibba,UAE Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Ahmed Basil,Goalkeeper,Al-Shorta,Iraqi Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Fahad Talib,Goalkeeper,Al-Talaba,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Jalal Hassan,Goalkeeper,Al-Zawraa,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Ahmed Qasem,Midfielder,Nashville SC,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Aimar Sher,Midfielder,Sarpsborg,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Amir Al-Ammari,Midfielder,Cracovia,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Ibrahim Bayesh,Midfielder,Al-Dhafra,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Kevin Yakob,Midfielder,Aarhus GF,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Marko Farji,Midfielder,Venezia,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Youssef Amyn,Midfielder,AEK Larnaca,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Iraq,Zidane Iqbal,Midfielder,Utrecht,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Ivory Coast,Christopher Operi,Defender,Istanbul Basaksehir,Turkish Süper Lig,understat_only,False,0,No reliable match,,True,23,Exact match,Christopher Operi
+Ivory Coast,Emmanuel Agbadou,Defender,Wolverhampton Wanderers,Premier League,understat_only,False,0,No reliable match,,True,57,Exact match,Emmanuel Agbadou
+Ivory Coast,Evan Ndicka,Defender,AS Roma,Serie A,both,True,7,Safe fuzzy match,Obite Evan Ndicka,True,96,Exact match,Evan Ndicka
+Ivory Coast,Ghislain Konan,Defender,Gil Vicente,Unknown / verify manually,both,True,1,Exact match,Ghislain Konan,True,30,Exact match,Ghislain Konan
+Ivory Coast,Guela Doue,Defender,Racing Strasbourg,Unknown / verify manually,understat_only,False,0,No reliable match,,True,16,Exact match,Guela Doué
+Ivory Coast,Odilon Kossonou,Defender,Atalanta,Serie A,statsbomb_only,True,7,Exact match,Odilon Kossonou,False,0,No reliable match,
+Ivory Coast,Ousmane Diomande,Defender,Sporting,Primeira Liga,statsbomb_only,True,1,Exact match,Ousmane Diomande,False,0,No reliable match,
+Ivory Coast,Wilfried Singo,Defender,Galatasaray,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Ivory Coast,Amad Diallo,Forward,Manchester United,Premier League,understat_only,False,0,No reliable match,,True,13,Safe fuzzy match,Amad Diallo Traore
+Ivory Coast,Ange-Yoan Bonny,Forward,Inter Milan,Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Ivory Coast,Bazoumana Toure,Forward,Hoffenheim,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Ivory Coast,Elye Wahi,Forward,Nice,Ligue 1 / French football league system,both,True,1,Safe fuzzy match,Sepe Elye Wahi,True,178,Safe fuzzy match,Sepe Elye Wahi
+Ivory Coast,Evann Guessand,Forward,Aston Villa,Premier League,both,True,1,Exact match,Evann Guessand,True,83,Exact match,Evann Guessand
+Ivory Coast,Nicolas Pepe,Forward,Villarreal,LaLiga,both,True,9,Exact match,Nicolas Pépé,True,397,Exact match,Nicolas Pepe
+Ivory Coast,Oumar Diakite,Forward,Cercle Brugge,Belgian Pro League,both,True,3,Exact match,Oumar Diakité,True,36,Exact match,Oumar Diakité
+Ivory Coast,Simon Adingra,Forward,AS Monaco,Ligue 1 / French football league system,both,True,6,Exact match,Simon Adingra,True,52,Exact match,Simon Adingra
+Ivory Coast,Yan Diomande,Forward,RB Leipzig,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Ivory Coast,Alban Lafont,Goalkeeper,Panathinaikos,Greek Super League,understat_only,False,0,No reliable match,,True,2,Exact match,Alban Lafont
+Ivory Coast,Mohamed Kone,Goalkeeper,Charleroi,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Ivory Coast,Yahia Fofana,Goalkeeper,Rizespor,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Ivory Coast,Christ Oulai,Midfielder,Trabzonspor,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Ivory Coast,Franck Kessie,Midfielder,Al Ahli,Saudi Pro League,understat_only,False,0,No reliable match,,True,311,Exact match,Franck Kessié
+Ivory Coast,Ibrahim Sangare,Midfielder,Nottingham Forest,Premier League,both,True,5,Exact match,Ibrahim Sangaré,True,86,Exact match,Ibrahim Sangare
+Ivory Coast,Jean-Michael Seri,Midfielder,NK Maribor,Slovenian PrvaLiga,both,True,53,Exact match,Jean Michaël Seri,True,139,Exact match,Jean Michael Seri
+Ivory Coast,Parfait Guiagon,Midfielder,Charleroi,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Ivory Coast,Seko Fofana,Midfielder,Stade Rennais,Unknown / verify manually,both,True,56,Exact match,Seko Fofana,True,427,Exact match,Seko Fofana
+Japan,Ayumu Seko,Defender,Le Havre AC,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Japan,Hiroki Ito,Defender,Bayern Munich,Bundesliga,understat_only,False,0,No reliable match,,True,51,Exact match,Hiroki Ito
+Japan,Junosuke Suzuki,Defender,FC Copenhagen,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Japan,Ko Itakura,Defender,Ajax,Eredivisie / Dutch football league system,both,True,4,Exact match,Ko Itakura,True,31,Exact match,Ko Itakura
+Japan,Shogo Taniguchi,Defender,Sint-Truiden,Unknown / verify manually,statsbomb_only,True,2,Exact match,Shogo Taniguchi,False,0,No reliable match,
+Japan,Takehiro Tomiyasu,Defender,Ajax,Eredivisie / Dutch football league system,understat_only,False,0,No reliable match,,True,67,Exact match,Takehiro Tomiyasu
+Japan,Tsuyoshi Watanabe,Defender,Feyenoord,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Japan,Yukinari Sugawara,Defender,Werder Bremen,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Japan,Yuto Nagatomo,Defender,FC Tokyo,J1 League / Japanese football league system,both,True,9,Exact match,Yuto Nagatomo,True,28,Exact match,Yuto Nagatomo
+Japan,Ayase Ueda,Forward,Feyenoord,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Japan,Ito Suzuki,Forward,SC Freiburg,Unknown / verify manually,understat_only,False,0,No reliable match,,True,2,Safe fuzzy match,Yuito Suzuki
+Japan,Keisuke Goto,Forward,Sint-Truiden,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Japan,Keito Nakamura,Forward,Stade de Reims,Unknown / verify manually,understat_only,False,0,No reliable match,,True,41,Exact match,Keito Nakamura
+Japan,Kento Shiode,Forward,Wolfsburg,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Japan,Aya Suzuka,Goalkeeper,Parma Calcio,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Japan,Keisuke Osako,Goalkeeper,Sanfrecce Hiroshima,J1 League / Japanese football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Japan,Tomoki Hayakawa,Goalkeeper,Kashima Antlers,J1 League / Japanese football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Japan,Ao Tanaka,Midfielder,Leeds United,Premier League,statsbomb_only,True,1,Exact match,Ao Tanaka,False,0,No reliable match,
+Japan,Daichi Kamada,Midfielder,Crystal Palace,Premier League,both,True,6,Exact match,Daichi Kamada,True,195,Exact match,Daichi Kamada
+Japan,Daizen Maeda,Midfielder,Celtic,Scottish Premiership,statsbomb_only,True,2,Exact match,Daizen Maeda,False,0,No reliable match,
+Japan,Junya Ito,Midfielder,Genk,Unknown / verify manually,both,True,4,Exact match,Junya Ito,True,89,Exact match,Junya Ito
+Japan,Kaishu Sano,Midfielder,Mainz 05,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Japan,Koki Ogawa,Midfielder,NEC Nijmegen,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Japan,Ritsu Doan,Midfielder,Eintracht Frankfurt,Bundesliga,both,True,5,Exact match,Ritsu Doan,True,163,Exact match,Ritsu Doan
+Japan,Takefusa Kubo,Midfielder,Real Sociedad,LaLiga,both,True,8,Exact match,Takefusa Kubo,True,244,Exact match,Takefusa Kubo
+Japan,Wataru Endo,Midfielder,Liverpool,Premier League,both,True,6,Exact match,Wataru Endo,True,128,Exact match,Wataru Endo
+Jordan,Abdallah Nasib,Defender,Al-Zawraa,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Anas Banawi,Defender,Al-Faisaly,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Ehsan Haddad,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Husam Abu Dahab,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Mohammad Abu Hasheesh,Defender,Al-Karma,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Mohammad Abualnadi,Defender,Selangor,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Mohannad Abu Taha,Defender,Al-Quwa Al-Jawiya,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Saed Al-Rosan,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Saleem Obaid,Defender,Al-Hussein,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Yazan Al-Arab,Defender,FC Seoul,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Ali Azaizeh,Forward,Al-Shabab,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Ali Olwan,Forward,Al-Sailiya,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Ibrahim Sabra,Forward,Lokomotiva Zagreb,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Mohammad Abu Zrayq,Forward,Raja Casablanca,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Mousa Al-Tamari,Forward,Rennes,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,47,Exact match,Mousa Al Tamari
+Jordan,Odeh Al-Fakhouri,Forward,Pyramids,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Abdullah Al-Fakhouri,Goalkeeper,Al-Wehdat,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Noor Bani Attiah,Goalkeeper,Al-Faisaly,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Yazeed Abulaila,Goalkeeper,Al-Hussein,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Amer Jamous,Midfielder,Al-Zawraa,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Ibrahim Saadeh,Midfielder,Al-Karma,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Mahmoud Al-Mardi,Midfielder,Al-Hussein,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Mohammad Al-Dawoud,Midfielder,Al-Wehdat,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Nizar Al-Rashdan,Midfielder,Qatar,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Noor Al-Rawabdeh,Midfielder,Selangor,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Jordan,Rajaei Ayed,Midfielder,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Cesar Montes,Defender,Lokomotiv Moscow,Russian Premier League,understat_only,False,0,No reliable match,,True,26,Exact match,César Montes
+Mexico,Israel Reyes,Defender,Club America,Liga MX,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Jesus Gallardo,Defender,Toluca,Liga MX,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Johan Vasquez,Defender,Genoa,Serie A,understat_only,False,0,No reliable match,,True,61,Exact match,Johan Vásquez
+Mexico,Jorge Sanchez,Defender,PAOK,Greek Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Mateo Chavez,Defender,AZ,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Alexis Vega,Forward,Toluca,Liga MX,statsbomb_only,True,9,Safe fuzzy match,Ernesto Alexis Vega Rojas,False,0,No reliable match,
+Mexico,Armando Gonzalez,Forward,Guadalajara,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Cesar Huerta,Forward,Anderlecht,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Guillermo Martinez,Forward,UNAM,Unknown / verify manually,statsbomb_only,True,3,Safe fuzzy match,Guillermo Martínez Ayala,False,0,No reliable match,
+Mexico,Julian Quinones,Forward,Al-Qadsiah,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Raul Jimenez,Forward,Fulham,Premier League,understat_only,False,0,No reliable match,,True,390,Exact match,Raúl Jiménez
+Mexico,Santiago Gimenez,Forward,AC Milan,Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Carlos Acevedo,Goalkeeper,Santos Laguna,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Guillermo Ochoa,Goalkeeper,AEL Limassol,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Raul Rangel,Goalkeeper,Guadalajara,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Alvaro Fidalgo,Midfielder,Real Betis,LaLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Brian Gutierrez,Midfielder,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Edson Alvarez,Midfielder,West Ham,Premier League,understat_only,False,0,No reliable match,,True,17,Exact match,Edson Álvarez
+Mexico,Erik Lira,Midfielder,Cruz Azul,Liga MX,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Gilberto Mora,Midfielder,Tijuana,Liga MX,statsbomb_only,True,7,Safe fuzzy match,Gilberto Moraes Junior,False,0,No reliable match,
+Mexico,Luis Chavez,Midfielder,Dynamo Moscow,Unknown / verify manually,understat_only,False,0,No reliable match,,True,44,Exact match,Luis Chávez
+Mexico,Luis Romo,Midfielder,Guadalajara,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Obed Vargas,Midfielder,Atletico Madrid,LaLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+Mexico,Orbelin Pineda,Midfielder,AEK Athens,Greek Super League,both,True,7,Safe fuzzy match,Orbelín Pineda Alvarado,True,5,Exact match,Orbelín Pineda
+Mexico,Roberto Alvarado,Midfielder,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Achraf Hakimi,Defender,Paris St-Germain,Ligue 1 / French football league system,both,True,37,Safe fuzzy match,Achraf Hakimi Mouh,True,180,Exact match,Achraf Hakimi
+Morocco,Anass Salah-Eddine,Defender,PSV Eindhoven,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Chadi Riad,Defender,Crystal Palace,Premier League,understat_only,False,0,No reliable match,,True,11,Exact match,Chadi Riad
+Morocco,Issa Diop,Defender,West Ham United,Premier League,both,True,6,Exact match,Issa Diop,True,77,Exact match,Issa Diop
+Morocco,Nayef Aguerd,Defender,Marseille,Ligue 1 / French football league system,statsbomb_only,True,2,Exact match,Nayef Aguerd,False,0,No reliable match,
+Morocco,Noussair Mazraoui,Defender,Manchester United,Premier League,both,True,5,Exact match,Noussair Mazraoui,True,20,Exact match,Noussair Mazraoui
+Morocco,Redouane Halhal,Defender,KV Mechelen,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Youssef Belammari,Defender,Al Ahly,Egyptian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Zakaria El Ouahdi,Defender,Genk,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Abdessamad Ezzalzouli,Forward,Real Betis,LaLiga,both,True,5,Exact match,Abdessamad Ezzalzouli,True,94,Exact match,Abdessamad Ezzalzouli
+Morocco,Ayoub Amaimouni-Echghouyabe,Forward,Eintracht Frankfurt,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Ayoub El Kaabi,Forward,Olympiacos,Greek Super League,statsbomb_only,True,7,Exact match,Ayoub El Kaabi,False,0,No reliable match,
+Morocco,Brahim Diaz,Forward,Real Madrid,LaLiga,understat_only,False,0,No reliable match,,True,142,Exact match,Brahim Diaz
+Morocco,Chemsdine Talbi,Forward,Sunderland,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Soufiane Rahimi,Forward,Al Ain,UAE Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Yassine Gessime,Forward,Strasbourg,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Ahmed Tagnaouti,Goalkeeper,Royal Armed Forces,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Munir Mohamedi,Goalkeeper,RS Berkane,Moroccan Botola,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Yassine Bounou,Goalkeeper,Al Hilal,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Ayyoub Bouaddi,Midfielder,Lille,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Azzedine Ounahi,Midfielder,Girona,LaLiga,statsbomb_only,True,13,Exact match,Azzedine Ounahi,False,0,No reliable match,
+Morocco,Bilal El Khannouss,Midfielder,Stuttgart,Bundesliga,statsbomb_only,True,2,Safe fuzzy match,Bilal El Khannous,False,0,No reliable match,
+Morocco,Ismael Saibari,Midfielder,PSV Eindhoven,Eredivisie / Dutch football league system,statsbomb_only,True,1,Exact match,Ismael Saibari,False,0,No reliable match,
+Morocco,Neil El Aynaoui,Midfielder,Roma,Serie A,understat_only,False,0,No reliable match,,True,22,Exact match,Neil El Aynaoui
+Morocco,Samir El Mourabet,Midfielder,Strasbourg,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Morocco,Sofyan Amrabat,Midfielder,Real Betis,LaLiga,both,True,1,Exact match,Sofyan Amrabat,True,49,Exact match,Sofyan Amrabat
+Netherlands,Denzel Dumfries,Defender,Inter Milan,Serie A,both,True,12,Exact match,Denzel Dumfries,True,94,Exact match,Denzel Dumfries
+Netherlands,Jan Paul van Hecke,Defender,Brighton & Hove Albion,Premier League,understat_only,False,0,No reliable match,,True,17,Exact match,Jan Paul van Hecke
+Netherlands,Jorrel Hato,Defender,Chelsea,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Netherlands,Jurrien Timber,Defender,Arsenal,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Netherlands,Micky van de Ven,Defender,Tottenham Hotspur,Premier League,understat_only,False,0,No reliable match,,True,24,Exact match,Micky van de Ven
+Netherlands,Nathan Ake,Defender,Manchester City,Premier League,both,True,20,Exact match,Nathan Aké,True,128,Exact match,Nathan Aké
+Netherlands,Virgil van Dijk,Defender,Liverpool,Premier League,both,True,40,Exact match,Virgil van Dijk,True,249,Exact match,Virgil van Dijk
+Netherlands,Brian Brobbey,Forward,Sunderland,Premier League,understat_only,False,0,No reliable match,,True,4,Exact match,Brian Brobbey
+Netherlands,Cody Gakpo,Forward,Liverpool,Premier League,understat_only,False,0,No reliable match,,True,105,Exact match,Cody Gakpo
+Netherlands,Crysencio Summerville,Forward,West Ham United,Premier League,understat_only,False,0,No reliable match,,True,31,Exact match,Crysencio Summerville
+Netherlands,Donyell Malen,Forward,AS Roma,Serie A,both,True,9,Exact match,Donyell Malen,True,181,Exact match,Donyell Malen
+Netherlands,Justin Kluivert,Forward,Bournemouth,Premier League,both,True,2,Exact match,Justin Kluivert,True,204,Exact match,Justin Kluivert
+Netherlands,Memphis Depay,Forward,Corinthians,Unknown / verify manually,both,True,96,Exact match,Memphis Depay,True,595,Exact match,Memphis Depay
+Netherlands,Wout Weghorst,Forward,Ajax,Eredivisie / Dutch football league system,both,True,15,Exact match,Wout Weghorst,True,373,Exact match,Wout Weghorst
+Netherlands,Bart Verbruggen,Goalkeeper,Brighton,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Netherlands,Mark Flekken,Goalkeeper,Bayer Leverkusen,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Netherlands,Robin Roefs,Goalkeeper,Sunderland,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Netherlands,Frenkie de Jong,Midfielder,Barcelona,LaLiga,both,True,20,Exact match,Frenkie de Jong,True,63,Exact match,Frenkie de Jong
+Netherlands,Guus Til,Midfielder,PSV,Unknown / verify manually,understat_only,False,0,No reliable match,,True,29,Exact match,Guus Til
+Netherlands,Marten de Roon,Midfielder,Atalanta,Serie A,both,True,21,Exact match,Marten de Roon,True,211,Exact match,Marten de Roon
+Netherlands,Mats Wieffer,Midfielder,Brighton & Hove Albion,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Netherlands,Noah Lang,Midfielder,Galatasaray,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Netherlands,Quinten Timber,Midfielder,Marseille,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Netherlands,Ryan Gravenberch,Midfielder,Liverpool,Premier League,both,True,2,Exact match,Ryan Gravenberch,True,34,Exact match,Ryan Gravenberch
+Netherlands,Teun Koopmeiners,Midfielder,Juventus,Serie A,both,True,3,Exact match,Teun Koopmeiners,True,142,Exact match,Teun Koopmeiners
+Netherlands,Tijjani Reijnders,Midfielder,Manchester City,Premier League,both,True,10,Exact match,Tijjani Reijnders,True,44,Exact match,Tijjani Reijnders
+New Zealand,Callan Elliot,Defender,Auckland FC,New Zealand National League,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Finn Surman,Defender,Portland Timbers,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Francis de Vries,Defender,Auckland FC,New Zealand National League,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Liberato Cacace,Defender,Wrexham,English football league system,understat_only,False,0,No reliable match,,True,21,Exact match,Liberato Cacace
+New Zealand,Michael Boxall,Defender,Minnesota United,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Nando Pijnaker,Defender,Auckland FC,New Zealand National League,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Tim Payne,Defender,Wellington Phoenix,New Zealand National League,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Tommy Smith,Defender,Braintree Town,Unknown / verify manually,understat_only,False,0,No reliable match,,True,11,Exact match,Tommy Smith
+New Zealand,Tyler Bindon,Defender,Nottingham Forest,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Ben Waine,Forward,Port Vale,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Chris Wood,Forward,Nottingham Forest,Premier League,understat_only,False,0,No reliable match,,True,350,Exact match,Chris Wood
+New Zealand,Eli Just,Forward,Motherwell,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Jesse Randall,Forward,Auckland FC,New Zealand National League,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Kosta Barbarouses,Forward,Western Sydney Wanderers,Australian A-League Men,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Alex Paulsen,Goalkeeper,Lechia Gdansk,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Max Crocombe,Goalkeeper,Millwall,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Michael Woud,Goalkeeper,Auckland FC,New Zealand National League,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Alex Rufer,Midfielder,Wellington Phoenix,New Zealand National League,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Ben Old,Midfielder,Saint-Étienne,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Callum McCowatt,Midfielder,Silkeborg IF,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Joe Bell,Midfielder,Viking FK,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Lachlan Bayliss,Midfielder,Newcastle Jets,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Marko Stamenic,Midfielder,Swansea City,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Matthew Garbett,Midfielder,Peterborough United,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Ryan Thomas,Midfielder,PEC Zwolle,Eredivisie / Dutch football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+New Zealand,Sarpreet Singh,Midfielder,Wellington Phoenix,New Zealand National League,understat_only,False,0,No reliable match,,True,1,Exact match,Sarpreet Singh
+Norway,David Moller Wolfe,Defender,Wolverhampton,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Fredrik Bjorkan,Defender,Bodo/Glimt,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Henrik Falchener,Defender,Viking,Norwegian Eliteserien,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Julian Ryerson,Defender,Borussia Dortmund,Bundesliga,both,True,2,Exact match,Julian Ryerson,True,69,Exact match,Julian Ryerson
+Norway,Kristoffer Ajer,Defender,Brentford,Premier League,understat_only,False,0,No reliable match,,True,20,Exact match,Kristoffer Ajer
+Norway,Leo Skiri Ostigard,Defender,Genoa,Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Marcus Holmgren Pedersen,Defender,Torino,Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Sondre Langas,Defender,Derby County,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Torbjorn Heggem,Defender,Bologna,Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Alexander Sorloth,Forward,Atletico Madrid,LaLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Andreas Schjelderup,Forward,Benfica,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Antonio Nusa,Forward,RB Leipzig,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Erling Haaland,Forward,Manchester City,Premier League,understat_only,False,0,No reliable match,,True,450,Exact match,Erling Haaland
+Norway,Jens Petter Hauge,Forward,Bodo/Glimt,Unknown / verify manually,understat_only,False,0,No reliable match,,True,27,Exact match,Jens Petter Hauge
+Norway,Jorgen Strand Larsen,Forward,Crystal Palace,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Oscar Bobb,Forward,Fulham,Premier League,understat_only,False,0,No reliable match,,True,4,Exact match,Oscar Bobb
+Norway,Egil Selvik,Goalkeeper,Watford,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Orjan Haskjold Nyland,Goalkeeper,Sevilla,LaLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Sander Tangvik,Goalkeeper,Hamburger SV,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Fredrik Aursnes,Midfielder,Benfica,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Norway,Kristian Thorstvedt,Midfielder,Sassuolo,Serie A,understat_only,False,0,No reliable match,,True,62,Exact match,Kristian Thorstvedt
+Norway,Martin Odegaard,Midfielder,Arsenal,Premier League,understat_only,False,0,No reliable match,,True,291,Exact match,Martin Odegaard
+Norway,Morten Thorsby,Midfielder,Cremonese,Serie A,understat_only,False,0,No reliable match,,True,88,Exact match,Morten Thorsby
+Norway,Patrick Berg,Midfielder,Bodo/Glimt,Unknown / verify manually,understat_only,False,0,No reliable match,,True,1,Exact match,Patrick Berg
+Norway,Sander Berge,Midfielder,Fulham,Premier League,understat_only,False,0,No reliable match,,True,40,Exact match,Sander Berge
+Norway,Thelo Aasgaard,Midfielder,Rangers,Scottish Premiership,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Amir Murillo,Defender,Unknown / verify manually,Unknown / verify manually,both,True,6,Safe fuzzy match,Michael Amir Murillo Bermudez,True,5,Exact match,Amir Murillo
+Panama,Andres Andrade,Defender,Unknown / verify manually,Unknown / verify manually,understat_only,False,0,No reliable match,,True,7,Exact match,Andrés Andrade
+Panama,Cesar Blackman,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Edgardo Farina,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Eric Davis,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Fidel Escobar,Defender,Unknown / verify manually,Unknown / verify manually,statsbomb_only,True,1,Safe fuzzy match,Fidel Escobar Mendieta,False,0,No reliable match,
+Panama,Jiovany Ramos,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Jorge Gutierrez,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Jose Cordoba,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Roderick Miller,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Cecilio Waterman,Forward,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Ismael Diaz,Forward,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Jose Fajardo,Forward,Unknown / verify manually,Unknown / verify manually,statsbomb_only,True,8,Safe fuzzy match,José Fajardo Nelson,False,0,No reliable match,
+Panama,Tomas Rodriguez,Forward,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Cesar Samudio,Goalkeeper,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Luis Mejia,Goalkeeper,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Orlando Mosquera,Goalkeeper,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Adalberto Carrasquilla,Midfielder,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Alberto Quintero,Midfielder,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Anibal Godoy,Midfielder,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Azarias Londono,Midfielder,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Carlos Harvey,Midfielder,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Cesar Yanis,Midfielder,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Cristian Martinez,Midfielder,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Panama,Jose Luis Rodriguez,Midfielder,Unknown / verify manually,Unknown / verify manually,both,True,5,Safe fuzzy match,José Luis Rodríguez Francis,True,1,Exact match,José Luis Rodríguez
+Panama,Yoel Barcenas,Midfielder,Unknown / verify manually,Unknown / verify manually,statsbomb_only,True,12,Safe fuzzy match,Edgar Yoel Bárcenas Herrera,False,0,No reliable match,
+Paraguay,Alexandro Maidana,Defender,Talleres,Argentine Primera División,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Fabian Balbuena,Defender,Gremio,Campeonato Brasileiro Série A,understat_only,False,0,No reliable match,,True,71,Exact match,Fabián Balbuena
+Paraguay,Gustavo Gomez,Defender,Palmeiras,Campeonato Brasileiro Série A,understat_only,False,0,No reliable match,,True,5,Exact match,Gustavo Gómez
+Paraguay,Gustavo Velazquez,Defender,Cerro Porteno,Paraguayan Primera División,statsbomb_only,True,1,Safe fuzzy match,Víctor Gustavo Velázquez Ramos,False,0,No reliable match,
+Paraguay,Jose Canale,Defender,Lanus,Argentine Primera División,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Juan Jose Caceres,Defender,Dinamo Moscow,Russian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Junior Alonso,Defender,Atletico Mineiro,Campeonato Brasileiro Série A,understat_only,False,0,No reliable match,,True,41,Exact match,Junior Alonso
+Paraguay,Omar Alderete,Defender,Sunderland,Premier League,understat_only,False,0,No reliable match,,True,63,Exact match,Omar Alderete
+Paraguay,Alex Arce,Forward,Independiente Rivadavia,Argentine Primera División,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Antonio Sanabria,Forward,Cremonese,Serie A,both,True,54,Safe fuzzy match,Arnaldo Antonio Sanabria Ayala,True,418,Exact match,Antonio Sanabria
+Paraguay,Gabriel Avalos,Forward,Independiente,Argentine Primera División,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Isidro Pitta,Forward,Bragantino,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Julio Enciso,Forward,Strasbourg,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,66,Exact match,Julio Enciso
+Paraguay,Miguel Almiron,Forward,Atlanta United,Major League Soccer,understat_only,False,0,No reliable match,,True,249,Exact match,Miguel Almirón
+Paraguay,Ramon Sosa,Forward,Palmeiras,Campeonato Brasileiro Série A,statsbomb_only,True,3,Safe fuzzy match,Ramón Sosa Acosta,False,0,No reliable match,
+Paraguay,Gaston Olveira,Goalkeeper,Olimpia,Paraguayan Primera División,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Orlando Gill,Goalkeeper,San Lorenzo,Paraguayan football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Roberto Junior Fernandez,Goalkeeper,Cerro Porteno,Paraguayan Primera División,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Alejandro Romero,Midfielder,Al Ain,UAE Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Andres Cubas,Midfielder,Vancouver Whitecaps,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Briaian Ojeda,Midfielder,Orlando City,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Damian Bobadilla,Midfielder,Sao Paulo,Campeonato Brasileiro Série A,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Diego Gomez,Midfielder,Brighton,Premier League,understat_only,False,0,No reliable match,,True,1,Exact match,Diego Gomez
+Paraguay,Gustavo Caballero,Midfielder,Portsmouth,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Matias Galarza,Midfielder,Atlanta United,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+Paraguay,Mauricio Magalhaes,Midfielder,Palmeiras,Campeonato Brasileiro Série A,neither,False,0,No reliable match,,False,0,No reliable match,
+Portugal,Diogo Dalot,Defender,Manchester United,Premier League,both,True,4,Safe fuzzy match,José Diogo Dalot Teixeira,True,91,Exact match,Diogo Dalot
+Portugal,Goncalo Inacio,Defender,Sporting CP,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Portugal,Joao Cancelo,Defender,FC Barcelona,LaLiga,understat_only,False,0,No reliable match,,True,267,Exact match,João Cancelo
+Portugal,Nelson Semedo,Defender,Fenerbahce SK,Turkish Super Lig,understat_only,False,0,No reliable match,,True,86,Exact match,Nélson Semedo
+Portugal,Nuno Mendes,Defender,PSG,Ligue 1 / French football league system,both,True,20,Exact match,Nuno Mendes,True,21,Exact match,Nuno Mendes
+Portugal,Renato Veiga,Defender,Villarreal,LaLiga,understat_only,False,0,No reliable match,,True,8,Exact match,Renato Veiga
+Portugal,Ruben Dias,Defender,Manchester City,Premier League,understat_only,False,0,No reliable match,,True,64,Exact match,Rúben Dias
+Portugal,Tomas Araujo,Defender,Benfica,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Portugal,Cristiano Ronaldo,Forward,Al Nassr,Saudi Pro League,both,True,413,Alias match,Cristiano Ronaldo dos Santos Aveiro,True,1478,Exact match,Cristiano Ronaldo
+Portugal,Francisco Conceicao,Forward,Juventus,Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Portugal,Francisco Trincao,Forward,Sporting CP,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Portugal,Goncalo Guedes,Forward,Real Sociedad,LaLiga,understat_only,False,0,No reliable match,,True,289,Exact match,Gonçalo Guedes
+Portugal,Goncalo Ramos,Forward,PSG,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,55,Exact match,Gonçalo Ramos
+Portugal,Joao Felix,Forward,Al Nassr,Saudi Pro League,both,True,23,Safe fuzzy match,João Félix Sequeira,True,275,Exact match,João Félix
+Portugal,Pedro Neto,Forward,Chelsea,Premier League,understat_only,False,0,No reliable match,,True,150,Exact match,Pedro Neto
+Portugal,Rafael Leao,Forward,AC Milan,Serie A,understat_only,False,0,No reliable match,,True,384,Exact match,Rafael Leão
+Portugal,Diogo Costa,Goalkeeper,FC Porto,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Portugal,Jose Sa,Goalkeeper,Wolverhampton,Premier League,understat_only,False,0,No reliable match,,True,1,Exact match,José Sá
+Portugal,Rui Silva,Goalkeeper,Sporting CP,Primeira Liga,both,True,29,Safe fuzzy match,Mário Rui Silva Duarte,True,1,Exact match,Rui Silva
+Portugal,Bernardo Silva,Midfielder,Manchester City,Premier League,understat_only,False,0,No reliable match,,True,409,Exact match,Bernardo Silva
+Portugal,Bruno Fernandes,Midfielder,Manchester United,Premier League,understat_only,False,0,No reliable match,,True,597,Exact match,Bruno Fernandes
+Portugal,Joao Neves,Midfielder,PSG,Ligue 1 / French football league system,statsbomb_only,True,1,Exact match,João Neves,False,0,No reliable match,
+Portugal,Matheus Nunes,Midfielder,Manchester City,Premier League,understat_only,False,0,No reliable match,,True,38,Exact match,Matheus Nunes
+Portugal,Ruben Neves,Midfielder,Al Hilal,Saudi Pro League,understat_only,False,0,No reliable match,,True,311,Exact match,Rúben Neves
+Portugal,Samu Costa,Midfielder,Mallorca,LaLiga,understat_only,False,0,No reliable match,,True,42,Exact match,Samú Costa
+Portugal,Vitinha,Midfielder,PSG,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,160,Exact match,Vitinha
+Qatar,Ayoub Alawi,Defender,Al Gharafa,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Boualem Khoukhi,Defender,Al-Sadd,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Hashmi Hussein,Defender,Al Arabi,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Homam Al-Amin,Defender,Cultural Leonesa,Spanish football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Issa Laaye,Defender,Al Arabi,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Lucas Mendes,Defender,Al-Wakrah,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Pedro Miguel,Defender,Al-Sadd,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Sultan Al-Brake,Defender,Al-Duhail,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Ahmed Al-Janahi,Forward,Al Gharafa,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Ahmed Alaa,Forward,Al Rayyan,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Akram Afif,Forward,Al-Sadd,Qatar Stars League,understat_only,False,0,No reliable match,,True,1,Exact match,Akram Afif
+Qatar,Almoez Ali,Forward,Al-Duhail,Qatar Stars League,statsbomb_only,True,3,Safe fuzzy match,Almoez Ali Zainalabiddin Abdulla,False,0,No reliable match,
+Qatar,Edmilson Junior,Forward,Al-Duhail,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Hassan Al-Haydos,Forward,Al-Sadd,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Mohammed Muntari,Forward,Al Gharafa,Qatar Stars League,statsbomb_only,True,3,Exact match,Mohammed Muntari,False,0,No reliable match,
+Qatar,Tahseen Mohammed,Forward,Al-Duhail,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Youssef Abdulrazzaq,Forward,Al-Wakrah,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Mahmoud Abunada,Goalkeeper,Al Rayyan,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Meshaal Barsham,Goalkeeper,Al-Sadd,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Salah Zakaria,Goalkeeper,Al-Duhail,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Abdulaziz Hatem,Midfielder,Al Rayyan,Qatar Stars League,statsbomb_only,True,1,Safe fuzzy match,Abdulaziz Hatem Mohammed Abdullah,False,0,No reliable match,
+Qatar,Ahmed Fathi,Midfielder,Al Arabi,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Assim Madibo,Midfielder,Al-Wakrah,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Jassem Jaber,Midfielder,Al Arabi,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Karim Boudiaf,Midfielder,Al-Duhail,Qatar Stars League,neither,False,0,No reliable match,,False,0,No reliable match,
+Qatar,Mohammed Al-Manai,Midfielder,Al Shamal,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Abdulelah Al Amri,Defender,Al Nassr,Saudi Pro League,statsbomb_only,True,1,Exact match,Abdulelah Al Amri,False,0,No reliable match,
+Saudi Arabia,Ali Lajami,Defender,Al Hilal,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Ali Majrashi,Defender,Al Ahli,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Hassan Kadesh,Defender,Al Ittihad,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Hassan Tambakti,Defender,Al Hilal,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Jehad Thikri,Defender,Al Qadsiah,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Mohammed Abu Al Shamat,Defender,Al Qadsiah,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Moteb Al Harbi,Defender,Al Hilal,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Nawaf Boushal,Defender,Al Nassr,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Saud Abdulhamid,Defender,Lens,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Sultan Al-Ghannam,Defender,Al Nassr,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Abdullah Al Hamdan,Forward,Al Nassr,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Firas Al Buraikan,Forward,Al Ahli,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Saleh Al Shehri,Forward,Al Ittihad,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Ahmed Al Kassar,Goalkeeper,Al Qadsiah,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Mohammed Al Owais,Goalkeeper,Al Ula,Middle East / North Africa league - verify club,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Nawaf Al Aqidi,Goalkeeper,Al Nassr,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Abdullah Al Khaibari,Midfielder,Al Nassr,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Alaa Al Hajji,Midfielder,Neom,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Ayman Yahya,Midfielder,Al Nassr,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Khalid Al Ghannam,Midfielder,Al Ettifaq,Middle East / North Africa league - verify club,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Mohammed Kanno,Midfielder,Al Hilal,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Musab Al Juwayr,Midfielder,Al Qadsiah,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Nasser Al Dawsari,Midfielder,Al Hilal,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Salem Al Dawsari,Midfielder,Al Hilal,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Saudi Arabia,Ziyad Al Johani,Midfielder,Al Ahli,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Scotland,Aaron Hickey,Defender,Unknown / verify manually,Unknown / verify manually,understat_only,False,0,No reliable match,,True,41,Exact match,Aaron Hickey
+Scotland,Andy Robertson,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Scotland,Anthony Ralston,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Scotland,Dom Hyam,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Scotland,Grant Hanley,Defender,Unknown / verify manually,Unknown / verify manually,understat_only,False,0,No reliable match,,True,29,Exact match,Grant Hanley
+Scotland,Jack Hendry,Defender,Unknown / verify manually,Unknown / verify manually,statsbomb_only,True,3,Exact match,Jack Hendry,False,0,No reliable match,
+Scotland,John Souttar,Defender,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Scotland,Kieran Tierney,Defender,Unknown / verify manually,Unknown / verify manually,both,True,1,Exact match,Kieran Tierney,True,45,Exact match,Kieran Tierney
+Scotland,Nathan Patterson,Defender,Unknown / verify manually,Unknown / verify manually,understat_only,False,0,No reliable match,,True,12,Exact match,Nathan Patterson
+Scotland,Scott McKenna,Defender,Unknown / verify manually,Unknown / verify manually,both,True,3,Exact match,Scott McKenna,True,4,Exact match,Scott McKenna
+Scotland,Che Adams,Forward,Unknown / verify manually,Unknown / verify manually,both,True,9,Exact match,Che Adams,True,187,Exact match,Che Adams
+Scotland,George Hirst,Forward,Unknown / verify manually,Unknown / verify manually,understat_only,False,0,No reliable match,,True,3,Exact match,George Hirst
+Scotland,Lawrence Shankland,Forward,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Scotland,Lyndon Dykes,Forward,Unknown / verify manually,Unknown / verify manually,statsbomb_only,True,6,Exact match,Lyndon Dykes,False,0,No reliable match,
+Scotland,Ross Stewart,Forward,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Scotland,Angus Gunn,Goalkeeper,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Scotland,Craig Gordon,Goalkeeper,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Scotland,Liam Kelly,Goalkeeper,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Scotland,Ben Gannon-Doak,Midfielder,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Scotland,Billy Gilmour,Midfielder,Unknown / verify manually,Unknown / verify manually,both,True,2,Exact match,Billy Gilmour,True,51,Exact match,Billy Gilmour
+Scotland,Findlay Curtis,Midfielder,Unknown / verify manually,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Scotland,John McGinn,Midfielder,Unknown / verify manually,Unknown / verify manually,both,True,7,Exact match,John McGinn,True,225,Exact match,John McGinn
+Scotland,Kenny McLean,Midfielder,Unknown / verify manually,Unknown / verify manually,understat_only,False,0,No reliable match,,True,63,Exact match,Kenny McLean
+Scotland,Lewis Ferguson,Midfielder,Unknown / verify manually,Unknown / verify manually,understat_only,False,0,No reliable match,,True,103,Exact match,Lewis Ferguson
+Scotland,Ryan Christie,Midfielder,Unknown / verify manually,Unknown / verify manually,understat_only,False,0,No reliable match,,True,76,Exact match,Ryan Christie
+Scotland,Scott McTominay,Midfielder,Unknown / verify manually,Unknown / verify manually,both,True,7,Exact match,Scott McTominay,True,156,Exact match,Scott McTominay
+Senegal,Abdoulaye Seck,Defender,Maccabi Haifa,Israeli Premier League,statsbomb_only,True,5,Exact match,Abdoulaye Seck,False,0,No reliable match,
+Senegal,Antoine Mendy,Defender,Nice,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,10,Exact match,Antoine Mendy
+Senegal,El-Hadji Malick Diouf,Defender,West Ham United,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Senegal,Ismail Jakobs,Defender,Galatasaray,Turkish Süper Lig,both,True,3,Exact match,Ismail Jakobs,True,80,Exact match,Ismail Jakobs
+Senegal,Kalidou Koulibaly,Defender,Al-Hilal,Saudi Pro League,both,True,10,Exact match,Kalidou Koulibaly,True,108,Exact match,Kalidou Koulibaly
+Senegal,Krepin Diatta,Defender,Monaco,Ligue 1 / French football league system,both,True,5,Exact match,Krépin Diatta,True,56,Exact match,Krépin Diatta
+Senegal,Mamadou Sarr,Defender,Chelsea,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Senegal,Moussa Niakhate,Defender,Lyon,Ligue 1 / French football league system,both,True,1,Exact match,Moussa Niakhate,True,74,Exact match,Moussa Niakhate
+Senegal,Assane Diao,Forward,Como,Serie A,both,True,1,Safe fuzzy match,Salif Alassane Diao,True,21,Exact match,Assane Diao
+Senegal,Bamba Dieng,Forward,Lorient,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,87,Safe fuzzy match,Ahmadou Bamba Dieng
+Senegal,Cherif Ndiaye,Forward,Samsunspor,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Senegal,Ibrahim Mbaye,Forward,Paris St-Germain,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Senegal,Iliman Ndiaye,Forward,Everton,Premier League,both,True,3,Exact match,Iliman Ndiaye,True,35,Exact match,Iliman Ndiaye
+Senegal,Ismaila Sarr,Forward,Crystal Palace,Premier League,both,True,20,Exact match,Ismaïla Sarr,True,230,Exact match,Ismaila Sarr
+Senegal,Nicolas Jackson,Forward,Bayern Munich,Bundesliga,both,True,1,Exact match,Nicolas Jackson,True,126,Exact match,Nicolas Jackson
+Senegal,Sadio Mane,Forward,Al-Nassr,Unknown / verify manually,both,True,99,Exact match,Sadio Mané,True,683,Exact match,Sadio Mané
+Senegal,Edouard Mendy,Goalkeeper,Al-Ahli,Saudi Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Senegal,Mory Diaw,Goalkeeper,Le Havre,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Senegal,Yehvann Diouf,Goalkeeper,Nice,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Senegal,Bara Ndiaye,Midfielder,Bayern Munich,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Senegal,Habib Diarra,Midfielder,Sunderland,Premier League,understat_only,False,0,No reliable match,,True,62,Exact match,Habib Diarra
+Senegal,Idrissa Gueye,Midfielder,Everton,Premier League,both,True,1,Exact match,Idrissa Gueye,True,228,Exact match,Idrissa Gueye
+Senegal,Lamine Camara,Midfielder,Monaco,Ligue 1 / French football league system,both,True,3,Exact match,Lamine Camara,True,30,Exact match,Lamine Camara
+Senegal,Pape Gueye,Midfielder,Villarreal,LaLiga,statsbomb_only,True,9,Exact match,Pape Gueye,False,0,No reliable match,
+Senegal,Pape Matar Sarr,Midfielder,Tottenham,Premier League,statsbomb_only,True,7,Exact match,Pape Matar Sarr,False,0,No reliable match,
+Senegal,Pathe Ciss,Midfielder,Rayo Vallecano,LaLiga,understat_only,False,0,No reliable match,,True,63,Exact match,Pathé Ciss
+South Africa,Aubrey Modiba,Defender,Mamelodi Sundowns,South African Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Bradley Cross,Defender,Kaizer Chiefs,South African Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Ime Okon,Defender,Hannover,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Kamogelo Sebelebele,Defender,Orlando Pirates,South African Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Khuliso Mudau,Defender,Mamelodi Sundowns,South African Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Khulumani Ndamane,Defender,Mamelodi Sundowns,South African Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Mbekezeli Mbokazi,Defender,Chicago Fire,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Nkosinathi Sibisi,Defender,Orlando Pirates,South African Premier Division,statsbomb_only,True,1,Exact match,Nkosinathi Sibisi,False,0,No reliable match,
+South Africa,Olwethu Makhanya,Defender,Philadelphia Union,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Samukele Kabini,Defender,Molde FK,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Thabang Matuludi,Defender,Polokwane City,South African Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Evidence Makgopa,Forward,Orlando Pirates,South African Premier Division,statsbomb_only,True,13,Exact match,Evidence Makgopa,False,0,No reliable match,
+South Africa,Iqraam Rayners,Forward,Mamelodi Sundowns,South African Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Lyle Foster,Forward,Burnley,English football league system,understat_only,False,0,No reliable match,,True,36,Exact match,Lyle Foster
+South Africa,Oswin Appollis,Forward,Orlando Pirates,South African Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Relebohile Mofokeng,Forward,Orlando Pirates,South African Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Thapelo Maseko,Forward,AEL Limassol,Unknown / verify manually,statsbomb_only,True,2,Exact match,Thapelo Maseko,False,0,No reliable match,
+South Africa,Themba Zwane,Forward,Mamelodi Sundowns,South African Premier Division,statsbomb_only,True,3,Exact match,Themba Zwane,False,0,No reliable match,
+South Africa,Tshepang Moremi,Forward,Orlando Pirates,South African Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Ricardo Goss,Goalkeeper,Siwelele,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Ronwen Williams,Goalkeeper,Mamelodi Sundowns,South African Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Sipho Chaine,Goalkeeper,Orlando Pirates,South African Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Jayden Adams,Midfielder,Mamelodi Sundowns,South African Premier Division,statsbomb_only,True,1,Exact match,Jayden Adams,False,0,No reliable match,
+South Africa,Sphephelo Sithole,Midfielder,Tondela,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+South Africa,Teboho Mokoena,Midfielder,Mamelodi Sundowns,South African Premier Division,statsbomb_only,True,22,Exact match,Teboho Mokoena,False,0,No reliable match,
+South Africa,Thalente Mbatha,Midfielder,Orlando Pirates,South African Premier Division,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Cho Wi-je,Defender,Jeonbuk,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Jens Castrop,Defender,Borussia Monchengladbach,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Kim Min-jae,Defender,Bayern Munich,Bundesliga,understat_only,False,0,No reliable match,,True,18,Exact match,Kim Min-Jae
+South Korea,Kim Moon-hwan,Defender,Daejeon,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Kim Tae-hyon,Defender,Kashima Antlers,J1 League / Japanese football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Lee Han-beom,Defender,Midtjylland,Danish Superliga,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Lee Ki-hyuk,Defender,Gangwon,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Lee Tae-seok,Defender,Austria Wien,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Park Jin-seob,Defender,Zhejiang,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Seol Young-woo,Defender,Red Star Belgrade,Serbian SuperLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Cho Gue-sung,Forward,Midtjylland,Danish Superliga,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Oh Hyeon-gyu,Forward,Besitkas,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Son Heung-min,Forward,LAFC,Major League Soccer,understat_only,False,0,No reliable match,,True,734,Exact match,Son Heung-Min
+South Korea,Jo Hyeon-woo,Goalkeeper,Ulsan,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Kim Seung-gyu,Goalkeeper,FC Tokyo,J1 League / Japanese football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Song Bum-keun,Goalkeeper,Jeonbuk,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Bae Jun-ho,Midfielder,Stoke City,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Eom Ji-sung,Midfielder,Swansea,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Hwang Hee-chan,Midfielder,Wolves,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Hwang In-beom,Midfielder,Feyenoord,Eredivisie / Dutch football league system,understat_only,False,0,No reliable match,,True,35,Exact match,Hwang In-Beom
+South Korea,Kim Jin-gyu,Midfielder,Jeonbuk,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Lee Dong-gyeong,Midfielder,Ulsan,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Lee Jae-sung,Midfielder,Mainz,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+South Korea,Lee Kang-in,Midfielder,Paris St-Germain,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,143,Exact match,Lee Kang-In
+South Korea,Paik Seung-ho,Midfielder,Birmingham,Unknown / verify manually,understat_only,False,0,No reliable match,,True,1,Exact match,Paik Seung-Ho
+South Korea,Yang Hyun-jun,Midfielder,Celtic,Scottish Premiership,neither,False,0,No reliable match,,False,0,No reliable match,
+Spain,Alejandro Grimaldo,Defender,Bayer Leverkusen,Bundesliga,statsbomb_only,True,71,Safe fuzzy match,Alejandro Grimaldo García,False,0,No reliable match,
+Spain,Aymeric Laporte,Defender,Athletic Bilbao,LaLiga,both,True,29,Exact match,Aymeric Laporte,True,152,Exact match,Aymeric Laporte
+Spain,Eric Garcia,Defender,Barcelona,LaLiga,both,True,1,Safe fuzzy match,Eric García Martret,True,34,Exact match,Eric Garcia
+Spain,Marc Cucurella,Defender,Chelsea,Unknown / verify manually,both,True,6,Safe fuzzy match,Marc Cucurella Saseta,True,112,Exact match,Marc Cucurella
+Spain,Marc Pubill,Defender,Atletico Madrid,LaLiga,understat_only,False,0,No reliable match,,True,26,Exact match,Marc Pubill
+Spain,Marcos Llorente,Defender,Atletico Madrid,LaLiga,both,True,11,Safe fuzzy match,Marcos Llorente Moreno,True,154,Exact match,Marcos Llorente
+Spain,Pau Cubarsi,Defender,Barcelona,LaLiga,understat_only,False,0,No reliable match,,True,3,Exact match,Pau Cubarsí
+Spain,Pedro Porro,Defender,Tottenham,Premier League,understat_only,False,0,No reliable match,,True,102,Exact match,Pedro Porro
+Spain,Borja Iglesias,Forward,Celta Vigo,LaLiga,both,True,13,Safe fuzzy match,Borja Iglesias Quintas,True,282,Exact match,Borja Iglesias
+Spain,Dani Olmo,Forward,Barcelona,LaLiga,understat_only,False,0,No reliable match,,True,208,Exact match,Dani Olmo
+Spain,Ferran Torres,Forward,Barcelona,LaLiga,both,True,17,Safe fuzzy match,Ferrán Torres García,True,231,Exact match,Ferrán Torres
+Spain,Lamine Yamal,Forward,Barcelona,LaLiga,both,True,18,Safe fuzzy match,Lamine Yamal Nasraoui Ebana,True,59,Exact match,Lamine Yamal
+Spain,Mikel Oyarzabal,Forward,Real Sociedad,LaLiga,both,True,66,Safe fuzzy match,Mikel Oyarzabal Ugarte,True,443,Exact match,Mikel Oyarzabal
+Spain,Nico Williams,Forward,Athletic Bilbao,LaLiga,understat_only,False,0,No reliable match,,True,151,Exact match,Nico Williams
+Spain,Victor Munoz,Forward,Osasuna,LaLiga,statsbomb_only,True,3,Safe fuzzy match,Víctor Muñoz Manrique,False,0,No reliable match,
+Spain,Yeremy Pino,Forward,Crystal Palace,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Spain,David Raya,Goalkeeper,Arsenal,Premier League,understat_only,False,0,No reliable match,,True,2,Exact match,David Raya
+Spain,Joan Garcia,Goalkeeper,Barcelona,LaLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+Spain,Unai Simon,Goalkeeper,Athletic Bilbao,LaLiga,understat_only,False,0,No reliable match,,True,2,Exact match,Unai Simón
+Spain,Alex Baena,Midfielder,Atletico Madrid,LaLiga,understat_only,False,0,No reliable match,,True,137,Exact match,Álex Baena
+Spain,Fabian Ruiz,Midfielder,Paris St-Germain,Ligue 1 / French football league system,statsbomb_only,True,44,Safe fuzzy match,Fabián Ruiz Peña,False,0,No reliable match,
+Spain,Gavi,Midfielder,Barcelona,LaLiga,understat_only,False,0,No reliable match,,True,68,Exact match,Gavi
+Spain,Martin Zubimendi,Midfielder,Arsenal,Premier League,both,True,1,Safe fuzzy match,Martín Zubimendi Ibáñez,True,66,Exact match,Martín Zubimendi
+Spain,Mikel Merino,Midfielder,Arsenal,Premier League,both,True,9,Safe fuzzy match,Mikel Merino Zazón,True,239,Exact match,Mikel Merino
+Spain,Pedri,Midfielder,Barcelona,LaLiga,understat_only,False,0,No reliable match,,True,74,Exact match,Pedri
+Spain,Rodri,Midfielder,Manchester City,Premier League,understat_only,False,0,No reliable match,,True,282,Exact match,Rodri
+Sweden,Carl Starfelt,Defender,Celta Vigo,LaLiga,understat_only,False,0,No reliable match,,True,24,Exact match,Carl Starfelt
+Sweden,Daniel Svensson,Defender,Borussia Dortmund,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Elliot Stroud,Defender,Mjallby,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Erik Smith,Defender,St. Pauli,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Gabriel Gudmundsson,Defender,Leeds United,Premier League,both,True,3,Exact match,Gabriel Gudmundsson,True,41,Exact match,Gabriel Gudmundsson
+Sweden,Gustaf Lagerbielke,Defender,Braga,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Herman Johansson,Defender,FC Dallas,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Hjalmar Ekdal,Defender,Burnley,English football league system,understat_only,False,0,No reliable match,,True,2,Exact match,Hjalmar Ekdal
+Sweden,Isak Hien,Defender,Atalanta,Serie A,understat_only,False,0,No reliable match,,True,11,Exact match,Isak Hien
+Sweden,Victor Lindelof,Defender,Aston Villa,Premier League,understat_only,False,0,No reliable match,,True,33,Exact match,Victor Lindelöf
+Sweden,Alexander Bernhardsson,Forward,Holstein Kiel,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Alexander Isak,Forward,Liverpool,Premier League,both,True,19,Exact match,Alexander Isak,True,335,Exact match,Alexander Isak
+Sweden,Anthony Elanga,Forward,Newcastle United,Premier League,understat_only,False,0,No reliable match,,True,87,Exact match,Anthony Elanga
+Sweden,Benjamin Nygren,Forward,Celtic,Scottish Premiership,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Gustaf Nilsson,Forward,Club Brugge,Belgian Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Viktor Gyokeres,Forward,Arsenal,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Jacob Widell Zetterstrom,Goalkeeper,Derby County,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Kristoffer Nordfeldt,Goalkeeper,AIK,Swedish Allsvenskan,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Viktor Johansson,Goalkeeper,Stoke City,English football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Besfort Zeneli,Midfielder,Union St-Gilloise,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Jesper Karlstrom,Midfielder,Udinese,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Ken Sema,Midfielder,Pafos,Cypriot First Division,understat_only,False,0,No reliable match,,True,32,Exact match,Ken Sema
+Sweden,Lucas Bergvall,Midfielder,Tottenham,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Mattias Svanberg,Midfielder,Wolfsburg,Bundesliga,both,True,3,Exact match,Mattias Svanberg,True,230,Exact match,Mattias Svanberg
+Sweden,Taha Ali,Midfielder,Malmo,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Sweden,Yasin Ayari,Midfielder,Brighton,Unknown / verify manually,understat_only,False,0,No reliable match,,True,1,Exact match,Yasin Ayari
+Switzerland,Aurele Amenda,Defender,Eintracht Frankfurt,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Switzerland,Eray Comert,Defender,Valencia,LaLiga,understat_only,False,0,No reliable match,,True,22,Exact match,Eray Cömert
+Switzerland,Luca Jaquez,Defender,VfB Stuttgart,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Switzerland,Manuel Akanji,Defender,Inter Milan,Serie A,understat_only,False,0,No reliable match,,True,85,Exact match,Manuel Akanji
+Switzerland,Miro Muheim,Defender,Hamburg,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Switzerland,Nico Elvedi,Defender,Borussia Moenchengladbach,Bundesliga,both,True,7,Exact match,Nico Elvedi,True,107,Exact match,Nico Elvedi
+Switzerland,Ricardo Rodriguez,Defender,Real Betis,LaLiga,understat_only,False,0,No reliable match,,True,183,Exact match,Ricardo Rodríguez
+Switzerland,Silvan Widmer,Defender,Mainz,Bundesliga,both,True,27,Exact match,Silvan Widmer,True,119,Exact match,Silvan Widmer
+Switzerland,Breel Embolo,Forward,Stade Rennais,Unknown / verify manually,understat_only,False,0,No reliable match,,True,235,Exact match,Breel Embolo
+Switzerland,Cedric Itten,Forward,Fortuna Dusseldorf,German football league system,understat_only,False,0,No reliable match,,True,15,Exact match,Cedric Itten
+Switzerland,Dan Ndoye,Forward,Nottingham Forest,Premier League,both,True,14,Exact match,Dan Ndoye,True,56,Exact match,Dan Ndoye
+Switzerland,Noah Okafor,Forward,Leeds United,English football league system,both,True,1,Exact match,Noah Okafor,True,22,Exact match,Noah Okafor
+Switzerland,Zeki Amdouni,Forward,Burnley,English football league system,both,True,3,Safe fuzzy match,Mohamed Zeki Amdouni,True,49,Exact match,Zeki Amdouni
+Switzerland,Gregor Kobel,Goalkeeper,Borussia Dortmund,Bundesliga,understat_only,False,0,No reliable match,,True,1,Exact match,Gregor Kobel
+Switzerland,Marvin Keller,Goalkeeper,Young Boys,Swiss Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Switzerland,Yvon Mvogo,Goalkeeper,Lorient,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Switzerland,Ardon Jashari,Midfielder,AC Milan,Serie A,neither,False,0,No reliable match,,False,0,No reliable match,
+Switzerland,Christian Fassnacht,Midfielder,Young Boys,Swiss Super League,statsbomb_only,True,1,Exact match,Christian Fassnacht,False,0,No reliable match,
+Switzerland,Denis Zakaria,Midfielder,Monaco,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,145,Exact match,Denis Zakaria
+Switzerland,Djibril Sow,Midfielder,Sevilla,LaLiga,both,True,3,Exact match,Djibril Sow,True,94,Exact match,Djibril Sow
+Switzerland,Fabian Rieder,Midfielder,Augsburg,Bundesliga,both,True,1,Exact match,Fabian Rieder,True,5,Exact match,Fabian Rieder
+Switzerland,Granit Xhaka,Midfielder,Sunderland,Premier League,both,True,95,Exact match,Granit Xhaka,True,367,Exact match,Granit Xhaka
+Switzerland,Johan Manzambi,Midfielder,Freiburg,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Switzerland,Michel Aebischer,Midfielder,Pisa,Serie A,both,True,2,Exact match,Michel Aebischer,True,34,Exact match,Michel Aebischer
+Switzerland,Remo Freuler,Midfielder,Bologna,Serie A,both,True,11,Exact match,Remo Freuler,True,193,Exact match,Remo Freuler
+Switzerland,Ruben Vargas,Midfielder,Sevilla,LaLiga,both,True,12,Exact match,Ruben Vargas,True,208,Exact match,Ruben Vargas
+Tunisia,Adem Arous,Defender,Kasimpasa,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Ali Abdi,Defender,Nice,Ligue 1 / French football league system,statsbomb_only,True,1,Exact match,Ali Abdi,False,0,No reliable match,
+Tunisia,Dylan Bronn,Defender,Servette Geneva,Unknown / verify manually,understat_only,False,0,No reliable match,,True,42,Exact match,Dylan Bronn
+Tunisia,Mohamed Amine Ben Hamida,Defender,Esperance,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Montassar Talbi,Defender,Lorient,Ligue 1 / French football league system,understat_only,False,0,No reliable match,,True,25,Exact match,Montassar Talbi
+Tunisia,Moutaz Neffati,Defender,Norrkoping,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Omar Rekik,Defender,NK Maribor,Slovenian PrvaLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Raed Chikhaoui,Defender,US Monastir,Tunisian Ligue Professionnelle 1,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Yan Valery,Defender,Young Boys Berne,Unknown / verify manually,both,True,1,Exact match,Yan Valery,True,26,Exact match,Yan Valery
+Tunisia,Elias Achouri,Forward,FC Copenhagen,Unknown / verify manually,statsbomb_only,True,1,Safe fuzzy match,Mohamed Elias Achouri,False,0,No reliable match,
+Tunisia,Elias Saad,Forward,Hannover 96,German football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Firas Chaouat,Forward,Club Africain,Tunisian Ligue Professionnelle 1,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Hazem Mastouri,Forward,Dynamo Makhachkala,Russian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Khalil Ayari,Forward,Paris St Germain,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Rayan Elloumi,Forward,Vancouver Whitecaps,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Sebastian Tounekti,Forward,Celtic,Scottish Premiership,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Abdelmouhib Chamakh,Goalkeeper,Club Africain,Tunisian Ligue Professionnelle 1,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Aymen Dahman,Goalkeeper,CS Sfaxien,Tunisian Ligue Professionnelle 1,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Sabri Ben Hessen,Goalkeeper,Etoile Sahel,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Anis Ben Slimane,Midfielder,Norwich City,English football league system,both,True,4,Exact match,Anis Ben Slimane,True,9,Exact match,Anis Ben Slimane
+Tunisia,Ellyes Skhiri,Midfielder,Eintracht Frankfurt,Bundesliga,understat_only,False,0,No reliable match,,True,220,Exact match,Ellyes Skhiri
+Tunisia,Hannibal Mejbri,Midfielder,Burnley,English football league system,understat_only,False,0,No reliable match,,True,3,Exact match,Hannibal Mejbri
+Tunisia,Ismael Gharbi,Midfielder,FC Augsburg,Unknown / verify manually,both,True,3,Exact match,Ismaël Gharbi,True,3,Exact match,Ismaël Gharbi
+Tunisia,Mohamed Hadj Mahmoud,Midfielder,Lugano,Swiss Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Mortadha Ben Ouanes,Midfielder,Kasimpasa,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Tunisia,Rani Khedira,Midfielder,Union Berlin,Unknown / verify manually,both,True,1,Exact match,Rani Khedira,True,88,Exact match,Rani Khedira
+Türkiye,Abdulkerim Bardakci,Defender,Galatasaray,Turkish Süper Lig,statsbomb_only,True,2,Safe fuzzy match,Abdülkerim Bardakcı,False,0,No reliable match,
+Türkiye,Caglar Soyuncu,Defender,Fenerbahce,Turkish Süper Lig,both,True,1,Exact match,Caglar Söyüncü,True,61,Exact match,Caglar Söyüncü
+Türkiye,Eren Elmali,Defender,Galatasaray,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Türkiye,Ferdi Kadioglu,Defender,Brighton,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Türkiye,Merih Demiral,Defender,Al-Ahli Saudi,Saudi Pro League,both,True,6,Exact match,Merih Demiral,True,46,Exact match,Merih Demiral
+Türkiye,Mert Muldur,Defender,Fenerbahce,Turkish Süper Lig,both,True,7,Exact match,Mert Müldür,True,37,Exact match,Mert Müldür
+Türkiye,Ozan Kabak,Defender,Hoffenheim,Bundesliga,understat_only,False,0,No reliable match,,True,82,Exact match,Ozan Kabak
+Türkiye,Samet Akaydin,Defender,Caykur Rizespor,Turkish Süper Lig,statsbomb_only,True,2,Exact match,Samet Akaydin,False,0,No reliable match,
+Türkiye,Zeki Celik,Defender,AS Roma,Serie A,both,True,2,Safe fuzzy match,Mehmet Zeki Çelik,True,66,Safe fuzzy match,Mehmet Zeki Çelik
+Türkiye,Arda Guler,Forward,Real Madrid,LaLiga,both,True,9,Exact match,Arda Güler,True,15,Exact match,Arda Güler
+Türkiye,Baris Alper Yilmaz,Forward,Galatasaray,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Türkiye,Can Uzun,Forward,Eintracht Frankfurt,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+Türkiye,Deniz Gul,Forward,Porto,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Türkiye,Irfan Can Kahveci,Forward,Kasimpasa,Turkish Süper Lig,statsbomb_only,True,2,Exact match,İrfan Can Kahveci,False,0,No reliable match,
+Türkiye,Kenan Yildiz,Forward,Juventus,Serie A,both,True,11,Exact match,Kenan Yildiz,True,19,Exact match,Kenan Yildiz
+Türkiye,Kerem Akturkoglu,Forward,Fenerbahce,Turkish Süper Lig,statsbomb_only,True,6,Safe fuzzy match,Muhammed Kerem Aktürkoğlu,False,0,No reliable match,
+Türkiye,Oguz Aydin,Forward,Fenerbahce,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Türkiye,Yunus Akgun,Forward,Galatasaray,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Türkiye,Altay Bayindir,Goalkeeper,Manchester United,Premier League,neither,False,0,No reliable match,,False,0,No reliable match,
+Türkiye,Mert Gunok,Goalkeeper,Fenerbahce,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Türkiye,Ugurcan Cakir,Goalkeeper,Galatasaray,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Türkiye,Hakan Calhanoglu,Midfielder,Inter Milan,Unknown / verify manually,both,True,97,Exact match,Hakan Çalhanoğlu,True,795,Exact match,Hakan Calhanoglu
+Türkiye,Ismail Yuksek,Midfielder,Fenerbahce,Turkish Süper Lig,statsbomb_only,True,1,Exact match,İsmail Yüksek,False,0,No reliable match,
+Türkiye,Kaan Ayhan,Midfielder,Galatasaray,Turkish Süper Lig,both,True,6,Exact match,Kaan Ayhan,True,69,Exact match,Kaan Ayhan
+Türkiye,Orkun Kokcu,Midfielder,Besiktas,Turkish Süper Lig,statsbomb_only,True,6,Exact match,Orkun Kökçü,False,0,No reliable match,
+Türkiye,Salih Ozcan,Midfielder,Borussia Dortmund,Bundesliga,both,True,1,Exact match,Salih Özcan,True,65,Exact match,Salih Özcan
+United States,Alex Freeman,Defender,Villarreal,LaLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+United States,Antonee Robinson,Defender,Fulham,Premier League,both,True,3,Exact match,Antonee Robinson,True,31,Exact match,Antonee Robinson
+United States,Auston Trusty,Defender,Celtic,Scottish Premiership,understat_only,False,0,No reliable match,,True,8,Exact match,Auston Trusty
+United States,Chris Richards,Defender,Crystal Palace,Premier League,both,True,2,Exact match,Chris Richards,True,25,Exact match,Chris Richards
+United States,Joe Scally,Defender,Borussia Monchengladbach,Bundesliga,understat_only,False,0,No reliable match,,True,37,Exact match,Joe Scally
+United States,Mark McKenzie,Defender,Toulouse,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+United States,Max Arfsten,Defender,Columbus Crew,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+United States,Miles Robinson,Defender,Cincinnati,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+United States,Sergino Dest,Defender,PSV Eindhoven,Eredivisie / Dutch football league system,both,True,20,Exact match,Sergino Dest,True,28,Exact match,Sergiño Dest
+United States,Tim Ream,Defender,Charlotte FC,Major League Soccer,both,True,1,Exact match,Tim Ream,True,5,Exact match,Tim Ream
+United States,Folarin Balogun,Forward,Monaco,Ligue 1 / French football league system,both,True,11,Exact match,Folarin Balogun,True,197,Exact match,Folarin Balogun
+United States,Haji Wright,Forward,Coventry City,English football league system,both,True,8,Exact match,Haji Wright,True,3,Exact match,Haji Wright
+United States,Ricardo Pepi,Forward,PSV Eindhoven,Eredivisie / Dutch football league system,understat_only,False,0,No reliable match,,True,9,Exact match,Ricardo Pepi
+United States,Chris Brady,Goalkeeper,Chicago Fire,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+United States,Matt Freese,Goalkeeper,New York City,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+United States,Matt Turner,Goalkeeper,New England Revolution,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+United States,Alejandro Zendejas,Midfielder,Club America,Liga MX,neither,False,0,No reliable match,,False,0,No reliable match,
+United States,Brenden Aaronson,Midfielder,Leeds United,Premier League,both,True,1,Exact match,Brenden Aaronson,True,60,Exact match,Brenden Aaronson
+United States,Christian Pulisic,Midfielder,AC Milan,Serie A,both,True,24,Exact match,Christian Pulisic,True,322,Exact match,Christian Pulisic
+United States,Cristian Roldan,Midfielder,Seattle Sounders,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+United States,Gio Reyna,Midfielder,Borussia Monchengladbach,Bundesliga,neither,False,0,No reliable match,,False,0,No reliable match,
+United States,Malik Tillman,Midfielder,Bayer Leverkusen,Bundesliga,both,True,1,Exact match,Malik Tillman,True,1,Exact match,Malik Tillman
+United States,Sebastian Berhalter,Midfielder,Vancouver Whitecaps,Major League Soccer,neither,False,0,No reliable match,,False,0,No reliable match,
+United States,Tim Weah,Midfielder,Marseille,Ligue 1 / French football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+United States,Tyler Adams,Midfielder,Bournemouth,Premier League,both,True,1,Exact match,Tyler Adams,True,22,Exact match,Tyler Adams
+United States,Weston McKennie,Midfielder,Juventus,Serie A,both,True,7,Exact match,Weston McKennie,True,161,Exact match,Weston McKennie
+Uruguay,Guillermo Varela,Defender,Flamengo,Brazilian football league system,both,True,1,Safe fuzzy match,Guillermo Varela Olivera,True,8,Exact match,Guillermo Varela
+Uruguay,Joaquin Piquerez,Defender,Palmeiras,Brazilian football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Uruguay,Jose Maria Gimenez,Defender,Atletico Madrid,LaLiga,both,True,29,Safe fuzzy match,José María Giménez de Vargas,True,55,Safe fuzzy match,José Mari
+Uruguay,Mathias Olivera,Defender,Napoli,Serie A,both,True,7,Safe fuzzy match,Mathías Olivera Miramontes,True,78,Exact match,Mathías Olivera
+Uruguay,Matias Vina,Defender,Flamengo,Brazilian football league system,understat_only,False,0,No reliable match,,True,30,Exact match,Matias Viña
+Uruguay,Ronald Araujo,Defender,Barcelona,LaLiga,understat_only,False,0,No reliable match,,True,73,Exact match,Ronald Araújo
+Uruguay,Santiago Bueno,Defender,Wolves,Premier League,understat_only,False,0,No reliable match,,True,13,Exact match,Santiago Bueno
+Uruguay,Sebastian Caceres,Defender,Club America,Liga MX,neither,False,0,No reliable match,,False,0,No reliable match,
+Uruguay,Darwin Nunez,Forward,Al Hilal,Saudi Pro League,understat_only,False,0,No reliable match,,True,192,Exact match,Darwin Núñez
+Uruguay,Federico Vinas,Forward,Real Oviedo,LaLiga,neither,False,0,No reliable match,,False,0,No reliable match,
+Uruguay,Rodrigo Aguirre,Forward,Club America,Liga MX,understat_only,False,0,No reliable match,,True,11,Exact match,Rodrigo Aguirre
+Uruguay,Fernando Muslera,Goalkeeper,Galatasaray,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Uruguay,Santiago Mele,Goalkeeper,Junior FC,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Uruguay,Sergio Rochet,Goalkeeper,Internacional,Brazilian football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Uruguay,Agustin Canobbio,Midfielder,Fluminense,Brazilian football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Uruguay,Brian Rodriguez,Midfielder,Club America,Liga MX,statsbomb_only,True,1,Safe fuzzy match,Paul Brian Rodríguez Bravo,False,0,No reliable match,
+Uruguay,Emiliano Martinez,Midfielder,Palmeiras,Brazilian football league system,understat_only,False,0,No reliable match,,True,3,Exact match,Emiliano Martinez
+Uruguay,Facundo Pellistri,Midfielder,Panathinaikos,Greek Super League,both,True,4,Safe fuzzy match,Facundo Pellistri Rebollo,True,33,Exact match,Facundo Pellistri
+Uruguay,Federico Valverde,Midfielder,Real Madrid,LaLiga,understat_only,False,0,No reliable match,,True,221,Exact match,Federico Valverde
+Uruguay,Giorgian de Arrascaeta,Midfielder,Flamengo,Brazilian football league system,neither,False,0,No reliable match,,False,0,No reliable match,
+Uruguay,Juan Manuel Sanabria,Midfielder,Atletico San Luis,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Uruguay,Manuel Ugarte,Midfielder,Manchester United,Premier League,both,True,5,Safe fuzzy match,Manuel Ugarte Ribeiro,True,10,Exact match,Manuel Ugarte
+Uruguay,Maximiliano Araujo,Midfielder,Sporting CP,Primeira Liga,neither,False,0,No reliable match,,False,0,No reliable match,
+Uruguay,Nicolas de la Cruz,Midfielder,Flamengo,Brazilian football league system,statsbomb_only,True,6,Safe fuzzy match,Diego Nicolás De La Cruz Arcosa,False,0,No reliable match,
+Uruguay,Rodrigo Bentancur,Midfielder,Tottenham,Premier League,both,True,10,Safe fuzzy match,Rodrigo Bentancur Colmán,True,111,Exact match,Rodrigo Bentancur
+Uruguay,Rodrigo Zalazar,Midfielder,SC Braga,Unknown / verify manually,understat_only,False,0,No reliable match,,True,38,Exact match,Rodrigo Zalazar
+Uzbekistan,Abdukodir Khusanov,Defender,Manchester City,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Abdulla Abdullaev,Defender,Dibba,UAE Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Avazbek Ulmasaliev,Defender,AGMK,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Bekhruz Karimov,Defender,Surkhon,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Farrukh Sayfiev,Defender,Neftchi,Uzbekistan Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Jakhongir Urozov,Defender,Dinamo Samarqand,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Khojiakbar Alijonov,Defender,Pakhtakor,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Rustam Ashurmatov,Defender,Esteghlal,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Sherzod Nasrullaev,Defender,Nasaf,Uzbekistan Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Umar Eshmurodov,Defender,Nasaf,Malaysia Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Azizbek Amonov,Forward,Bukhara,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Eldor Shomurodov,Forward,Istanbul Basaksehir,Serie A,understat_only,False,0,No reliable match,,True,260,Exact match,Eldor Shomurodov
+Uzbekistan,Igor Sergeev,Forward,Persepolis,Thai League 1,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Abduvohid Nematov,Goalkeeper,Nasaf,Uzbekistan Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Botirali Ergashev,Goalkeeper,Neftchi,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Utkir Yusupov,Goalkeeper,Navbahor,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Abbosbek Fayzullaev,Midfielder,Istanbul Basaksehir,Russian Premier League,understat_only,False,0,No reliable match,,True,53,Exact match,Abbosbek Fayzullaev
+Uzbekistan,Akmal Mozgovoy,Midfielder,Pakhtakor,Uzbekistan Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Azizjon Ganiev,Midfielder,Al Bataeh,Unknown / verify manually,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Dostonbek Khamdamov,Midfielder,Pakhtakor,Unknown / verify manually,understat_only,False,0,No reliable match,,True,8,Exact match,Dostonbek Khamdamov
+Uzbekistan,Jaloliddin Masharipov,Midfielder,Esteghlal,Iran Persian Gulf Pro League,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Jamshid Iskanderov,Midfielder,Neftchi,Uzbekistan Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Odiljon Hamrobekov,Midfielder,Tractor,Uzbekistan Super League,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Oston Urunov,Midfielder,Persepolis,Iran Persian Gulf Pro League,understat_only,False,0,No reliable match,,True,35,Exact match,Oston Urunov
+Uzbekistan,Otabek Shukurov,Midfielder,Baniyas,Turkish Süper Lig,neither,False,0,No reliable match,,False,0,No reliable match,
+Uzbekistan,Sherzod Esanov,Midfielder,Bukhara,Russian Premier League,neither,False,0,No reliable match,,False,0,No reliable match,

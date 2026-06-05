@@ -1,0 +1,3 @@
+model_name,training_source,evaluation_scope,uses_source_xg_as_feature,log_loss,brier_score,roc_auc,accuracy_at_0_5,train_rows,test_rows,feature_count
+understat_only_xgboost,Understat,heldout_understat_shots,False,0.2612113043810937,0.07454631477594376,0.8189490418741249,0.906826210162649,412176.0,103044.0,11.0
+understat_published_xg_benchmark,Understat,same_heldout_understat_shots,False,0.24818799175959946,0.0702301294355827,0.835858493396548,0.9079907612282132,,103044.0,0.0

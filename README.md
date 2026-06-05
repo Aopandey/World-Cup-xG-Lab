@@ -61,7 +61,7 @@ This is a historical xG analysis dashboard, not a complete 2026 prediction model
 
 StatsBomb powers the xG model, historical shot maps, and scoring-zone views. FBref aggregate data adds recent club/league shooting context for players where available, including minutes, goals, assists, shots, shots on target, and per-90 shooting rates.
 
-Understat aggregate and shot-derived data adds a separate Club xG Context layer for players in EPL, La Liga, Bundesliga, Serie A, Ligue 1, and RFPL where available. This layer includes club-season goals, shots, xG, npxG, xA, key passes, xGChain, xGBuildup, cards, and shot-derived average shot xG. Understat is dashboard context only for now; it has not been used to retrain the xG model.
+Understat aggregate and shot-derived data adds a separate Club xG Context layer for players in EPL, La Liga, Bundesliga, Serie A, Ligue 1, and RFPL where available. This layer includes club-season goals, shots, xG, npxG, xA, key passes, xGChain, xGBuildup, cards, and shot-derived average shot xG. Understat remains a dashboard context layer unless an experiment is explicitly promoted into the production dashboard model.
 
 Official squad filtering limits player views to confirmed 2026 World Cup squad players. The latest full squad/club source is stored at `data/squads/manual/final_squads_2026_text.txt` and applied with `scripts/apply_final_squad_text.py`.
 
@@ -88,6 +88,64 @@ python src/data/ingest_fbref.py
 python src/data/build_fbref_player_context.py
 python src/data/build_understat_player_context.py
 ```
+
+## Understat Shot-Level Model Experiments
+
+The project includes research scripts for comparing model behavior across source quality and feature availability. These scripts do not replace the dashboard's primary StatsBomb model by default.
+
+Build standardized shot-level feature tables:
+
+```bash
+python src/data/build_understat_shot_features.py
+python src/features/build_combined_shot_features.py
+```
+
+Train experimental source models:
+
+```bash
+python src/models/train_understat_xg.py
+python src/models/train_combined_xg.py
+```
+
+Run the feature-missingness experiment:
+
+```bash
+python src/models/run_feature_ablation_experiments.py
+```
+
+Compare StatsBomb-only, Understat-only, combined-source, and Understat's published xG benchmark:
+
+```bash
+python src/models/compare_source_models.py
+```
+
+Generate all-shot predictions from the experimental Understat model so relevant player profiles can show the research layer:
+
+```bash
+python src/models/predict_understat.py
+```
+
+Audit confirmed World Cup squad-player shot-source coverage:
+
+```bash
+python scripts/audit_world_cup_shot_source_coverage.py
+```
+
+Key outputs:
+
+```text
+data/features/statsbomb_model_features.csv
+data/features/understat_model_features.csv
+data/features/combined_shot_features.csv
+data/predictions/all_understat_shots_xg.csv
+reports/feature_missingness_experiment.csv
+reports/source_model_comparison.csv
+reports/world_cup_shot_source_coverage.txt
+reports/figures/feature_missingness_calibration.png
+reports/figures/source_model_calibration.png
+```
+
+Understat's own `xG` column is kept as `source_xg` for benchmarking only. It is not used as an input feature because that would leak another model's answer into our model.
 
 ## Known Limitations
 
@@ -117,4 +175,4 @@ model_summary.json
 data_coverage.json
 ```
 
-These artifacts keep StatsBomb model outputs, official squad metadata, FBref recent context, Understat club xG context, data-confidence labels, sample-size warnings, and model-comparison metrics in frontend-friendly JSON. Player image fields are placeholders only; images should be populated later only from approved or licensed sources.
+These artifacts keep StatsBomb model outputs, official squad metadata, FBref recent context, Understat club xG context, experimental Understat shot-model context where available, data-confidence labels, sample-size warnings, and model-comparison metrics in frontend-friendly JSON. Player image fields are placeholders only; images should be populated later only from approved or licensed sources.

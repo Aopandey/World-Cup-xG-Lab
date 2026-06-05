@@ -16,9 +16,11 @@ from src.data.data_confidence import (
     calculate_team_data_confidence,
 )
 from src.data.player_matching import (
+    MATCH_ALIAS,
+    MATCH_EXACT,
+    MATCH_FUZZY,
     MATCH_NONE,
     get_aliases_for_player,
-    match_player_to_fbref,
     normalize_name,
 )
 from src.data.world_cup_filter import filter_world_cup_teams, load_world_cup_teams
@@ -28,7 +30,10 @@ PREDICTIONS_PATH = PROJECT_ROOT / "data" / "predictions" / "all_shots_xg.csv"
 SQUADS_PATH = PROJECT_ROOT / "data" / "squads" / "processed" / "world_cup_2026_squads.csv"
 FBREF_CONTEXT_PATH = PROJECT_ROOT / "data" / "fbref" / "processed" / "fbref_player_context.csv"
 UNDERSTAT_CONTEXT_PATH = PROJECT_ROOT / "data" / "understat" / "processed" / "understat_player_context.csv"
+UNDERSTAT_MODEL_PREDICTIONS_PATH = PROJECT_ROOT / "data" / "predictions" / "all_understat_shots_xg.csv"
 MODEL_COMPARISON_PATH = PROJECT_ROOT / "reports" / "model_comparison.csv"
+SOURCE_MODEL_COMPARISON_PATH = PROJECT_ROOT / "reports" / "source_model_comparison.csv"
+FEATURE_MISSINGNESS_PATH = PROJECT_ROOT / "reports" / "feature_missingness_experiment.csv"
 OUTPUT_DIR = PROJECT_ROOT / "data" / "dashboard_artifacts"
 FLAGS_DIR = PROJECT_ROOT / "data" / "World Cup Flags"
 
@@ -91,12 +96,151 @@ FLAG_FILENAME_ALIASES = {
     "United States": "USA.png",
 }
 
+_PLAYER_MATCH_INDEX_CACHE = {}
+
 
 def read_csv_if_exists(path: Path) -> pd.DataFrame:
     """Read a CSV file if it exists, otherwise return an empty frame."""
     if not path.exists():
         return pd.DataFrame()
-    return pd.read_csv(path)
+    return pd.read_csv(path, low_memory=False)
+
+
+def _position_is_goalkeeper(position) -> bool:
+    normalized = normalize_name(position)
+    return normalized in {"gk", "goalkeeper", "goalkeepers"} or "goalkeeper" in normalized
+
+
+def _build_player_match_index(df: pd.DataFrame) -> dict:
+    prepared = df.copy()
+    if "player_normalized" not in prepared.columns and "player" in prepared.columns:
+        prepared["player_normalized"] = prepared["player"].apply(normalize_name)
+
+    grouped = {
+        name: group.copy()
+        for name, group in prepared.groupby("player_normalized", dropna=False)
+    }
+    return {
+        "prepared": prepared,
+        "grouped": grouped,
+        "names": list(grouped.keys()),
+    }
+
+
+def _get_player_match_index(df: pd.DataFrame) -> dict:
+    cache_key = id(df)
+    if cache_key not in _PLAYER_MATCH_INDEX_CACHE:
+        _PLAYER_MATCH_INDEX_CACHE[cache_key] = _build_player_match_index(df)
+    return _PLAYER_MATCH_INDEX_CACHE[cache_key]
+
+
+def _filter_goalkeeper_mismatch(
+    candidates: pd.DataFrame,
+    selected_position=None,
+) -> pd.DataFrame:
+    if selected_position is None or _position_is_goalkeeper(selected_position):
+        return candidates
+
+    position_col = "position_group" if "position_group" in candidates.columns else "pos"
+    if position_col not in candidates.columns:
+        return candidates
+
+    return candidates[~candidates[position_col].apply(_position_is_goalkeeper)].copy()
+
+
+def _sort_match_candidates(candidates: pd.DataFrame) -> pd.DataFrame:
+    sorted_candidates = candidates.copy()
+    if "minutes" in sorted_candidates.columns:
+        sorted_candidates["_has_minutes"] = pd.to_numeric(
+            sorted_candidates["minutes"],
+            errors="coerce",
+        ).fillna(0) > 0
+    else:
+        sorted_candidates["_has_minutes"] = False
+
+    if "season" in sorted_candidates.columns:
+        sorted_candidates["_season_sort"] = pd.to_numeric(
+            sorted_candidates["season"],
+            errors="coerce",
+        ).fillna(-1)
+    else:
+        sorted_candidates["_season_sort"] = -1
+
+    return sorted_candidates.sort_values(
+        ["_has_minutes", "_season_sort"],
+        ascending=[False, False],
+    ).drop(columns=["_has_minutes", "_season_sort"])
+
+
+def _safe_fuzzy_names(names: list[str], selected_normalized: str) -> list[str]:
+    selected_tokens = selected_normalized.split()
+    if len(selected_tokens) < 2:
+        return []
+
+    matches = []
+    for candidate in names:
+        candidate_tokens = str(candidate).split()
+        if len(candidate_tokens) < 2:
+            continue
+        if selected_normalized in candidate or candidate in selected_normalized:
+            matches.append(candidate)
+    return matches
+
+
+def match_player_to_context(
+    selected_player,
+    context_df: pd.DataFrame,
+    selected_position=None,
+) -> dict:
+    """Match a player to a large context table using cached normalized-name lookups."""
+    if context_df.empty or "player" not in context_df.columns:
+        return {"rows": pd.DataFrame(), "confidence": MATCH_NONE, "matched_player": None}
+
+    selected_normalized = normalize_name(selected_player)
+    index = _get_player_match_index(context_df)
+    grouped = index["grouped"]
+
+    exact = grouped.get(selected_normalized)
+    if exact is not None:
+        exact = _filter_goalkeeper_mismatch(exact, selected_position)
+        if not exact.empty:
+            sorted_exact = _sort_match_candidates(exact)
+            return {
+                "rows": sorted_exact,
+                "confidence": MATCH_EXACT,
+                "matched_player": sorted_exact["player"].iloc[0],
+            }
+
+    alias_normalized = {normalize_name(alias) for alias in get_aliases_for_player(selected_player)}
+    alias_frames = []
+    for alias in alias_normalized:
+        candidate = grouped.get(alias)
+        if candidate is not None:
+            alias_frames.append(candidate)
+    if alias_frames:
+        alias_rows = pd.concat(alias_frames, ignore_index=True)
+        alias_rows = _filter_goalkeeper_mismatch(alias_rows, selected_position)
+        if not alias_rows.empty:
+            sorted_alias = _sort_match_candidates(alias_rows)
+            return {
+                "rows": sorted_alias,
+                "confidence": MATCH_ALIAS,
+                "matched_player": sorted_alias["player"].iloc[0],
+            }
+
+    fuzzy_names = _safe_fuzzy_names(index["names"], selected_normalized)
+    if len(fuzzy_names) == 1:
+        fuzzy_rows = grouped[fuzzy_names[0]]
+        fuzzy_rows = _filter_goalkeeper_mismatch(fuzzy_rows, selected_position)
+        if not fuzzy_rows.empty and fuzzy_rows["player"].nunique() == 1:
+            sorted_fuzzy = _sort_match_candidates(fuzzy_rows)
+            return {
+                "rows": sorted_fuzzy,
+                "confidence": MATCH_FUZZY,
+                "matched_player": sorted_fuzzy["player"].iloc[0],
+            }
+
+    return {"rows": pd.DataFrame(), "confidence": MATCH_NONE, "matched_player": None}
 
 
 def to_plain_value(value):
@@ -191,6 +335,55 @@ def prepare_understat_context() -> pd.DataFrame:
     return understat
 
 
+def prepare_understat_model_context() -> pd.DataFrame:
+    """Load all-shot experimental Understat predictions and summarize by player-season."""
+    predictions = read_csv_if_exists(UNDERSTAT_MODEL_PREDICTIONS_PATH)
+    if predictions.empty:
+        return predictions
+
+    required_columns = ["player", "team", "league", "season", "actual_goal", "predicted_xg"]
+    missing = [column for column in required_columns if column not in predictions.columns]
+    if missing:
+        print(
+            "Warning: Understat model predictions are missing columns: "
+            f"{', '.join(missing)}"
+        )
+        return pd.DataFrame()
+
+    predictions["player_normalized"] = predictions["player"].apply(normalize_name)
+    predictions["source_xg"] = pd.to_numeric(
+        predictions.get("source_xg", pd.Series(0, index=predictions.index)),
+        errors="coerce",
+    )
+    predictions["predicted_xg"] = pd.to_numeric(predictions["predicted_xg"], errors="coerce")
+    predictions["actual_goal"] = pd.to_numeric(predictions["actual_goal"], errors="coerce").fillna(0)
+    predictions["high_xg_shot"] = predictions["predicted_xg"] >= 0.20
+
+    summary = (
+        predictions.groupby(["player_normalized", "player", "team", "league", "season"], dropna=False)
+        .agg(
+            understat_model_shots=("predicted_xg", "size"),
+            understat_model_goals=("actual_goal", "sum"),
+            understat_model_xg=("predicted_xg", "sum"),
+            understat_source_xg=("source_xg", "sum"),
+            avg_understat_model_xg=("predicted_xg", "mean"),
+            avg_understat_source_xg=("source_xg", "mean"),
+            high_xg_shots=("high_xg_shot", "sum"),
+            earliest_match_date=("match_date", "min") if "match_date" in predictions.columns else ("predicted_xg", lambda _: None),
+            latest_match_date=("match_date", "max") if "match_date" in predictions.columns else ("predicted_xg", lambda _: None),
+        )
+        .reset_index()
+    )
+    summary["understat_model_minus_source_xg"] = (
+        summary["understat_model_xg"] - summary["understat_source_xg"]
+    )
+    summary["data_source"] = "Experimental Understat shot model"
+    return summary.sort_values(
+        ["player_normalized", "season", "understat_model_xg"],
+        ascending=[True, False, False],
+    )
+
+
 def team_shot_summary(team_shots: pd.DataFrame) -> dict:
     """Summarize shot-level xG metrics for a team or player."""
     shots = int(len(team_shots))
@@ -227,6 +420,31 @@ def competitions_included(df: pd.DataFrame) -> list[str]:
     if df.empty or "competition_name" not in df.columns:
         return []
     return sorted(df["competition_name"].dropna().astype(str).unique())
+
+
+def shot_points(df: pd.DataFrame) -> list[dict]:
+    """Return compact shot-location points for frontend pitch maps."""
+    required_columns = {"shot_x", "shot_y"}
+    if df.empty or not required_columns.issubset(df.columns):
+        return []
+
+    columns = [
+        "shot_x",
+        "shot_y",
+        "predicted_xg",
+        "actual_goal",
+    ]
+    available_columns = [column for column in columns if column in df.columns]
+    points = df[available_columns].copy()
+    points["shot_x"] = pd.to_numeric(points["shot_x"], errors="coerce")
+    points["shot_y"] = pd.to_numeric(points["shot_y"], errors="coerce")
+    if "predicted_xg" in points.columns:
+        points["predicted_xg"] = pd.to_numeric(points["predicted_xg"], errors="coerce")
+    if "actual_goal" in points.columns:
+        points["actual_goal"] = points["actual_goal"].fillna(False).astype(bool)
+
+    points = points.dropna(subset=["shot_x", "shot_y"])
+    return points.to_dict(orient="records")
 
 
 def squad_status_for_team(team_squad: pd.DataFrame) -> str:
@@ -295,7 +513,7 @@ def fbref_rows_for_player(
     position_group: str | None,
 ) -> tuple[bool, list[dict]]:
     """Return safe FBref rows for one player."""
-    match = match_player_to_fbref(
+    match = match_player_to_context(
         player,
         fbref_context,
         selected_position=position_group,
@@ -330,7 +548,7 @@ def understat_rows_for_player(
     position_group: str | None,
 ) -> tuple[bool, list[dict]]:
     """Return safe Understat aggregate rows for one player."""
-    match = match_player_to_fbref(
+    match = match_player_to_context(
         player,
         understat_context,
         selected_position=position_group,
@@ -363,6 +581,72 @@ def understat_rows_for_player(
     available_columns = [column for column in columns if column in match["rows"].columns]
     rows = match["rows"][available_columns].head(8).to_dict(orient="records")
     return True, rows
+
+
+def understat_model_rows_for_player(
+    understat_model_context: pd.DataFrame,
+    player: str,
+    position_group: str | None,
+) -> tuple[bool, list[dict], dict | None]:
+    """Return experimental Understat model summary rows for one player."""
+    match = match_player_to_context(
+        player,
+        understat_model_context,
+        selected_position=position_group,
+    )
+    if match["confidence"] == MATCH_NONE or match["rows"].empty:
+        return False, [], None
+
+    columns = [
+        "season",
+        "league",
+        "team",
+        "understat_model_shots",
+        "understat_model_goals",
+        "understat_model_xg",
+        "understat_source_xg",
+        "understat_model_minus_source_xg",
+        "avg_understat_model_xg",
+        "avg_understat_source_xg",
+        "high_xg_shots",
+        "earliest_match_date",
+        "latest_match_date",
+    ]
+    available_columns = [column for column in columns if column in match["rows"].columns]
+    rows = (
+        match["rows"][available_columns]
+        .round(
+            {
+                "understat_model_xg": 4,
+                "understat_source_xg": 4,
+                "understat_model_minus_source_xg": 4,
+                "avg_understat_model_xg": 4,
+                "avg_understat_source_xg": 4,
+            }
+        )
+        .head(8)
+        .to_dict(orient="records")
+    )
+
+    matched_rows = match["rows"].copy()
+    total_shots = int(pd.to_numeric(matched_rows["understat_model_shots"], errors="coerce").fillna(0).sum())
+    total_goals = int(pd.to_numeric(matched_rows["understat_model_goals"], errors="coerce").fillna(0).sum())
+    total_model_xg = float(pd.to_numeric(matched_rows["understat_model_xg"], errors="coerce").fillna(0).sum())
+    total_source_xg = float(pd.to_numeric(matched_rows["understat_source_xg"], errors="coerce").fillna(0).sum())
+    high_xg_shots = int(pd.to_numeric(matched_rows["high_xg_shots"], errors="coerce").fillna(0).sum())
+    summary = {
+        "shots": total_shots,
+        "goals": total_goals,
+        "experimental_xg": round(total_model_xg, 4),
+        "understat_source_xg": round(total_source_xg, 4),
+        "experimental_minus_source_xg": round(total_model_xg - total_source_xg, 4),
+        "avg_experimental_xg_per_shot": round(total_model_xg / total_shots, 4) if total_shots else 0.0,
+        "avg_understat_source_xg_per_shot": round(total_source_xg / total_shots, 4) if total_shots else 0.0,
+        "high_xg_shots": high_xg_shots,
+        "match_confidence": match["confidence"],
+        "matched_player": match["matched_player"],
+    }
+    return True, rows, summary
 
 
 def build_teams_artifact(
@@ -590,6 +874,7 @@ def build_team_profiles_artifact(
                 **shot_summary,
                 "statsbomb_date_range": date_range(team_shots),
                 "competitions_included": competitions_included(team_shots),
+                "shot_points": shot_points(team_shots),
                 "top_xg_players": top_xg_players(team_shots),
                 "top_recent_fbref_players": top_recent_fbref_players(team_squad, fbref_context),
                 "top_recent_understat_players": top_recent_understat_players(
@@ -612,6 +897,7 @@ def build_player_profiles_artifact(
     predictions: pd.DataFrame,
     fbref_context: pd.DataFrame,
     understat_context: pd.DataFrame,
+    understat_model_context: pd.DataFrame,
 ) -> list[dict]:
     """Build one player profile object per squad player."""
     if squads.empty:
@@ -633,6 +919,15 @@ def build_player_profiles_artifact(
             player,
             row.get("position_group"),
         )
+        (
+            understat_model_available,
+            understat_model_rows,
+            understat_model_summary,
+        ) = understat_model_rows_for_player(
+            understat_model_context,
+            player,
+            row.get("position_group"),
+        )
 
         warnings = []
         if shot_summary["statsbomb_shots"] < 20:
@@ -651,6 +946,10 @@ def build_player_profiles_artifact(
                 "Understat club xG context is not available for this player in the "
                 "current top-league/RFPL archive."
             )
+        if not understat_model_available:
+            warnings.append(
+                "Experimental Understat shot-model context is not available for this player."
+            )
 
         profiles.append(
             {
@@ -664,13 +963,17 @@ def build_player_profiles_artifact(
                 "squad_status": row.get("squad_status"),
                 **shot_summary,
                 "statsbomb_date_range": date_range(player_shots),
+                "shot_points": shot_points(player_shots),
                 "fbref_available": fbref_available,
                 "fbref_recent_rows": fbref_rows,
                 "understat_available": understat_available,
                 "understat_recent_rows": understat_rows,
+                "understat_model_available": understat_model_available,
+                "understat_model_recent_rows": understat_model_rows,
+                "understat_model_summary": understat_model_summary,
                 "data_confidence": calculate_player_data_confidence(
                     shot_summary["statsbomb_shots"],
-                    fbref_available or understat_available,
+                    fbref_available or understat_available or understat_model_available,
                 ),
                 "imageUrl": None,
                 "avatarSeed": row.get("player_normalized", normalize_name(player)),
@@ -706,15 +1009,42 @@ def build_squad_players_artifact(squads: pd.DataFrame) -> list[dict]:
 def build_model_summary_artifact() -> dict:
     """Build a small model summary for dashboard display."""
     comparison = read_csv_if_exists(MODEL_COMPARISON_PATH)
+    source_comparison = read_csv_if_exists(SOURCE_MODEL_COMPARISON_PATH)
+    feature_missingness = read_csv_if_exists(FEATURE_MISSINGNESS_PATH)
     metrics = comparison.to_dict(orient="records") if not comparison.empty else []
     best_model = None
     if not comparison.empty and "log_loss" in comparison.columns:
         best_model = comparison.sort_values("log_loss").iloc[0]["model_name"]
 
+    research_metrics = (
+        source_comparison.to_dict(orient="records")
+        if not source_comparison.empty
+        else []
+    )
+    best_research_model = None
+    if not source_comparison.empty and "log_loss" in source_comparison.columns:
+        best_research_model = source_comparison.sort_values("log_loss").iloc[0]["model_label"]
+
+    feature_experiments = (
+        feature_missingness.to_dict(orient="records")
+        if not feature_missingness.empty
+        else []
+    )
+
     return {
         "experiment_name": "world-cup-xg-lab",
         "best_model_by_log_loss": best_model,
         "models": metrics,
+        "production_models": metrics,
+        "research_source_models": research_metrics,
+        "feature_missingness_experiments": feature_experiments,
+        "best_research_model_by_log_loss": best_research_model,
+        "research_explanation": (
+            "Research experiments compare StatsBomb-only, Understat-only, "
+            "combined-source, and reduced-feature xG models. These results are "
+            "shown for transparency and are not automatically promoted into the "
+            "dashboard's production player xG layer."
+        ),
         "xg_explanation": (
             "Expected goals estimates the probability that a shot becomes a goal "
             "based on shot features available to the model."
@@ -722,7 +1052,7 @@ def build_model_summary_artifact() -> dict:
         "limitations": [
             "StatsBomb powers the historical shot-location model and shot maps.",
             "FBref aggregate data is recent player context only and does not replace the xG model.",
-            "Understat aggregate and shot-derived data is club xG context only and does not replace the xG model.",
+            "Understat aggregate and shot-derived data is club context. The Understat shot model is experimental.",
             "Small samples are shown with warnings and should not be read as guaranteed future scoring locations.",
         ],
     }
@@ -783,6 +1113,7 @@ def main() -> None:
     squads = prepare_squads()
     fbref_context = prepare_fbref_context()
     understat_context = prepare_understat_context()
+    understat_model_context = prepare_understat_model_context()
 
     write_json(
         "teams.json",
@@ -800,7 +1131,13 @@ def main() -> None:
     )
     write_json(
         "player_profiles.json",
-        build_player_profiles_artifact(squads, predictions, fbref_context, understat_context),
+        build_player_profiles_artifact(
+            squads,
+            predictions,
+            fbref_context,
+            understat_context,
+            understat_model_context,
+        ),
     )
     write_json("squad_players.json", build_squad_players_artifact(squads))
     write_json("model_summary.json", build_model_summary_artifact())

@@ -8,14 +8,14 @@ type SquadGridProps = {
 export default function SquadGrid({ players }: SquadGridProps) {
   if (!players.length) {
     return (
-      <div className="rounded-lg border border-white/10 bg-white/[0.04] p-6 text-slate-300">
+      <div className="surface-card p-6 text-slate-300">
         No squad players found for this filter.
       </div>
     );
   }
 
   return (
-    <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+    <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
       {players.map((player) => (
         <PlayerCard key={`${player.world_cup_team}-${player.player}`} player={player} />
       ))}

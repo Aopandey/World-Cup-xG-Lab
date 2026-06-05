@@ -3,7 +3,8 @@
 import { useMemo, useState } from "react";
 
 import SearchBar from "@/components/SearchBar";
-import StatCard from "@/components/StatCard";
+import SegmentedFilter from "@/components/SegmentedFilter";
+import SourceLegend from "@/components/SourceLegend";
 import TeamCard from "@/components/TeamCard";
 import { formatDateRange, formatNumber, formatPercent } from "@/lib/format";
 import type { DataCoverage, Team } from "@/lib/types";
@@ -18,6 +19,13 @@ const confidenceOptions = ["All", "Strong", "Moderate", "Limited", "Unavailable"
 export default function HomeDashboard({ teams, coverage }: HomeDashboardProps) {
   const [confidence, setConfidence] = useState("All");
 
+  const confidenceCounts = useMemo(() => {
+    return confidenceOptions.reduce<Record<string, number>>((counts, option) => {
+      counts[option] = option === "All" ? teams.length : teams.filter((team) => team.data_confidence === option).length;
+      return counts;
+    }, {});
+  }, [teams]);
+
   const filteredTeams = useMemo(() => {
     if (confidence === "All") {
       return teams;
@@ -28,38 +36,64 @@ export default function HomeDashboard({ teams, coverage }: HomeDashboardProps) {
 
   return (
     <div className="space-y-8">
-      <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
-        <StatCard label="World Cup Teams" value={coverage.total_world_cup_teams} />
-        <StatCard label="Teams with StatsBomb Data" value={coverage.teams_with_statsbomb_data} />
-        <StatCard label="Squad Players" value={formatNumber(coverage.total_squad_players)} />
-        <StatCard label="FBref Match Rate" value={formatPercent(coverage.fbref_coverage_rate, 1)} detail={formatDateRange(coverage.date_range)} />
-        <StatCard label="Understat Match Rate" value={formatPercent(coverage.understat_coverage_rate ?? 0, 1)} detail="Club xG context" />
+      <section className="surface-hero overflow-hidden p-5 md:p-7">
+        <div className="grid gap-6 lg:grid-cols-[minmax(0,1.5fr)_minmax(320px,0.8fr)] lg:items-end">
+          <div className="space-y-5">
+            <div>
+              <p className="stat-label text-grass-400">Football analytics dashboard</p>
+              <h1 className="mt-3 max-w-3xl text-4xl font-semibold tracking-tight text-white md:text-6xl">
+                World Cup xG Lab
+              </h1>
+              <p className="mt-4 max-w-3xl text-base leading-7 text-slate-300">
+                Explore 2026 World Cup teams through historical StatsBomb xG outputs, official squad filters,
+                FBref recent aggregate context, and Understat club xG context. The dashboard shows who generated
+                high-quality chances in available data.
+              </p>
+            </div>
+            <SearchBar />
+          </div>
+
+          <div className="surface-inset p-4">
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <p className="stat-label">Coverage Snapshot</p>
+                <p className="mt-2 text-sm leading-6 text-slate-300">
+                  Historical open event data plus current squad context. Not a complete 2025/26 current-season dataset.
+                </p>
+              </div>
+            </div>
+            <div className="mt-4 grid grid-cols-2 gap-3">
+              <MiniMetric label="Teams" value={`${teams.length}/${coverage.total_world_cup_teams}`} />
+              <MiniMetric label="Date Range" value={formatDateRange(coverage.date_range)} />
+              <MiniMetric label="Squad Players" value={formatNumber(coverage.total_squad_players)} />
+              <MiniMetric label="FBref Matched" value={formatPercent(coverage.fbref_coverage_rate, 1)} />
+              <MiniMetric label="Understat Matched" value={formatPercent(coverage.understat_coverage_rate ?? 0, 1)} />
+              <MiniMetric label="StatsBomb Teams" value={`${coverage.teams_with_statsbomb_data}`} />
+            </div>
+          </div>
+        </div>
       </section>
 
-      <SearchBar />
+      <SourceLegend />
 
       <section className="space-y-4">
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <h2 className="text-2xl font-bold text-white">World Cup Team Grid</h2>
-            <p className="text-sm text-slate-400">
-              Showing teams from the 2026 World Cup list with available dashboard artifacts.
+            <h2 className="text-2xl font-semibold text-white">World Cup Team Grid</h2>
+            <p className="mt-1 text-sm text-slate-400">
+              Showing 2026 World Cup teams with dashboard artifacts. Teams without a historical sample shift toward club context.
             </p>
           </div>
-          <label className="flex items-center gap-3 text-sm text-slate-300">
-            Data confidence
-            <select
-              value={confidence}
-              onChange={(event) => setConfidence(event.target.value)}
-              className="rounded-lg border border-white/10 bg-pitch-800 px-3 py-2 text-white outline-none focus:border-grass-400"
-            >
-              {confidenceOptions.map((option) => (
-                <option key={option} value={option}>
-                  {option}
-                </option>
-              ))}
-            </select>
-          </label>
+          <SegmentedFilter
+            label="Data confidence"
+            value={confidence}
+            onChange={setConfidence}
+            options={confidenceOptions.map((option) => ({
+              label: option,
+              value: option,
+              count: confidenceCounts[option]
+            }))}
+          />
         </div>
 
         {filteredTeams.length ? (
@@ -69,11 +103,20 @@ export default function HomeDashboard({ teams, coverage }: HomeDashboardProps) {
             ))}
           </div>
         ) : (
-          <div className="rounded-lg border border-white/10 bg-white/[0.04] p-6 text-slate-300">
+          <div className="surface-card p-6 text-slate-300">
             No teams match the selected confidence filter.
           </div>
         )}
       </section>
+    </div>
+  );
+}
+
+function MiniMetric({ label, value }: { label: string; value: string | number }) {
+  return (
+    <div className="rounded-lg border border-white/10 bg-black/15 p-3">
+      <p className="stat-label">{label}</p>
+      <p className="mt-1 break-words text-sm font-semibold text-white">{value}</p>
     </div>
   );
 }
