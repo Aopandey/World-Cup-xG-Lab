@@ -10,15 +10,22 @@ import type {
   TeamProfile
 } from "./types";
 
-const PUBLIC_API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:8000";
-const SERVER_API_BASE_URL = process.env.API_INTERNAL_BASE_URL ?? PUBLIC_API_BASE_URL;
+const DEFAULT_API_BASE_URL = "http://localhost:8000";
 
 export function getApiBaseUrl() {
-  return typeof window === "undefined" ? SERVER_API_BASE_URL : PUBLIC_API_BASE_URL;
+  if (typeof window === "undefined") {
+    return (
+      process.env.API_INTERNAL_BASE_URL ??
+      process.env.NEXT_PUBLIC_API_BASE_URL ??
+      DEFAULT_API_BASE_URL
+    );
+  }
+
+  return getPublicApiBaseUrl();
 }
 
 export function getPublicApiBaseUrl() {
-  return PUBLIC_API_BASE_URL;
+  return process.env.NEXT_PUBLIC_API_BASE_URL ?? DEFAULT_API_BASE_URL;
 }
 
 type QueryValue = string | number | boolean | null | undefined;
