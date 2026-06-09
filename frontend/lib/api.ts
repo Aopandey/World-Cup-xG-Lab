@@ -10,12 +10,21 @@ import type {
   TeamProfile
 } from "./types";
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:8000";
+const PUBLIC_API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:8000";
+const SERVER_API_BASE_URL = process.env.API_INTERNAL_BASE_URL ?? PUBLIC_API_BASE_URL;
+
+export function getApiBaseUrl() {
+  return typeof window === "undefined" ? SERVER_API_BASE_URL : PUBLIC_API_BASE_URL;
+}
+
+export function getPublicApiBaseUrl() {
+  return PUBLIC_API_BASE_URL;
+}
 
 type QueryValue = string | number | boolean | null | undefined;
 
 function buildUrl(path: string, query?: Record<string, QueryValue>) {
-  const url = new URL(path, API_BASE_URL);
+  const url = buildAbsoluteUrl(path, getApiBaseUrl());
 
   if (query) {
     Object.entries(query).forEach(([key, value]) => {
@@ -28,16 +37,35 @@ function buildUrl(path: string, query?: Record<string, QueryValue>) {
   return url.toString();
 }
 
-async function apiGet<T>(path: string, query?: Record<string, QueryValue>): Promise<T> {
-  const response = await fetch(buildUrl(path, query), {
-    cache: "no-store",
-    headers: {
-      Accept: "application/json"
+export function buildAbsoluteUrl(path: string, baseUrl: string) {
+  if (baseUrl.startsWith("/")) {
+    if (typeof window === "undefined") {
+      throw new Error("A relative API base URL requires API_INTERNAL_BASE_URL during server rendering.");
     }
-  });
+    return new URL(path, new URL(baseUrl, window.location.origin));
+  }
+
+  return new URL(path, baseUrl);
+}
+
+async function apiGet<T>(path: string, query?: Record<string, QueryValue>): Promise<T> {
+  let response: Response;
+
+  try {
+    response = await fetch(buildUrl(path, query), {
+      cache: "no-store",
+      headers: {
+        Accept: "application/json"
+      }
+    });
+  } catch {
+    throw new Error(
+      `Could not reach the World Cup xG Lab API at ${getApiBaseUrl()}. Start the FastAPI backend and try again.`
+    );
+  }
 
   if (!response.ok) {
-    let message = `API request failed with status ${response.status}`;
+    let message = `The World Cup xG Lab API returned status ${response.status}.`;
     try {
       const body = (await response.json()) as { detail?: string };
       if (body.detail) {

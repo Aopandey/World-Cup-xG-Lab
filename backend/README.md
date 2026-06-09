@@ -3,6 +3,16 @@
 This FastAPI backend serves precomputed dashboard artifacts from `data/dashboard_artifacts/`.
 It does not retrain models or rebuild data pipelines at request time.
 
+## Production Dashboard Architecture
+
+World Cup xG Lab's production-style dashboard uses:
+
+- Frontend: Next.js + TypeScript + Tailwind
+- Backend: FastAPI
+- Data: precomputed JSON artifacts in `data/dashboard_artifacts/`
+
+Streamlit remains in the repository as an earlier prototype and internal exploration tool. It is not the production dashboard surface. FastAPI loads existing artifacts and serves JSON to the Next.js frontend; models are not retrained at request time.
+
 ## Generate Artifacts First
 
 From the project root, run:
@@ -24,10 +34,20 @@ The API will be available at:
 http://127.0.0.1:8000
 ```
 
+## Environment Variables
+
+```text
+BACKEND_ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
+```
+
+If `BACKEND_ALLOWED_ORIGINS` is not set, the API defaults to the two local Next.js origins above.
+
 ## Example Endpoints
 
 ```text
 GET /
+GET /health
+GET /api/meta
 GET /api/teams
 GET /api/teams/Argentina
 GET /api/teams/Argentina/squad
@@ -39,4 +59,36 @@ GET /api/coverage
 GET /api/search?q=Messi
 ```
 
-The backend enables CORS for `http://localhost:3000` so a local Next.js frontend can call these endpoints during development.
+`GET /health` reports API status and required artifact availability. `GET /api/meta` reports project metadata, artifact files found, and artifact modified timestamps.
+
+## Local Full-App Run
+
+Terminal 1, from the project root:
+
+```bash
+uvicorn backend.main:app --reload
+```
+
+Terminal 2:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Then open:
+
+```text
+http://localhost:3000
+```
+
+## Docker
+
+From the project root:
+
+```bash
+docker compose up --build
+```
+
+The backend container serves `http://localhost:8000` and exposes `GET /health` for Compose health checks. The image includes the FastAPI code, precomputed dashboard JSON artifacts, World Cup flags, and generated DataMB radar images. It excludes raw/cached data and does not retrain models at startup.

@@ -1,4 +1,5 @@
 import type { DataConfidence, EvidenceLevel, PlayerProfile, Team, UnderstatRecentRow } from "./types";
+import { buildAbsoluteUrl, getPublicApiBaseUrl } from "./api";
 
 export function formatNumber(value: number | null | undefined, digits = 0) {
   if (value === null || value === undefined || Number.isNaN(Number(value))) {
@@ -62,8 +63,12 @@ export function assetUrl(path: string | null | undefined) {
     return path;
   }
 
-  const apiBaseUrl = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:8000";
-  return new URL(path, apiBaseUrl).toString();
+  const publicBaseUrl = getPublicApiBaseUrl();
+  if (publicBaseUrl.startsWith("/") && typeof window === "undefined") {
+    return path;
+  }
+
+  return buildAbsoluteUrl(path, publicBaseUrl).toString();
 }
 
 export function hasValue(value: unknown) {
