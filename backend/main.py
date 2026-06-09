@@ -11,6 +11,7 @@ from backend.routes import coverage, model, players, teams
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 FLAGS_DIR = PROJECT_ROOT / "data" / "World Cup Flags"
+DATAMB_RADARS_DIR = PROJECT_ROOT / "data" / "generated" / "datamb_radars"
 
 app = FastAPI(
     title="World Cup xG Lab API",
@@ -36,6 +37,13 @@ if FLAGS_DIR.exists():
         "/static/world-cup-flags",
         StaticFiles(directory=FLAGS_DIR),
         name="world-cup-flags",
+    )
+
+if DATAMB_RADARS_DIR.exists():
+    app.mount(
+        "/static/generated/datamb-radars",
+        StaticFiles(directory=DATAMB_RADARS_DIR),
+        name="datamb-radars",
     )
 
 

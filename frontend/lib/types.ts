@@ -1,4 +1,5 @@
 export type DataConfidence = "Strong" | "Moderate" | "Limited" | "Unavailable";
+export type EvidenceLevel = "strong" | "moderate" | "limited" | "unavailable";
 
 export type DateRange = {
   earliest: string | null;
@@ -157,6 +158,22 @@ export type UnderstatModelSummary = {
   matched_player?: string | null;
 };
 
+export type DataMbContext = {
+  available: boolean;
+  source: "DataMB";
+  season: "25/26" | string;
+  template?: string | null;
+  club?: string | null;
+  minutes?: number | null;
+  percentiles?: Record<string, number>;
+  generated_radar_path?: string | null;
+  source_url?: string | null;
+  notes?: string | null;
+  reason?: string | null;
+  match_status?: string | null;
+  match_confidence?: string | null;
+};
+
 export type PlayerProfile = {
   player: string;
   player_normalized: string;
@@ -180,6 +197,7 @@ export type PlayerProfile = {
   understat_model_available?: boolean;
   understat_model_recent_rows?: UnderstatModelRecentRow[];
   understat_model_summary?: UnderstatModelSummary | null;
+  datamb_25_26?: DataMbContext;
   data_confidence: DataConfidence;
   imageUrl: string | null;
   avatarSeed: string;
@@ -260,6 +278,9 @@ export type DataCoverage = {
   understat_matched_players?: number;
   understat_missing_players?: number;
   understat_coverage_rate?: number;
+  datamb_matched_players?: number;
+  datamb_missing_players?: number;
+  datamb_coverage_rate?: number;
   date_range: DateRange;
   known_limitations: string[];
 };

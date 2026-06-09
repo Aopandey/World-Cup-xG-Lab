@@ -1,0 +1,3622 @@
+{
+  "source": "DataMB",
+  "season": "25/26",
+  "input_path": "C:\\Users\\avkr2\\Downloads\\datamb_scraper_starter\\datamb_scraper_starter\\outputs\\datamb_25_26_full\\datamb_wc_2026_results.csv",
+  "manual_overrides_path": "C:\\Users\\avkr2\\OneDrive\\Desktop\\World-Cup-xG-Lab\\data\\datamb\\manual\\datamb_manual_overrides.csv",
+  "total_confirmed_world_cup_players": 1248,
+  "datamb_available_players": 447,
+  "datamb_missing_players": 801,
+  "coverage_rate": 0.3582,
+  "raw_rows": 565,
+  "raw_success_rows": 466,
+  "manual_override_rows": 27,
+  "ambiguous_players": [],
+  "coverage_by_national_team": [
+    {
+      "world_cup_team": "Spain",
+      "players": 26,
+      "datamb_available": 25,
+      "coverage_rate": 0.9615384615384616
+    },
+    {
+      "world_cup_team": "Germany",
+      "players": 26,
+      "datamb_available": 24,
+      "coverage_rate": 0.9230769230769231
+    },
+    {
+      "world_cup_team": "England",
+      "players": 26,
+      "datamb_available": 21,
+      "coverage_rate": 0.8076923076923077
+    },
+    {
+      "world_cup_team": "Netherlands",
+      "players": 26,
+      "datamb_available": 21,
+      "coverage_rate": 0.8076923076923077
+    },
+    {
+      "world_cup_team": "Portugal",
+      "players": 26,
+      "datamb_available": 21,
+      "coverage_rate": 0.8076923076923077
+    },
+    {
+      "world_cup_team": "Belgium",
+      "players": 26,
+      "datamb_available": 20,
+      "coverage_rate": 0.7692307692307693
+    },
+    {
+      "world_cup_team": "Argentina",
+      "players": 26,
+      "datamb_available": 19,
+      "coverage_rate": 0.7307692307692307
+    },
+    {
+      "world_cup_team": "France",
+      "players": 26,
+      "datamb_available": 19,
+      "coverage_rate": 0.7307692307692307
+    },
+    {
+      "world_cup_team": "Senegal",
+      "players": 26,
+      "datamb_available": 19,
+      "coverage_rate": 0.7307692307692307
+    },
+    {
+      "world_cup_team": "Croatia",
+      "players": 26,
+      "datamb_available": 18,
+      "coverage_rate": 0.6923076923076923
+    },
+    {
+      "world_cup_team": "Norway",
+      "players": 26,
+      "datamb_available": 18,
+      "coverage_rate": 0.6923076923076923
+    },
+    {
+      "world_cup_team": "Switzerland",
+      "players": 26,
+      "datamb_available": 18,
+      "coverage_rate": 0.6923076923076923
+    },
+    {
+      "world_cup_team": "Austria",
+      "players": 26,
+      "datamb_available": 17,
+      "coverage_rate": 0.6538461538461539
+    },
+    {
+      "world_cup_team": "Brazil",
+      "players": 26,
+      "datamb_available": 15,
+      "coverage_rate": 0.5769230769230769
+    },
+    {
+      "world_cup_team": "Morocco",
+      "players": 26,
+      "datamb_available": 14,
+      "coverage_rate": 0.5384615384615384
+    },
+    {
+      "world_cup_team": "United States",
+      "players": 26,
+      "datamb_available": 12,
+      "coverage_rate": 0.46153846153846156
+    },
+    {
+      "world_cup_team": "Algeria",
+      "players": 26,
+      "datamb_available": 11,
+      "coverage_rate": 0.4230769230769231
+    },
+    {
+      "world_cup_team": "Ghana",
+      "players": 26,
+      "datamb_available": 11,
+      "coverage_rate": 0.4230769230769231
+    },
+    {
+      "world_cup_team": "Japan",
+      "players": 26,
+      "datamb_available": 11,
+      "coverage_rate": 0.4230769230769231
+    },
+    {
+      "world_cup_team": "Sweden",
+      "players": 26,
+      "datamb_available": 10,
+      "coverage_rate": 0.38461538461538464
+    },
+    {
+      "world_cup_team": "Uruguay",
+      "players": 26,
+      "datamb_available": 9,
+      "coverage_rate": 0.34615384615384615
+    },
+    {
+      "world_cup_team": "Bosnia and Herzegovina",
+      "players": 26,
+      "datamb_available": 8,
+      "coverage_rate": 0.3076923076923077
+    },
+    {
+      "world_cup_team": "Colombia",
+      "players": 26,
+      "datamb_available": 8,
+      "coverage_rate": 0.3076923076923077
+    },
+    {
+      "world_cup_team": "Czechia",
+      "players": 26,
+      "datamb_available": 8,
+      "coverage_rate": 0.3076923076923077
+    },
+    {
+      "world_cup_team": "Ivory Coast",
+      "players": 26,
+      "datamb_available": 8,
+      "coverage_rate": 0.3076923076923077
+    },
+    {
+      "world_cup_team": "Canada",
+      "players": 26,
+      "datamb_available": 7,
+      "coverage_rate": 0.2692307692307692
+    },
+    {
+      "world_cup_team": "Paraguay",
+      "players": 26,
+      "datamb_available": 6,
+      "coverage_rate": 0.23076923076923078
+    },
+    {
+      "world_cup_team": "South Korea",
+      "players": 26,
+      "datamb_available": 6,
+      "coverage_rate": 0.23076923076923078
+    },
+    {
+      "world_cup_team": "Türkiye",
+      "players": 26,
+      "datamb_available": 6,
+      "coverage_rate": 0.23076923076923078
+    },
+    {
+      "world_cup_team": "Curaçao",
+      "players": 26,
+      "datamb_available": 5,
+      "coverage_rate": 0.19230769230769232
+    },
+    {
+      "world_cup_team": "Ecuador",
+      "players": 26,
+      "datamb_available": 5,
+      "coverage_rate": 0.19230769230769232
+    },
+    {
+      "world_cup_team": "Haiti",
+      "players": 26,
+      "datamb_available": 5,
+      "coverage_rate": 0.19230769230769232
+    },
+    {
+      "world_cup_team": "Australia",
+      "players": 26,
+      "datamb_available": 4,
+      "coverage_rate": 0.15384615384615385
+    },
+    {
+      "world_cup_team": "Mexico",
+      "players": 26,
+      "datamb_available": 4,
+      "coverage_rate": 0.15384615384615385
+    },
+    {
+      "world_cup_team": "Cabo Verde",
+      "players": 26,
+      "datamb_available": 3,
+      "coverage_rate": 0.11538461538461539
+    },
+    {
+      "world_cup_team": "DR Congo",
+      "players": 26,
+      "datamb_available": 3,
+      "coverage_rate": 0.11538461538461539
+    },
+    {
+      "world_cup_team": "Tunisia",
+      "players": 26,
+      "datamb_available": 3,
+      "coverage_rate": 0.11538461538461539
+    },
+    {
+      "world_cup_team": "New Zealand",
+      "players": 26,
+      "datamb_available": 2,
+      "coverage_rate": 0.07692307692307693
+    },
+    {
+      "world_cup_team": "Egypt",
+      "players": 26,
+      "datamb_available": 1,
+      "coverage_rate": 0.038461538461538464
+    },
+    {
+      "world_cup_team": "Jordan",
+      "players": 26,
+      "datamb_available": 1,
+      "coverage_rate": 0.038461538461538464
+    },
+    {
+      "world_cup_team": "South Africa",
+      "players": 26,
+      "datamb_available": 1,
+      "coverage_rate": 0.038461538461538464
+    },
+    {
+      "world_cup_team": "Iran",
+      "players": 26,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "world_cup_team": "Iraq",
+      "players": 26,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "world_cup_team": "Panama",
+      "players": 26,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "world_cup_team": "Qatar",
+      "players": 26,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "world_cup_team": "Saudi Arabia",
+      "players": 26,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "world_cup_team": "Scotland",
+      "players": 26,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "world_cup_team": "Uzbekistan",
+      "players": 26,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    }
+  ],
+  "coverage_by_position": [
+    {
+      "position_group": "Defender",
+      "players": 420,
+      "datamb_available": 158,
+      "coverage_rate": 0.3761904761904762
+    },
+    {
+      "position_group": "Midfielder",
+      "players": 379,
+      "datamb_available": 143,
+      "coverage_rate": 0.37730870712401055
+    },
+    {
+      "position_group": "Forward",
+      "players": 304,
+      "datamb_available": 117,
+      "coverage_rate": 0.3848684210526316
+    },
+    {
+      "position_group": "Goalkeeper",
+      "players": 145,
+      "datamb_available": 29,
+      "coverage_rate": 0.2
+    }
+  ],
+  "coverage_by_club": [
+    {
+      "club": "Bayern Munich",
+      "players": 18,
+      "datamb_available": 16,
+      "coverage_rate": 0.8888888888888888
+    },
+    {
+      "club": "Arsenal",
+      "players": 16,
+      "datamb_available": 15,
+      "coverage_rate": 0.9375
+    },
+    {
+      "club": "Manchester City",
+      "players": 18,
+      "datamb_available": 14,
+      "coverage_rate": 0.7777777777777778
+    },
+    {
+      "club": "Barcelona",
+      "players": 13,
+      "datamb_available": 12,
+      "coverage_rate": 0.9230769230769231
+    },
+    {
+      "club": "Atletico Madrid",
+      "players": 12,
+      "datamb_available": 11,
+      "coverage_rate": 0.9166666666666666
+    },
+    {
+      "club": "Crystal Palace",
+      "players": 12,
+      "datamb_available": 10,
+      "coverage_rate": 0.8333333333333334
+    },
+    {
+      "club": "Borussia Dortmund",
+      "players": 11,
+      "datamb_available": 10,
+      "coverage_rate": 0.9090909090909091
+    },
+    {
+      "club": "Manchester United",
+      "players": 11,
+      "datamb_available": 10,
+      "coverage_rate": 0.9090909090909091
+    },
+    {
+      "club": "Liverpool",
+      "players": 10,
+      "datamb_available": 9,
+      "coverage_rate": 0.9
+    },
+    {
+      "club": "Real Madrid",
+      "players": 10,
+      "datamb_available": 9,
+      "coverage_rate": 0.9
+    },
+    {
+      "club": "AC Milan",
+      "players": 10,
+      "datamb_available": 8,
+      "coverage_rate": 0.8
+    },
+    {
+      "club": "Paris St-Germain",
+      "players": 10,
+      "datamb_available": 8,
+      "coverage_rate": 0.8
+    },
+    {
+      "club": "Aston Villa",
+      "players": 9,
+      "datamb_available": 8,
+      "coverage_rate": 0.8888888888888888
+    },
+    {
+      "club": "PSV Eindhoven",
+      "players": 9,
+      "datamb_available": 8,
+      "coverage_rate": 0.8888888888888888
+    },
+    {
+      "club": "Sunderland",
+      "players": 9,
+      "datamb_available": 8,
+      "coverage_rate": 0.8888888888888888
+    },
+    {
+      "club": "Lille",
+      "players": 8,
+      "datamb_available": 8,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Marseille",
+      "players": 8,
+      "datamb_available": 8,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Benfica",
+      "players": 8,
+      "datamb_available": 7,
+      "coverage_rate": 0.875
+    },
+    {
+      "club": "Eintracht Frankfurt",
+      "players": 8,
+      "datamb_available": 7,
+      "coverage_rate": 0.875
+    },
+    {
+      "club": "Hoffenheim",
+      "players": 8,
+      "datamb_available": 7,
+      "coverage_rate": 0.875
+    },
+    {
+      "club": "Villarreal",
+      "players": 8,
+      "datamb_available": 7,
+      "coverage_rate": 0.875
+    },
+    {
+      "club": "Bayer Leverkusen",
+      "players": 7,
+      "datamb_available": 7,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Tottenham",
+      "players": 7,
+      "datamb_available": 7,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Nice",
+      "players": 8,
+      "datamb_available": 6,
+      "coverage_rate": 0.75
+    },
+    {
+      "club": "Atalanta",
+      "players": 7,
+      "datamb_available": 6,
+      "coverage_rate": 0.8571428571428571
+    },
+    {
+      "club": "Inter Milan",
+      "players": 7,
+      "datamb_available": 6,
+      "coverage_rate": 0.8571428571428571
+    },
+    {
+      "club": "Juventus",
+      "players": 6,
+      "datamb_available": 6,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "RB Leipzig",
+      "players": 6,
+      "datamb_available": 6,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Real Betis",
+      "players": 7,
+      "datamb_available": 5,
+      "coverage_rate": 0.7142857142857143
+    },
+    {
+      "club": "Fulham",
+      "players": 6,
+      "datamb_available": 5,
+      "coverage_rate": 0.8333333333333334
+    },
+    {
+      "club": "Newcastle United",
+      "players": 6,
+      "datamb_available": 5,
+      "coverage_rate": 0.8333333333333334
+    },
+    {
+      "club": "Stuttgart",
+      "players": 6,
+      "datamb_available": 5,
+      "coverage_rate": 0.8333333333333334
+    },
+    {
+      "club": "Mainz",
+      "players": 5,
+      "datamb_available": 5,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Monaco",
+      "players": 5,
+      "datamb_available": 5,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "PSG",
+      "players": 5,
+      "datamb_available": 5,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Nottingham Forest",
+      "players": 5,
+      "datamb_available": 4,
+      "coverage_rate": 0.8
+    },
+    {
+      "club": "Real Sociedad",
+      "players": 5,
+      "datamb_available": 4,
+      "coverage_rate": 0.8
+    },
+    {
+      "club": "Strasbourg",
+      "players": 5,
+      "datamb_available": 4,
+      "coverage_rate": 0.8
+    },
+    {
+      "club": "Athletic Bilbao",
+      "players": 4,
+      "datamb_available": 4,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Auxerre",
+      "players": 4,
+      "datamb_available": 4,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Bologna",
+      "players": 4,
+      "datamb_available": 4,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Feyenoord",
+      "players": 4,
+      "datamb_available": 4,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Sassuolo",
+      "players": 4,
+      "datamb_available": 4,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Sporting CP",
+      "players": 4,
+      "datamb_available": 4,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Brighton",
+      "players": 5,
+      "datamb_available": 3,
+      "coverage_rate": 0.6
+    },
+    {
+      "club": "Wolfsburg",
+      "players": 5,
+      "datamb_available": 3,
+      "coverage_rate": 0.6
+    },
+    {
+      "club": "Lyon",
+      "players": 4,
+      "datamb_available": 3,
+      "coverage_rate": 0.75
+    },
+    {
+      "club": "Augsburg",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Bournemouth",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Braga",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Brentford",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Como",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Everton",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Freiburg",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Lorient",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Napoli",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "PEC Zwolle",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Rennes",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Roma",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Sevilla",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Sporting",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Werder Bremen",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Wolverhampton",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Wolves",
+      "players": 3,
+      "datamb_available": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Chelsea",
+      "players": 8,
+      "datamb_available": 2,
+      "coverage_rate": 0.25
+    },
+    {
+      "club": "Leeds United",
+      "players": 4,
+      "datamb_available": 2,
+      "coverage_rate": 0.5
+    },
+    {
+      "club": "West Ham United",
+      "players": 4,
+      "datamb_available": 2,
+      "coverage_rate": 0.5
+    },
+    {
+      "club": "AS Roma",
+      "players": 3,
+      "datamb_available": 2,
+      "coverage_rate": 0.6666666666666666
+    },
+    {
+      "club": "Ajax",
+      "players": 3,
+      "datamb_available": 2,
+      "coverage_rate": 0.6666666666666666
+    },
+    {
+      "club": "Borussia Monchengladbach",
+      "players": 3,
+      "datamb_available": 2,
+      "coverage_rate": 0.6666666666666666
+    },
+    {
+      "club": "Real Oviedo",
+      "players": 3,
+      "datamb_available": 2,
+      "coverage_rate": 0.6666666666666666
+    },
+    {
+      "club": "Borussia Moenchengladbach",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Brighton & Hove Albion",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Celta Vigo",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Cremonese",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Genoa",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Girona",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Hamburg",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "NEC Nijmegen",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Newcastle",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Osasuna",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Porto",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "RKC Waalwijk",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Rayo Vallecano",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Torino",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "West Ham",
+      "players": 2,
+      "datamb_available": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Palmeiras",
+      "players": 7,
+      "datamb_available": 1,
+      "coverage_rate": 0.14285714285714285
+    },
+    {
+      "club": "Atletico Mineiro",
+      "players": 4,
+      "datamb_available": 1,
+      "coverage_rate": 0.25
+    },
+    {
+      "club": "St Pauli",
+      "players": 3,
+      "datamb_available": 1,
+      "coverage_rate": 0.3333333333333333
+    },
+    {
+      "club": "Venezia",
+      "players": 3,
+      "datamb_available": 1,
+      "coverage_rate": 0.3333333333333333
+    },
+    {
+      "club": "Maccabi Haifa",
+      "players": 2,
+      "datamb_available": 1,
+      "coverage_rate": 0.5
+    },
+    {
+      "club": "Mallorca",
+      "players": 2,
+      "datamb_available": 1,
+      "coverage_rate": 0.5
+    },
+    {
+      "club": "VfB Stuttgart",
+      "players": 2,
+      "datamb_available": 1,
+      "coverage_rate": 0.5
+    },
+    {
+      "club": "Zenit St. Petersburg",
+      "players": 2,
+      "datamb_available": 1,
+      "coverage_rate": 0.5
+    },
+    {
+      "club": "Angers",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Astana",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Brighton and Hove Albion",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "FC Barcelona",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "FC Porto",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Fiorentina",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Heracles Almelo",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "L.D.U Quito",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "LDU Quito",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Levante",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Nantes",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Paris FC",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Parma",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Pisa",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Sparta Rotterdam",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Tondela",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Tottenham Hotspur",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Toulouse",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Valencia",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Wolverhampton Wanderers",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "club": "Unknown / verify manually",
+      "players": 62,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Iran-based club not specified",
+      "players": 18,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Galatasaray",
+      "players": 12,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Hilal",
+      "players": 10,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Slavia Prague",
+      "players": 10,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Ahly",
+      "players": 9,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Nassr",
+      "players": 9,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Flamengo",
+      "players": 8,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Mamelodi Sundowns",
+      "players": 8,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Orlando Pirates",
+      "players": 8,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Duhail",
+      "players": 7,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Fenerbahce",
+      "players": 7,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Celtic",
+      "players": 6,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Viktoria Plzen",
+      "players": 6,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Qadsiah",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Sadd",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Auckland FC",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Burnley",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Club America",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Club Brugge",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Istanbul Basaksehir",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Pyramids",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "River Plate",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Ahli",
+      "players": 4,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Arabi",
+      "players": 4,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Ahli",
+      "players": 4,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Wakrah",
+      "players": 4,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Zawraa",
+      "players": 4,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Melbourne City",
+      "players": 4,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Pakhtakor",
+      "players": 4,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Toronto",
+      "players": 4,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Ain",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Gharafa",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Rayyan",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Hussein",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Karma",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Talaba",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Bodo/Glimt",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Charleroi",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Chicago Fire",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Esteghlal",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Genk",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Guadalajara",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Hull City",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Independiente",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Inter Miami",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Jeonbuk",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Kasimpasa",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Leicester City",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Lens",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Midtjylland",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Nasaf",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Neftchi",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "New York City",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Norwich City",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Orlando City",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Pafos",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Rijeka",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Sparta Prague",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Vancouver Whitecaps",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Watford",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Wellington Phoenix",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Young Boys",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Zamalek",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "AEL Limassol",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Bataeh",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Ittihad",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Faisaly",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Ittihad",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Najma",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Shorta",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Wehdat",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Anderlecht",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Atlanta United",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Atlas",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Brondby",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Bukhara",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Castellon",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Caykur Rizespor",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Cerro Porteno",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Club Africain",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Columbus Crew",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Coventry City",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Cruz Azul",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Dallas",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Derby County",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Dibba",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Esperance",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "FC Copenhagen",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "FC Tokyo",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "FC Volendam",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Gremio",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Internacional",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Kalba, UAE",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Kashima Antlers",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Krasnodar",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Larisa",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Le Havre",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Lugano",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Miami FC",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Middlesbrough",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Minnesota United",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "NK Maribor",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Nordsjaelland",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "PAOK",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Panathinaikos",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Persepolis",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Philadelphia Union",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "RB Salzburg",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Racing Strasbourg",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Rangers",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Red Star Belgrade",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "SC Telstar",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Schalke 04",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Selangor",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Sint-Truiden",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Stade Rennais",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Stoke City",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Swansea City",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Tijuana",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Toluca",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Trabzonspor",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "UNAM",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "USM Alger",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Ulsan",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Vizela",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Young Boys Berne",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "ZED",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "A.E Kifisia",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "AE Kifisia",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "AEK Athens",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "AEK Larnaca",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "AGMK",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "AIK",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "APOEL",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "AS Monaco",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "AZ",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Aarhus GF",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Abha Club",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Accra Hearts of Oak SC",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Ajax Amsterdam",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Akron Tolyatti",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Ettifaq",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Jazira",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Shamal",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al Ula",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Ahli Saudi",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Dhafra",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Hilal",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Nasr, UAE",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Nassr",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Qadsiah",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Quwa Al-Jawiya",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Sailiya",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Shabab",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Al-Wahda, UAE",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Alanyaspor",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Albirex Niigata",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Almere City",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Apollon Limassol",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Aris Limassol",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Athletico Paranaense",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Atletico Nacional",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Atletico San Luis",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Atromitos",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Austria Wien",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Baniyas",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Barcelona on loan from Manchester United",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Bastia",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Besiktas",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Besitkas",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Birmingham",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Botafogo",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Bragantino",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Braintree Town",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "CS Sfaxien",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Cagliari",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Casa Pia",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Cercle Brugge",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Charlotte FC",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Chaves",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Cincinnati",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Colorado Rapids",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Colorado Springs",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Copenhagen",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Corinthians",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Cracovia",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Cultural Leonesa",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Daejeon",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Dinamo Moscow",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Dinamo Samarqand",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Dinamo Zagreb",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Dynamo Makhachkala",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Dynamo Moscow",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "El Gouna",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "El Paso Locomotive",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Elche",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Espanyol",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Estrela Amadora",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Etoile Sahel",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "FC Augsburg",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "FC Cosmos Koblenz",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "FC Dallas",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "FC Den Bosch",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "FC Midtjylland",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "FC Seoul",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "FC Zurich",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "FCSB",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Farense",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Fenerbache",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Fenerbahce SK",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Ferencvaros",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Feynoord",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Fluminense",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Fortuna Dusseldorf",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Frosinone",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Gangwon",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Gaziantep",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Gil Vicente",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Granada",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Grazer",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Gyori ETO",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Hajduk Split",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Hamburger SV",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Hannover",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Hannover 96",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Heart of Midlothian",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Holstein Kiel",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Hradec Kralove",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Huracan",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Igdir",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Igdır",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Independiente Rivadavia",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Ipswich",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "JS Kabylie",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Jagiellonia Bialystok",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Junior FC",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "KAA Gent",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "KV Mechelen",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Kaizer Chiefs",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Karlsruher SC",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Kayserispor",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Kilmarnock",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Konyaspor",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "LAFC",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "LASK",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Lanus",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Le Havre AC",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Lechia Gdansk",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Livingston/Machida Zelvia",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Lokomotiv Moscow",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Lokomotiva Zagreb",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Los Angeles FC",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Ludogorets",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Maccabi Tel Aviv",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Mainz 05",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Malmo",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Man City",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Millwall",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Mjallby",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Molde FK",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Montana",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Montpellier",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Motherwell",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Nancy",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Nashville SC",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Navbahor",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Neom",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "New England Revolution",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Newcastle Jets",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Noah",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Norrkoping",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Olimpia",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Olympiacos",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Olympiakos, Gre",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Olympique Lyonnais",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Omonia",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "PSV",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Pachuca",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Paris St Germain",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Parma Calcio",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Persib",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Peterborough United",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Pogon Szczecin",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Polokwane City",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Port",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Port Vale",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Portland Timbers",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Portsmouth",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Puskas Akademia",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Qatar",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "RS Berkane",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "RZ Pellets WAC",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Racing Genk",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Racing Lens",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Racing de Santander",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Raja Casablanca",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Randers",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Rizespor",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Rosario Central",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Rostov, Rus",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Rotherham United",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Royal Antwerp",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Royal Armed Forces",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "SC Braga",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "SC Freiburg",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "SJK",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "SK Beveren",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Saint-Etienne",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Saint-Étienne",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Sampdoria",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Samsunspor",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "San Diego",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "San Lorenzo",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Sanfrecce Hiroshima",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Santos",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Santos Laguna",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Sao Paulo",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Sarpsborg",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Seattle Sounders",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Servette Geneva",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Shahab al-Ahli, UAE",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Shamrock Rovers",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Sheffield United",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Silkeborg IF",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Siwelele",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Slaven Belupo",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Slovan Liberec",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Sochaux",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Southampton",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Spartak Moscow",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "St Gallen",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "St Patrick's Athletic",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "St. Pauli",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Stade Nyonnaise",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Stade de Reims",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Standard Liege",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Surkhon",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Swansea",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Sydney",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Talleres",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Tatran Presov",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Terengganu FC",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Tigres UANL",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Torreense",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Tractor",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Twente",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "US Monastir",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Udinese",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Union Berlin",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Union SG",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Union Saint-Gilloise",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Union St-Gilloise",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Universitatea Cluj",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Utrecht",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "VVV-Venlo",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Vasco da Gama",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Velez Sarsfield",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Verona",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Viking",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Viking FK",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Viktoria Pilsen",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Violette",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Vitoria Guimaraes",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Western Sydney Wanderers",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Widzew Lodz",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Wrexham",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Young Boys Bern",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Zhejiang",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "Zulte Waregem",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "club": "known in Iran as Dennis Dargahi, Standard Liege, Bel",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    }
+  ],
+  "coverage_by_league": [
+    {
+      "league": "Premier League",
+      "players": 143,
+      "datamb_available": 128,
+      "coverage_rate": 0.8951048951048951
+    },
+    {
+      "league": "Bundesliga",
+      "players": 96,
+      "datamb_available": 83,
+      "coverage_rate": 0.8645833333333334
+    },
+    {
+      "league": "LaLiga",
+      "players": 76,
+      "datamb_available": 69,
+      "coverage_rate": 0.9078947368421053
+    },
+    {
+      "league": "Ligue 1 / French football league system",
+      "players": 73,
+      "datamb_available": 61,
+      "coverage_rate": 0.8356164383561644
+    },
+    {
+      "league": "Serie A",
+      "players": 60,
+      "datamb_available": 55,
+      "coverage_rate": 0.9166666666666666
+    },
+    {
+      "league": "Eredivisie / Dutch football league system",
+      "players": 26,
+      "datamb_available": 23,
+      "coverage_rate": 0.8846153846153846
+    },
+    {
+      "league": "Primeira Liga",
+      "players": 22,
+      "datamb_available": 21,
+      "coverage_rate": 0.9545454545454546
+    },
+    {
+      "league": "Campeonato Brasileiro Série A",
+      "players": 6,
+      "datamb_available": 2,
+      "coverage_rate": 0.3333333333333333
+    },
+    {
+      "league": "Ecuadorian Serie A",
+      "players": 3,
+      "datamb_available": 2,
+      "coverage_rate": 0.6666666666666666
+    },
+    {
+      "league": "Russian Premier League",
+      "players": 8,
+      "datamb_available": 1,
+      "coverage_rate": 0.125
+    },
+    {
+      "league": "Israeli Premier League",
+      "players": 2,
+      "datamb_available": 1,
+      "coverage_rate": 0.5
+    },
+    {
+      "league": "Kazakhstan Premier League",
+      "players": 1,
+      "datamb_available": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "league": "Unknown / verify manually",
+      "players": 337,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Saudi Pro League",
+      "players": 40,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Turkish Süper Lig",
+      "players": 33,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "English football league system",
+      "players": 30,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Major League Soccer",
+      "players": 26,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Iran Persian Gulf Pro League",
+      "players": 23,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Brazilian football league system",
+      "players": 21,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Qatar Stars League",
+      "players": 19,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Egyptian Premier League",
+      "players": 18,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "South African Premier Division",
+      "players": 18,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Belgian Pro League",
+      "players": 17,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Liga MX",
+      "players": 16,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Scottish Premiership",
+      "players": 10,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Danish Superliga",
+      "players": 8,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "New Zealand National League",
+      "players": 8,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Argentina Primera División",
+      "players": 7,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Greek Super League",
+      "players": 7,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Uzbekistan Super League",
+      "players": 7,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Croatian Football League",
+      "players": 6,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "J1 League / Japanese football league system",
+      "players": 6,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Swiss Super League",
+      "players": 6,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Australian A-League Men",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Czech First League",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Middle East / North Africa league - verify club",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Spanish football league system",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "UAE Pro League",
+      "players": 5,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Argentine Primera División",
+      "players": 4,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Tunisian Ligue Professionnelle 1",
+      "players": 4,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Austrian Bundesliga",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Cypriot First Division",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "German football league system",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Paraguayan Primera División",
+      "players": 3,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Argentina Primera Division",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Iraqi Stars League",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Romanian Liga I",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Serbian SuperLiga",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Slovenian PrvaLiga",
+      "players": 2,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Colombian Categoría Primera A",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Ghana Premier League",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Hungarian NB I",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Irish Premier Division",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Italian football league system",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Malaysia Super League",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Moroccan Botola",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Norwegian Eliteserien",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Paraguayan football league system",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Polish Ekstraklasa",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Swedish Allsvenskan",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Thai League 1",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "Turkish Super Lig",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    },
+    {
+      "league": "USL Championship",
+      "players": 1,
+      "datamb_available": 0,
+      "coverage_rate": 0.0
+    }
+  ]
+}

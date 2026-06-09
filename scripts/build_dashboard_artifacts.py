@@ -31,6 +31,7 @@ SQUADS_PATH = PROJECT_ROOT / "data" / "squads" / "processed" / "world_cup_2026_s
 FBREF_CONTEXT_PATH = PROJECT_ROOT / "data" / "fbref" / "processed" / "fbref_player_context.csv"
 UNDERSTAT_CONTEXT_PATH = PROJECT_ROOT / "data" / "understat" / "processed" / "understat_player_context.csv"
 UNDERSTAT_MODEL_PREDICTIONS_PATH = PROJECT_ROOT / "data" / "predictions" / "all_understat_shots_xg.csv"
+DATAMB_CONTEXT_PATH = PROJECT_ROOT / "data" / "datamb" / "processed" / "datamb_player_context.csv"
 MODEL_COMPARISON_PATH = PROJECT_ROOT / "reports" / "model_comparison.csv"
 SOURCE_MODEL_COMPARISON_PATH = PROJECT_ROOT / "reports" / "source_model_comparison.csv"
 FEATURE_MISSINGNESS_PATH = PROJECT_ROOT / "reports" / "feature_missingness_experiment.csv"
@@ -333,6 +334,19 @@ def prepare_understat_context() -> pd.DataFrame:
     if "pos" not in understat.columns and "position" in understat.columns:
         understat["pos"] = understat["position"]
     return understat
+
+
+def prepare_datamb_context() -> pd.DataFrame:
+    """Load cleaned DataMB player context and ensure normalized helper columns exist."""
+    datamb = read_csv_if_exists(DATAMB_CONTEXT_PATH)
+    if datamb.empty:
+        return datamb
+
+    if "player_normalized" not in datamb.columns:
+        datamb["player_normalized"] = datamb["player"].apply(normalize_name)
+    if "team_normalized" not in datamb.columns and "world_cup_team" in datamb.columns:
+        datamb["team_normalized"] = datamb["world_cup_team"].apply(normalize_name)
+    return datamb
 
 
 def prepare_understat_model_context() -> pd.DataFrame:
@@ -649,6 +663,73 @@ def understat_model_rows_for_player(
     return True, rows, summary
 
 
+def parse_json_dict(value) -> dict:
+    """Parse a JSON object stored in a CSV cell."""
+    if value is None or pd.isna(value):
+        return {}
+    try:
+        parsed = json.loads(value) if isinstance(value, str) else dict(value)
+    except (TypeError, ValueError, json.JSONDecodeError):
+        return {}
+    return parsed if isinstance(parsed, dict) else {}
+
+
+def bool_from_cell(value) -> bool:
+    """Convert CSV-loaded boolean-ish values into bool."""
+    if isinstance(value, bool):
+        return value
+    if value is None or pd.isna(value):
+        return False
+    return str(value).strip().casefold() in {"true", "1", "yes", "y"}
+
+
+def datamb_context_for_player(
+    datamb_context: pd.DataFrame,
+    player: str,
+    team: str,
+) -> dict:
+    """Return the DataMB 25/26 context object for one squad player."""
+    unavailable = {
+        "available": False,
+        "source": "DataMB",
+        "season": "25/26",
+        "reason": "No DataMB 25/26 public/free data found for this player.",
+    }
+    if datamb_context.empty:
+        return unavailable
+
+    player_normalized = normalize_name(player)
+    team_normalized = normalize_name(team)
+    rows = datamb_context[
+        (datamb_context["player_normalized"] == player_normalized)
+        & (datamb_context["team_normalized"] == team_normalized)
+    ]
+    if rows.empty:
+        return unavailable
+
+    row = rows.iloc[0]
+    if not bool_from_cell(row.get("datamb_available")):
+        return {
+            **unavailable,
+            "reason": row.get("reason") or unavailable["reason"],
+            "match_status": row.get("match_status"),
+        }
+
+    return {
+        "available": True,
+        "source": "DataMB",
+        "season": row.get("season") or "25/26",
+        "template": row.get("datamb_template"),
+        "club": row.get("datamb_club") or row.get("club"),
+        "minutes": row.get("minutes"),
+        "percentiles": parse_json_dict(row.get("percentiles_json")),
+        "generated_radar_path": row.get("generated_radar_path"),
+        "source_url": row.get("source_url"),
+        "match_confidence": row.get("match_confidence"),
+        "notes": "Percentile data from DataMB public 25/26 radar/profile scrape. Values are percentiles from 0-100, not raw per-90 stats.",
+    }
+
+
 def build_teams_artifact(
     teams: list[str],
     predictions: pd.DataFrame,
@@ -898,6 +979,7 @@ def build_player_profiles_artifact(
     fbref_context: pd.DataFrame,
     understat_context: pd.DataFrame,
     understat_model_context: pd.DataFrame,
+    datamb_context: pd.DataFrame,
 ) -> list[dict]:
     """Build one player profile object per squad player."""
     if squads.empty:
@@ -928,6 +1010,7 @@ def build_player_profiles_artifact(
             player,
             row.get("position_group"),
         )
+        datamb_25_26 = datamb_context_for_player(datamb_context, player, team)
 
         warnings = []
         if shot_summary["statsbomb_shots"] < 20:
@@ -971,9 +1054,13 @@ def build_player_profiles_artifact(
                 "understat_model_available": understat_model_available,
                 "understat_model_recent_rows": understat_model_rows,
                 "understat_model_summary": understat_model_summary,
+                "datamb_25_26": datamb_25_26,
                 "data_confidence": calculate_player_data_confidence(
                     shot_summary["statsbomb_shots"],
-                    fbref_available or understat_available or understat_model_available,
+                    fbref_available
+                    or understat_available
+                    or understat_model_available
+                    or bool(datamb_25_26.get("available")),
                 ),
                 "imageUrl": None,
                 "avatarSeed": row.get("player_normalized", normalize_name(player)),
@@ -1064,6 +1151,7 @@ def build_data_coverage_artifact(
     squads: pd.DataFrame,
     fbref_context: pd.DataFrame,
     understat_context: pd.DataFrame,
+    datamb_context: pd.DataFrame,
 ) -> dict:
     """Build high-level data coverage metadata."""
     found_statsbomb_teams = sorted(predictions["world_cup_team"].dropna().unique())
@@ -1076,6 +1164,7 @@ def build_data_coverage_artifact(
     confirmed_squads = squads[squads["squad_status"] == "confirmed"].copy() if not squads.empty else pd.DataFrame()
     fbref_matched = count_fbref_matches(confirmed_squads, fbref_context)
     understat_matched = count_understat_matches(confirmed_squads, understat_context)
+    datamb_matched = int(datamb_context["datamb_available"].sum()) if not datamb_context.empty else 0
     total_squad_players = int(len(confirmed_squads))
 
     return {
@@ -1095,12 +1184,18 @@ def build_data_coverage_artifact(
         "understat_coverage_rate": round(understat_matched / total_squad_players, 4)
         if total_squad_players
         else 0.0,
+        "datamb_matched_players": datamb_matched,
+        "datamb_missing_players": total_squad_players - datamb_matched,
+        "datamb_coverage_rate": round(datamb_matched / total_squad_players, 4)
+        if total_squad_players
+        else 0.0,
         "date_range": date_range(predictions),
         "known_limitations": [
             "The xG model and shot maps use historical StatsBomb open/event data.",
             "The dashboard is not a complete 2026 prediction model.",
             "FBref aggregate data is used only as recent player context.",
             "Understat club xG data is used only as recent/historical club context.",
+            "DataMB 25/26 percentiles are external context only and are not used by the trained xG model.",
             "Player images are intentionally left as placeholders unless approved/licensed sources are provided.",
         ],
     }
@@ -1114,6 +1209,7 @@ def main() -> None:
     fbref_context = prepare_fbref_context()
     understat_context = prepare_understat_context()
     understat_model_context = prepare_understat_model_context()
+    datamb_context = prepare_datamb_context()
 
     write_json(
         "teams.json",
@@ -1137,6 +1233,7 @@ def main() -> None:
             fbref_context,
             understat_context,
             understat_model_context,
+            datamb_context,
         ),
     )
     write_json("squad_players.json", build_squad_players_artifact(squads))
@@ -1149,6 +1246,7 @@ def main() -> None:
             squads,
             fbref_context,
             understat_context,
+            datamb_context,
         ),
     )
 

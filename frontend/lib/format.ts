@@ -1,4 +1,4 @@
-import type { UnderstatRecentRow } from "./types";
+import type { DataConfidence, EvidenceLevel, PlayerProfile, Team, UnderstatRecentRow } from "./types";
 
 export function formatNumber(value: number | null | undefined, digits = 0) {
   if (value === null || value === undefined || Number.isNaN(Number(value))) {
@@ -165,23 +165,7 @@ export function sourceTakeaway({
   fbrefAvailable?: boolean;
   understatAvailable?: boolean;
 }) {
-  if (statsbombShots >= 250) {
-    return "Historical sample strong";
-  }
-
-  if (statsbombShots >= 50) {
-    return "Historical sample moderate";
-  }
-
-  if (statsbombShots > 0) {
-    return "Limited historical sample";
-  }
-
-  if (fbrefAvailable || understatAvailable) {
-    return "Club context only";
-  }
-
-  return "Coverage unavailable";
+  return sourceTakeawayLabel({ statsbombShots, fbrefAvailable, understatAvailable });
 }
 
 function understatRichness(row: UnderstatRecentRow) {
@@ -225,4 +209,133 @@ export function latestSeasonRows<T extends { season?: number | string | null }>(
 
 export function rowsHaveValue<T extends Record<string, unknown>>(rows: T[], keys: Array<keyof T>) {
   return keys.some((key) => rows.some((row) => hasValue(row[key])));
+}
+
+export function evidenceLevelFromConfidence(value: DataConfidence | string | null | undefined): EvidenceLevel {
+  const normalized = String(value ?? "").toLowerCase();
+  if (normalized === "strong") {
+    return "strong";
+  }
+  if (normalized === "moderate") {
+    return "moderate";
+  }
+  if (normalized === "limited") {
+    return "limited";
+  }
+  return "unavailable";
+}
+
+export function evidenceLabel(
+  value: DataConfidence | EvidenceLevel | string | null | undefined,
+  options: { hasHistoricalSample?: boolean; hasExternalContext?: boolean } = {}
+) {
+  const level = evidenceLevelFromConfidence(value);
+  if (level === "strong") {
+    return "Strong evidence";
+  }
+  if (level === "moderate") {
+    return "Some evidence";
+  }
+  if (level === "limited") {
+    return "Limited evidence";
+  }
+  if (!options.hasHistoricalSample && options.hasExternalContext) {
+    return "Club context only";
+  }
+  return "No historical sample";
+}
+
+export function playerHasExternalContext(player: PlayerProfile) {
+  return Boolean(
+    player.fbref_available ||
+      player.understat_available ||
+      player.understat_model_available ||
+      player.datamb_25_26?.available
+  );
+}
+
+export function teamHasExternalContext(team?: Pick<Team, "fbref_players_matched" | "understat_players_matched"> | null) {
+  return Boolean((team?.fbref_players_matched ?? 0) > 0 || (team?.understat_players_matched ?? 0) > 0);
+}
+
+export function sourceTakeawayLabel({
+  statsbombShots,
+  fbrefAvailable,
+  understatAvailable,
+  datambAvailable
+}: {
+  statsbombShots: number;
+  fbrefAvailable?: boolean;
+  understatAvailable?: boolean;
+  datambAvailable?: boolean;
+}) {
+  if (statsbombShots >= 250) {
+    return "Strong evidence";
+  }
+
+  if (statsbombShots >= 50) {
+    return "Some evidence";
+  }
+
+  if (statsbombShots > 0) {
+    return "Limited evidence";
+  }
+
+  if (fbrefAvailable || understatAvailable || datambAvailable) {
+    return "Club context only";
+  }
+
+  return "No matched data yet";
+}
+
+export function playerRecentMinutes(player: PlayerProfile) {
+  const fbrefMinutes = player.fbref_recent_rows?.reduce((sum, row) => sum + (row.minutes ?? 0), 0) ?? 0;
+  const understatMinutes = player.understat_recent_rows?.reduce((sum, row) => sum + (row.minutes ?? 0), 0) ?? 0;
+  const datambMinutes = player.datamb_25_26?.minutes ?? 0;
+  return Math.max(fbrefMinutes, understatMinutes, datambMinutes);
+}
+
+export function normalizePositionGroup(position?: string | null) {
+  const raw = String(position ?? "").toLowerCase();
+  const first = raw.split(/[,\//]/).map((part) => part.trim()).find(Boolean) ?? raw;
+
+  if (/(^|\b)(gk|goalkeeper|keeper)(\b|$)/.test(first)) {
+    return "goalkeeper";
+  }
+  if (/(^|\b)(df|defender|cb|centreback|centerback|lb|rb|back)(\b|$)/.test(first)) {
+    return "defender";
+  }
+  if (/(^|\b)(mf|midfielder|cm|dm|am|midfield)(\b|$)/.test(first)) {
+    return "midfielder";
+  }
+  if (/(^|\b)(fw|forward|st|cf|lw|rw|wing|striker)(\b|$)/.test(first)) {
+    return "forward";
+  }
+  return "unknown";
+}
+
+export function getEvidenceScore(player: PlayerProfile) {
+  let score = 0;
+  if (player.statsbomb_shots > 0) {
+    score += 3;
+  }
+  if (player.statsbomb_shots >= 20) {
+    score += 2;
+  }
+  if (player.fbref_available) {
+    score += 2;
+  }
+  if (player.understat_available) {
+    score += 2;
+  }
+  if (player.datamb_25_26?.available) {
+    score += 1;
+  }
+  if (player.club || player.league) {
+    score += 1;
+  }
+  if (playerRecentMinutes(player) > 0) {
+    score += 1;
+  }
+  return score;
 }

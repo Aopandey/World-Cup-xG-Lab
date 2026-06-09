@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-import DataConfidenceBadge from "@/components/DataConfidenceBadge";
+import EvidenceBadge from "@/components/EvidenceBadge";
 import SourceBadge from "@/components/SourceBadge";
-import { assetUrl, flagLabel, formatNumber, slugPath, sourceTakeaway } from "@/lib/format";
+import { assetUrl, flagLabel, formatNumber, slugPath, sourceTakeaway, teamHasExternalContext } from "@/lib/format";
 import type { Team } from "@/lib/types";
 
 type TeamCardProps = {
@@ -45,27 +45,33 @@ export default function TeamCard({ team }: TeamCardProps) {
             <p className="mt-1 text-xs text-slate-400">{takeaway}</p>
           </div>
         </div>
-        <DataConfidenceBadge value={team.data_confidence} />
+        <EvidenceBadge
+          level={team.data_confidence}
+          hasHistoricalSample={team.statsbomb_shots > 0}
+          hasExternalContext={teamHasExternalContext(team)}
+        />
       </div>
 
       <div className="mt-5 grid grid-cols-2 gap-3">
         <div className="rounded-lg border border-white/10 bg-black/15 px-3 py-3">
-          <p className="stat-label">Shots</p>
+          <p className="stat-label">Past sample shots</p>
           <p className="mt-1 text-xl font-semibold text-white">{formatNumber(team.statsbomb_shots)}</p>
+          <p className="mt-1 text-xs text-slate-500">StatsBomb open data</p>
         </div>
         <div className="rounded-lg border border-white/10 bg-black/15 px-3 py-3">
-          <p className="stat-label">Total xG</p>
+          <p className="stat-label">Past sample xG</p>
           <p className="mt-1 text-xl font-semibold text-white">{formatNumber(team.total_xg, 1)}</p>
+          <p className="mt-1 text-xs text-slate-500">Not a 2026 forecast</p>
         </div>
       </div>
 
       <div className="mt-4 border-t border-white/10 pt-3">
-        <p className="stat-label">Sources Available</p>
+        <p className="stat-label">Sources matched</p>
         <div className="mt-2 flex flex-wrap gap-2">
           {sources.length ? (
             sources.map((source) => <SourceBadge key={source} source={source} />)
           ) : (
-            <span className="text-xs text-slate-500">Coverage unavailable</span>
+            <span className="text-xs text-slate-500">No matched data yet</span>
           )}
         </div>
       </div>

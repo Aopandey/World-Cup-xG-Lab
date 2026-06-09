@@ -147,13 +147,42 @@ reports/figures/source_model_calibration.png
 
 Understat's own `xG` column is kept as `source_xg` for benchmarking only. It is not used as an input feature because that would leak another model's answer into our model.
 
+## DataMB 25/26 Percentile Context
+
+DataMB is used as a separate external player-context layer. It provides 25/26 percentile rankings from public/free DataMB player profiles and is not used to train the StatsBomb xG model.
+
+Build the cleaned DataMB context and coverage reports:
+
+```bash
+python src/data/build_datamb_player_context.py
+```
+
+Generate single-player radar charts from the cleaned percentile values:
+
+```bash
+python scripts/generate_datamb_radars.py
+```
+
+Key outputs:
+
+```text
+data/datamb/processed/datamb_player_context.csv
+data/generated/datamb_radars/
+reports/datamb_coverage_report.csv
+reports/datamb_coverage_summary.json
+```
+
+The generated DataMB radars are custom single-player charts from scraped percentile values. The scraped DataMB screenshots are not used as dashboard images.
+
 ## Known Limitations
 
 This is not a guaranteed 2026 World Cup prediction model. It shows historical scoring zones and recent player context from available data.
 
-Player matching across StatsBomb, squad lists, FBref, and Understat is difficult because sources use different name formats. The dashboard uses exact matches, configured aliases, and conservative safe fuzzy matching only when confidence is high.
+Player matching across StatsBomb, squad lists, FBref, Understat, and DataMB is difficult because sources use different name formats. The dashboard uses exact matches, configured aliases, and conservative safe fuzzy matching only when confidence is high.
 
 FBref league availability may vary, and some squad leagues may remain unmapped or unsupported. Understat coverage is limited to the leagues included in the provided archive.
+
+DataMB coverage depends on the public/free 25/26 profile layer and selected league availability. Missing DataMB rows are shown as unavailable context, not as player-quality judgments.
 
 ## Dashboard Artifacts
 
@@ -175,4 +204,4 @@ model_summary.json
 data_coverage.json
 ```
 
-These artifacts keep StatsBomb model outputs, official squad metadata, FBref recent context, Understat club xG context, experimental Understat shot-model context where available, data-confidence labels, sample-size warnings, and model-comparison metrics in frontend-friendly JSON. Player image fields are placeholders only; images should be populated later only from approved or licensed sources.
+These artifacts keep StatsBomb model outputs, official squad metadata, FBref recent context, Understat club xG context, experimental Understat shot-model context, DataMB 25/26 percentile context where available, data-confidence labels, sample-size warnings, and model-comparison metrics in frontend-friendly JSON. Player image fields are placeholders only; images should be populated later only from approved or licensed sources.

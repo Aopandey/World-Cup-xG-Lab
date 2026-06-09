@@ -5,16 +5,25 @@ type PageHeaderProps = {
   title: string;
   subtitle: string;
   children?: ReactNode;
+  contentClassName?: string;
+  subtitleClassName?: string;
 };
 
-export default function PageHeader({ eyebrow, title, subtitle, children }: PageHeaderProps) {
+export default function PageHeader({
+  eyebrow,
+  title,
+  subtitle,
+  children,
+  contentClassName = "max-w-4xl",
+  subtitleClassName = "max-w-3xl"
+}: PageHeaderProps) {
   return (
     <header className="space-y-4">
       {eyebrow ? <p className="stat-label text-grass-400">{eyebrow}</p> : null}
       <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-        <div className="max-w-4xl">
+        <div className={contentClassName}>
           <h1 className="text-4xl font-semibold tracking-tight text-white md:text-5xl">{title}</h1>
-          <p className="mt-3 max-w-3xl text-base leading-7 text-slate-300">{subtitle}</p>
+          <p className={`mt-3 text-base leading-7 text-slate-300 ${subtitleClassName}`}>{subtitle}</p>
         </div>
         {children ? <div className="shrink-0">{children}</div> : null}
       </div>

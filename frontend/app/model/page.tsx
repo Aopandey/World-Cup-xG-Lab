@@ -1,9 +1,11 @@
 import DataStateCallout from "@/components/DataStateCallout";
 import ErrorState from "@/components/ErrorState";
+import BuildPipelineDiagram from "@/components/BuildPipelineDiagram";
 import PageHeader from "@/components/PageHeader";
 import SourceBadge from "@/components/SourceBadge";
 import SourceLegend from "@/components/SourceLegend";
 import StatCard from "@/components/StatCard";
+import XGExplainerCards from "@/components/XGExplainerCards";
 import { getModelSummary } from "@/lib/api";
 import { formatNumber } from "@/lib/format";
 import type { ModelMetric } from "@/lib/types";
@@ -14,13 +16,19 @@ export default async function ModelPage() {
     const productionModels = modelSummary.production_models ?? modelSummary.models;
     const researchModels = modelSummary.research_source_models ?? [];
     const featureExperiments = modelSummary.feature_missingness_experiments ?? [];
+    const bestProductionModel =
+      productionModels.find((model) => (model.model_label ?? model.model_name) === modelSummary.best_model_by_log_loss) ??
+      productionModels.find((model) => model.model_name === modelSummary.best_model_by_log_loss) ??
+      productionModels[0];
 
     return (
       <div className="space-y-8">
         <PageHeader
           eyebrow="Model performance"
           title="Expected Goals Model"
-          subtitle="A practical view of how the historical StatsBomb shot model scores chance quality, with context layers kept separate."
+          subtitle="A practical view of how the historical StatsBomb shot model scores chance quality, with source context kept separate."
+          contentClassName="max-w-6xl"
+          subtitleClassName="max-w-none xl:whitespace-nowrap"
         />
 
         <section className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(320px,0.85fr)]">
@@ -29,22 +37,54 @@ export default async function ModelPage() {
               <SourceBadge source="statsbomb" />
               <h2 className="text-xl font-semibold text-white">What xG Means Here</h2>
             </div>
-            <p className="mt-3 text-sm leading-7 text-slate-300">{modelSummary.xg_explanation}</p>
+            <p className="mt-3 text-sm leading-7 text-slate-300">
+              Expected goals estimates the chance that a shot becomes a goal based on the shot context. A 0.10 xG shot
+              means similar shots are scored about 10% of the time.
+            </p>
             <p className="mt-3 text-sm leading-7 text-slate-300">
               The model describes shot quality in available historical data. It does not claim a player will score from a
               future location.
             </p>
           </div>
           <div className="surface-hero p-5">
-            <p className="stat-label">Best model by log loss</p>
+            <p className="stat-label">Production model</p>
             <p className="mt-3 text-3xl font-semibold text-grass-400">
               {modelSummary.best_model_by_log_loss ?? "N/A"}
             </p>
             <p className="mt-3 text-sm leading-6 text-slate-400">
-              Lower log loss rewards better calibrated probabilities, which matters more for xG than raw accuracy.
+              XGBoost was selected as the production StatsBomb xG model because it performed best on log loss among the
+              production candidates.
             </p>
           </div>
         </section>
+
+        <section className="surface-card p-5">
+          <h2 className="text-xl font-semibold text-white">Why this matters for the World Cup dashboard</h2>
+          <p className="mt-3 text-sm leading-7 text-slate-300">
+            World Cup squads mix players from many leagues, competitions, and data sources. Training an xG model gives the
+            dashboard one consistent way to translate historical shot locations and shot context into chance quality. For
+            fans, that means the site can compare whether a player or team generated high-quality chances in available
+            data, then clearly separate that model output from recent club context like FBref, Understat, and percentile
+            profiles.
+          </p>
+        </section>
+
+        <XGExplainerCards />
+
+        {bestProductionModel ? (
+          <section className="surface-card p-5">
+            <h2 className="text-xl font-semibold text-white">Production model summary</h2>
+            <p className="mt-2 text-sm leading-6 text-slate-400">
+              These are the headline validation metrics for the model used by the dashboard's historical xG layer.
+            </p>
+            <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+              <StatCard label="Log loss" value={formatNumber(bestProductionModel.log_loss, 3)} detail="Rewards calibrated probabilities" accent="statsbomb" />
+              <StatCard label="Brier score" value={formatNumber(bestProductionModel.brier_score, 3)} detail="Measures probability error" accent="statsbomb" />
+              <StatCard label="ROC-AUC" value={formatNumber(bestProductionModel.roc_auc, 3)} detail="Ranks goals above non-goals" accent="statsbomb" />
+              <StatCard label="Accuracy" value={formatNumber(bestProductionModel.accuracy_at_0_5, 3)} detail="Secondary for xG" accent="statsbomb" />
+            </div>
+          </section>
+        ) : null}
 
         <MetricTable
           title="Production Model Comparison"
@@ -94,6 +134,8 @@ export default async function ModelPage() {
             ))}
           </div>
         </section>
+
+        <BuildPipelineDiagram />
 
         <SourceLegend />
 

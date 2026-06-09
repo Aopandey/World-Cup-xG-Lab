@@ -21,6 +21,9 @@
   "understat_matched_players": 593,
   "understat_missing_players": 655,
   "understat_coverage_rate": 0.4752,
+  "datamb_matched_players": 447,
+  "datamb_missing_players": 801,
+  "datamb_coverage_rate": 0.3582,
   "date_range": {
     "earliest": "1958-06-24",
     "latest": "2024-07-15"
@@ -30,6 +33,7 @@
     "The dashboard is not a complete 2026 prediction model.",
     "FBref aggregate data is used only as recent player context.",
     "Understat club xG data is used only as recent/historical club context.",
+    "DataMB 25/26 percentiles are external context only and are not used by the trained xG model.",
     "Player images are intentionally left as placeholders unless approved/licensed sources are provided."
   ]
 }

@@ -28,7 +28,8 @@ const config: Config = {
         source: {
           statsbomb: "#69b7ff",
           fbref: "#39d27d",
-          understat: "#f5c451"
+          understat: "#f5c451",
+          datamb: "#7c8cff"
         }
       },
       boxShadow: {

@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 
 const navItems = [
   { href: "/", label: "Teams" },
+  { href: "/players", label: "Players" },
   { href: "/model", label: "Model" },
   { href: "/coverage", label: "Coverage" }
 ];
@@ -40,7 +41,8 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         <main className="mx-auto max-w-7xl px-5 py-8 md:py-10">{children}</main>
         <footer className="mx-auto max-w-7xl px-5 pb-8 pt-4 text-sm leading-6 text-slate-500">
           StatsBomb powers the historical xG model and shot-location views. FBref adds recent aggregate player context.
-          Understat adds club xG context. This dashboard is not a guaranteed 2026 World Cup prediction model.
+          Understat adds club xG context. DataMB adds 25/26 percentile profiles. This dashboard is not a guaranteed
+          2026 World Cup prediction model.
         </footer>
       </body>
     </html>

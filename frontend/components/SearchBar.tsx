@@ -6,7 +6,7 @@ import type { FormEvent } from "react";
 import type { ReactNode } from "react";
 
 import { search } from "@/lib/api";
-import { slugPath } from "@/lib/format";
+import { evidenceLabel, playerHasExternalContext, slugPath, teamHasExternalContext } from "@/lib/format";
 import type { SearchResponse } from "@/lib/types";
 
 export default function SearchBar() {
@@ -70,7 +70,12 @@ export default function SearchBar() {
                 className="flex items-center justify-between rounded-md bg-white/[0.045] px-3 py-2 text-sm text-white transition hover:bg-white/[0.08]"
               >
                 <span>{team.world_cup_team}</span>
-                <span className="text-xs text-slate-400">{team.data_confidence}</span>
+                <span className="text-xs text-slate-400">
+                  {evidenceLabel(team.data_confidence, {
+                    hasHistoricalSample: team.statsbomb_shots > 0,
+                    hasExternalContext: teamHasExternalContext(team)
+                  })}
+                </span>
               </Link>
             ))}
             {!results.team_count ? <p className="text-sm text-slate-400">No teams found.</p> : null}
@@ -84,7 +89,12 @@ export default function SearchBar() {
                 className="block rounded-md bg-white/[0.045] px-3 py-2 text-sm text-white transition hover:bg-white/[0.08]"
               >
                 <span>{player.player}</span>
-                <span className="ml-2 text-xs text-slate-400">{player.world_cup_team}</span>
+                <span className="ml-2 text-xs text-slate-400">
+                  {player.world_cup_team} - {evidenceLabel(player.data_confidence, {
+                    hasHistoricalSample: player.statsbomb_shots > 0,
+                    hasExternalContext: playerHasExternalContext(player)
+                  })}
+                </span>
               </Link>
             ))}
             {!results.player_count ? <p className="text-sm text-slate-400">No players found.</p> : null}

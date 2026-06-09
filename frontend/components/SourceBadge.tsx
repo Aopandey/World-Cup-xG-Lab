@@ -1,15 +1,17 @@
-type Source = "statsbomb" | "fbref" | "understat";
+type Source = "statsbomb" | "fbref" | "understat" | "datamb";
 
 const sourceStyles: Record<Source, string> = {
   statsbomb: "border-source-statsbomb/40 bg-source-statsbomb/10 text-sky-100",
   fbref: "border-source-fbref/40 bg-source-fbref/10 text-emerald-100",
-  understat: "border-source-understat/45 bg-source-understat/10 text-amber-100"
+  understat: "border-source-understat/45 bg-source-understat/10 text-amber-100",
+  datamb: "border-source-datamb/45 bg-source-datamb/10 text-indigo-100"
 };
 
 const sourceLabels: Record<Source, string> = {
   statsbomb: "StatsBomb",
   fbref: "FBref",
-  understat: "Understat"
+  understat: "Understat",
+  datamb: "DataMB"
 };
 
 type SourceBadgeProps = {
@@ -30,4 +32,3 @@ export default function SourceBadge({ source, label, muted = false }: SourceBadg
     </span>
   );
 }
-

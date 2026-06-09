@@ -15,6 +15,13 @@ type HomeDashboardProps = {
 };
 
 const confidenceOptions = ["All", "Strong", "Moderate", "Limited", "Unavailable"];
+const confidenceLabels: Record<string, string> = {
+  All: "All",
+  Strong: "Strong evidence",
+  Moderate: "Some evidence",
+  Limited: "Limited evidence",
+  Unavailable: "No historical sample"
+};
 
 export default function HomeDashboard({ teams, coverage }: HomeDashboardProps) {
   const [confidence, setConfidence] = useState("All");
@@ -47,7 +54,8 @@ export default function HomeDashboard({ teams, coverage }: HomeDashboardProps) {
               <p className="mt-4 max-w-3xl text-base leading-7 text-slate-300">
                 Explore 2026 World Cup teams through historical StatsBomb xG outputs, official squad filters,
                 FBref recent aggregate context, and Understat club xG context. The dashboard shows who generated
-                high-quality chances in available data.
+                high-quality chances in available data. The numbers below describe past available data — not projected
+                2026 tournament goals.
               </p>
             </div>
             <SearchBar />
@@ -64,11 +72,12 @@ export default function HomeDashboard({ teams, coverage }: HomeDashboardProps) {
             </div>
             <div className="mt-4 grid grid-cols-2 gap-3">
               <MiniMetric label="Teams" value={`${teams.length}/${coverage.total_world_cup_teams}`} />
-              <MiniMetric label="Date Range" value={formatDateRange(coverage.date_range)} />
+              <MiniMetric label="Open-data sample range" value={formatDateRange(coverage.date_range)} />
+              <MiniMetric label="Teams with past StatsBomb sample" value={`${coverage.teams_with_statsbomb_data}`} />
+              <MiniMetric label="Percentile Profiles" value={formatPercent(coverage.datamb_coverage_rate ?? 0, 1)} />
               <MiniMetric label="Squad Players" value={formatNumber(coverage.total_squad_players)} />
-              <MiniMetric label="FBref Matched" value={formatPercent(coverage.fbref_coverage_rate, 1)} />
-              <MiniMetric label="Understat Matched" value={formatPercent(coverage.understat_coverage_rate ?? 0, 1)} />
-              <MiniMetric label="StatsBomb Teams" value={`${coverage.teams_with_statsbomb_data}`} />
+              <MiniMetric label="Players matched to recent form" value={formatPercent(coverage.fbref_coverage_rate, 1)} />
+              <MiniMetric label="Club xG Context" value={formatPercent(coverage.understat_coverage_rate ?? 0, 1)} />
             </div>
           </div>
         </div>
@@ -79,9 +88,10 @@ export default function HomeDashboard({ teams, coverage }: HomeDashboardProps) {
       <section className="space-y-4">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <h2 className="text-2xl font-semibold text-white">World Cup Team Grid</h2>
+            <h2 className="text-2xl font-semibold text-white">2026 Team Data Preview</h2>
             <p className="mt-1 text-sm text-slate-400">
-              Showing 2026 World Cup teams with dashboard artifacts. Teams without a historical sample shift toward club context.
+              Each card shows how much historical/open-source evidence we have for a 2026 team. These numbers are not
+              projected 2026 tournament totals.
             </p>
           </div>
           <SegmentedFilter
@@ -89,7 +99,7 @@ export default function HomeDashboard({ teams, coverage }: HomeDashboardProps) {
             value={confidence}
             onChange={setConfidence}
             options={confidenceOptions.map((option) => ({
-              label: option,
+              label: confidenceLabels[option] ?? option,
               value: option,
               count: confidenceCounts[option]
             }))}
