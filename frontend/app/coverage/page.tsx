@@ -34,14 +34,14 @@ export default async function CoveragePage() {
 
         <section className="surface-hero p-5">
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
-            <StatCard label="Total Teams" value={coverage.total_world_cup_teams} />
-            <StatCard label="Teams with StatsBomb" value={coverage.teams_with_statsbomb_data} accent="statsbomb" />
+            <StatCard label="World Cup teams" value={coverage.total_world_cup_teams} />
+            <StatCard label="Teams with past StatsBomb sample" value={coverage.teams_with_statsbomb_data} accent="statsbomb" />
             <StatCard label="Percentile profile rate" value={formatPercent(coverage.datamb_coverage_rate ?? 0, 1)} accent="datamb" />
             <StatCard label="Recent form match rate" value={formatPercent(coverage.fbref_coverage_rate, 1)} accent="fbref" />
             <StatCard label="Club xG match rate" value={formatPercent(coverage.understat_coverage_rate ?? 0, 1)} accent="understat" />
           </div>
           <p className="mt-4 text-sm leading-6 text-slate-400">
-            Historical date range: {formatDateRange(coverage.date_range)}. This is a historical xG analysis dashboard,
+            Open-data sample range: {formatDateRange(coverage.date_range)}. This is a historical xG analysis dashboard,
             not a complete current-season or 2026 prediction model.
           </p>
         </section>
@@ -54,7 +54,7 @@ export default async function CoveragePage() {
           </p>
           <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             <CoverageProgressBar
-              label="Teams with historical StatsBomb"
+              label="Teams with past StatsBomb sample"
               value={coverage.teams_with_statsbomb_data / coverage.total_world_cup_teams}
               detail={`${coverage.teams_with_statsbomb_data} of ${coverage.total_world_cup_teams} teams`}
               accent="statsbomb"
@@ -66,13 +66,13 @@ export default async function CoveragePage() {
               accent="datamb"
             />
             <CoverageProgressBar
-              label="FBref player match rate"
+              label="Players matched to recent form"
               value={coverage.fbref_coverage_rate}
               detail="Recent aggregate club form"
               accent="fbref"
             />
             <CoverageProgressBar
-              label="Understat player match rate"
+              label="Players with club xG context"
               value={coverage.understat_coverage_rate ?? 0}
               detail="Club xG context"
               accent="understat"
@@ -84,9 +84,9 @@ export default async function CoveragePage() {
 
         <section className="grid gap-5 lg:grid-cols-2">
           <div className="surface-card p-5">
-            <h2 className="text-xl font-semibold text-white">Player Source Coverage</h2>
+            <h2 className="text-xl font-semibold text-white">Player Data Coverage</h2>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
-              <StatCard label="Squad Players" value={formatNumber(coverage.total_squad_players)} />
+              <StatCard label="Squad players" value={formatNumber(coverage.total_squad_players)} />
               <StatCard label="Percentile profiles" value={formatNumber(coverage.datamb_matched_players ?? 0)} accent="datamb" />
               <StatCard label="Percentile missing" value={formatNumber(coverage.datamb_missing_players ?? 0)} accent="datamb" />
               <StatCard label="Recent form matched" value={formatNumber(coverage.fbref_matched_players)} accent="fbref" />

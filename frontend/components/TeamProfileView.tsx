@@ -5,8 +5,8 @@ import { useMemo, useState } from "react";
 import AvailabilityStrip from "@/components/AvailabilityStrip";
 import DataConfidenceBadge from "@/components/DataConfidenceBadge";
 import DataStateCallout from "@/components/DataStateCallout";
+import DetailAccordion from "@/components/DetailAccordion";
 import PitchShotMap from "@/components/PitchShotMap";
-import QuickReadCard from "@/components/QuickReadCard";
 import SectionTabs from "@/components/SectionTabs";
 import SegmentedFilter from "@/components/SegmentedFilter";
 import SourceBadge from "@/components/SourceBadge";
@@ -14,6 +14,7 @@ import SourceLegend from "@/components/SourceLegend";
 import SquadFormationBoard from "@/components/SquadFormationBoard";
 import SquadGrid from "@/components/SquadGrid";
 import StatCard from "@/components/StatCard";
+import SummaryCard from "@/components/SummaryCard";
 import TakeawayCard from "@/components/TakeawayCard";
 import {
   assetUrl,
@@ -24,6 +25,7 @@ import {
   normalizeSeasonLabel,
   shortLeagueName
 } from "@/lib/format";
+import { buildTeamSummary } from "@/lib/summaries";
 import type { PlayerProfile, RecentFbrefPlayer, RecentUnderstatPlayer, Team, TeamProfile } from "@/lib/types";
 
 type TeamProfileViewProps = {
@@ -49,6 +51,7 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
   const sampleWeak = profile.statsbomb_shots < 50;
   const confidence = team?.data_confidence ?? "Unavailable";
   const externalContext = Boolean(team?.fbref_players_matched || team?.understat_players_matched);
+  const teamSummary = buildTeamSummary(profile, team);
 
   const positionCounts = useMemo(() => {
     return positionOptions.reduce<Record<string, number>>((counts, option) => {
@@ -85,12 +88,10 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
               </div>
             </div>
 
-            <div className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-              <StatCard label="Past sample shots" value={formatNumber(profile.statsbomb_shots)} detail="StatsBomb open data" accent="statsbomb" />
-              <StatCard label="Goals" value={formatNumber(profile.statsbomb_goals)} accent="statsbomb" />
-              <StatCard label="Past sample xG" value={formatNumber(profile.total_xg, 1)} detail="Not a 2026 forecast" accent="statsbomb" />
-              <StatCard label="Finishing vs expected" value={formatNumber(profile.goals_minus_xg, 1)} detail="Goals minus xG" accent="statsbomb" />
-            </div>
+            <p className="mt-5 max-w-2xl text-sm leading-6 text-slate-300">
+              Start with the team summary, then open the detail sections below for model output, data strength, and
+              club-context coverage.
+            </p>
           </div>
 
           <div className="space-y-3">
@@ -106,16 +107,154 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
                 understatAvailable={Boolean(team?.understat_players_matched)}
               />
             </div>
-            <QuickReadCard tone={sampleWeak ? "warning" : "default"}>
-              {teamQuickRead(profile, team)}
-            </QuickReadCard>
-            {sampleWeak ? (
-              <DataStateCallout title="Small historical sample" tone="warning">
-                This team has fewer than 50 historical StatsBomb shots in the current dataset. Treat model totals as directional, not definitive.
-              </DataStateCallout>
-            ) : null}
+            <div className="surface-inset p-4 text-sm leading-6 text-slate-300">
+              <p className="stat-label">Data read</p>
+              <p className="mt-2">
+                The detail sections below separate historical model output from club-context sources.
+              </p>
+            </div>
           </div>
         </div>
+      </section>
+
+      <SummaryCard
+        eyebrow="Team summary"
+        title={teamSummary.title}
+        paragraphs={teamSummary.paragraphs}
+        takeaway={teamSummary.takeaway}
+        tone={teamSummary.tone}
+      />
+
+      {sampleWeak ? (
+        <DataStateCallout title="Small historical sample" tone="warning">
+          This team has fewer than 50 historical StatsBomb shots in the current dataset. Treat model totals as directional, not definitive.
+        </DataStateCallout>
+      ) : null}
+
+      <section className="grid gap-4 lg:grid-cols-2">
+        <DetailAccordion
+          title="What did the xG model find?"
+          summary="Past model output from StatsBomb open-data matches. These are not 2026 forecasts."
+        >
+          <div className="grid gap-3 sm:grid-cols-2">
+            <StatCard
+              label="Past sample shots"
+              value={formatNumber(profile.statsbomb_shots)}
+              detail="StatsBomb open-data matches"
+              accent="statsbomb"
+            />
+            <StatCard
+              label="Goals"
+              value={formatNumber(profile.statsbomb_goals)}
+              detail="Goals in covered matches"
+              accent="statsbomb"
+            />
+            <StatCard
+              label="xG in available past matches"
+              value={formatNumber(profile.total_xg, 1)}
+              detail="Not a 2026 forecast"
+              accent="statsbomb"
+            />
+            <StatCard
+              label="Scoring vs expected"
+              value={formatNumber(profile.goals_minus_xg, 1)}
+              detail="Goals minus model xG"
+              accent="statsbomb"
+            />
+          </div>
+        </DetailAccordion>
+
+        <DetailAccordion
+          title="How strong is the data?"
+          summary="Sample size and evidence level for this team's historical model layer."
+          tone={sampleWeak ? "warning" : "default"}
+        >
+          <div className="space-y-4 text-sm leading-6 text-slate-300">
+            <div className="flex flex-wrap items-center gap-2">
+              <DataConfidenceBadge
+                value={confidence}
+                hasHistoricalSample={profile.statsbomb_shots > 0}
+                hasExternalContext={externalContext}
+              />
+              <span>{formatNumber(profile.statsbomb_shots)} past sample shots are available.</span>
+            </div>
+            {sampleWeak ? (
+              <DataStateCallout title="Small historical sample" tone="warning">
+                This team has fewer than 50 historical StatsBomb shots in the current dataset. Treat model totals as
+                directional, not definitive.
+              </DataStateCallout>
+            ) : (
+              <p>
+                This sample is large enough to make the historical model output easier to read, but it still describes
+                available past data only.
+              </p>
+            )}
+          </div>
+        </DetailAccordion>
+
+        <DetailAccordion
+          title="What club context is available?"
+          summary="External club-context sources are shown separately from the trained StatsBomb xG model."
+        >
+          <div className="grid gap-3 sm:grid-cols-2">
+            <TakeawayCard
+              label="Players with recent club stats"
+              value={formatPercent(team?.fbref_coverage_rate ?? 0, 1)}
+              detail="FBref match rate"
+            />
+            <TakeawayCard
+              label="Players with club xG context"
+              value={formatPercent(team?.understat_coverage_rate ?? 0, 1)}
+              detail="Understat match rate"
+            />
+          </div>
+          <p className="mt-4 text-sm leading-6 text-slate-400">
+            FBref, Understat, and percentile sources help describe club form and source coverage. They do not replace
+            the production StatsBomb-trained xG model.
+          </p>
+        </DetailAccordion>
+
+        <DetailAccordion
+          title="Which players should I explore?"
+          summary="Use the squad board and player pages to move from team-level context to player-level evidence."
+        >
+          <div className="space-y-4">
+            <button
+              type="button"
+              onClick={() => setActiveTab("squad")}
+              className="rounded-md bg-grass-500 px-4 py-2 text-sm font-semibold text-pitch-900 transition hover:bg-grass-400"
+            >
+              Open squad board
+            </button>
+            <div>
+              <p className="stat-label">Historical xG players</p>
+              <div className="mt-3 space-y-2">
+                {profile.top_xg_players.length ? (
+                  profile.top_xg_players.slice(0, 5).map((player) => (
+                    <div key={player.player} className="flex items-center justify-between gap-3 rounded-md bg-white/[0.045] px-3 py-2 text-sm">
+                      <span className="font-medium text-white">{player.player}</span>
+                      <span className="text-slate-300">{formatNumber(player.total_xg, 2)} xG</span>
+                    </div>
+                  ))
+                ) : (
+                  <p className="text-sm text-slate-400">No player-level historical xG sample is available yet.</p>
+                )}
+              </div>
+            </div>
+          </div>
+        </DetailAccordion>
+
+        <DetailAccordion
+          title="What should I be careful about?"
+          summary="The dashboard is source-aware by design, so missing data is part of the story."
+        >
+          <ul className="space-y-2 text-sm leading-6 text-slate-300">
+            <li>- These numbers describe past available data, not projected 2026 World Cup totals.</li>
+            <li>- Historical international/open-data samples and club context are separate layers.</li>
+            <li>- Missing data does not mean a weak team or player.</li>
+            <li>- Source coverage differs by competition, league, and player-name matching.</li>
+          </ul>
+        </DetailAccordion>
       </section>
 
       <SectionTabs options={mainTabs} value={activeTab} onChange={setActiveTab} />
@@ -129,10 +268,26 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
               while club context helps fill in recent form where available.
             </p>
             <div className="mt-5 grid gap-3 sm:grid-cols-3">
-              <TakeawayCard label="Historical chance sample" value={formatNumber(profile.statsbomb_shots)} detail="StatsBomb shots" />
-              <TakeawayCard label="Average chance quality" value={formatNumber(profile.avg_xg_per_shot, 3)} detail="xG per shot" />
-              <TakeawayCard label="Recent form coverage" value={formatPercent(team?.fbref_coverage_rate ?? 0, 1)} detail="FBref matched players" />
-              <TakeawayCard label="Club xG coverage" value={formatPercent(team?.understat_coverage_rate ?? 0, 1)} detail="Understat matched players" />
+              <TakeawayCard
+                label="How much past match data do we have?"
+                value={formatNumber(profile.statsbomb_shots)}
+                detail="StatsBomb open-data shots"
+              />
+              <TakeawayCard
+                label="Shot danger"
+                value={formatNumber(profile.avg_xg_per_shot, 3)}
+                detail="xG per shot in covered matches"
+              />
+              <TakeawayCard
+                label="Players with recent club stats"
+                value={formatPercent(team?.fbref_coverage_rate ?? 0, 1)}
+                detail="FBref match rate"
+              />
+              <TakeawayCard
+                label="Players with club xG context"
+                value={formatPercent(team?.understat_coverage_rate ?? 0, 1)}
+                detail="Understat match rate"
+              />
             </div>
           </div>
           <SourceLegend />
@@ -167,7 +322,7 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
           <div className="surface-card p-5">
             <div className="flex items-center gap-2">
               <SourceBadge source="statsbomb" />
-              <h2 className="text-xl font-semibold text-white">Top historical chance creators</h2>
+              <h2 className="text-xl font-semibold text-white">Historical chance creators</h2>
             </div>
             <TopXgList players={profile.top_xg_players} />
           </div>
@@ -192,7 +347,7 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
           />
           <ClubContextList
             source="understat"
-            title="Understat Club xG Context"
+            title="Understat club xG context"
             rows={profile.top_recent_understat_players ?? []}
             emptyMessage="No Understat club xG context found for this team yet."
           />
@@ -305,28 +460,4 @@ function getContextClub(row: RecentFbrefPlayer | RecentUnderstatPlayer) {
   }
 
   return row.club ?? null;
-}
-
-function teamQuickRead(profile: TeamProfile, team: Team | null) {
-  const hasFbref = Boolean(team?.fbref_players_matched);
-  const hasUnderstat = Boolean(team?.understat_players_matched);
-  const hasClubContext = hasFbref || hasUnderstat;
-
-  if (profile.statsbomb_shots >= 250 && hasClubContext) {
-    return `${profile.world_cup_team} has a strong historical StatsBomb sample and useful club context from FBref/Understat. Use the historical xG numbers as past shot-quality evidence, not as a guaranteed 2026 prediction.`;
-  }
-
-  if (profile.statsbomb_shots >= 50) {
-    return `${profile.world_cup_team} has some historical shot evidence in the current dataset. Read the xG totals as available past chance quality, then use club context to round out the scouting picture.`;
-  }
-
-  if (profile.statsbomb_shots > 0) {
-    return `${profile.world_cup_team} has limited historical StatsBomb shot data, so the profile leans more on squad and club context where available.`;
-  }
-
-  if (hasClubContext) {
-    return `${profile.world_cup_team} has no matched historical StatsBomb shot sample here, so the team page is mainly a squad and club-context view.`;
-  }
-
-  return `${profile.world_cup_team} is included in the World Cup squad layer, but this build does not yet have enough matched data for a deeper team profile.`;
 }

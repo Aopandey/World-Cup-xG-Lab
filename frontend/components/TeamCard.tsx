@@ -2,34 +2,27 @@ import Link from "next/link";
 
 import EvidenceBadge from "@/components/EvidenceBadge";
 import SourceBadge from "@/components/SourceBadge";
-import { assetUrl, flagLabel, formatNumber, slugPath, sourceTakeaway, teamHasExternalContext } from "@/lib/format";
+import { assetUrl, flagLabel, slugPath, teamHasExternalContext } from "@/lib/format";
 import type { Team } from "@/lib/types";
 
 type TeamCardProps = {
   team: Team;
 };
 
+type TeamSource = "statsbomb" | "fbref" | "understat";
+
 export default function TeamCard({ team }: TeamCardProps) {
   const flagSrc = assetUrl(team.flag_image_url);
-  const takeaway = sourceTakeaway({
-    statsbombShots: team.statsbomb_shots,
-    fbrefAvailable: team.fbref_players_matched > 0,
-    understatAvailable: Boolean(team.understat_players_matched)
-  });
-  const sources = [
-    team.statsbomb_shots > 0 ? "statsbomb" : null,
-    team.fbref_players_matched > 0 ? "fbref" : null,
-    team.understat_players_matched ? "understat" : null
-  ].filter(Boolean) as Array<"statsbomb" | "fbref" | "understat">;
+  const sources = getTeamSources(team);
 
   return (
     <Link
       href={`/teams/${slugPath(team.world_cup_team)}`}
-      className="group block rounded-lg border border-white/10 bg-white/[0.05] p-4 shadow-card transition hover:-translate-y-0.5 hover:border-grass-400/45 hover:bg-white/[0.075] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-grass-400"
+      className="group block h-full rounded-lg border border-white/10 bg-gradient-to-br from-white/[0.075] to-white/[0.035] p-4 shadow-card transition hover:-translate-y-0.5 hover:border-grass-400/45 hover:bg-white/[0.085] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-grass-400"
     >
-      <div className="flex items-start justify-between gap-4">
-        <div className="flex min-w-0 items-center gap-3">
-          <div className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-white/10 bg-pitch-700 text-lg font-semibold text-white">
+      <div className="flex h-full flex-col gap-4">
+        <div className="flex items-start gap-4">
+          <div className="flex h-16 w-20 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-white/10 bg-pitch-700 text-xl font-semibold text-white shadow-card">
             {flagSrc ? (
               <img
                 src={flagSrc}
@@ -40,41 +33,67 @@ export default function TeamCard({ team }: TeamCardProps) {
               flagLabel(team.flag_code)
             )}
           </div>
-          <div className="min-w-0">
-            <h2 className="truncate text-lg font-semibold text-white">{team.world_cup_team}</h2>
-            <p className="mt-1 text-xs text-slate-400">{takeaway}</p>
+          <div className="min-w-0 flex-1">
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+              <h2 className="text-xl font-semibold text-white">{team.world_cup_team}</h2>
+              <EvidenceBadge
+                level={team.data_confidence}
+                hasHistoricalSample={team.statsbomb_shots > 0}
+                hasExternalContext={teamHasExternalContext(team)}
+              />
+            </div>
+            <p className="mt-3 text-sm leading-6 text-slate-300">{teamDataRead(team)}</p>
           </div>
         </div>
-        <EvidenceBadge
-          level={team.data_confidence}
-          hasHistoricalSample={team.statsbomb_shots > 0}
-          hasExternalContext={teamHasExternalContext(team)}
-        />
-      </div>
 
-      <div className="mt-5 grid grid-cols-2 gap-3">
-        <div className="rounded-lg border border-white/10 bg-black/15 px-3 py-3">
-          <p className="stat-label">Past sample shots</p>
-          <p className="mt-1 text-xl font-semibold text-white">{formatNumber(team.statsbomb_shots)}</p>
-          <p className="mt-1 text-xs text-slate-500">StatsBomb open data</p>
-        </div>
-        <div className="rounded-lg border border-white/10 bg-black/15 px-3 py-3">
-          <p className="stat-label">Past sample xG</p>
-          <p className="mt-1 text-xl font-semibold text-white">{formatNumber(team.total_xg, 1)}</p>
-          <p className="mt-1 text-xs text-slate-500">Not a 2026 forecast</p>
-        </div>
-      </div>
-
-      <div className="mt-4 border-t border-white/10 pt-3">
-        <p className="stat-label">Sources matched</p>
-        <div className="mt-2 flex flex-wrap gap-2">
-          {sources.length ? (
-            sources.map((source) => <SourceBadge key={source} source={source} />)
-          ) : (
-            <span className="text-xs text-slate-500">No matched data yet</span>
-          )}
+        <div className="mt-auto border-t border-white/10 pt-3">
+          <p className="stat-label">Sources available</p>
+          <div className="mt-2 flex flex-wrap gap-2">
+            {sources.length ? (
+              sources.map((source) => <SourceBadge key={source} source={source} />)
+            ) : (
+              <span className="text-sm text-slate-500">No matched data yet</span>
+            )}
+          </div>
+          <span className="mt-4 inline-flex text-sm font-semibold text-grass-400 transition group-hover:text-grass-300">
+            View profile -&gt;
+          </span>
         </div>
       </div>
     </Link>
   );
+}
+
+function getTeamSources(team: Team) {
+  return [
+    team.statsbomb_shots > 0 ? "statsbomb" : null,
+    team.fbref_players_matched > 0 ? "fbref" : null,
+    team.understat_players_matched ? "understat" : null
+  ].filter(Boolean) as TeamSource[];
+}
+
+function teamDataRead(team: Team) {
+  const hasExternal = teamHasExternalContext(team);
+
+  if (team.statsbomb_shots >= 250 && hasExternal) {
+    return "Useful historical sample plus recent club context.";
+  }
+
+  if (team.statsbomb_shots >= 50) {
+    return hasExternal
+      ? "Some historical shot evidence with extra club context."
+      : "Some historical shot evidence from open-data matches.";
+  }
+
+  if (team.statsbomb_shots > 0) {
+    return hasExternal
+      ? "Small historical sample, so club context matters more."
+      : "Small historical sample in the current open-data archive.";
+  }
+
+  if (hasExternal) {
+    return "No historical StatsBomb sample matched yet, but club context is available.";
+  }
+
+  return "Squad listed, but matched data is still limited.";
 }

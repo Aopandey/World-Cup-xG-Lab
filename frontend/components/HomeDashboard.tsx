@@ -52,9 +52,8 @@ export default function HomeDashboard({ teams, coverage }: HomeDashboardProps) {
                 World Cup xG Lab
               </h1>
               <p className="mt-4 max-w-3xl text-base leading-7 text-slate-300">
-                Explore 2026 World Cup teams through historical StatsBomb xG outputs, official squad filters,
-                FBref recent aggregate context, and Understat club xG context. The dashboard shows who generated
-                high-quality chances in available data. The numbers below describe past available data — not projected
+                Explore 2026 World Cup teams through historical open-data shot samples, recent club context, and
+                transparent source coverage. The numbers in this dashboard describe past available data, not projected
                 2026 tournament goals.
               </p>
             </div>
@@ -74,10 +73,10 @@ export default function HomeDashboard({ teams, coverage }: HomeDashboardProps) {
               <MiniMetric label="Teams" value={`${teams.length}/${coverage.total_world_cup_teams}`} />
               <MiniMetric label="Open-data sample range" value={formatDateRange(coverage.date_range)} />
               <MiniMetric label="Teams with past StatsBomb sample" value={`${coverage.teams_with_statsbomb_data}`} />
-              <MiniMetric label="Percentile Profiles" value={formatPercent(coverage.datamb_coverage_rate ?? 0, 1)} />
-              <MiniMetric label="Squad Players" value={formatNumber(coverage.total_squad_players)} />
+              <MiniMetric label="Percentile profiles" value={formatPercent(coverage.datamb_coverage_rate ?? 0, 1)} />
+              <MiniMetric label="Squad players" value={formatNumber(coverage.total_squad_players)} />
               <MiniMetric label="Players matched to recent form" value={formatPercent(coverage.fbref_coverage_rate, 1)} />
-              <MiniMetric label="Club xG Context" value={formatPercent(coverage.understat_coverage_rate ?? 0, 1)} />
+              <MiniMetric label="Players with club xG context" value={formatPercent(coverage.understat_coverage_rate ?? 0, 1)} />
             </div>
           </div>
         </div>
@@ -88,14 +87,14 @@ export default function HomeDashboard({ teams, coverage }: HomeDashboardProps) {
       <section className="space-y-4">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <h2 className="text-2xl font-semibold text-white">2026 Team Data Preview</h2>
+            <h2 className="text-2xl font-semibold text-white">Explore 2026 Teams</h2>
             <p className="mt-1 text-sm text-slate-400">
-              Each card shows how much historical/open-source evidence we have for a 2026 team. These numbers are not
-              projected 2026 tournament totals.
+              Choose a national team to explore its historical shot data, squad context, and source coverage. Detailed
+              xG numbers live inside each team profile.
             </p>
           </div>
           <SegmentedFilter
-            label="Data confidence"
+            label="Data evidence"
             value={confidence}
             onChange={setConfidence}
             options={confidenceOptions.map((option) => ({
@@ -114,7 +113,7 @@ export default function HomeDashboard({ teams, coverage }: HomeDashboardProps) {
           </div>
         ) : (
           <div className="surface-card p-6 text-slate-300">
-            No teams match the selected confidence filter.
+            No teams match the selected data evidence filter.
           </div>
         )}
       </section>

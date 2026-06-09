@@ -78,7 +78,7 @@ export default async function ModelPage() {
           <section className="surface-card p-5">
             <h2 className="text-xl font-semibold text-white">Production model summary</h2>
             <p className="mt-2 text-sm leading-6 text-slate-400">
-              These are the headline validation metrics for the model used by the dashboard's historical xG layer.
+              These are the headline validation metrics for the model used by the dashboard historical xG layer.
             </p>
             <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
               <StatCard label="Log loss" value={formatNumber(bestProductionModel.log_loss, 3)} detail="Rewards calibrated probabilities" accent="statsbomb" />

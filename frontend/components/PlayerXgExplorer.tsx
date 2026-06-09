@@ -32,9 +32,9 @@ const evidenceOptions: Array<{ value: "All" | DataConfidence; label: string }> =
 
 const sortOptions: Array<{ value: SortKey; label: string }> = [
   { value: "shots", label: "Most past sample shots" },
-  { value: "xg", label: "Highest past sample xG" },
+  { value: "xg", label: "Highest xG in available past matches" },
   { value: "goals", label: "Most goals" },
-  { value: "finishing", label: "Finishing vs expected" }
+  { value: "finishing", label: "Scoring vs expected" }
 ];
 
 const inputClassName =
@@ -316,10 +316,10 @@ function PlayerExplorerCard({ player }: { player: PlayerProfile }) {
       <div className="mt-5 grid gap-3 sm:grid-cols-2 xl:grid-cols-5">
         <CompactMetric label="Past sample shots" value={formatNumber(player.statsbomb_shots)} detail="StatsBomb" />
         <CompactMetric label="Goals" value={formatNumber(player.statsbomb_goals)} detail="Past sample" />
-        <CompactMetric label="Past sample xG" value={formatNumber(player.total_xg, 2)} detail="Not a 2026 forecast" />
-        <CompactMetric label="Finishing vs expected" value={formatSigned(player.goals_minus_xg)} detail="Goals minus xG" />
+        <CompactMetric label="xG in available past matches" value={formatNumber(player.total_xg, 2)} detail="Not a 2026 forecast" />
+        <CompactMetric label="Scoring vs expected" value={formatSigned(player.goals_minus_xg)} detail="Goals minus model xG" />
         <CompactMetric
-          label="Average chance quality"
+          label="Shot danger"
           value={averageChanceQuality === null ? "N/A" : formatNumber(averageChanceQuality, 3)}
           detail="xG per shot"
         />
