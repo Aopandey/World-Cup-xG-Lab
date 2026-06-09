@@ -11,12 +11,17 @@ import type {
 } from "./types";
 
 const DEFAULT_API_BASE_URL = "http://localhost:8000";
+const PUBLIC_API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? DEFAULT_API_BASE_URL;
+
+function readRuntimeEnv(name: string) {
+  return process.env[name];
+}
 
 export function getApiBaseUrl() {
   if (typeof window === "undefined") {
     return (
-      process.env.API_INTERNAL_BASE_URL ??
-      process.env.NEXT_PUBLIC_API_BASE_URL ??
+      readRuntimeEnv("API_INTERNAL_BASE_URL") ??
+      readRuntimeEnv("NEXT_PUBLIC_API_BASE_URL") ??
       DEFAULT_API_BASE_URL
     );
   }
@@ -25,7 +30,7 @@ export function getApiBaseUrl() {
 }
 
 export function getPublicApiBaseUrl() {
-  return process.env.NEXT_PUBLIC_API_BASE_URL ?? DEFAULT_API_BASE_URL;
+  return PUBLIC_API_BASE_URL;
 }
 
 type QueryValue = string | number | boolean | null | undefined;

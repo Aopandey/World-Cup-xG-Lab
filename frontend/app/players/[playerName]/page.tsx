@@ -2,6 +2,9 @@ import ErrorState from "@/components/ErrorState";
 import PlayerProfileView from "@/components/PlayerProfileView";
 import { getPlayerProfile } from "@/lib/api";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 type PlayerPageProps = {
   params: {
     playerName: string;

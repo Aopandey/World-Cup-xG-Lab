@@ -2,6 +2,9 @@ import ErrorState from "@/components/ErrorState";
 import TeamProfileView from "@/components/TeamProfileView";
 import { getPlayers, getTeamProfile, getTeams } from "@/lib/api";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 type TeamPageProps = {
   params: {
     teamName: string;

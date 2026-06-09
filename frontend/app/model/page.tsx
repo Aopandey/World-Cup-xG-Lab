@@ -10,6 +10,9 @@ import { getModelSummary } from "@/lib/api";
 import { formatNumber } from "@/lib/format";
 import type { ModelMetric } from "@/lib/types";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default async function ModelPage() {
   try {
     const modelSummary = await getModelSummary();

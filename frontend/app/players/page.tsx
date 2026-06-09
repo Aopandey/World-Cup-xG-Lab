@@ -2,6 +2,9 @@ import ErrorState from "@/components/ErrorState";
 import PlayerXgExplorer from "@/components/PlayerXgExplorer";
 import { getPlayers } from "@/lib/api";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default async function PlayersPage() {
   try {
     const playersResponse = await getPlayers();

@@ -7,6 +7,9 @@ import StatCard from "@/components/StatCard";
 import { getCoverage, getTeams } from "@/lib/api";
 import { formatDateRange, formatNumber, formatPercent } from "@/lib/format";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default async function CoveragePage() {
   try {
     const [coverage, teams] = await Promise.all([
