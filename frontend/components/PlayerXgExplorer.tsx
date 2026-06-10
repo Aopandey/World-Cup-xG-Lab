@@ -105,12 +105,12 @@ export default function PlayerXgExplorer({ players }: PlayerXgExplorerProps) {
       <section className="surface-hero overflow-hidden p-5 md:p-7">
         <div className="grid gap-6 lg:grid-cols-[minmax(0,1.4fr)_minmax(300px,0.8fr)] lg:items-end">
           <div>
-            <p className="stat-label text-grass-400">Player-level historical xG</p>
+            <p className="stat-label text-grass-400">Player-level past chance quality</p>
             <h1 className="mt-3 text-4xl font-semibold tracking-tight text-white md:text-5xl">
               Player xG Explorer
             </h1>
             <p className="mt-4 max-w-4xl text-base leading-7 text-slate-300">
-              Browse players with historical StatsBomb shot samples and model xG output. These rankings show past
+              Browse players with historical shot samples and expected-goals estimates. These rankings show past
               available data, not projected 2026 World Cup scoring.
             </p>
           </div>
@@ -129,7 +129,7 @@ export default function PlayerXgExplorer({ players }: PlayerXgExplorerProps) {
         <MetricCard
           label="Players with past sample shots"
           value={formatNumber(summary.playersWithShots)}
-          detail="StatsBomb historical sample"
+          detail="Historical open-data sample"
           source="statsbomb"
           accent="statsbomb"
         />
@@ -145,7 +145,7 @@ export default function PlayerXgExplorer({ players }: PlayerXgExplorerProps) {
           <div>
             <h2 className="text-xl font-semibold text-white">Find Player Samples</h2>
             <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-400">
-              Default filters show players with at least one historical StatsBomb shot. Lower the minimum shot filter
+              Default filters show players with at least one historical open-data shot. Lower the minimum shot filter
               to zero if you want to inspect squad players who only have club-context sources.
             </p>
           </div>
@@ -314,14 +314,14 @@ function PlayerExplorerCard({ player }: { player: PlayerProfile }) {
       </div>
 
       <div className="mt-5 grid gap-3 sm:grid-cols-2 xl:grid-cols-5">
-        <CompactMetric label="Past sample shots" value={formatNumber(player.statsbomb_shots)} detail="StatsBomb" />
+        <CompactMetric label="Past sample shots" value={formatNumber(player.statsbomb_shots)} detail="StatsBomb open data" />
         <CompactMetric label="Goals" value={formatNumber(player.statsbomb_goals)} detail="Past sample" />
         <CompactMetric label="xG in available past matches" value={formatNumber(player.total_xg, 2)} detail="Not a 2026 forecast" />
-        <CompactMetric label="Scoring vs expected" value={formatSigned(player.goals_minus_xg)} detail="Goals minus model xG" />
+        <CompactMetric label="Scoring vs expected" value={formatSigned(player.goals_minus_xg)} detail="Goals minus expected goals estimate" />
         <CompactMetric
-          label="Shot danger"
+          label="Average shot quality"
           value={averageChanceQuality === null ? "N/A" : formatNumber(averageChanceQuality, 3)}
-          detail="xG per shot"
+          detail="Estimated chance per shot"
         />
       </div>
     </article>

@@ -37,11 +37,11 @@ type PlayerProfileViewProps = {
 
 const tabs = [
   { label: "Overview", value: "overview" },
-  { label: "Historical xG", value: "historical" },
-  { label: "Percentile profile", value: "datamb" },
-  { label: "FBref Form", value: "fbref" },
-  { label: "Understat Context", value: "understat" },
-  { label: "Experimental shot model", value: "understat-model" }
+  { label: "Past Chance Quality", value: "historical" },
+  { label: "Percentile Profile", value: "datamb" },
+  { label: "League Form", value: "fbref" },
+  { label: "Club xG", value: "understat" },
+  { label: "Experimental xG Check", value: "understat-model" }
 ];
 
 export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
@@ -148,7 +148,7 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
                 fbrefAvailable: player.fbref_available,
                 understatAvailable: Boolean(player.understat_available)
               })}
-              detail="When the historical sample is weak, use club context to understand recent volume and form."
+              detail="When the historical sample is weak, use recent club and league context to understand role, volume, and form."
             />
           </div>
         </div>
@@ -164,7 +164,7 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
 
       {weakStatsBombSample && !noMatchedData ? (
         <DataStateCallout title="Limited historical shot sample" tone="warning">
-          Small StatsBomb shot sample: use the club and percentile context below to better understand recent player form.
+          Small historical shot sample: use the club, league, and percentile context below to better understand recent player form.
         </DataStateCallout>
       ) : null}
 
@@ -178,8 +178,8 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
           }
         >
           <p>
-            This player exists in the World Cup squad layer, but we do not currently have a matched StatsBomb,
-            Percentile profile, FBref, or Understat profile.
+            This player exists in the World Cup squad layer, but we do not currently have a matched past shot sample,
+            percentile scouting profile, recent league-form profile, or club xG profile.
           </p>
           <ul className="mt-3 space-y-1">
             <li>- The player may not appear in the open StatsBomb competitions used here.</li>
@@ -206,8 +206,8 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
         <section className="grid gap-4 lg:grid-cols-2">
           {player.statsbomb_shots > 0 ? (
             <DetailAccordion
-              title="Historical xG model output"
-              summary="Past StatsBomb shot sample and model xG output for this player."
+              title="Past Chance Quality"
+              summary="StatsBomb open data + trained xG model. This looks at historical shots only, not 2026 performance."
             >
               <div className="grid gap-3 sm:grid-cols-2">
                 <StatCard
@@ -231,7 +231,7 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
                 <StatCard
                   label="Scoring vs expected"
                   value={formatNumber(player.goals_minus_xg, 2)}
-                  detail="Goals minus model xG"
+                  detail="Goals minus expected goals estimate"
                   accent="statsbomb"
                 />
               </div>
@@ -240,8 +240,8 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
 
           {datambAvailable ? (
             <DetailAccordion
-              title="Percentile profile"
-              summary="DataMB 25/26 percentiles. These are not raw per-90 stats or model inputs."
+              title="Percentile Scouting Profile"
+              summary="DataMB · 25/26. Percentiles compare a player to a reference group; they are not raw stats and not model inputs."
             >
               <div className="grid gap-3 sm:grid-cols-3">
                 <TakeawayCard label="Season" value={datamb?.season ?? "25/26"} detail="External percentile layer" />
@@ -253,12 +253,12 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
 
           {player.fbref_available ? (
             <DetailAccordion
-              title="Recent club form"
-              summary="FBref aggregate context. This is not used by the trained xG model."
+              title="Recent League Form"
+              summary="FBref recent club/league stats. These are not inputs to the trained xG model."
             >
               <div className="grid gap-3 sm:grid-cols-3">
-                <TakeawayCard label="Shots" value={formatNumber(sumRows(player.fbref_recent_rows, "shots"))} detail="FBref rows pulled" />
-                <TakeawayCard label="Goals" value={formatNumber(sumRows(player.fbref_recent_rows, "goals"))} detail="Recent club context" />
+                <TakeawayCard label="Shots" value={formatNumber(sumRows(player.fbref_recent_rows, "shots"))} detail="Recent club/league rows pulled" />
+                <TakeawayCard label="Goals" value={formatNumber(sumRows(player.fbref_recent_rows, "goals"))} detail="Recent league form" />
                 <TakeawayCard label="Minutes" value={formatNumber(sumRows(player.fbref_recent_rows, "minutes"))} detail="Where available" />
               </div>
             </DetailAccordion>
@@ -266,8 +266,8 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
 
           {player.understat_available ? (
             <DetailAccordion
-              title="Understat club context"
-              summary="Club xG context from covered Understat leagues."
+              title="Club xG Context"
+              summary="Understat club-level xG context from covered leagues, separate from the StatsBomb-trained model."
             >
               <div className="grid gap-3 sm:grid-cols-3">
                 <TakeawayCard label="Club shots" value={formatNumber(sumRows(understatRows, "shots"))} detail="Understat rows" />
@@ -279,7 +279,7 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
 
           {player.understat_model_available && player.understat_model_summary ? (
             <DetailAccordion
-              title="Experimental shot model"
+              title="Experimental xG Check"
               summary="Research layer for matched Understat shots, separate from the production StatsBomb model."
             >
               <div className="grid gap-3 sm:grid-cols-3">
@@ -309,7 +309,7 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
           >
             <ul className="space-y-2 text-sm leading-6 text-slate-300">
               <li>- Player data describes past available samples and club context, not a 2026 World Cup forecast.</li>
-              <li>- StatsBomb powers the historical xG model; FBref, Understat, and percentile profiles are context layers.</li>
+              <li>- StatsBomb powers the past chance-quality model; recent league form, club xG, and percentile profiles are context layers.</li>
               <li>- Small shot samples can make xG and finishing numbers noisy.</li>
               <li>- Missing source matches can come from league coverage or player-name differences.</li>
             </ul>
@@ -322,15 +322,15 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
         {player.statsbomb_shots > 0 ? (
           <SourceSummaryCard
             source="statsbomb"
-            title="Historical StatsBomb"
+            title="Past Chance Quality"
             primary={`${formatNumber(player.statsbomb_shots)} shots`}
-            detail={`${formatNumber(player.total_xg, 2)} xG, ${formatNumber(player.statsbomb_goals)} goals. ${formatDateRange(player.statsbomb_date_range)}.`}
+            detail={`The model estimated ${formatNumber(player.total_xg, 2)} goals from these shots; actual goals: ${formatNumber(player.statsbomb_goals)}. ${formatDateRange(player.statsbomb_date_range)}.`}
           />
         ) : null}
         {datambAvailable ? (
           <SourceSummaryCard
             source="datamb"
-            title="Percentile profile"
+            title="Percentile Scouting Profile"
             primary={`${formatNumber(datamb?.minutes, 0)} min`}
             detail={`${datamb?.template ?? "Template unknown"} percentile context.`}
           />
@@ -338,7 +338,7 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
         {player.fbref_available ? (
           <SourceSummaryCard
             source="fbref"
-            title="Recent FBref Form"
+            title="Recent League Form"
             primary={`${formatNumber(sumRows(player.fbref_recent_rows, "shots"))} shots`}
             detail="Aggregate club/league form where pulled."
           />
@@ -346,7 +346,7 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
         {player.understat_available ? (
           <SourceSummaryCard
             source="understat"
-            title="Understat club xG context"
+            title="Club xG Context"
             primary={`${formatNumber(sumRows(understatRows, "xg"), 2)} xG`}
             detail="Club xG context from covered leagues."
           />
@@ -354,7 +354,7 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
         {player.understat_model_available && player.understat_model_summary ? (
           <SourceSummaryCard
             source="understat"
-            title="Experimental shot model"
+            title="Experimental xG Check"
             primary={`${formatNumber(player.understat_model_summary.experimental_xg, 2)} xG`}
             detail={`${formatNumber(player.understat_model_summary.shots)} modeled Understat shots. Research layer only.`}
           />
@@ -373,8 +373,8 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
               StatsBomb sample as a complete player forecast.
             </p>
             <div className="mt-5 grid gap-3 sm:grid-cols-3">
-              <TakeawayCard label="Scoring vs expected" value={formatNumber(player.goals_minus_xg, 2)} detail="Goals minus model xG" />
-              <TakeawayCard label="Shot danger" value={formatNumber(player.avg_xg_per_shot, 3)} detail="xG per shot" />
+              <TakeawayCard label="Scoring vs expected" value={formatNumber(player.goals_minus_xg, 2)} detail="Goals minus expected goals estimate" />
+              <TakeawayCard label="Average shot quality" value={formatNumber(player.avg_xg_per_shot, 3)} detail="Roughly how dangerous each shot was on average." />
               <TakeawayCard label="Open-data sample range" value={formatDateRange(player.statsbomb_date_range)} />
             </div>
           </div>
@@ -387,13 +387,13 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
           <div className="surface-card p-5">
             <div className="flex items-center gap-2">
               <SourceBadge source="statsbomb" />
-              <h2 className="text-xl font-semibold text-white">Historical xG output</h2>
+              <h2 className="text-xl font-semibold text-white">Past Chance Quality</h2>
             </div>
             <div className="mt-5 grid gap-3 sm:grid-cols-2">
               <StatCard label="Past sample shots" value={formatNumber(player.statsbomb_shots)} detail="StatsBomb open data" accent="statsbomb" />
               <StatCard label="Goals" value={formatNumber(player.statsbomb_goals)} accent="statsbomb" />
               <StatCard label="xG in available past matches" value={formatNumber(player.total_xg, 2)} detail="Not a 2026 forecast" accent="statsbomb" />
-              <StatCard label="Scoring vs expected" value={formatNumber(player.goals_minus_xg, 2)} detail="Goals minus model xG" accent="statsbomb" />
+              <StatCard label="Scoring vs expected" value={formatNumber(player.goals_minus_xg, 2)} detail="Goals minus expected goals estimate" accent="statsbomb" />
             </div>
           </div>
           <PitchShotMap
@@ -408,11 +408,11 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
       {!noMatchedData && activeTab === "fbref" ? (
         <SourceTableSection
           source="fbref"
-          title="Recent Club/League Shooting Context from FBref"
-          explanation="FBref adds recent aggregate player context where available, especially when the historical shot sample is small."
+          title="Recent League Form"
+          explanation="This section shows recent club and league shooting volume for matched players, especially when the historical shot sample is small."
           rows={visibleFbrefRows}
           columns={fbrefColumns}
-          emptyMessage="FBref context is unavailable for this player with the currently supported/pulled leagues."
+          emptyMessage="Recent league-form context is unavailable for this player with the currently supported/pulled leagues."
           canExpand={player.fbref_recent_rows.length > 3}
           expanded={showAllFbref}
           onToggle={() => setShowAllFbref((current) => !current)}
@@ -420,13 +420,13 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
       ) : null}
 
       {!noMatchedData && activeTab === "understat" ? (
-        <SourceTableSection
+          <SourceTableSection
           source="understat"
-          title="Understat club xG context"
-          explanation="Understat is club-season xG context only. It has not been used to retrain the StatsBomb model."
+          title="Club xG Context"
+          explanation="This is club-season xG context only. It has not been used to retrain the StatsBomb model."
           rows={visibleUnderstatRows}
           columns={understatColumns}
-          emptyMessage="Understat club xG context is not available for this player in the current archive."
+          emptyMessage="Club xG context is not available for this player in the current archive."
           canExpand={understatRows.length > 3}
           expanded={showAllUnderstat}
           onToggle={() => setShowAllUnderstat((current) => !current)}
@@ -436,8 +436,8 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
       {!noMatchedData && activeTab === "understat-model" ? (
         <section className="space-y-5">
           <DataStateCallout title="Experimental research layer" tone="info">
-            This section applies our experimental Understat-only shot model to matched Understat club shots. It is shown for
-            context and comparison, not as the production player xG layer.
+            This section applies an experimental expected-goals check to matched Understat club shots. It is shown for
+            research context and comparison, not as the production player xG layer.
           </DataStateCallout>
 
           {player.understat_model_summary ? (
@@ -453,7 +453,7 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
                 accent="understat"
               />
               <StatCard
-                label="Understat Source xG"
+                label="Understat listed xG"
                 value={formatNumber(player.understat_model_summary.understat_source_xg, 2)}
                 accent="understat"
               />
@@ -472,11 +472,11 @@ export default function PlayerProfileView({ player }: PlayerProfileViewProps) {
 
           <SourceTableSection
             source="understat"
-            title="Experimental Understat Shot-Model Rows"
-            explanation="Rows are grouped by player, club, league, and season. Understat source xG is a benchmark and was not used as a model input."
+            title="Experimental xG Check Rows"
+            explanation="Rows are grouped by player, club, league, and season. Understat's listed xG is a benchmark and was not used as a model input."
             rows={visibleUnderstatModelRows}
             columns={understatModelColumns}
-            emptyMessage="Experimental Understat shot-model context is not available for this player."
+            emptyMessage="Experimental xG check context is not available for this player."
             canExpand={understatModelRows.length > 3}
             expanded={showAllUnderstatModel}
             onToggle={() => setShowAllUnderstatModel((current) => !current)}
@@ -519,7 +519,7 @@ const understatColumns: CompactColumn<UnderstatRecentRow>[] = [
   { key: "xa", label: "xA", digits: 2, hideWhenEmpty: true },
   { key: "key_passes", label: "KP", hideWhenEmpty: true },
   { key: "xg_chain", label: "xGChain", digits: 2, hideWhenEmpty: true },
-  { key: "avg_shot_xg", label: "Avg Sh xG", digits: 3, hideWhenEmpty: true }
+  { key: "avg_shot_xg", label: "Avg shot xG", digits: 3, hideWhenEmpty: true }
 ];
 
 const understatModelColumns: CompactColumn<UnderstatModelRecentRow>[] = [
@@ -528,10 +528,10 @@ const understatModelColumns: CompactColumn<UnderstatModelRecentRow>[] = [
   { key: "team", label: "Club" },
   { key: "understat_model_shots", label: "Shots" },
   { key: "understat_model_goals", label: "Goals" },
-  { key: "understat_model_xg", label: "Exp xG", digits: 2 },
-  { key: "understat_source_xg", label: "Source xG", digits: 2 },
+  { key: "understat_model_xg", label: "Experimental xG", digits: 2 },
+  { key: "understat_source_xg", label: "Listed xG", digits: 2 },
   { key: "understat_model_minus_source_xg", label: "Diff", digits: 2 },
-  { key: "avg_understat_model_xg", label: "Avg Exp xG", digits: 3 },
+  { key: "avg_understat_model_xg", label: "Avg experimental xG", digits: 3 },
   { key: "high_xg_shots", label: "High xG", hideWhenEmpty: true }
 ];
 
@@ -571,16 +571,16 @@ function DataMbSection({
   if (!datamb?.available) {
     return (
       <section className="space-y-5">
-        <DataStateCallout title="No percentile profile matched" tone="neutral">
-          No percentile profile matched for this player in the current 25/26 external context layer.
+        <DataStateCallout title="No percentile scouting profile matched" tone="neutral">
+          No 25/26 percentile scouting profile matched for this player in the current external context layer.
         </DataStateCallout>
         <div className="surface-card p-5">
           <div className="flex items-center gap-2">
             <SourceBadge source="datamb" muted />
-            <h2 className="text-xl font-semibold text-white">Percentile profile</h2>
+            <h2 className="text-xl font-semibold text-white">Percentile Scouting Profile</h2>
           </div>
           <p className="mt-3 text-sm leading-6 text-slate-400">
-            DataMB coverage depends on the public/free 25/26 player profile layer and selected league availability.
+            Coverage depends on the public/free 25/26 player profile layer and selected league availability.
           </p>
         </div>
       </section>
@@ -589,10 +589,6 @@ function DataMbSection({
 
   return (
     <section className="space-y-5">
-      <DataStateCallout title="External percentile context" tone="info">
-        DataMB values are 0-100 percentiles. They are external scouting context, not raw per-90 stats and not model inputs.
-      </DataStateCallout>
-
       <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
         <StatCard label="Season" value={datamb.season ?? "25/26"} accent="datamb" />
         <StatCard label="Template" value={datamb.template ?? "N/A"} accent="datamb" />
@@ -604,7 +600,7 @@ function DataMbSection({
         <div className="surface-card p-5">
           <div className="flex items-center gap-2">
             <SourceBadge source="datamb" />
-            <h2 className="text-xl font-semibold text-white">Percentile radar</h2>
+            <h2 className="text-xl font-semibold text-white">Percentile Scouting Radar</h2>
           </div>
           {radarUrl ? (
             <img
@@ -622,7 +618,7 @@ function DataMbSection({
         <div className="surface-card p-5">
           <div className="flex items-center gap-2">
             <SourceBadge source="datamb" />
-            <h2 className="text-xl font-semibold text-white">Percentile Metrics</h2>
+            <h2 className="text-xl font-semibold text-white">Percentile Scouting Metrics</h2>
           </div>
           <p className="mt-2 text-sm leading-6 text-slate-400">
             Higher numbers mean the player ranked higher relative to the DataMB comparison group for that template.

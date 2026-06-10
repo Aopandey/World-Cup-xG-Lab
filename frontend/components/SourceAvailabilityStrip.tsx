@@ -26,9 +26,9 @@ export default function SourceAvailabilityStrip({
         muted={statsbombShots <= 0}
       />
       {datambAvailable ? <SourceBadge source="datamb" label="Percentile profile" /> : null}
-      {fbrefAvailable ? <SourceBadge source="fbref" label="Recent form" /> : null}
+      {fbrefAvailable ? <SourceBadge source="fbref" label="League form" /> : null}
       {understatAvailable ? <SourceBadge source="understat" label="Club xG" /> : null}
-      {understatModelAvailable ? <SourceBadge source="understat" label="Experimental shot model" /> : null}
+      {understatModelAvailable ? <SourceBadge source="understat" label="Experimental xG check" /> : null}
     </div>
   );
 }

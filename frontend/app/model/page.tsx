@@ -29,7 +29,7 @@ export default async function ModelPage() {
         <PageHeader
           eyebrow="Model performance"
           title="Expected Goals Model"
-          subtitle="A practical view of how the historical StatsBomb shot model scores chance quality, with source context kept separate."
+          subtitle="A practical view of how the historical shot-quality model estimates chances, with source context kept separate."
           contentClassName="max-w-6xl"
           subtitleClassName="max-w-none xl:whitespace-nowrap"
         />
@@ -55,7 +55,7 @@ export default async function ModelPage() {
               {modelSummary.best_model_by_log_loss ?? "N/A"}
             </p>
             <p className="mt-3 text-sm leading-6 text-slate-400">
-              XGBoost was selected as the production StatsBomb xG model because it performed best on log loss among the
+              XGBoost was selected as the production expected-goals model because it performed best on log loss among the
               production candidates.
             </p>
           </div>
@@ -67,7 +67,7 @@ export default async function ModelPage() {
             World Cup squads mix players from many leagues, competitions, and data sources. Training an xG model gives the
             dashboard one consistent way to translate historical shot locations and shot context into chance quality. For
             fans, that means the site can compare whether a player or team generated high-quality chances in available
-            data, then clearly separate that model output from recent club context like FBref, Understat, and percentile
+            data, then clearly separate those chance-quality estimates from recent club context like FBref, Understat, and percentile
             profiles.
           </p>
         </section>
@@ -91,7 +91,7 @@ export default async function ModelPage() {
 
         <MetricTable
           title="Production Model Comparison"
-          subtitle="These are the dashboard's original StatsBomb model candidates. The XGBoost model remains the production xG layer."
+          subtitle="These are the dashboard's original production model candidates. The XGBoost model remains the production expected-goals layer."
           rows={productionModels}
           bestModelName={modelSummary.best_model_by_log_loss}
         />

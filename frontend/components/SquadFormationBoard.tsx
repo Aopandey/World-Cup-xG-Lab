@@ -277,26 +277,26 @@ function PlayerDetailPanel({ player, teamName }: { player?: PlayerProfile | null
       <div className="mt-5 space-y-3 text-sm">
         <DetailRow
           source="statsbomb"
-          title="Historical StatsBomb"
-          value={player.statsbomb_shots > 0 ? `${formatNumber(player.statsbomb_shots)} shots - ${formatNumber(player.total_xg, 2)} xG` : "No historical xG"}
+          title="Past Chance Quality"
+          value={player.statsbomb_shots > 0 ? `${formatNumber(player.statsbomb_shots)} shots - ${formatNumber(player.total_xg, 2)} estimated goals` : "No past chance-quality sample"}
           muted={player.statsbomb_shots <= 0}
         />
         <DetailRow
           source="datamb"
-          title="Percentile profile"
+          title="Percentile Scouting Profile"
           value={player.datamb_25_26?.available ? `${formatNumber(player.datamb_25_26.minutes, 0)} minutes - percentile profile` : "No 25/26 profile matched"}
           muted={!player.datamb_25_26?.available}
         />
         <DetailRow
           source="fbref"
-          title="Recent FBref"
-          value={player.fbref_available ? `${formatNumber(fbrefShots)} shots${fbrefXg ? ` - ${formatNumber(fbrefXg, 2)} xG` : ""}` : "No recent form match"}
+          title="Recent League Form"
+          value={player.fbref_available ? `${formatNumber(fbrefShots)} shots${fbrefXg ? ` - ${formatNumber(fbrefXg, 2)} xG` : ""}` : "No recent league-form match"}
           muted={!player.fbref_available}
         />
         <DetailRow
           source="understat"
-          title="Understat"
-          value={player.understat_available ? `${formatNumber(understatXg, 2)} xG club context` : "No Understat club context"}
+          title="Club xG Context"
+          value={player.understat_available ? `${formatNumber(understatXg, 2)} club xG context` : "No club xG context"}
           muted={!player.understat_available}
         />
       </div>

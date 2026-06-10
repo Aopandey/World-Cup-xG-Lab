@@ -11,19 +11,19 @@ export default function SourceLegend({ compact = false }: SourceLegendProps) {
       <div className="mt-3 grid gap-3 text-sm text-slate-300 lg:grid-cols-4">
         <div className="space-y-2">
           <SourceBadge source="statsbomb" />
-          <p>Past shot samples used by the xG model. Not a 2026 prediction.</p>
+          <p>Past shot samples used by the expected-goals model. Not a 2026 prediction.</p>
         </div>
         <div className="space-y-2">
           <SourceBadge source="datamb" />
-          <p>25/26 player percentile context. Not raw stats and not used by the trained xG model.</p>
+          <p>25/26 percentile scouting profiles. Percentiles are not raw stats and are not model inputs.</p>
         </div>
         <div className="space-y-2">
           <SourceBadge source="fbref" />
-          <p>Recent club form context. Not used by the trained xG model.</p>
+          <p>Recent club and league form context. Not used by the trained expected-goals model.</p>
         </div>
         <div className="space-y-2">
           <SourceBadge source="understat" />
-          <p>Club xG context from covered leagues, plus an experimental shot-model layer where clearly labeled.</p>
+          <p>Club expected-goals context from covered leagues, plus a separate experimental xG check where clearly labeled.</p>
         </div>
       </div>
     </div>

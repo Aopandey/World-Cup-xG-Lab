@@ -90,7 +90,7 @@ export default function HomeDashboard({ teams, coverage }: HomeDashboardProps) {
             <h2 className="text-2xl font-semibold text-white">Explore 2026 Teams</h2>
             <p className="mt-1 text-sm text-slate-400">
               Choose a national team to explore its historical shot data, squad context, and source coverage. Detailed
-              xG numbers live inside each team profile.
+              expected-goals numbers live inside each team profile.
             </p>
           </div>
           <SegmentedFilter

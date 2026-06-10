@@ -37,8 +37,8 @@ type TeamProfileViewProps = {
 const mainTabs = [
   { label: "Overview", value: "overview" },
   { label: "Squad", value: "squad" },
-  { label: "Historical xG", value: "historical" },
-  { label: "Club Context", value: "club" },
+  { label: "Past Chance Quality", value: "historical" },
+  { label: "Club & League Context", value: "club" },
   { label: "Coverage", value: "coverage" }
 ];
 
@@ -89,8 +89,8 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
             </div>
 
             <p className="mt-5 max-w-2xl text-sm leading-6 text-slate-300">
-              Start with the team summary, then open the detail sections below for model output, data strength, and
-              club-context coverage.
+              Start with the team summary, then open the detail sections below for past chance quality, data strength,
+              and club or league context.
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
             <div className="surface-inset p-4 text-sm leading-6 text-slate-300">
               <p className="stat-label">Data read</p>
               <p className="mt-2">
-                The detail sections below separate historical model output from club-context sources.
+                The detail sections below separate past shot evidence from recent club and league context.
               </p>
             </div>
           </div>
@@ -127,14 +127,14 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
 
       {sampleWeak ? (
         <DataStateCallout title="Small historical sample" tone="warning">
-          This team has fewer than 50 historical StatsBomb shots in the current dataset. Treat model totals as directional, not definitive.
+          This team has fewer than 50 historical open-data shots in the current dashboard. Treat the expected-goals numbers as directional, not definitive.
         </DataStateCallout>
       ) : null}
 
       <section className="grid gap-4 lg:grid-cols-2">
         <DetailAccordion
           title="What did the xG model find?"
-          summary="Past model output from StatsBomb open-data matches. These are not 2026 forecasts."
+          summary="Past chance quality from StatsBomb open-data matches. These are not 2026 forecasts."
         >
           <div className="grid gap-3 sm:grid-cols-2">
             <StatCard
@@ -158,7 +158,7 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
             <StatCard
               label="Scoring vs expected"
               value={formatNumber(profile.goals_minus_xg, 1)}
-              detail="Goals minus model xG"
+              detail="Goals minus expected goals estimate"
               accent="statsbomb"
             />
           </div>
@@ -166,7 +166,7 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
 
         <DetailAccordion
           title="How strong is the data?"
-          summary="Sample size and evidence level for this team's historical model layer."
+          summary="Sample size and data evidence for this team's past chance-quality layer."
           tone={sampleWeak ? "warning" : "default"}
         >
           <div className="space-y-4 text-sm leading-6 text-slate-300">
@@ -180,12 +180,12 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
             </div>
             {sampleWeak ? (
               <DataStateCallout title="Small historical sample" tone="warning">
-                This team has fewer than 50 historical StatsBomb shots in the current dataset. Treat model totals as
-                directional, not definitive.
+                This team has fewer than 50 historical open-data shots in the current dashboard. Treat the expected-goals
+                numbers as directional, not definitive.
               </DataStateCallout>
             ) : (
               <p>
-                This sample is large enough to make the historical model output easier to read, but it still describes
+                This sample is large enough to make the past chance-quality numbers easier to read, but it still describes
                 available past data only.
               </p>
             )}
@@ -194,7 +194,7 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
 
         <DetailAccordion
           title="What club context is available?"
-          summary="External club-context sources are shown separately from the trained StatsBomb xG model."
+          summary="Recent league form and club xG context are shown separately from the trained xG model."
         >
           <div className="grid gap-3 sm:grid-cols-2">
             <TakeawayCard
@@ -210,7 +210,7 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
           </div>
           <p className="mt-4 text-sm leading-6 text-slate-400">
             FBref, Understat, and percentile sources help describe club form and source coverage. They do not replace
-            the production StatsBomb-trained xG model.
+            the production xG model trained on StatsBomb open data.
           </p>
         </DetailAccordion>
 
@@ -227,17 +227,17 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
               Open squad board
             </button>
             <div>
-              <p className="stat-label">Historical xG players</p>
+              <p className="stat-label">Players with past chance-quality evidence</p>
               <div className="mt-3 space-y-2">
                 {profile.top_xg_players.length ? (
                   profile.top_xg_players.slice(0, 5).map((player) => (
                     <div key={player.player} className="flex items-center justify-between gap-3 rounded-md bg-white/[0.045] px-3 py-2 text-sm">
                       <span className="font-medium text-white">{player.player}</span>
-                      <span className="text-slate-300">{formatNumber(player.total_xg, 2)} xG</span>
+                      <span className="text-slate-300">{formatNumber(player.total_xg, 2)} estimated goals</span>
                     </div>
                   ))
                 ) : (
-                  <p className="text-sm text-slate-400">No player-level historical xG sample is available yet.</p>
+                  <p className="text-sm text-slate-400">No player-level past chance-quality sample is available yet.</p>
                 )}
               </div>
             </div>
@@ -274,9 +274,9 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
                 detail="StatsBomb open-data shots"
               />
               <TakeawayCard
-                label="Shot danger"
+                label="Average shot quality"
                 value={formatNumber(profile.avg_xg_per_shot, 3)}
-                detail="xG per shot in covered matches"
+                detail="Roughly how dangerous each shot was on average."
               />
               <TakeawayCard
                 label="Players with recent club stats"
@@ -322,7 +322,7 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
           <div className="surface-card p-5">
             <div className="flex items-center gap-2">
               <SourceBadge source="statsbomb" />
-              <h2 className="text-xl font-semibold text-white">Historical chance creators</h2>
+              <h2 className="text-xl font-semibold text-white">Past Chance Quality Leaders</h2>
             </div>
             <TopXgList players={profile.top_xg_players} />
           </div>
@@ -341,15 +341,15 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
         <section className="grid gap-5 xl:grid-cols-2">
           <ClubContextList
             source="fbref"
-            title="Recent FBref Form"
+            title="Recent League Form"
             rows={profile.top_recent_fbref_players}
-            emptyMessage="No recent FBref player context found for this team yet."
+            emptyMessage="No recent league-form context found for this team yet."
           />
           <ClubContextList
             source="understat"
-            title="Understat club xG context"
+            title="Club xG Context"
             rows={profile.top_recent_understat_players ?? []}
-            emptyMessage="No Understat club xG context found for this team yet."
+            emptyMessage="No club xG context found for this team yet."
           />
         </section>
       ) : null}
@@ -394,7 +394,7 @@ export default function TeamProfileView({ team, profile, players }: TeamProfileV
 
 function TopXgList({ players }: { players: TeamProfile["top_xg_players"] }) {
   if (!players.length) {
-    return <p className="mt-4 text-sm text-slate-400">No historical xG player sample available.</p>;
+    return <p className="mt-4 text-sm text-slate-400">No past chance-quality player sample available.</p>;
   }
 
   return (
@@ -402,7 +402,7 @@ function TopXgList({ players }: { players: TeamProfile["top_xg_players"] }) {
       {players.slice(0, 8).map((player) => (
         <div key={player.player} className="flex items-center justify-between gap-3 rounded-md bg-white/[0.045] px-3 py-2 text-sm">
           <span className="font-medium text-white">{player.player}</span>
-          <span className="text-slate-300">{formatNumber(player.total_xg, 2)} xG</span>
+          <span className="text-slate-300">{formatNumber(player.total_xg, 2)} estimated goals</span>
         </div>
       ))}
     </div>
@@ -428,6 +428,11 @@ function ClubContextList({
         <SourceBadge source={source} />
         <h2 className="text-xl font-semibold text-white">{title}</h2>
       </div>
+      <p className="mt-2 text-sm leading-6 text-slate-400">
+        {source === "fbref"
+          ? "This section shows recent club and league shooting volume for matched players."
+          : "This adds club-level expected-goals context from covered leagues and is separate from the StatsBomb-trained model."}
+      </p>
       <div className="mt-4 space-y-3">
         {rows.length ? (
           rows.slice(0, 8).map((row) => {

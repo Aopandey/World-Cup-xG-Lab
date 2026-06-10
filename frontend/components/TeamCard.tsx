@@ -76,23 +76,23 @@ function teamDataRead(team: Team) {
   const hasExternal = teamHasExternalContext(team);
 
   if (team.statsbomb_shots >= 250 && hasExternal) {
-    return "Useful historical sample plus recent club context.";
+    return "Useful past shot sample plus recent club and league context.";
   }
 
   if (team.statsbomb_shots >= 50) {
     return hasExternal
-      ? "Some historical shot evidence with extra club context."
-      : "Some historical shot evidence from open-data matches.";
+      ? "Some past shot evidence with extra club and league context."
+      : "Some past shot evidence from open-data matches.";
   }
 
   if (team.statsbomb_shots > 0) {
     return hasExternal
-      ? "Small historical sample, so club context matters more."
-      : "Small historical sample in the current open-data archive.";
+      ? "Small past shot sample, so club and league context matters more."
+      : "Small past shot sample in the current open-data archive.";
   }
 
   if (hasExternal) {
-    return "No historical StatsBomb sample matched yet, but club context is available.";
+    return "No past shot sample matched yet, but club and league context is available.";
   }
 
   return "Squad listed, but matched data is still limited.";
