@@ -8,18 +8,6 @@ The project is not a guaranteed 2026 prediction model. It shows historical shot-
 
 View the deployed dashboard: [https://worldcupxglab.duckdns.org/](https://worldcupxglab.duckdns.org/)
 
-## Demo Screenshots
-
-Screenshots should be added before public launch.
-
-```text
-docs/screenshots/home-dashboard.png        # 2026 team data preview
-docs/screenshots/team-profile.png          # Team profile + Squad Board
-docs/screenshots/player-profile.png        # Player profile with source layers
-docs/screenshots/model-page.png            # Model explanation and metrics
-docs/screenshots/coverage-page.png         # Coverage & Trust page
-```
-
 ## What The Dashboard Does
 
 - Shows 2026 World Cup teams and confirmed squad players.
