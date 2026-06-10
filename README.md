@@ -4,6 +4,10 @@ World Cup xG Lab is a full-stack football analytics project that helps fans expl
 
 The project is not a guaranteed 2026 prediction model. It shows historical shot-quality evidence, scoring zones, model xG output, and source-aware context from StatsBomb, FBref, Understat, and DataMB.
 
+## Live Demo
+
+View the deployed dashboard: [https://worldcupxglab.duckdns.org/](https://worldcupxglab.duckdns.org/)
+
 ## Demo Screenshots
 
 Screenshots should be added before public launch.
@@ -189,7 +193,7 @@ docker compose -f deploy/docker-compose.prod.yml --env-file deploy/.env.producti
 Validate a deployed URL:
 
 ```bash
-python scripts/check_deployment_urls.py http://YOUR_EC2_PUBLIC_IP
+python scripts/check_deployment_urls.py https://worldcupxglab.duckdns.org
 ```
 
 For public sharing, use a domain and HTTPS. A raw EC2 HTTP URL is acceptable for smoke testing but not ideal for reviews.
