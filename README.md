@@ -8,6 +8,22 @@ The project is not a guaranteed 2026 prediction model. It shows historical shot-
 
 View the deployed dashboard: [https://worldcupxglab.duckdns.org/](https://worldcupxglab.duckdns.org/)
 
+## Demo Screenshots
+
+### Dashboard Overview
+
+![World Cup xG Lab dashboard overview](docs/screenshots/world-cup-xg-lab-poster.png)
+
+### Team And Player Views
+
+| Team profile summary | Player chance-quality view |
+|---|---|
+| <img src="docs/screenshots/team-profile-summary.png" alt="Spain team profile summary" width="520"> | <img src="docs/screenshots/player-source-cards-shot-map.png" alt="Player past chance quality and shot map" width="520"> |
+
+### Percentile Scouting Profile
+
+![Player percentile scouting radar](docs/screenshots/player-percentile-radar.png)
+
 ## What The Dashboard Does
 
 - Shows 2026 World Cup teams and confirmed squad players.
